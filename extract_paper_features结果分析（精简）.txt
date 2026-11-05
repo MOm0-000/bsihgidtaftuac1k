@@ -1,0 +1,50 @@
+目前有 9 篇文献缺少正式摘要，我检查了他们的PDF
+PMID		
+40011409   确实没有摘要	
+14450716   没有明显的“abstract”字符
+16995156  没有明显的“abstract”字符
+21048818   没有明显的“abstract”字符
+7057412	  没有明显的“abstract”字符
+2257383	  没有明显的“abstract”字符
+5960261	  没有明显的“abstract”字符
+16141137  没有明显的“abstract”字符
+33271296  没有明显的“abstract”字符
+
+
+两篇异常长的文献：（我检查了他们的PDF）
+PMID
+40011409没问题	
+32625401没问题
+
+机构信息缺失的 9 篇（我检查了他们的PDF，进行了网络查询）
+Hypersensitivity to aeroallergens in patients with nasobronchial allergy  
+24937928：有机构，Clinical Center of Banja Luka；Health Center, Banja Luka
+
+2025 ACMT Annual Scientific Meeting Abstracts - Vancouver, Canada 
+40011409：没有统一机构（会议摘要合集；各摘要有各自的研究机构）
+
+A bookshelf on environmental health 
+14450716：有机构，Columbia University School of Public Health and Administrative Medicine（Division of Sanitary Science）
+
+Afferent impulses from the teeth resulting from a vibratory stimulus 
+16995156：有机构，Physiological Laboratory, Cambridge
+
+Arboprotozoae
+21048818：Paul-Ehrlich-Institut（通讯联系人机构）
+
+Moodiness: a heavenly problem? Observations on the pathology of moodiness
+7057412：有机构，St Thomas' Hospital, London
+
+Johannes Müller and the Modern Conception of Cancer
+21433778：Yale University 
+
+Scientific Opinion addressing the state of the science on risk assessment of plant protection products for in-soil organisms
+32625401：有机构，European Food Safety Authority（EFSA；PPR 专家组署名）
+
+A method for testing an extended poisson hypothesis of spontaneous quantal transmitter release at neuromuscular junctions
+6487732：有机构，Hosei University；Juntendo University；FUJITSU Limited
+
+
+
+1篇文章缺少作者信息
+40011409：会议摘要合集，无统一作者（各摘要分别署名）

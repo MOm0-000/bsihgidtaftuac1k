@@ -1,2 +1,17 @@
+# Unified dependencies for PubMed download, local reports, and feature extraction
+# Original project dependencies
 requests>=2.31,<3
 PyMuPDF>=1.24,<2
+
+# HTML parsing and full-text extraction
+beautifulsoup4>=4.12,<5
+lxml>=5.1,<7
+
+# Text feature extraction (TF-IDF) and numerical analysis
+numpy>=1.26,<3
+scipy>=1.11,<2
+scikit-learn>=1.3,<2
+
+# SPECTER2 scientific-document embeddings
+# The adapters package resolves a compatible transformers dependency.
+adapters>=1.2,<2
