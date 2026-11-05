@@ -1,0 +1,505 @@
+需要人工补充的文献
+本次检查 183 篇，需要处理 64 篇
+尚未检查 0 篇
+把手工下载的文件命名为 <PMID>.pdf 或 <PMID>.html 放到相应目录后可重新运行。
+
+1. 序号 4388 | PMID 21288949 | 缺少 HTML
+   题名：Sib mating without inbreeding in the longhorn crazy ant.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/21288949/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC3136830/
+   出版社 DOI：https://doi.org/10.1098/rspb.2010.2562
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+2. 序号 4391 | PMID 29363738 | 缺少 PDF
+   题名：Aeroallergen sensitization predicts acute chest syndrome in children with sickle cell anaemia.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/29363738/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC5945280/
+   出版社 DOI：https://doi.org/10.1111/bjh.15076
+   开放获取：http://europepmc.org/pmc/articles/PMC5945280
+   原因：PDF 可能需进入期刊网页手动点击下载按钮
+
+3. 序号 4393 | PMID 24926113 | 缺少 PDF
+   题名：Individual based and mean-field modeling of direct aggregation.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/24926113/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC4047626/
+   出版社 DOI：https://doi.org/10.1016/j.physd.2012.11.003
+   开放获取：https://doi.org/10.1016/j.physd.2012.11.003
+   原因：PDF 可能需进入期刊网页手动点击下载按钮
+
+4. 序号 4395 | PMID 27215490 | 缺少 PDF
+   题名：Claudin-18 deficiency is associated with airway epithelial barrier dysfunction and asthma.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/27215490/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC5073041/
+   出版社 DOI：https://doi.org/10.1016/j.jaci.2016.02.035
+   开放获取：https://www.ncbi.nlm.nih.gov/pmc/articles/5073041
+   原因：PDF 可能需进入期刊网页手动点击下载按钮
+
+5. 序号 4396 | PMID 28880992 | 缺少 PDF+HTML
+   题名：Innate lymphoid cells at the interface between obesity and asthma.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/28880992/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC5721241/
+   出版社 DOI：https://doi.org/10.1111/imm.12832
+   开放获取：https://www.ncbi.nlm.nih.gov/pmc/articles/5721241
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；PDF 可能需进入期刊网页手动点击下载按钮；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+6. 序号 4397 | PMID 25297317 | 缺少 HTML
+   题名：Finite-element modelling reveals force modulation of jaw adductors in stag beetles.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/25297317/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC4223912/
+   出版社 DOI：https://doi.org/10.1098/rsif.2014.0908
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+7. 序号 4406 | PMID 34432544 | 缺少 PDF+HTML
+   题名：Determining the Best Tool Comparable with Global Initiative for Asthma Criteria for Assessing Pediatric Asthma Control.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/34432544/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC8664125/
+   出版社 DOI：https://doi.org/10.1089/ped.2020.1334
+   开放获取：https://www.ncbi.nlm.nih.gov/pmc/articles/8664125
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；PDF 可能需进入期刊网页手动点击下载按钮；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+8. 序号 4407 | PMID 23486880 | 缺少 PDF+HTML
+   题名：Estimating cerebral microinfarct burden from autopsy samples.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/23486880/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC3662273/
+   出版社 DOI：https://doi.org/10.1212/WNL.0b013e31828c2f52
+   开放获取：https://doi.org/10.1212/wnl.0b013e31828c2f52
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；开放 PDF 链接: 403 Client Error: Forbidden for url: https://n.neurology.org/content/neurology/80/15/1365.full.pdf；PDF 可能需进入期刊网页手动点击下载按钮；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+9. 序号 4410 | PMID 40011409 | 缺少 PDF+HTML
+   题名：2025 ACMT Annual Scientific Meeting Abstracts - Vancouver, Canada.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/40011409/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC11933582/
+   出版社 DOI：https://doi.org/10.1007/s13181-025-01061-0
+   开放获取：https://pmc.ncbi.nlm.nih.gov/articles/PMC11933582/
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；PDF 可能需进入期刊网页手动点击下载按钮；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+10. 序号 4411 | PMID 17246411 | 缺少 PDF+HTML
+   题名：A Comprehensive Study of Genic Variation in Natural Populations of Drosophila melanogaster. III. Variations in Genetic Structure and Their Causes between Drosophila melanogaster and Its Sibling Species Drosophila simulans.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/17246411/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC1203242/
+   出版社 DOI：https://doi.org/10.1093/genetics/117.4.697
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；PDF 可能需进入期刊网页手动点击下载按钮；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+11. 序号 4414 | PMID 25144551 | 缺少 PDF
+   题名：Assessing asthma control and associated risk factors among persons with current asthma - findings from the child and adult Asthma Call-back Survey.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/25144551/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC4552346/
+   出版社 DOI：https://doi.org/10.3109/02770903.2014.956894
+   开放获取：https://www.ncbi.nlm.nih.gov/pmc/articles/4552346
+   原因：PDF 可能需进入期刊网页手动点击下载按钮
+
+12. 序号 4421 | PMID 23038250 | 缺少 PDF+HTML
+   题名：Glutamate-gated chloride channels.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/23038250/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC3504739/
+   出版社 DOI：https://doi.org/10.1074/jbc.R112.406280
+   开放获取：https://doi.org/10.1074/jbc.r112.406280
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；开放 PDF 链接: 403 Client Error: Forbidden for url: https://www.sciencedirect.com/science/article/pii/S0021925820621676/pdf；PDF 可能需进入期刊网页手动点击下载按钮；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+13. 序号 4422 | PMID 22920660 | 缺少 PDF
+   题名：Is rural school-aged children's quality of life affected by their responses to asthma?
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/22920660/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC3428597/
+   出版社 DOI：https://doi.org/10.1016/j.pedn.2011.06.012
+   开放获取：https://www.ncbi.nlm.nih.gov/pmc/articles/3428597
+   原因：PDF 可能需进入期刊网页手动点击下载按钮
+
+14. 序号 4429 | PMID 19382295 | 缺少 PDF
+   题名：Diverging functions of Scr between embryonic and post-embryonic development in a hemimetabolous insect, Oncopeltus fasciatus.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/19382295/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC2775506/
+   出版社 DOI：https://doi.org/10.1016/j.ydbio.2009.01.032
+   开放获取：https://doi.org/10.1016/j.ydbio.2009.01.032
+   原因：开放 PDF 链接: 403 Client Error: Forbidden for url: https://www.sciencedirect.com/science/article/pii/S0012160609000852/pdf；PDF 可能需进入期刊网页手动点击下载按钮
+
+15. 序号 4433 | PMID 32299029 | 缺少 PDF
+   题名：Associations between prenatal exposure to DDT and DDE and allergy symptoms and diagnoses in the Venda Health Examination of Mothers, Babies and their Environment (VHEMBE), South Africa.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/32299029/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC7336873/
+   出版社 DOI：https://doi.org/10.1016/j.envres.2020.109366
+   开放获取：https://www.ncbi.nlm.nih.gov/pmc/articles/7336873
+   原因：PDF 可能需进入期刊网页手动点击下载按钮
+
+16. 序号 4435 | PMID 25290173 | 缺少 PDF
+   题名：Distinct dendritic cell subsets actively induce Th2 polarization.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/25290173/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC4737705/
+   出版社 DOI：https://doi.org/10.1016/j.coi.2014.09.006
+   开放获取：https://www.ncbi.nlm.nih.gov/pmc/articles/4737705
+   原因：PDF 可能需进入期刊网页手动点击下载按钮
+
+17. 序号 4436 | PMID 18025266 | 缺少 HTML
+   题名：Genomics, transcriptomics, and peptidomics of neuropeptides and protein hormones in the red flour beetle Tribolium castaneum.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/18025266/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC2134770/
+   出版社 DOI：https://doi.org/10.1101/gr.6714008
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+18. 序号 4438 | PMID 8761444 | 缺少 HTML
+   题名：The lipocalin protein family: structure and function.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/8761444/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC1217580/
+   出版社 DOI：https://doi.org/10.1042/bj3180001
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：Invalid Retry-After header: ；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+19. 序号 4444 | PMID 19647861 | 缺少 PDF
+   题名：Total IgE levels and asthma prevalence in the US population: results from the National Health and Nutrition Examination Survey 2005-2006.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/19647861/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC2758573/
+   出版社 DOI：https://doi.org/10.1016/j.jaci.2009.06.011
+   开放获取：https://doi.org/10.1016/j.jaci.2009.06.011
+   原因：PDF 可能需进入期刊网页手动点击下载按钮
+
+20. 序号 4445 | PMID 14450716 | 缺少 PDF+HTML
+   题名：A bookshelf on environmental health.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/14450716/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC1522886/
+   出版社 DOI：https://doi.org/10.2105/ajph.52.4.559
+   开放获取：https://www.ncbi.nlm.nih.gov/pmc/articles/1522886
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；PDF 可能需进入期刊网页手动点击下载按钮；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+21. 序号 4447 | PMID 36081367 | 缺少 PDF
+   题名：Geospatial data in pediatric asthma in the United States: a scoping review protocol.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/36081367/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC9669090/
+   出版社 DOI：https://doi.org/10.11124/JBIES-21-00284
+   开放获取：https://www.ncbi.nlm.nih.gov/pmc/articles/9669090
+   原因：PDF 可能需进入期刊网页手动点击下载按钮
+
+22. 序号 4448 | PMID 16995156 | 缺少 PDF+HTML
+   题名：Afferent impulses from the teeth resulting from a vibratory stimulus.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/16995156/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC1393894/
+   出版社 DOI：https://doi.org/10.1113/jphysiol.1939.sp003801
+   开放获取：https://www.ncbi.nlm.nih.gov/pmc/articles/1393894
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；PDF 可能需进入期刊网页手动点击下载按钮；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+23. 序号 4449 | PMID 21048818 | 缺少 PDF+HTML
+   题名：Arboprotozoae.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/21048818/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC2928831/
+   出版社 DOI：https://doi.org/10.1159/000187642
+   开放获取：https://doi.org/10.1159/000187642
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；开放 PDF 链接: 返回内容不是有效 PDF，可能是登录页面或需手动点击 PDF 按钮；PDF 可能需进入期刊网页手动点击下载按钮；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+24. 序号 4451 | PMID 17704070 | 缺少 PDF+HTML
+   题名：Unsteady locomotion: integrating muscle function with whole body dynamics and neuromuscular control.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/17704070/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC2651961/
+   出版社 DOI：https://doi.org/10.1242/jeb.005801
+   开放获取：https://www.ncbi.nlm.nih.gov/pmc/articles/2651961
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；PDF 可能需进入期刊网页手动点击下载按钮；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+25. 序号 4453 | PMID 7057412 | 缺少 PDF+HTML
+   题名：Moodiness: a heavenly problem? Observations on the pathology of moodiness.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/7057412/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC1437376/
+   出版社 DOI：https://doi.org/10.1177/014107688207500104
+   开放获取：https://doi.org/10.1177/014107688207500104
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：Invalid Retry-After header: ；开放 PDF 链接: HTTPSConnectionPool(host='journals.sagepub.com', port=443): Max retries exceeded with url: /doi/pdf/10.1177/014107688207500104 (Caused by ConnectTimeoutError(<HTTPSConnection(host='journals.sagepub.com', port=443) at 0x704f987eb040>, 'Connection to journals.sagepub.com timed out. (connect timeout=10)'))；PDF 可能需进入期刊网页手动点击下载按钮；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+26. 序号 4456 | PMID 21326971 | 缺少 PDF+HTML
+   题名：Indoor air mycoflora of residential dwellings in Jos metropolis.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/21326971/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC2956288/
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；PDF 可能需进入期刊网页手动点击下载按钮；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+27. 序号 4460 | PMID 12456544 | 缺少 PDF+HTML
+   题名：Early respiratory and skin symptoms in relation to ethnic background: the importance of socioeconomic status; the PIAMA study.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/12456544/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC1755839/
+   出版社 DOI：https://doi.org/10.1136/adc.87.6.482
+   开放获取：https://doi.org/10.1136/adc.87.6.482
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；开放 PDF 链接: 403 Client Error: Forbidden for url: https://adc.bmj.com/content/archdischild/87/6/482.full.pdf；PDF 可能需进入期刊网页手动点击下载按钮；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+28. 序号 4461 | PMID 31807421 | 缺少 HTML
+   题名：Correlation between use of immunosuppressive agents and transplant-acquired allergies in renal transplant recipients.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/31807421/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC6842773/
+   出版社 DOI：https://doi.org/10.21037/tau.2019.09.24
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+29. 序号 4465 | PMID 2257383 | 缺少 PDF+HTML
+   题名：Health effects of housing status on children: a house is not a home.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/2257383/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC1809768/
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：Invalid Retry-After header: ；PDF 可能需进入期刊网页手动点击下载按钮；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+30. 序号 4470 | PMID 8457977 | 缺少 PDF+HTML
+   题名：Compounds active against cell walls of medically important fungi.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/8457977/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC358263/
+   出版社 DOI：https://doi.org/10.1128/CMR.6.1.1
+   开放获取：http://europepmc.org/articles/PMC358263
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；PDF 可能需进入期刊网页手动点击下载按钮；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+31. 序号 4471 | PMID 25379034 | 缺少 PDF
+   题名：Medicinal history of North American Veratrum.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/25379034/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC4217314/
+   出版社 DOI：https://doi.org/10.1007/s11101-013-9328-y
+   开放获取：https://www.ncbi.nlm.nih.gov/pmc/articles/4217314
+   原因：PDF 可能需进入期刊网页手动点击下载按钮
+
+32. 序号 4472 | PMID 29084804 | 缺少 PDF+HTML
+   题名：Conservation and variation in pair-rule gene expression and function in the intermediate-germ beetle Dermestes maculatus.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/29084804/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC5769621/
+   出版社 DOI：https://doi.org/10.1242/dev.154039
+   开放获取：https://www.ncbi.nlm.nih.gov/pmc/articles/5769621
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；PDF 可能需进入期刊网页手动点击下载按钮；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+33. 序号 4476 | PMID 32526226 | 缺少 PDF
+   题名：Ex vivo characterization of the circulating hemocytes of bed bugs and their responses to bacterial exposure.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/32526226/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC9254597/
+   出版社 DOI：https://doi.org/10.1016/j.jip.2020.107422
+   开放获取：https://doi.org/10.1016/j.jip.2020.107422
+   原因：开放 PDF 链接: 403 Client Error: Forbidden for url: https://www.sciencedirect.com/science/article/am/pii/S0022201120301282?via%3Dihub；PDF 可能需进入期刊网页手动点击下载按钮
+
+34. 序号 4489 | PMID 29118130 | 缺少 HTML
+   题名：What have humans done for evolutionary biology? Contributions from genes to populations.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/29118130/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC5698635/
+   出版社 DOI：https://doi.org/10.1098/rspb.2017.1164
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+35. 序号 4492 | PMID 21123808 | 缺少 PDF
+   题名：Carbohydrates contribute to the interactions between cockroach allergen Bla g 2 and a monoclonal antibody.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/21123808/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC3099132/
+   出版社 DOI：https://doi.org/10.4049/jimmunol.1002318
+   开放获取：https://www.ncbi.nlm.nih.gov/pmc/articles/3099132
+   原因：PDF 可能需进入期刊网页手动点击下载按钮
+
+36. 序号 4496 | PMID 21983428 | 缺少 PDF
+   题名：Differential state-dependent modification of rat Na(v)1.6 sodium channels expressed in human embryonic kidney (HEK293) cells by the pyrethroid insecticides tefluthrin and deltamethrin.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/21983428/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC3226847/
+   出版社 DOI：https://doi.org/10.1016/j.taap.2011.09.021
+   开放获取：https://www.ncbi.nlm.nih.gov/pmc/articles/3226847
+   原因：PDF 可能需进入期刊网页手动点击下载按钮
+
+37. 序号 4498 | PMID 24161540 | 缺少 PDF
+   题名：Advances in allergen-microarray technology for diagnosis and monitoring of allergy: the MeDALL allergen-chip.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/24161540/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC4687054/
+   出版社 DOI：https://doi.org/10.1016/j.ymeth.2013.10.008
+   开放获取：https://doi.org/10.1016/j.ymeth.2013.10.008
+   原因：开放 PDF 链接: 403 Client Error: Forbidden for url: https://www.sciencedirect.com/science/article/pii/S1046202313004040；PDF 可能需进入期刊网页手动点击下载按钮
+
+38. 序号 4499 | PMID 28689792 | 缺少 PDF
+   题名：Functional role of kynurenine and aryl hydrocarbon receptor axis in chronic rhinosinusitis with nasal polyps.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/28689792/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC5937692/
+   出版社 DOI：https://doi.org/10.1016/j.jaci.2017.06.013
+   开放获取：https://doi.org/10.1016/j.jaci.2017.06.013
+   原因：PDF 可能需进入期刊网页手动点击下载按钮
+
+39. 序号 4502 | PMID 21216485 | 缺少 PDF
+   题名：Gene-environment interactions in human disease: nuisance or opportunity?
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/21216485/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC3073697/
+   出版社 DOI：https://doi.org/10.1016/j.tig.2010.12.004
+   开放获取：https://www.ncbi.nlm.nih.gov/pmc/articles/3073697
+   原因：PDF 可能需进入期刊网页手动点击下载按钮
+
+40. 序号 4504 | PMID 9108117 | 缺少 PDF+HTML
+   题名：Conserved and sexually dimorphic behavioral responses to biogenic amines in decapitated Drosophila.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/9108117/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC20580/
+   出版社 DOI：https://doi.org/10.1073/pnas.94.8.4131
+   开放获取：https://www.ncbi.nlm.nih.gov/pmc/articles/20580
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；PDF 可能需进入期刊网页手动点击下载按钮；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+41. 序号 4505 | PMID 33094817 | 缺少 PDF+HTML
+   题名：Relevance of Electrical Light on Circadian, Neuroendocrine, and Neurobehavioral Regulation in Laboratory Animal Facilities.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/33094817/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC7947598/
+   出版社 DOI：https://doi.org/10.1093/ilar/ilaa010
+   开放获取：https://www.ncbi.nlm.nih.gov/pmc/articles/7947598
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；PDF 可能需进入期刊网页手动点击下载按钮；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+42. 序号 4512 | PMID 5960261 | 缺少 PDF+HTML
+   题名：Deposition of labeled beta-alanine in ebony and non-ebony Drosophila melanogaster with notes on other amino acids.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/5960261/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC1211057/
+   出版社 DOI：https://doi.org/10.1093/genetics/53.4.777
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；PDF 可能需进入期刊网页手动点击下载按钮；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+43. 序号 4517 | PMID 33661048 | 缺少 PDF+HTML
+   题名：A low-cost computational approach to analyze spiking activity in cockroach sensory neurons.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/33661048/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC8091935/
+   出版社 DOI：https://doi.org/10.1152/advan.00034.2020
+   开放获取：https://doi.org/10.1152/advan.00034.2020
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；PDF 可能需进入期刊网页手动点击下载按钮；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+44. 序号 4520 | PMID 21645908 | 缺少 PDF
+   题名：Comparison of biomarkers and parent report of tobacco exposure to predict wheeze.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/21645908/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC3170672/
+   出版社 DOI：https://doi.org/10.1016/j.jpeds.2011.04.025
+   开放获取：https://doi.org/10.1016/j.jpeds.2011.04.025
+   原因：PDF 可能需进入期刊网页手动点击下载按钮
+
+45. 序号 4526 | PMID 35862663 | 缺少 PDF+HTML
+   题名：Comparative Analysis of Brucepastera parasyntrophica gen. nov., sp. nov. and Teretinema zuelzerae gen. nov., comb. nov. (Treponemataceae) Reveals the Importance of Interspecies Hydrogen Transfer in the Energy Metabolism of Spirochetes.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/35862663/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC9317865/
+   出版社 DOI：https://doi.org/10.1128/aem.00503-22
+   开放获取：https://www.ncbi.nlm.nih.gov/pmc/articles/9317865
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；PDF 可能需进入期刊网页手动点击下载按钮；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+46. 序号 4530 | PMID 10369463 | 缺少 PDF+HTML
+   题名：Minor structural changes in nicotinoid insecticides confer differential subtype selectivity for mammalian nicotinic acetylcholine receptors.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/10369463/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC1566001/
+   出版社 DOI：https://doi.org/10.1038/sj.bjp.0702526
+   开放获取：https://doi.org/10.1038/sj.bjp.0702526
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；开放 PDF 链接: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1038/sj.bjp.0702526；PDF 可能需进入期刊网页手动点击下载按钮；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+47. 序号 4537 | PMID 23658153 | 缺少 PDF+HTML
+   题名：Widespread sensitivity to looming stimuli and small moving objects in the central complex of an insect brain.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/23658153/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC6619629/
+   出版社 DOI：https://doi.org/10.1523/JNEUROSCI.5390-12.2013
+   开放获取：https://doi.org/10.1523/jneurosci.5390-12.2013
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：Invalid Retry-After header: ；开放 PDF 链接: 403 Client Error: Forbidden for url: https://www.jneurosci.org/content/jneuro/33/19/8122.full.pdf；PDF 可能需进入期刊网页手动点击下载按钮；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+48. 序号 4538 | PMID 19553462 | 缺少 PDF+HTML
+   题名：Suppression of spreading depression-like events in locusts by inhibition of the NO/cGMP/PKG pathway.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/19553462/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC6666049/
+   出版社 DOI：https://doi.org/10.1523/JNEUROSCI.1652-09.2009
+   开放获取：https://doi.org/10.1523/jneurosci.1652-09.2009
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；开放 PDF 链接: 403 Client Error: Forbidden for url: https://www.jneurosci.org/content/jneuro/29/25/8225.full.pdf；PDF 可能需进入期刊网页手动点击下载按钮；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+49. 序号 4540 | PMID 16141137 | 缺少 PDF+HTML
+   题名：Clean drinking water for homes in Africa and other less developed countries.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/16141137/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC1199012/
+   出版社 DOI：https://doi.org/10.1136/bmj.331.7515.468
+   开放获取：https://doi.org/10.1136/bmj.331.7515.468
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；开放 PDF 链接: 403 Client Error: Forbidden for url: https://www.bmj.com/content/bmj/331/7515/468.full.pdf；PDF 可能需进入期刊网页手动点击下载按钮；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+50. 序号 4541 | PMID 34260722 | 缺少 PDF+HTML
+   题名：Comparison of Diet Preferences of Laboratory-Reared and Apartment-Collected German Cockroaches.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/34260722/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC12102598/
+   出版社 DOI：https://doi.org/10.1093/jee/toab139
+   开放获取：https://www.ncbi.nlm.nih.gov/pmc/articles/12102598
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；PDF 可能需进入期刊网页手动点击下载按钮；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+51. 序号 4543 | PMID 22115961 | 缺少 PDF
+   题名：Distinct roles of isoforms of the heme-liganded nuclear receptor E75, an insect ortholog of the vertebrate Rev-erb, in mosquito reproduction.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/22115961/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC3306807/
+   出版社 DOI：https://doi.org/10.1016/j.mce.2011.11.006
+   开放获取：http://europepmc.org/articles/PMC3306807
+   原因：PDF 可能需进入期刊网页手动点击下载按钮
+
+52. 序号 4548 | PMID 24972604 | 缺少 PDF
+   题名：Quantitative investigations of axonal and dendritic arbors: development, structure, function, and pathology.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/24972604/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC4723268/
+   出版社 DOI：https://doi.org/10.1177/1073858414540216
+   开放获取：https://www.ncbi.nlm.nih.gov/pmc/articles/4723268
+   原因：PDF 可能需进入期刊网页手动点击下载按钮
+
+53. 序号 4549 | PMID 29279788 | 缺少 PDF+HTML
+   题名：Diet, Lung Function, and Asthma Exacerbations in Puerto Rican Children.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/29279788/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC5733741/
+   出版社 DOI：https://doi.org/10.1089/ped.2017.0803
+   开放获取：http://europepmc.org/pmc/articles/PMC5733741
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；PDF 可能需进入期刊网页手动点击下载按钮；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+54. 序号 4550 | PMID 31866066 | 缺少 PDF
+   题名：Structure of the Cardiac Sodium Channel.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/31866066/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC6986426/
+   出版社 DOI：https://doi.org/10.1016/j.cell.2019.11.041
+   开放获取：https://doi.org/10.1016/j.cell.2019.11.041
+   原因：PDF 可能需进入期刊网页手动点击下载按钮
+
+55. 序号 4551 | PMID 26307762 | 缺少 PDF+HTML
+   题名：Diverse set of Turing nanopatterns coat corneae across insect lineages.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/26307762/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC4553778/
+   出版社 DOI：https://doi.org/10.1073/pnas.1505748112
+   开放获取：https://doi.org/10.1073/pnas.1505748112
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；开放 PDF 链接: 403 Client Error: Forbidden for url: https://www.pnas.org/content/pnas/112/34/10750.full.pdf；PDF 可能需进入期刊网页手动点击下载按钮；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+56. 序号 4552 | PMID 6487732 | 缺少 PDF+HTML
+   题名：A method for testing an extended poisson hypothesis of spontaneous quantal transmitter release at neuromuscular junctions.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/6487732/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC1434949/
+   出版社 DOI：https://doi.org/10.1016/S0006-3495%2884%2984028-X
+   开放获取：https://doi.org/10.1016/s0006-3495(84)84028-x
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；开放 PDF 链接: 返回内容不是有效 PDF，可能是登录页面或需手动点击 PDF 按钮；PDF 可能需进入期刊网页手动点击下载按钮；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+57. 序号 4554 | PMID 28722633 | 缺少 PDF+HTML
+   题名：Characterization of Sarcoptes scabiei Tropomyosin and Paramyosin: Immunoreactive Allergens in Scabies.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/28722633/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC5590589/
+   出版社 DOI：https://doi.org/10.4269/ajtmh.16-0976
+   开放获取：https://www.ncbi.nlm.nih.gov/pmc/articles/5590589
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；PDF 可能需进入期刊网页手动点击下载按钮；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+58. 序号 4555 | PMID 38166479 | 缺少 PDF
+   题名：Mechanosensory encoding of forces in walking uphill and downhill: force feedback can stabilize leg movements in stick insects.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/38166479/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC11286306/
+   出版社 DOI：https://doi.org/10.1152/jn.00414.2023
+   开放获取：https://doi.org/10.1152/jn.00414.2023
+   原因：PDF 可能需进入期刊网页手动点击下载按钮
+
+59. 序号 4556 | PMID 24407477 | 缺少 PDF
+   题名：Polycyclic aromatic hydrocarbon exposure, obesity and childhood asthma in an urban cohort.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/24407477/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC3912566/
+   出版社 DOI：https://doi.org/10.1016/j.envres.2013.12.002
+   开放获取：https://www.ncbi.nlm.nih.gov/pmc/articles/3912566
+   原因：PDF 可能需进入期刊网页手动点击下载按钮
+
+60. 序号 4557 | PMID 22532821 | 缺少 PDF+HTML
+   题名：Insect stings: clinical features and management.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/22532821/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC3334720/
+   出版社 DOI：https://doi.org/10.3238/arztebl.2012.0238
+   开放获取：https://www.ncbi.nlm.nih.gov/pmc/articles/3334720
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；PDF 可能需进入期刊网页手动点击下载按钮；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+61. 序号 4560 | PMID 22822349 | 缺少 PDF
+   题名：Overview of Reviews The prevention of eczema in infants and children: an overview of Cochrane and non-Cochrane reviews.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/22822349/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC3399595/
+   出版社 DOI：https://doi.org/10.1002/ebch.827
+   开放获取：https://www.ncbi.nlm.nih.gov/pmc/articles/3399595
+   原因：PDF 可能需进入期刊网页手动点击下载按钮
+
+62. 序号 4562 | PMID 34697248 | 缺少 PDF+HTML
+   题名：Epoxidation of juvenile hormone was a key innovation improving insect reproductive fitness.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/34697248/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC8609300/
+   出版社 DOI：https://doi.org/10.1073/pnas.2109381118
+   开放获取：https://www.ncbi.nlm.nih.gov/pmc/articles/8609300
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；PDF 可能需进入期刊网页手动点击下载按钮；未获得完整正文 HTML（未用 PubMed 摘要充数）
+
+63. 序号 4564 | PMID 33271296 | 缺少 PDF
+   题名：Efficacy of type 2-targeted biologics in patients with asthma and bronchiectasis.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/33271296/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC8028023/
+   出版社 DOI：https://doi.org/10.1016/j.anai.2020.11.014
+   开放获取：https://www.ncbi.nlm.nih.gov/pmc/articles/8028023
+   原因：PDF 可能需进入期刊网页手动点击下载按钮
+
+64. 序号 4566 | PMID 12876197 | 缺少 PDF+HTML
+   题名：Molecular genetics and evolution of pheromone biosynthesis in Lepidoptera.
+   PubMed：https://pubmed.ncbi.nlm.nih.gov/12876197/
+   PMC：https://pmc.ncbi.nlm.nih.gov/articles/PMC170892/
+   出版社 DOI：https://doi.org/10.1073/pnas.1233767100a
+   开放获取：https://www.ncbi.nlm.nih.gov/pmc/articles/170892
+   原因：PMC 没有向批量下载接口开放该文章版本；PMC BioC 全文：syntax error: line 1, column 0；PDF 可能需进入期刊网页手动点击下载按钮；未获得完整正文 HTML（未用 PubMed 摘要充数）
+

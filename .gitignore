@@ -1,0 +1,11 @@
+
+# 大型数据集，不上传到 GitHub
+/reference/PDF/
+/reference/FullText/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 临时文件
+*.tmp
