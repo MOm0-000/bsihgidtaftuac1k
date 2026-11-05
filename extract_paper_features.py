@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+import os
+
+# 使用 Hugging Face 镜像站
+os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
 """读取本地 PMID 清单及 HTML/PDF，提取文献元数据、全文 TF-IDF 和 SPECTER2 向量。
 
 修复：识别 PDF-only HTML 信息页并回退 PDF；去除 LaTeX 排版杂项；保留统计表。
@@ -18,6 +22,7 @@ from collections import Counter
 from unicodedata import east_asian_width
 from pathlib import Path
 from xml.etree import ElementTree as ET
+
 
 BASE = Path('/home/zxx/bigdata/exp1')
 XLSX_NS = '{http://schemas.openxmlformats.org/spreadsheetml/2006/main}'

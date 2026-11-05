@@ -1,0 +1,11 @@
+{
+  "model": "allenai/specter2_base",
+  "adapter": "allenai/specter2",
+  "input": "title [SEP] abstract (or flagged body fallback)",
+  "max_length_tokens": 512,
+  "pooling": "CLS",
+  "L2_normalized": true,
+  "rows": 183,
+  "dimensions": 768,
+  "device": "cuda"
+}
