@@ -1,0 +1,34 @@
+{
+  "number_of_papers": 183,
+  "specter2_dimensions": 768,
+  "tfidf_dimensions": 11964,
+  "tfidf_normalization": "L2; rows aligned with analysis_pmids.csv",
+  "preprocessing_for_specter2": "L2 normalization (matching reduction script)",
+  "kmeans_clusters": 4,
+  "kmeans_selection": "maximum 768D silhouette over scan (unless --clusters specified)",
+  "kmeans_k_min": 2,
+  "kmeans_k_max": 12,
+  "kmeans_n_init": 10,
+  "random_seed": 42,
+  "hdbscan_enabled": true,
+  "hdbscan_min_cluster_size": 5,
+  "hdbscan_min_samples": 5,
+  "spaces": [
+    "specter2",
+    "pca",
+    "umap",
+    "localmap",
+    "tfidf (K-Means only)"
+  ],
+  "metadata_source": "/home/zxx/bigdata/exp1/reference/features/papers_metadata_reviewed.csv",
+  "notes": [
+    "The number of K-Means clusters is NOT UMAP/LocalMAP's n_neighbors.",
+    "silhouette_own_space is not directly comparable across 2D and 768D spaces.",
+    "silhouette_specter2 evaluates all labels in a COMMON original embedding space.",
+    "HDBSCAN metrics exclude noise points and may be blank for <2 clusters.",
+    "ARI compares agreement with 768D K-Means; it is not ground-truth accuracy.",
+    "silhouette_tfidf evaluates all groupings in the SAME TF-IDF space.",
+    "DO NOT compare silhouette_own_space between 768D SPECTER2 and TF-IDF as absolute scores.",
+    "TF-IDF and SPECTER2 use different text inputs (full text vs title/abstract)."
+  ]
+}

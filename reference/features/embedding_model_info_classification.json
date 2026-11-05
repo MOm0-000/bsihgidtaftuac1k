@@ -1,0 +1,17 @@
+{
+  "model": "allenai/specter2_base",
+  "adapter": "allenai/specter2_classification",
+  "adapter_loaded_as": "classification",
+  "active_adapters": "Stack[classification]",
+  "input": "title [SEP] abstract (or flagged body fallback)",
+  "input_sha256": "7e32c2db6f07eeed3b8801e751104916cef71bad9e0e01c8ca276eb0a651d29b",
+  "max_length_tokens": 512,
+  "pooling": "CLS",
+  "L2_normalized": true,
+  "rows": 183,
+  "dimensions": 768,
+  "device": "cuda",
+  "pmid_order": "analysis_pmids.csv",
+  "abstract_count": 174,
+  "body_fallback_count": 9
+}

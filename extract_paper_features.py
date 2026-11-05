@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-import os
-
-# 使用 Hugging Face 镜像站
-os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
 """读取本地 PMID 清单及 HTML/PDF，提取文献元数据、全文 TF-IDF 和 SPECTER2 向量。
 
 修复：识别 PDF-only HTML 信息页并回退 PDF；去除 LaTeX 排版杂项；保留统计表。
@@ -11,6 +7,13 @@ os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
 默认路径：/home/zxx/bigdata/exp1
 不下载论文，不要求邮箱/API Key；可按需使用 PubMed EFetch 补充元数据。
 """
+import os
+# 通过镜像站下载模型；如终端已指定 HF_ENDPOINT，则优先使用终端配置。
+os.environ.setdefault('HF_ENDPOINT', 'https://hf-mirror.com')
+os.environ.setdefault('HF_HUB_ETAG_TIMEOUT', '60')
+os.environ.setdefault('HF_HUB_DOWNLOAD_TIMEOUT', '120')
+
+import hashlib
 import argparse
 import csv
 import json
@@ -23,11 +26,10 @@ from unicodedata import east_asian_width
 from pathlib import Path
 from xml.etree import ElementTree as ET
 
-
 BASE = Path('/home/zxx/bigdata/exp1')
 XLSX_NS = '{http://schemas.openxmlformats.org/spreadsheetml/2006/main}'
 MODEL_NAME = 'allenai/specter2_base'
-ADAPTER_NAME = 'allenai/specter2'
+ADAPTER_NAME = 'allenai/specter2_classification'
 
 
 def tidy(s):
@@ -387,13 +389,26 @@ def merge_record(base, offline, pubmed):
 
 def build_tfidf(records, outdir):
     from sklearn.feature_extraction.text import TfidfVectorizer, ENGLISH_STOP_WORDS
+    from sklearn.preprocessing import normalize
     from scipy.sparse import save_npz
-    texts = [rec['tfidf_text'] for rec in records]
+    import numpy as np
+    # Citation artifacts cause large, spurious TF-IDF weights. Preserve source text.
+    texts = []
+    for rec in records:
+        text = re.sub(r'\bet\s+al\.?(?=\W|$)', ' ', rec['tfidf_text'], flags=re.I)
+        # Preserve IL-4 / IL-13 identities instead of collapsing both to 'il'.
+        text = re.sub(r'\bIL[-\u2010\u2011\u2012\u2013\u2014](\d{1,3})\b',
+                      lambda m: 'IL' + m.group(1), text, flags=re.I)
+        texts.append(text)
     # 文本已预清洗；额外排除图注/排版常见噪声词，保留字母+数字组合术语。
     noise_terms = {'figure', 'figures', 'fig', 'table', 'tables', 'copyright',
                    'usepackage', 'setlength', 'documentclass', 'supplementary',
                    'supplemental', 'download', 'publisher'}
-    stops = sorted(set(ENGLISH_STOP_WORDS) | noise_terms)
+    academic_noise = {'et', 'al', 'using', 'different', 'analysis', 'study', 'studies',
+                      'method', 'methods', 'result', 'results', 'paper', 'papers',
+                      'article', 'articles'}
+    # 'al' is also the chemical element Al; this choice favors citation cleanup.
+    stops = sorted(set(ENGLISH_STOP_WORDS) | noise_terms | academic_noise)
     vec = TfidfVectorizer(lowercase=True, stop_words=stops,
                           token_pattern=r'(?u)\b[^\W\d_][\w]{1,}\b',
                           strip_accents='unicode', ngram_range=(1, 2),
@@ -406,8 +421,14 @@ def build_tfidf(records, outdir):
         print(f'  TF-IDF 的双词特征过滤过严，调整为 min_df=1：{exc}', flush=True)
         vec.set_params(min_df=1, max_df=1.0)
         x = vec.fit_transform(texts)
-    save_npz(outdir / 'tfidf_matrix.npz', x)
     terms = vec.get_feature_names_out()
+    # Drop artificial repeated bigrams, e.g. 'il il', while keeping 'il'.
+    keep = np.asarray([not (len(parts := term.split()) == 2 and parts[0] == parts[1])
+                       for term in terms], dtype=bool)
+    if not keep.all():
+        x = normalize(x[:, keep].tocsr(), norm='l2', axis=1, copy=False)
+        terms = terms[keep]
+    save_npz(outdir / 'tfidf_matrix.npz', x)
     df = (x > 0).sum(axis=0).A1
     csv_write(outdir / 'tfidf_vocabulary.csv',
               ({'index': i, 'term': term, 'document_frequency': int(df[i])}
@@ -426,39 +447,74 @@ def build_tfidf(records, outdir):
 
 
 def build_specter2(records, outdir, batch_size=8, device_name='auto'):
+    """以 Classification Adapter 生成语义向量，保持原有的 PMID 行序与文件名。"""
     import numpy as np
     import torch
     from transformers import AutoTokenizer
     from adapters import AutoAdapterModel
-    from sklearn.preprocessing import normalize
+
     device = ('cuda' if torch.cuda.is_available() else 'cpu') if device_name == 'auto' else device_name
-    if device.startswith('cuda') and not torch.cuda.is_available():
+    if device == 'cuda' and not torch.cuda.is_available():
         raise RuntimeError('选择了 CUDA，但 PyTorch 未检测到 CUDA。请用 --device cpu')
-    print(f'加载 SPECTER2（首次运行需要从 Hugging Face 下载模型），设备：{device}', flush=True)
+
+    print(f'加载 SPECTER2 Classification Adapter，设备：{device}', flush=True)
+    print(f'Hugging Face 地址：{os.environ.get("HF_ENDPOINT", "默认源")}', flush=True)
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
     model = AutoAdapterModel.from_pretrained(MODEL_NAME)
-    model.load_adapter(ADAPTER_NAME, source='hf', load_as='proximity', set_active=True)
-    model.to(device).eval()
+    adapter_name = model.load_adapter(
+        ADAPTER_NAME, source='hf', load_as='classification', set_active=True
+    )
+    if 'classification' not in str(model.active_adapters).lower():
+        raise RuntimeError(f'Classification Adapter 未激活：{model.active_adapters}')
+    print(f'已激活 Adapter：{model.active_adapters}', flush=True)
+    model = model.to(device)
+    model.eval()
+
+    sep = tokenizer.sep_token or '[SEP]'
+    model_inputs = [r['title'] + sep + r['model_context'] for r in records]
+    input_sha256 = hashlib.sha256('\n\0\n'.join(model_inputs).encode('utf-8')).hexdigest()
     vectors = []
-    for start in range(0, len(records), batch_size):
-        batch = records[start:start + batch_size]
-        inputs = [r['title'] + (tokenizer.sep_token or '[SEP]') + r['model_context'] for r in batch]
+    for start in range(0, len(model_inputs), batch_size):
+        inputs = model_inputs[start:start + batch_size]
         tokens = tokenizer(inputs, padding=True, truncation=True, max_length=512,
                            return_tensors='pt', return_token_type_ids=False)
-        tokens = {k: v.to(device) for k, v in tokens.items()}
+        tokens = {key: value.to(device) for key, value in tokens.items()}
         with torch.inference_mode():
             output = model(**tokens)
             cls = output.last_hidden_state[:, 0, :].float().cpu().numpy()
         vectors.append(cls)
         print(f'  向量生成进度：{min(start + batch_size, len(records))}/{len(records)}', flush=True)
-    arr = normalize(np.concatenate(vectors, axis=0), norm='l2', axis=1).astype('float32')
+
+    arr = np.concatenate(vectors, axis=0).astype(np.float32)
+    if arr.shape != (len(records), 768) or not np.isfinite(arr).all():
+        raise ValueError(f'Classification 向量形状或数值异常：{arr.shape}')
+    norms = np.linalg.norm(arr, axis=1, keepdims=True)
+    if np.any(norms == 0):
+        raise ValueError('检测到全零 Classification 向量')
+    arr = (arr / norms).astype(np.float32)
+
     np.save(outdir / 'paper_embeddings.npy', arr)
+    info = {
+        'model': MODEL_NAME,
+        'adapter': ADAPTER_NAME,
+        'adapter_loaded_as': str(adapter_name),
+        'active_adapters': str(model.active_adapters),
+        'input': 'title [SEP] abstract (or flagged body fallback)',
+        'input_sha256': input_sha256,
+        'max_length_tokens': 512,
+        'pooling': 'CLS',
+        'L2_normalized': True,
+        'rows': int(arr.shape[0]),
+        'dimensions': int(arr.shape[1]),
+        'device': device,
+        'pmid_order': 'analysis_pmids.csv',
+        'abstract_count': sum(r['model_input_source'] == 'abstract' for r in records),
+        'body_fallback_count': sum(r['model_input_source'] == 'body_fallback_not_abstract'
+                                   for r in records),
+    }
     (outdir / 'embedding_model_info.json').write_text(
-        json.dumps({'model': MODEL_NAME, 'adapter': ADAPTER_NAME,
-                    'input': 'title [SEP] abstract (or flagged body fallback)',
-                    'max_length_tokens': 512, 'pooling': 'CLS', 'L2_normalized': True,
-                    'rows': int(arr.shape[0]), 'dimensions': int(arr.shape[1]),
-                    'device': device}, ensure_ascii=False, indent=2), encoding='utf-8')
+        json.dumps(info, ensure_ascii=False, indent=2), encoding='utf-8'
+    )
     return arr.shape
 
 
@@ -496,7 +552,8 @@ def make_quality_summary(rows, valid_rows, outdir, tfidf_shape=None, embeddings_
         note='仅检查解析输出；Excel 输入读取阶段已去重')
     for field, label in [('title', '标题非空'), ('abstract', '摘要非空'),
                          ('year', '发表年份非空'), ('authors', '作者非空'),
-                         ('institutions', '机构非空'), ('pmcid', 'PMCID 非空')]:
+                         ('institutions', '机构非空'), ('keywords', '关键词非空'),
+                         ('doi', 'DOI 非空'), ('pmcid', 'PMCID 非空')]:
         add('元数据', label, nonempty(field), note='字段非空不等于内容经人工核对')
     add('文本来源', '本地 HTML 文件存在', sum(bool(r['html_exists']) for r in rows))
     add('文本来源', '本地 PDF 文件存在', sum(bool(r['pdf_exists']) for r in rows))
@@ -700,20 +757,20 @@ def main():
                '说明: HTML 若仅提供 PDF 全文提示，将回退 PDF；正文已过滤已知 LaTeX 排版噪声。']
     shape = None
     emb_shape = None
+    embedding_failed = False
     if valid_rows:
         shape = build_tfidf(valid_rows, args.out)
         summary.append(f'TF-IDF 稀疏矩阵维度: {shape}')
         if not args.parse_only:
-            # 删掉上一次的旧结果，避免本次失败却误认为旧向量属于当前数据
-            for stale in ('paper_embeddings.npy', 'embedding_model_info.json'):
-                (args.out / stale).unlink(missing_ok=True)
+            # 仅在新向量成功生成后覆盖旧向量；失败时保留原备份并以非零状态退出。
             try:
                 emb_shape = build_specter2(valid_rows, args.out, args.batch_size, args.device)
-                summary.append(f'SPECTER2 语义向量维度: {emb_shape}')
+                summary.append(f'SPECTER2 Classification 语义向量维度: {emb_shape}')
             except Exception as exc:
-                summary.append(f'SPECTER2 失败: {type(exc).__name__}: {exc}')
-                print(f'\n错误：SPECTER2 未生成，原因：{type(exc).__name__}: {exc}', flush=True)
-                print('元数据和 TF-IDF 已保存；先检查 Python 依赖/模型网络连接。', flush=True)
+                embedding_failed = True
+                summary.append(f'SPECTER2 Classification 失败: {type(exc).__name__}: {exc}')
+                print(f'\n错误：SPECTER2 Classification 未生成，原因：{type(exc).__name__}: {exc}', flush=True)
+                print('元数据和 TF-IDF 已保存；现存向量（如有）属于以前的运行结果，不代表本次成功。', flush=True)
         else:
             summary.append('SPECTER2: --parse-only 已跳过（尚未生成 paper_embeddings.npy）')
     else:
@@ -727,7 +784,7 @@ def main():
         f.write('\n' + quality_table + '\n')
     print('\n' + quality_table, flush=True)
     print(f'\n文件已保存：{args.out}', flush=True)
-    if valid_rows and not args.parse_only and not (args.out / 'paper_embeddings.npy').is_file():
+    if valid_rows and not args.parse_only and (embedding_failed or not (args.out / 'paper_embeddings.npy').is_file()):
         sys.exit(2)
 
 
