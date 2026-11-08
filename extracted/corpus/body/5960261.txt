@@ -1,0 +1,174 @@
+DEPOSITION OF LABELED BETA-ALANINE IN EBONY AND NON-EBONY _DROSOPHILA MELANOGASTER_ WITH NOTES ON OTHER AMINO ACIDS1 
+
+M. E. JACOBS2 
+
+Received December 22, 1965 
+
+HE ebony mutant of _Drosophila melanogaster_ shows a number of abnormalities in mating behavior which lead to lowered mating success. The movements of these ebony flies is slowed and apparently uncoordinated as compared with the wild type (JACOBS 1960). It was thought that this abnormal behavior as well as the correlated black body color may possibly result from aberrant amino acid metabolism. In preliminary attempts to detect differences in deposition rates of amino acids in ebony and non-ebony flies, 16 different C14 labeled amino acids were injected into the newly formed puparium stage of pupae, and radioactivity of pupa cases and body parts was determined. Of the injected amino acids, beta-alanine showed greater C'" deposition in the pupa cases of non-ebony than of ebony homozygotes, while ebony showed an increased rate of elimination of C1400,, as compared with non-ebony homozygotes. The heterozygotes were intermediate in these activities (JACOBS and BRUBAKER 1963). The present study was undertaken to make quantitative comparisons with other amino acids, to inject the adult stage of various stocks, and to determine by autoradiography in which part of the flies the beta-alanine derived C" is deposited. 
+MATERIALS A N D METHODS 
+
+The culture medium used contained 40g white ground cornmeal, 15g agar, 40g dried Fleischmann's yeast type 2019, and 1OOg sucrose per liter of water. The single-carbon labeled amino acids were purchased in 50 microcurie amounts from California Corporation for Biochemical Research. All stereoisomeric ones were of the L form. The specific activities were: alanine 1-C (9.1), beta-alanine 1-C (l.O), beta-alanine 2-C (l.O), gamma-aminobutyric acid I-C (3.7), aspartic acid 4-C (20.0), glutamic acid I-C (3.7), glycine 1-C (7.9), leucine I-C (4.7), phenylalanine carboxyl C (6.8) and valine 1-C (9.8). The uniformly labeled amino acids were purchased from the Nuclear Chicago Corporation in 50 microcurie amounts of the L form. The specific activities were: aspartic acid (22.5) and glutamic acid (148.0). 
+
+Each sample was dissolved in a small amount of water so that about 4.00 count/min would be injected at one time. Radioactivity was counted with a Nuclear Chicago D-47 gas flaw detector with micromil window. By use of a Gilmont micropipette burette, it was determined that the volume of beta-alanine which gave 400 count/min was about 1 x 1 0 - 5 ml. This was about the maximal volume of liquid which could be injected into the early pupae without subsequent extrusion of some of the injection sample. 
+
+The flies used for the bulk of the study were ebony _( e )_ and a light tan wild type _(e+)._ These 
+
+_Aided_ by Public Health Service research awards C-GI55 and GM 12435 Present address Goshen College, Goshen, Indlana. 
+
+Genetics 53: 7'77484 April 19GG 
+
+778 
+
+M. E. JACOBS 
+
+were obtained from a wild population at Beaufort, North Carolina (JACOBS 1960). Crosses were repeatedly made between them and off spring were selected for homozygosity as described by JACOBS (1961). The sooty stock _(es)_ was obtained from DR. C. L. WARD at Duke University. The Oregon-R, _b,_ and _e11_ stocks were obtained from the Institute for Cancer Research, Philadelphia, Pennsylvania with stock numbers a7, g41, and h55 in Volume 39 of Drosophila Information Service. The _b13_ stock was collected from an animal burrow in a cow pasture near Harrisonburg, Virginia. Specimens for study were grown at 25°C in the dark in half-pint milk bottles from which the parents had been transferred each 12 hours to prevent crowding of the offspring. 
+
+For the pupal injections, newly formed female white pupae were removed from the culture bottles and allowed to contract slightly for a few minutes so the operculum of the case was slightly hollow instead of bulged out as it is in the earliest puparium form. The internal pressure was thereby naturally relieved, and the pupae could be injected without extrusion of sample. These pupae were injected into the dorsal blood sinus just posterior to the heart. The injection time, including filling of the pipette, was about one minute. The data cited in this study include only those pupae or those adults which were injected with the same amount of each particular amino acid. One pupa was injected and placed on a glass plate. The plate was inverted over a 1 1/4 x 1/8 inch sample pan containing four drops of saturated Ba(OH), on a piece of Parafilm for CO, collection. These were kept in a Precision humidified low temperature incubator at 25°C for one hour, after which the sample pan was replaced with another. At first, these CO, collections were continued for 12 hours, and samples taken on succeeding days up until the day of emergence. In no case did the C1402 count in the planchets rise after the first 6 hours. Most collections were then made for only six hours. The hourly counts were added to give the 6-hour total cited in this study. All counts were near background after 6 hours. 
+
+After the CO, collections, the pupae were placed in cotton-plugged test tubes in the incubator. As the adults emerged from the pupal cases, they were homogenized in 1 ml of 10% trichloroacetic acid in a 13 x 100 mm Corning tissue grinder. The suspension was poured into a centrifuge tube and another ml of the TCA was used to grind and wash the residue which was then also poured into the centrifuge tube. This was centrifuged at 30,000 g for 10 min after which the top ml was pipetted off and dried in a plastic, or preferable glass, planchet for counting. The rest of the supernatant was poured off and about 3 ml of water was added to the tube and gently poured off thus washing the precipitate. Another 3 ml of water was added and the precipitate was vigorously macerated and stirred into the water with _a_ glass rod. The suspension was then poured into a bottomless aluminum planchet into which filter paper had been fitted. The filter paper disc with the precipitate was dried and placed into a planchet for counting. 
+
+Each pupa case from which an adult had emerged was soaked in water then cut open longitudinally so the translucent membrane, apparently the prepupal cuticle, could be pulled out and discarded. The cases were then submerged in 0.1 N HC1 overnight in the refrigerator. The cases were stretched out and pressed flat between filter paper after which radioactivity was determined with the outside up. 
+
+Those flies injected as adults were either translucent teneral females lightly etherized just after expansion of the wings, or females isolated from males and aged nine days following emergence. The adults were injected on the right side between two tergites near the middle of the abdomen. Rubber cement was used to fasten these adults by the top side of the wings to glass plates. The plate was then inverted over four drops of Ba(OH),. After a 6-hour CO, sample collecting period, the adult was removed from the plate, homog-niz-d, and treated like the adults emerging from the injected pupae. 
+
+For microautoradiograms, newly emerged females were in;ected as above. At the end of each hour thereafter for 6 hours, and each day thereafter for four days, some were fixed in Carnoy’s consisting of 20 ml of glacial acetic acid and 60 ml of ethanol. They were then put through the ascending series of ethanol into 50% benzene in abs:lute ethanol, benzene, 50% Tissuemat in benzene, and finally two changes of melted Tissuemat near 56°C. Sections were cut 10 microns thick and mounted on slides. These were put through xylol and the descending series of ethanol to water after which they were dipped into Kodak Nuclear Track Emulsion NTB-2 at 45°C. They were kept in the refrigerator for _33_ days before processing. After staining for 1 min in 2% 
+
+779 
+
+BETA-ALANINE DEPOSITION IN DROSOPHILA 
+
+aqueous orange G they were put through the ascending series of ethanol to 1:3 terpineol-toluene and finally toluene for mounting in Permount. 
+RESULTS 
+
+(The number following the plus-minus sign in this report is always the squared standard error.) As may be observed on Table 1, _e+_ pupae which had been injected with labeled beta-alanine in the early puparium stage deposited more beta-alanine derived C in the pupa cases than did ebony. The heterozygotes, _e/-+,_ though closer to _e+_ than to _e_ homozygotes, showed an intermediate C count. On the other hand, ebony homozygotes excreted C1*OO, at higher rates than did _e+,_ while _e/+_ were intermediate. The bodies of the _e_ adults emerging from the pupal cases contained more C than those of _e+_ homozygotes. The supernatant counts, which were intended to show the presence of C labeled substances in solution, were very low. 
+
+The second carbon of beta-alanine was excreted as C140, at a slower rate than was the first carbon. Collections of CO, at 18 minute intervals after injection revealed excretion of the first carbon to show a peak at about 36 minutes following injections, while the peak for the second carbon was about 4.1 hours. For all genotypes, the total excreted in the 6 hours was lower for the second carbon than it was for the first carbon. 
+
+Ebony homozygotes injected with beta-alanine-1-C as newly emerged adults deposited less C in their body precipitates in 6 hours than did _e+_ homozygotes (Table 2) with a difference significant below the 1% level. The _e/+_ heterozygotes, while close to _e+,_ were intermediate in C deposition; the difference between _e/-+_ and _e_ is significant below the _5%_ level. On the other hand, _e_ flies excreted C"'0, at a higher rate than did _e+,_ with a difference significant below the 1% level. The count/min of centrifuged supernatant at the end of 6 hours, though 
+
+TABLE 1 
+
+_Counts_ _per minute from flies injected as early pupae with 400 count/min of beta-alanine-C-I4_ 
+
+|||Count|s per minute (mea|nfsE2)||
+
+|Amino acid|Genotype|Pupa cases|Precipitate
+from adults
+emerging|Supernatant
+from adults
+emerging|Excretion
+ofW O ,in
+first6hours|
+|Beia-alanine-l-C14|_e_|0.0
+|3.6k1.20
+|0.0|86.2t 18.75
+|
+|||||||
+||_e+_|288.5_5_17.60
+|0.0|0.0|15.9t 1.77
+|
+||_e / f_|261.4k23.10|0.0|0.0|26.2k4.25|
+|Beta-alanine-2-C11|_e_|8.4k2.62
+|32.0k1.47
+* *|3.0k 1.00
+|30.0k2.31
+|
+|||||||
+||_e f_|280.0i.10.41
+*|7.7k0.56|0.0|8.5k1.93
+|
+||_e / f_|254.8k5.41|6.9+0.69|0.0|12.1*3.92|
+
+An asterick between two numbers indicates significance below the _5%_ level. Two asterisks indicates significance below the 101 level. Sixteen fl& of each genotype for each carbon label were processed individually and the means are included in the table. 
+
+780 
+
+M. E. JACOBS 
+
+TABLE 2 
+
+_Counts per minute from flies injected with 400 count/min of beta-alanine-I-C upon emergence from the pupa cases (or nine days after emergence_ as _specified)_ 
+
+|||Countsperminute (mean*sE|Z)|
+
+|Typeofflies|Precipitate
+6hours after injection|Supernatant
+Ghours after injection|Excretionof
+Cl.0,in first6 hours|
+|_e_|_0.0_|13.6t3.87|49.8 I6.38|
+|_e+_|71.2k45.60|8.3f1.68
+*|38.2-t 3.47|
+|_e/_+|55.0t 19.00|8.8 1.27|39.3t4.36|
+|_e_(aged9days)|1.2t0.09|6.0t1.23|171.8f141.36|
+|_e +_(aged9 days)|1 . 4 t 0.11|7.922.61|98.51
+126.36|
+|Oregon-R|67.8k75.47|10.4f0.21|47.3&26.32|
+|_e1I_|1.5t0.09|17.3t2.40|39.3f
+28.37|
+|_e8_|31.9f 10.07|12.2 3.75|47.6t 15.30|
+|_613_|95.5t
+141.58|9.8t3.24|33.0f 5.74|
+|_b_|92.7a 134.85|9.7t
+0.49|38.2t9.65|
+
+Sixteen flies of each of the genotypes e, _e+,_ and _e / + ,_ and ten flies of each of the other stocks are included _in_ the table. 
+
+low, showed more C in _e_ than in _e+_ with the difference significant below the 5% level. 
+
+Similar results were obtained with beta-alanine-2-C injected into newly emerged adults. The mean count/min with squared standard errors for 16 flies of each genotype were as follows. Precipitate 6 hours after injection: e26.7 2.60, _e+_ 118.6 t 90.80, and _e/+_ 98.1 f 44.50; Supernatant 6 hours after injection: _e_ 15.3 f 1.57, _e+_ 10.7 f 1.00, and _e/+_ 14.8 * 2.00. Excretion of C1400, in the first 6 hours: _e_ 33.9 t 4.06, _e+_ 20.7 f 1.65, and e/+ 22.8 -+ 2.50. 
+
+The _e+_ flies injected with beta-alanine-I-C at the age of nine days after emergence had lost virtually all capacity to retain C in the centrifuged body precipitate (Table 2). The C1400, excretion rates for the nine-day flies were higher than those of teneral flies with differences significant below the 1% level. This excretion rate of nine-day ebony flies was higher than that of nine-day non-ebony with significance below the 1 % level. 
+
+The results with the teneral female adults of the various stocks injected with beta-alanine-I-C (Table 2) showed that _e_ and _el1_ had lower C counts in the precipitate than did esy _b,_ _blJ,_ Oregon-R, and _e+._ The count/min in descending order were: _bIS_ (95.5), _b_ (92.7), _e+_ (71.2), Oregon-R (67.8), _es_ (31.9), (1.5), and _e_ ( (0.0). Neither _e_ nor _&I_ in the low group nor _bIS, by e+,_ and Oregon-R in the high group differed significantly among themselves, but all differences between _e_ or _el1_ and members of the high group were significant below the 1 % level. The intermediate stock, _es,_ differed from all the other stocks with differences significant below the 1 % level. 
+
+With regard to amino acids other than beta-alanine injected into newly emerged _e, e+,_ and _e/+_ adults, no pronounced differences were observed between the genotypes in any of the material. The various amino acids did, however, differ in the rates of incorporation of _C_ in these adults. In descending order, the 
+
+781 
+
+BETA-ALANINE DEPOSITION IN DROSOPHILA 
+
+count/min in the centrifuged precipitate for carboxyl labeled amino acids injectedinto _e+_ flies were: leucine (5208.0 f 26.38), valine (202.3 f 87.01), glycine (197.1 * 114.96), phenylalanine (191.1 +. 41.00), beta-alanine (71.2 * 45.60), alanine (26.4 * 2.52), glutamic acid (24.2 f l.OO), aspafiic acid (24.1 * 1.73), and gamma-aminobutyric acid (23.1 * 1.27). The supernatant counts in descending order were: glycine (12.9 & 0.55) , beta-alanine (8.3 & 1.68), gamma-aminobutyric acid (7.1 f 0.18), aspartic acid (2.8 f O . B ) , leucine (2.8 * 0.25), alanine (2.0 f 0.23), glutamic acid (0.7 _2_ 0.12), valine (0.5 _2_ 0.22), and phenylalanine (0.0). The 6-hour C140, excretion rates were: aspartic acid (126.8 I: 27.10), gamma-aminobutyric acid (109 i: 37.65), alanine (81.9 * 16.78), glutamic acid (78.1 f 27.70), glycine (45.0 f 10.98), beta-alanine (38.2 f 3.47), phenylalanine (16.4 f 1.34), leucine (14.0 * 0.63), and valine (9.2 * 0.14). 
+
+The various amino acids injected into newly formed pupae likewise differed in the rate at which they incorporated C. The descending order for count/min in pupal cases of _e+_ flies injected with carboxyl labeled amino acids was: betaalanine (288.5 * 17.60), aspartic acid (6.7 f 0.90) , valine (6.4 +- 0.29) , alanine (6.0 +- 0.84), glycine (4.7 f 0.09, gamma-aminobutyric acid (3.4 f 0.13), glutamic acid (2.1 * 0.15), phenylalanine (1.5 f 0.02), and leucine (0.7 _2_ 0.12). Four of the carboxyl labeled amino acids-beta-alanine, gamma-aminobutyric acid, aspartic acid, and alanine-led to less incorporation of C in the pupal cases in _e_ than in _e+_ with differences significant below the 1% level. (Uniformly labeled aspartic and glutamic acids similarly led to less incorporation of C in _e_ than in _e+_ with differences significant below the 1 % level. The count/min from the uniformly labeled samples were, aspartic acid: _e_ (15.1 * 12.51), _e+_ (49.7 * 16.53, and _e/+_ (36.0 f 4.69); and glutamic acid: _e_ (6.5 +. 1.20), _e+_ (13.0 f 1.26), _e/+_ (11.6 f 0.55). The count/min of centrifuged precipitate from _e+-_ flies emerging from the pupal cases were: leucine (190.7 +- 30.86), valine (1 73.5 127.40) , phenylalanine (1 12.3 f 35.60) , glycine (70.9 f 10.38), alanine (13.0 * 2.13), glutamic acid (10.4 * 0.29), aspartic acid (6.9 f 0.20), gamma-aminobutyric acid (5.2 * 0.18), and beta-alanine (0.0). The supernatant counts from the emerging adults were negligible. 
+
+The count/min for the 6-hour C1400, excretion rates of _e+_ pupae injected with carboxyl labeled amino acids were: gamma-aminobutyric acid (95.1 f 21.77) , aspartic acid (99.7 f 11.78), alanine (85.0 * 34.55), glutamic acid (80.9 f 6.68), phenylalanine (33.2 _2_ 1.48), glycine (17.1 f 1.20), beta-alanine (15.9 _2_ 1.77), valine (7.3 f 0.53), and leucine (6.0 * 0.22). This order is opposite to the order of counts in pupal cases plus precipitated bodies from emerging adults. 
+
+When the peak hours of Cl4O0, excretion of the pupae of each genotype and each carboxyl labeled amino acid were averaged, three of the amino acids had a significantly later peak hour of excretion in _e_ than in the other two genotypes. For beta-alanine, the peak hour for _e_ was 1.5 f 0.05, while for _e+_ it was 1 .O * 0.00. This difference is significant below the 5% level. For phenylalanine the peak hour was 2.5 f 0.02 in _e,_ while for _e+_ it was 1.0 * 0.00. This difference is significant below the 1 % level. The _e/+_ excretion peak for phenylalanine was 
+
+782 
+
+M. E. JACOBS 
+
+1.3 +. 00.01. For valine, the peak hour for _e_ was 1.2 * 0.01, while for e+ it was 1.00 * 0.00. This difference is significant below the _5%_ level. The analogous figures for adults were, beta-alanine: _e_ (1.6 f 0.09), _e+_ (1 .O * 0.00) ; phenylalanine: e (1.1 +. O.Ol),e+ (1.0 * 0.00); valine: _e_ (1.0 * _O.OO),e+_ (1.0 * 0.00). The remaining amino acids showed peak hours of excretion of 1.0 0.00 for pupae and adults of the three genotypes. 
+
+The autoradiograms revealed that the e+, _bI3_ and e/+ newly emerged adults injected with beta-alanine-l-C had a tendency, as early as the first hour after injection, to concentrate the C'" just under and in the cuticle, especially the heavily sclerotized cuticle on the dorsal side of the thorax and dorsal posterior part of the head. No C was detected in the bristles, presumably because these had been formed and hardened before the injection. By the end of 6 hours, the radioactivity 'was much more concentrated into, and immediately under the cuticle. The count appeared to fade from the integument by the end of each day thereafter, though this point is still tentative and is being studied further. No count was detected in the cuticle of _e._ Radiograms of the other stocks were not made. 
+
+DISCUSSION 
+
+Among the amino acids injected in this study, beta-alanine appears to play a special role in formation of the puparium from the larval cuticle. For example, the mean count/mh for e+ pupae injected with 400 count/min of either first or second carbon labeled beta-alanine were all over 200. The highest mean count/ min for any of the other similarly injected amino acids was 6.7 (for aspartic acid). Ebony pupae are virtually lacking in the capacity to incorporate beta-alanine derived _C_ into the pupal cases, while e/+ heterozygotes are intermediate in this capacity. The differential results between the genotypes appears independent of amino acid pool size as evidenced by the fact that the same type of results were obtained with small injections (down to 50 count/min) or large injections (up to 1800 count/min) of the same sample of beta-alanine-l-C used in the bulk of the study. Ebony pupal cases are lighter in color than e+ cases and, when wet, are more flexible and, therefore, more difficult to cut with an iridectomy scissors. Perhaps beta-alanine or a product derived from it brings about hardening of the cuticular proteins by cross bonding. 
+
+Beta-alanine may also be involved in hardening of the adult integument. Derived C is incorporated in the integument of _e+_ flies if injected shortly after emergence when the cuticle is soft and translucent, but it is not appreciably incorporated if injected when the cuticle is fully matured. The bristles, which mature earlier than the integument proper, fail to incorporate the C even in the early injections. The C is especially incorporated in the heavily sclerotized portions of the dorsal thorax. Ebony adults are virtually lacking in the capacity to incorporate beta-alanine derived C in the cuticle, while _e/+_ are intermediate (though closer to _e+_ than to e). This may be related to the color of the bodies of the adults. Ebony flies are very dark, while _e/+_ flies are intermediate between them and the light tan _e+_ (though _e/+_ are sometimes indistinguishable from _e+_ 
+
+783 
+
+BETA-ALANINE DEPOSITION IN DROSOPHILA 
+
+when grown at 25°C). Sooty flies, which are intermediate in body color between _e_ and _e+,_ are intermediate in rate of incorporation of beta-alanine derived C. 
+
+Though the counts were quite low, four other amino acids behaved somewhat like beta-alanine in that _e+_ incorporated more C in the pupal cases than did _e._ Two of these, gamma-aminobutyric acid (NH,CH,CH,CH,COOH) and alanine (C;H,CH, (NH,) COOH) are structurally similar to beta-alanine (NH,CH,CH,COOH) . The third, glutamic acid (COOHCH,CH,CH, (NH,) COOH) might produce gamma-aminobutyric by decarboxylation. The fourth, aspartic acid (COOHCH,CH2 (NH,) COOH) might produce beta-alanine by decarboxylation. 
+
+It is conceivable that beta-alanine or the related gamma-aminobutyric acid may accumulate in the bodies of ebony flies as a result of failure of this genotype to incorporate these amino acids in the cuticle. This may be partly responsible for the abnormal behavior of ebony flies. VERESCHAGIN and SYTINSKII (1960) have found either of these amino acids to suppress bioelectric activity and thereby inhibit motor function in the earthworm. TASHMUKHAMEDOV (1962) has found beta-alanine to inhibit abdominal receptors in bees. KRAVITZ, KUFFLER, and POTTER (1963), in studies on the lobster, found gamma-aminobutyric acid, while present in inhibitory axons, was absent from excitatory axons. Beta-alanine occurred in greater abundance in inhibitory than excitatory exams. EDWARDS and KUFFLER (1959) determined that the amino and carboxyl end groups of the omega amino acids are essential for blocking action, and optimal separation is by three carbon atoms. CURTIS and WATKINS (1960), in applying various amino acids ionophoretically to external surfaces of cat spinal neurons also found optimal separation of the acidic and basic groups for depressant action to be two or three carbon atoms. FUKUYA (1961), in studies of the crayfish and frog, likewise found separation of acidic and basic groups by three carbon atoms to be optimal for blocking action. In the rapidly developing fly inside the pupal case, the presence of such depressants, even though temporary, may injure the nerves. 
+
+There is some evidence that the results obtained in this study with _e_ and _e+_ _D._ _melanogaster_ might be characteristic for other species of Drosophila and even other kinds of insects. SEKI (1962) has noted absence of beta-alanine in hydrolysates of pupal sheaths of ebony (but not non-ebony), _Drosophila virilis,_ sooty mutant of _Bombyx mori,_ and the black pupa mutant of _Musca domestica._ DENNELL (1958) found beta-alanine in hydrolyzates of puparia of _Calliphora vomitoria._ HENRY, BLOCK, and COOK (1 964) have found beta-alanine in the ''proteinaceous residue" of cockroach bodies. 
+
+I should like to acknowledge the valuable assistance of DONALD TROYER, NORMAN SHANK, DANIEL SITTER, JAMES BARE, VIVIAN MISHLEX, STANLEY GROVE, WAYNE YODEX, and ROGER BEACHEY 
+
+SUMMARY 
+
+Cl4-1abeled amino acids (400 cpm in 10-5 ml water) were injected into the hemocoel of early pupae and early adults of _e, e+,_ and _e+/e_ females. Following beta-alanine injection, pupal cases incorporated more C" in _e+_ than in _e._ The reverse was true for precipitates from centrifuged homogenized adults, and for 
+
+784 
+
+M. E. JACOBS 
+
+excreted COz-+ showed greater incorporation than _e+. e+/e_ was intermediate. With other amino acids, C in pupal cases was near background; however, with gamma-aminobutyric, aspartic, and glutamic acids and alanine more C was incorporated in _e+_ than in _e._ Rates of C140z excretion were the reverse of the C-count of pupal cases and of precipitates of bodies of emerging adults. The betaalanine second carbon was excreted as C140z more slowly than was the first carbon. With carboxyl labeled beta-alanine, phenylalanine, and valine, CI4O2 excretion was later in _e_ than in _e+._ Centrifuged precipitates from adults homogenized 6 hours after injection showed great variation in C. With beta-alanine, precipitates had lower counts for _e_ than _e+,_ while _e+/e_ was intermediate. Rates of Cl4OZ excretion of these teneral adults were in reverse order of C in body precipitates. _e+_ adults aged 9 days before injection showed accelerated C1400, excretion and no C-incorporation in body precipitates. Beta-alanine was injected into tenerals of other stocks. Oregon-R and two “black” mutants incorporated C in body precipitates at high rates, ebonyll did not, and ebony-sooty was intermediate.

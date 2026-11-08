@@ -1,0 +1,75 @@
+Introduction
+
+Asthma is one of the most common pediatric chronic diseases, affecting more than 5 million children in the United States. 1 In 2018 alone, children with asthma exacerbations accounted for nearly 770,000 emergency department visits and more than 74,000 inpatient hospitalizations nationally. 2 Asthma disproportionately affects children of color, those who live in urban environments, and those from a lower socioeconomic status. 1,3 There are also disparities in terms of the quality of asthma care available and access to appropriate asthma medications. 4
+
+As we acquire more knowledge of the extent of disparities in asthma prevalence and outcomes, researchers and clinicians are increasingly interested in examining the interaction between environmental and social determinants of health and asthma. Such associations are particularly important in children. The onset of asthma is typically during childhood, and pediatric patients are uniquely vulnerable to asthma-related morbidity compared with adults. 5,6 Patients from underserved and high-poverty communities are at higher risk of severe asthma outcomes and are more likely to visit the emergency department for asthma. 7,8 Environmental exposures, including indoor and outdoor air quality and allergens (eg, cockroaches, rodents), are independently associated with worse asthma morbidity. 7,9,10 Importantly, these factors are closely linked, with patients from a lower socioeconomic status having higher rates of exposure to environmental triggers. 11,12
+
+A geographic information system (GIS) is a powerful tool that generates geospatial data that can be combined with health data to detect the relationships and patterns between a patient’s environment and their health. It can allow for spatial analysis of disease, associating and stratifying risk factors, health service planning, or new health technology development. 13,14 Geographic information systems have historically been used primarily in ecological and cross-sectional studies to understand the geographic distribution of diseases. In recent years, the focus has shifted toward understanding geospatial variation in health outcomes. 13,15,16 Other applications of a GIS include identifying service gaps and unmet community needs to improve resource allocation, 17 spatially mapping environmental factors such as childhood lead exposure, 18 and analyzing neighborhood risk factors for poor outcomes, including perinatal morbidity. 19 With improvements in electronic medical records and the ability to connect clinical and geospatial data directly, there are increasing opportunities to utilize a GIS directly in clinical environments to perform risk stratification and develop real-time interventions. 20,21 The ability of a GIS to combine different types of data based on geography allow them to provide a more complete picture of the complex interplay between health, environmental factors, and social determinants.
+
+A GIS is particularly well-suited for use in pediatric asthma research because of the strong effect of socioeconomic and environmental factors on asthma outcomes. 22 Examples in the literature of geospatial data in pediatric asthma include the relationship between asthma and public housing, 23 the association between low-income and public health insurance and asthma prevalence, 24 the relationship between neighborhood violence and asthma morbidity, 25 and the link between environmental factors, including road density and air pollution, with asthma exacerbations. 26,27 Geographic clustering of patients with asthma can be useful in creating risk-stratification models and targeting community interventions. 28-30 However, the current extent of the literature addressing geospatial data in pediatric asthma is not yet known. A GIS is a technical and software-driven field that is evolving quickly. As such, a scoping review is needed to describe the most current literature available, which can be used to inform future directions for research and integration of geospatial data into clinical decision-making and clinical practice. 31
+
+One unique aspect of geospatial data is their highly contextual nature that depend on the political and administrative organization of geographic regions. Geospatial systems are often deployed at the national or sub-national (eg, states, cities) level, and the available data can range widely both in terms of geographic granularity and variables collected. Although systems for spatial mapping and analysis are global, and the intent to use data to improve patient outcomes is shared, the variables depend on the country. To address this issue, we will focus on one country, the United States, so that the articles reviewed will share similar variables and levels of granularity. This review can then be used to generate a framework of classes or domains, which can be expanded and enriched with variables from other regions, as we work toward developing a more global understanding of GIS use in pediatric asthma.
+
+A preliminary search of PROSPERO, MEDLINE, the Cochrane Database of Systematic Reviews, and JBI Evidence Synthesis was conducted and only one previous scoping review was found on the topic of geospatial data in asthma. 32 The identified review was not specific to pediatric asthma and was limited to articles found in medical literature databases, whereas the review we propose will also include geography, geographic information science, informatics, and gray literature sources. No other current or in-progress scoping reviews or systematic reviews on the topic were identified.
+
+This scoping review aims to map the available literature on the use of geospatial data in pediatric asthma within the United States. The specific objectives of the scoping review are to:
+
+Determine the type and amount of currently published literature using geospatial data in pediatric asthma research and care
+
+Describe the characteristics of the existing literature on the subject, including data types, outcomes studied, analytic approaches, and applications.
+
+Review question
+
+What are the study characteristics, data types, and applications of geospatial data in pediatric asthma in the United States?
+
+Inclusion criteria
+
+Participants
+
+This review will consider studies that include children ages 2 to 18 years of age with a diagnosis of asthma. Mixed samples of adults and children with asthma will also be considered. Studies that use any diagnosis of asthma regardless of disease severity, controller medication usage, or presence of other comorbidities will be included. Studies that pertain only to other non-asthma respiratory diseases will be excluded. Studies in which all participants are younger than 2 years of age will be excluded because of the challenge of accurately diagnosing asthma in young children, and the clinical overlap with other non-asthma respiratory diagnoses, such as bronchiolitis. 33 Studies in which the participants do not have a diagnosis of asthma or in which all study participants are 19 years or older will also be excluded.
+
+We will consider studies in which geospatial data are used. We define this as any external non-clinical geographic-based data source that uses a patient’s environment or context, including government agency data, census data, community-level socioeconomic data, or environmental data. We will include all sources of geospatial data, such as the US Census Bureau, the US Environmental Protection Agency, the Centers for Disease Control and Prevention, and the US Department of Housing and Urban Development. Studies that examine electronic health record or personal patient data without any connection to geographic-based data sources will be excluded. We will consider studies that use all types of geographic-based data applications, including clustering of disease or disease outcomes, the relationship between geospatial data and clinical outcomes, and development of new composite indices.
+
+We will include studies that take place in the United States or US territories in any clinical or non-clinical setting. Studies that have a mixed national and international sample will be included. Studies that take place exclusively outside of the United States and US territories will be excluded because of the highly contextual nature of social determinants of health and the available geospatial data.
+
+Types of sources
+
+This scoping review will consider all study designs, including quantitative, qualitative, and mixed methods analyses; editorials; commentaries; and quality improvement studies. In addition, primary literature citations from systematic and scoping reviews will be considered.
+
+The proposed scoping review will be conducted in accordance with the JBI methodology for scoping reviews. 34
+
+Search strategy
+
+The search strategy will aim to locate both published and unpublished primary studies and reviews. A medical librarian (LK) created PubMed (National Library of Medicine) and Embase (Elsevier) search strategies using a combination of controlled vocabularies (Medical Subject Headings [MeSH] and Excerpta Medica Database Subject Headings [EMTREE]) and keywords for the concepts of GIS or geospatial data, pediatrics, and asthma. Team members reviewed the strategies and results to edit and improve the search strategy. With approval of the team, the librarian will create customized search strategies using controlled vocabularies (when available) and keywords in the remaining pre-identified databases. See Appendix I for the PubMed (NLM) search details. The search strategy, including all identified keywords and index terms, will be adapted for each included information source. The reference lists of articles included in the review will be screened for additional papers.
+
+Articles published in English, Spanish, and French from 2010 to the present will be included, as these are the languages used by the reviewers. Due to the rapidly changing nature of geospatial data and its reliance on new technologies and methods, we will include only studies that are published in 2010 or later to capture modern data elements and data types. This is in line with the newer availability of data sources in pediatric asthma including the American Community Survey (2005-) and the Child Opportunity Index, which is based on the 2010 census.
+
+We will search and report the search strategies so that they can be replicated for the following literature databases: PubMed (National Library of Medicine), Embase (Elsevier), Cochrane CENTRAL (Wiley), CINAHL (EBSCO), ERIC (EBSCO), Web of Science (Clarivate), and IEEE Xplore.
+
+We will search gray literature in the following sources: DBLP (computer science bibliography website), the US Environmental Protection Agency, the first 200 citations in Google Scholar, and the first five pages of results in a Google search. We will also perform hand searches of the most recent two years of abstracts from the following conferences when available: American Academy of Pediatrics ; American Academy of Allergy, Asthma, and Immunology; American Thoracic Society; Chest; American Medical Informatics Association; Health Information Management Systems Society; Pediatric Academic Societies; ACM SIGSPATIAL Advances in Geographic Information Systems; American Association of Geographers; University Consortium for Geographic Information Science; and medRXiv.
+
+Study/source of evidence selection
+
+Following the search, all identified records will be collated and uploaded into EndNote X9 (Clarivate Analytics, PA, USA) and duplicates removed. Prior to starting the review process, we will perform pilot testing, which will consist of independent review of 40 abstracts by each research team member who is participating in article review. The team will then meet and discuss the pilot-tested abstracts to ensure a consensus understanding of the inclusion and exclusion criteria. Following pilot testing, titles and abstracts will be imported into Covidence (Veritas Health Innovation, Melbourne, Australia), an online systematic review management system. Each reference will be independently reviewed for eligibility by two members of the research team, and any disagreements will be resolved by a third reviewer. All potentially eligible references will be uploaded in full into Covidence for the second phase of review.
+
+The full text of selected citations will be assessed in detail against the inclusion criteria by two independent reviewers. Reasons for exclusion of full-text papers that do not meet the inclusion criteria will be recorded and reported in the scoping review. Citations for articles that are excluded on the basis of language will be included as an appendix. The results of the search will be reported in full in the final scoping review and presented in a Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) flow diagram. 35
+
+Data extraction
+
+Manuscript data will be extracted and uploaded into a Google form by the reviewers. Pilot testing will be performed by all reviewers prior to data extraction, which will consist of independent data charting of 10 articles. Changes and clarifications to the data extraction tool will be made based on research team feedback from the pilot testing. Data extraction will then be performed for each manuscript by a trained research team member. The data extracted will include specific details about the provenance, study methodology, patient demographics (including personal socioeconomic status), asthma-related factors and outcomes (including asthma severity and health care utilization), and geospatial data elements relevant to the review question. Appendix II contains the data that we intend to extract for this review. The data extraction tool will be modified and revised as necessary during the process of extracting data from each included paper. Any modifications will be detailed in the full scoping review. The authors of primary studies will be contacted for clarification or missing information when needed.
+
+Data analysis and presentation
+
+The research team will utilize the data extracted from included manuscripts to examine frequencies and percentages of data categories and to understand the geospatial data types and characteristics as well as the applications of these data in pediatric asthma. We expect that our approach combining a broad search of known databases and gray literature will lead to an enhanced understanding of the existing literature using geospatial data in pediatric asthma. Our review will provide future researchers with information on existing data, gaps in research, and areas in need of future exploration. We hope this will guide researchers and clinicians alike toward increasing the use of geospatial data in pediatric asthma risk stratification and targeting interventions toward the most vulnerable patients.
+
+Conflicts of interest
+
+The authors declare no conflicts of interest.
+
+Appendix I:
+
+Search strategy
+
+Appendix II:
+
+Data extraction table

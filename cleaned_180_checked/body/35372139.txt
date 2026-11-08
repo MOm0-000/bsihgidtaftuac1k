@@ -1,0 +1,91 @@
+Background
+
+Allergic diseases are a collection of disorders caused by the hypersensitivity of the immune system to allergens, which could dramatically impair the quality of life of patients and sometimes lead to life-threatening situations, thus, causing a huge socioeconomic burden (1). Allergic rhinitis (AR) and asthma are the most prevalent allergic diseases in children, and the prevalence of AR and asthma in children have been estimated to be ~2–25 and 3–38%, respectively (2, 3). In addition, a World Health Organization report revealed the close link between AR and asthma, which showed that ~30% of patients with rhinitis develop asthma and 74–81% of patients with asthma have rhinitis (4–6).
+
+Exposure to sensitized allergens is a critical trigger factor in the development of AR and asthma, which may exacerbate the symptoms of these diseases by promoting airway inflammation and hyperresponsiveness (7, 8). Skin prick test (SPT) is one of the essential methods widely applied for identifying sensitization to aeroallergens, which can provide valuable evidence for the diagnosis and personal specific immune therapy of AR and asthma (9). Previous studies focused on the pattern of sensitization to allergen among adult patients and the prevalent differences of the region and season (8, 10, 11).
+
+So, in this study, we retrospectively analyzed the profiles of sensitization to aeroallergen in children with AR and/or asthma who underwent SPT in our hospital between June 1, 2017, and September 31, 2019, and explored the differences of sensitization between different kinds of allergic diseases, different sexes, and different ages.
+
+Participants
+
+In our single-center retrospective study, we collected the clinical data of outpatients who completed standardized questionnaires and SPTs from June 2017 to September 2019 in Children's Hospital, Zhejiang University School of Medicine. The inclusion criteria for enrolling patients were as follows: (1) The patients were diagnosed with asthma alone, rhinitis alone, or asthma accompanied with rhinitis. The diagnoses of AR and asthma were based on the Allergic Rhinitis and its Impact on Asthma guidelines (rhinitis) (12) and Global Initiative for Asthma criteria (asthma) (13), respectively; (2) patients aged between 5 and 18 years. The exclusion criteria were as follows: (1) had received antihistamines, sodium chromatin, leukotriene receptor antagonist, or systemic glucocorticoids within 7 days; (2) had anaphylaxis attack within 1 month or had a history of severe allergic reactions; (3) had an acute asthma attack or forced expiratory volume in 1 s/forced vital capacity <70% predicted; (4) local skin had severe dermatitis preventing execution and interpretation of SPTs; (5) had accepted specific immunotherapy before; (6) had incomplete medical records.
+
+Data Collection
+
+The patients and/or their guardians completed the questionnaires, which were used in the survey, which were adopted from the Chinese translated version of the questionnaire from International Study of Asthma and Allergies in Childhood phase II, and modifications were made according to the real situation of China (14). Several questions in the questionnaire, including basic information (name, age, and sex), family history of allergic diseases, symptoms of rhinitis, wheezing, or coughing, eczema, and burning or itchy eyes, etc. were asked by the physicians or research nurses face to face. The ethics committee of the Children's Hospital, Zhejiang University School of Medicine (2018-IRB-07), approved the study.
+
+Allergens Used in Skin Prick Test
+
+Patients were subjected to SPT for 13 aeroallergens extracts, including Dermatophagoides pteronyssinus ( Der.p ) , Dermatophagoides farina ( Der.f ) , Blomia tropicalis ( Blot .), cat fur, dog hair, Blattella germanica , American cockroach, white birch, ragweed, mugwort, mixed grass, Alternaria , and Aspergillus . Aeroallergen extracts and control solutions were obtained from ALK (Horsholm, Denmark). Histamine (10 mg/ml) and 0.9% sterile saline were used as positive and negative controls, respectively.
+
+Skin Prick Tests
+
+Pricking was performed on the volar side of the forearm, and the adjacent pricking interval area was more than 2 cm. We sterilized the forearms of patients with a 75% alcohol swab, a needle was inserted vertically into the skin by a professional allergy nurse, and pricks were administered with consistent intensity and depth. After 15 min, results were measured as the mean of the longest diameter and the length of the perpendicular line through its middle. A wheal size of more than 3 mm was considered a positive result after subtraction of the negative control. The result was also expressed as skin index (SI = mean size of allergen weal/mean size of histamine wheal). The diagnostic criteria were as follows: level 1, SI = 0, “negative”; level 2, 0 < SI < 0.5, “+”; level 3, 0.5 ≤ SI < 1.0, “++”; level 4, 1.0 ≤ SI < 2.0, “+++”; level 5, SI ≤ 2.0, “++++” (8, 10).
+
+Statistics
+
+SPSS25.0 statistical software (IBM, Armonk, NY, USA) was used for data analysis. Non-normally distributed continuous variables were presented as the median (interquartile range), and groups were compared by Mann–Whitney U -test. Categorical data were shown as number (%) and analyzed by Chi-squared tests. Spearman rank-correlation coefficients were used to describe the association between different variables and SPT positive rate. Statistical significance was defined as P < 0.05.
+
+Allergic Sensitizations in All Patients
+
+A total of 230 patients with AR and/or asthma from June 2017 to September 2019 were eligible in this study, including 182 cases (109 boys, 73 girls) in childhood (5–10 years) and 48 cases (34 boys, 14 girls) in adolescence (11–18 years). The median age of patients was 8.8 (7.4–10.6) years, with a female-to-male ratio of 0.61. Of the 230 patients, 155 (67.4%) had at least one positive skin reaction, and 91 patients (39.6%) had a family history of allergic disease. The overall prevalence of positive skin responses is shown in Figure 1A. The SPT sensitization rates in descending order were Der.p (59.3%), Der.f (58.7%), Blot . (40.3%), dog hair (36.1%), B. germanica (20.4%), American cockroach (17.4%), Alternaria (13.0%), mixed grass (5.2%), cat fur (4.8%), ragweed (4.8%), white birch (4.3%), mugwort (2.6%), and Aspergillus (2.6%). Among the 155 patients with positive SPT reaction, 12 (7.7%) cases were sensitized to one allergen, 22 (14.2%) cases were sensitized to 2 allergens, 30 (19.4%) cases were sensitized to 3 allergens, 31 (20.0%) cases were sensitized to 4 allergens, and 60 (38.7%) cases were sensitized to 5 or more allergens (Figure 1B).
+
+[图片请参阅原始 PDF 或 PMC 网页]
+
+Differences of Allergic Sensitizations Among Different Ages
+
+Based on age, patients were divided into childhood and adolescence. As can be seen in Table 1, we found that there were no significant differences in sex distribution and positive rate of SPT between these two groups ( P > 0.05). However, sensitivities against Blot ( P < 0.01) and dog hair ( P < 0.01) were significantly increased in adolescents than in childhood, whereas sensitivities against other 11 allergens were similar ( P > 0.05). Meanwhile, we found a significantly greater number of childhood were sensitized to three allergens than adolescents ( P <0.01); In contrast, the percentage of more than five allergen-sensitizations in adolescents was higher than that in childhood ( P < 0.05) (shown in Figure 2A).
+
+Comparison of sensitized allergens among different ages.
+
+[图片请参阅原始 PDF 或 PMC 网页]
+
+Differences in Allergic Sensitizations Among Different Genders
+
+According to a different sex, differences in allergic sensitizations were compared. As shown in Table 2 and Figure 2B, we found that the positive rate of SPT in boys was much higher than in girls (74.8 vs. 52.9%, P < 0.01), and the percentages of double-allergen sensitizations in boys were also higher than in girls ( P < 0.01), which showed significant differences ( P < 0.01). Furthermore, we found that boys also had a significantly higher positive rate to Der.p, Der.f , and ragweed than girls ( P < 0.01, P < 0.05, and P < 0.05, respectively). However, there were no statistically significant differences in sensitizations to the other 10 allergens ( P > 0.05).
+
+Comparison of sensitized allergens between different genders.
+
+Differences of Allergic Sensitizations Among Different Diseases
+
+According to the disease, patients were divided into three groups: the AR group ( n = 134), the asthma group ( n = 24), and the AR and asthma group ( n = 72). As shown in Table 3, no differences were found in sex distribution and age ( P > 0.05). The positive rate of SPT in children with AR and asthma was higher than that in the other two groups (76.4% in the AR and asthma group, 64.2% in the AR group, and 58.3% in the asthma group), but no statistically significant difference was found among these groups ( P > 0.05). Interestingly, we found that the prevalence of sensitizations to Der.p and Der.f was significantly different among these three groups ( P < 0.05, P < 0.05), but there were no statistically significant differences in the prevalence of sensitizations to other 11 allergens ( P > 0.05). We also found that patients with AR and asthma had significantly higher positive rates to Der.p and Der.f when compared with the other two groups ( P < 0.05, P < 0.05). In addition, the percentage of single allergen-sensitization in children with AR and asthma was lower than that in the other groups (2.8% in the AR and asthma group, 4.5% in the AR group, and 16.7% in the asthma group; P < 0.05, P < 0.01, respectively), whereas the percentages of more than five allergen-sensitizations were higher than those in the asthma group ( P < 0.05) (Figure 2C).
+
+Comparison of sensitized allergens among different diseases.
+
+Discussion
+
+AR and asthma are two of the most common allergic diseases in children, which may often coexist. AR and asthma sometimes could be triggered when exposed to sensitized allergens (4), so SPT had been generally performed for clinical implication. Up to now, there have been several studies focused on the sensitization to aeroallergens measured by SPT. However, there is little published literature focusing on the profiles of sensitization to aeroallergen in children. Our study described the distribution of sensitizations to allergens and characteristics in children with AR and/or asthma from Zhejiang Province. Meanwhile, our research analyzed the differences of allergic sensitization between different kinds of allergic diseases, different sexes, and different ages.
+
+Our SPT results indicated that the most common allergen in children from Zhejiang Province is Der.p and followed by descending order, Der.f, Blot ., dog hair, B. germanica , American cockroach, Alternaria , mixed grass, cat fur, ragweed, white birch, mugwort, and Aspergillus , which were similar with another study (10). A Qatar study showed that the top 5 common aeroallergens were Der.p (38.1%), Der.f (29.0%), cat (22.6%), Alternaria (18.8%), and American cockroach (18.4%) in children with AR combined with asthma (15). The positive rates of the top 5 common aeroallergens differed, which was considerable heterogeneity of sensitization schema between different regions. Furthermore, we found that multiple sensitizations are common in our study, and more than 90% of patients were sensitized to two or more allergens, which were confirmed in another study (10).
+
+Our study studied the effects of age and sex on the sensitization to aeroallergens. Our results showed that the sensitizations of Blot and dog fur were more common in adolescence than those in childhood, which were similar to other studies. Moral et al. (16) showed that the mean age of patients with asthma and/or AR sensitized to mites is 9.5 and 9.6 years to dog furs. Li et al. (10) found that a significantly higher percentage of patients in adolescence was sensitized to a dog. These results may be due to the fact that pet ownership is more common among them. Meanwhile, we found that multiple sensitizations (≥5 allergens) were also more common in adolescence. This result might be associated with a remarkable correlation between polysensitization to sensitization clusters with increasing age (17). As to the sex-related difference, we found that the positive rate of allergens and the percentages of double-allergen sensitizations in boys were substantially higher in the total population, and the sensitizations of Der.f, Der.p , and ragweed in boys were higher than those in girls. The reason for sex differentiation may be related to hormone levels (18, 19). However, further studies should be conducted to unveil the precise mechanisms related to the differences in age and sex.
+
+It is well-known that exposure to sensitized allergens is a critical trigger factor in allergic disease and may influence its progress. So, in this study, we tried to investigate the differences of sensitization to aeroallergens between different allergic diseases in children. Interestingly, we found that the sensitizations to Der.p and Der.f were obviously higher, and the multiple sensitizations were much more common in the AR and asthma group than those in the other two groups, which were similar in other research in adults (10, 20). All these results indicated that the mechanisms involved in asthma–rhinitis multimorbidity might be partly different or enhanced than those involved in asthma or rhinitis.
+
+There were several limitations in our study: First, healthy children were not enrolled in our study as blank control, which might lead to some deviation in the prevalence rate of each allergen in different populations. Second, the climate and geographical characteristics were not involved in our study, which might reduce its interest to readers. Third, we had not evaluated the relationship between the sensitization of aeroallergens and the severity of the allergic disease. Fourth, we had not also evaluated the relationship between SPT data and serum total immunoglobulin E or specific immunoglobulin E. So, further research should be performed to increase its potential impact on the general audience.
+
+Conclusion
+
+In summary, our study showed that 67.4% of children with AR and/or asthma had sensitized to aeroallergens detected by SPT, more than 90% of patients were sensitized to two or more allergens, and more than half of patients were sensitized to Der.p and Der.f . The prevalence of sensitizations to allergens differed with sex or age, and asthma–rhinitis multimorbidity might increase the incidence of sensitizations. For such patients with allergic sensitization, more attention should be paid to clinical work, and corresponding management should be developed accordingly.
+
+Data Availability Statement
+
+The original contributions presented in the study are included in the article/supplementary material, further inquiries can be directed to the corresponding author/s.
+
+Ethics Statement
+
+The studies involving human participants were reviewed and approved by the Ethics Committee of the Children's Hospital, Zhejiang University School of Medicine (2018-IRB-07). Written informed consent to participate in this study was provided by the participants' legal guardian/next of kin.
+
+Author Contributions
+
+LD and YZ designed the study and wrote the initial manuscript. JL and ZC designed the questionnaire. JL and YZ collected the data. QZ and ML analyzed the data. All authors read and approved the final manuscript.
+
+Conflict of Interest
+
+The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+
+Publisher's Note
+
+All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.
+
+We are grateful to colleagues in the Department of Pulmonology for taking care of patients and collecting the clinical data. We would like to thank the support of the Zhejiang Provincial Key Laboratory of Immunity and Inflammatory Diseases.

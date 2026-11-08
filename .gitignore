@@ -9,3 +9,20 @@ __pycache__/
 
 # 临时文件
 *.tmp
+
+# ===== 模型文件 =====
+/models/
+
+# ===== 大型压缩文件 =====
+/reference/2024113212.tar
+
+# ===== Python 缓存 =====
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ===== 运行输出 =====
+/logs/
+/wandb/
+/runs/
+

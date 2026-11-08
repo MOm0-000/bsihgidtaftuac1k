@@ -1,0 +1,230 @@
+482 
+<mark>ORIGINAL ARTICLE</mark> 
+
+L P Koopman, A Wijga, H A Smit, J C de Jongste, M Kerkhof, J Gerritsen, A P H Vos, R T van Strien, B Brunekreef, H J Neijens 
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Arch Dis Child 2002;87:482–488 
+
+Aims: To evaluate ethnic differences in the prevalence of respiratory and skin symptoms in the first two years of life. Methods: A total of 4146 children participated in the Prevention and Incidence of Asthma and Mite Allergy (PIAMA) study. Parents completed questionnaires on respiratory and skin symptoms, ethnic background, and other potential confounders during pregnancy, and at 3 months, 1 year, and 2 years of age. Results: In the first year, “non-Dutch” children (compared with “Dutch” children) had a higher prevalence of runny nose with itchy/watery eyes (11.0% versus 5.0%). In the second year, a higher prevaSee end of article for lence of wheeze at least once (26.7% versus 18.5%), night cough without a cold (24.6% versus authors’ affiliations . . . . . . . . . . . . . . . . . . . . . . . 15.5%),(13.7% versusrunny 4.6%)nose withoutwas found.a coldAdjustment(34.1% versusfor various21.3%),confounders,and runnyespeciallynose withadjustmentitchy/wateryfor socio-eyes Correspondence to: economic factors, reduced most associations between ethnicity and respiratory symptoms. Only runny Prof. H J Neijens, Sophia nose with itchy/watery eyes in the second year of life was independently associated with non-Dutch Children’s Hospital, Department of Pediatrics, ethnicity (adjusted odds ratio 2.89, 95% CI 1.3–6.4). PO Box 2060, 3000 CB, Conclusions: Non-Dutch children more often had respiratory symptoms in the first two years of life Rotterdam, Netherlands; than Dutch children. This could largely be explained by differences in socioeconomic status. Follow up Neijens@alkg.azr.nl of the cohort will determine whether this higher prevalence of respiratory symptoms in children with Accepted 6 July 2002 non-Dutch ethnicity represents an increased risk of developing allergic disease rather than non-specific . . . . . . . . . . . . . . . . . . . . . . . or infection related respiratory symptoms. 
+
+he prevalence of allergic disease varies considerably throughout the world, with in general a high prevalence Tin Western countries and a low prevalence in developing countries.1 Within countries, the prevalence of allergic disease varies among different ethnic groups. In the USA and the UK, a consistently higher prevalence of asthma and recurrent wheezing is found among African-American, Hispanic, and Afro-Caribbean children compared to white children.2–4 Although immigration in the past decades has lead to notable demographic changes in continental Western Europe, few data are available about ethnic differences in the prevalence of allergic disease in this part of the world. Cross sectional studies in Germany, Sweden, and the Netherlands indicate that children born from Turkish immigrants have a lower prevalence of asthma, recurrent wheezing, and atopic dermatitis than children born from German, Swedish, or Dutch parents.5–7 In Sweden, a higher prevalence of asthma and allergic rhinitis was found among children from Chilean immigrants compared with children from Swedish born parents.5 Studies from the USA and UK indicate that ethnic differences in allergic disease can largely be explained by differences in socioeconomic status (SES) rather than genetic factors.8–10 However, in the studies from Germany, Sweden, and the Netherlands, the association between ethnicity and allergic disease was independent of SES.5–7 
+
+Previous studies in Western Europe have investigated ethnic differences in allergic disease and respiratory symptoms in schoolchildren5–7 and toddlers.7 Few data are available for children aged 0 to 2 years. Using data from a large prospective birth cohort study (PIAMA), we have investigated ethnic differences in the prevalence of respiratory and skin symptoms in the first two years of life. Because the diagnosis of allergic 
+
+disease in this age group is difficult, we used a symptom based approach instead of a disease diagnosis. 
+METHODS 
+Study population 
+
+Participants were recruited during the first trimester of pregnancy from 52 midwife practices in three different regions in the Netherlands: the north (greater Groningen), central (Bilthoven, Wageningen, and surroundings), and south west (greater Rotterdam). In total, 7862 pregnant women were invited to participate in the study, and 4146 (53%) gave informed consent. Their children were all born in the Netherlands between May 1996 and December 1997. 
+Study design 
+
+Details of the study design have been published previously.11 12 Pregnant women completed a validated allergy screening questionnaire in the second trimester of pregnancy.13 Mothers with self reported symptoms of asthma and/or allergy were defined as allergic. Of the cohort, 1327 children have an allergic mother (high risk children) and 2819 children have a non-allergic mother (low risk children). The study includes an intervention part and a natural history part. A total of 855 high risk children were allocated to the intervention part of the study. Half of those children received house dust mite impermeable mattress covers for the parental 
+
+Abbreviations: aOR, adjusted odds ratio; CI, confidence interval; cOR, crude odds ratio; OR, odds ratio; SES, socioeconomic status 
+
+www.archdischild.com 
+
+The PIAMA study 
+
+483 
+
+and infant bed (active group), and the other half received cotton mattress covers (placebo group). In the natural history part of the study (no intervention), 472 high risk children and 2819 low risk children were included. The study was approved by the local medical ethical committees. 
+Data collection 
+
+Questionnaires, in Dutch, were sent to the participating families during pregnancy, and when the child was 3 months, 1 year, and 2 years of age. 
+Measures of outcome 
+
+In the 1 and 2 years questionnaires, parents were asked whether their child had wheezing episodes, cough without a cold, runny nose without a cold (and if yes, if this was accompanied by watery, irritated eyes), and itchy skin rash in the previous year. Children with at least four episodes of wheeze were defined as children with recurrent wheeze. Only children with skin rash at localisation typical for eczema (around the eyes/ears, in the neck, in the knee or elbow folds and at the front of the ankles) were defined as having an itchy skin rash. Parents were also asked whether their child had a cough, a runny nose, earache, or fever in the month prior to completing the 1 and 2 years questionnaires, and information was collected on doctor visits for these symptoms. 
+Definition of ethnicity 
+
+When the children were 2 years, we asked in which country the parents were born and to which ethnic group they consider themselves belonging.14 Based on the answers we defined two different ethnic groups: “Dutch”, children from mothers born in the Netherlands which consider themselves Dutch; and “non-Dutch”, children from mothers born in nonWestern countries (mainly Suriname, Netherlands Antilles, Indonesia, Turkey, and Morocco) or children from mothers who consider themselves belonging to a non-Western ethnic group. Children from mothers born in other Western countries (for example, all the countries belonging to the European Union, Switzerland, the USA, Canada, Australia, New Zealand, and South Africa) were excluded from this analysis. 
+Potential confounders 
+
+In the pregnancy questionnaire, data were collected on parental age, expected birth date, smoking by the mother, and allergy in the father (by using the same validated questionnaire as was used for the mother13). In the 3 months questionnaire, data were collected on birth characteristics, number of siblings, type of feeding, housing characteristics, pet keeping, and atopic disease in the siblings.15 In the 1 year questionnaire, data were collected on weight and height, day care attendance, environmental tobacco smoke exposure, and SES (parental employment, parental education). The level of education of the parents was divided into seven categories, ranging from only elementary school to college education. Parents in the lowest two categories (only elementary school or technical/ vocational training until age 16) were defined as having “a low level of education”. 
+Statistical analysis 
+
+Statistical analysis were performed using SPSS (version 10.0, Chicago, USA). The maximum number of children with data on ethnicity were used in all analyses (for instance, the prevalence of respiratory symptoms at age 2 was estimated by using all children with data on this topic at age 2, and not only for children who also had complete data during pregnancy, at 3 months, and 1 year). Categorical data were compared using Pearson’s χ 2 test, and continuous data were compared using the independent sample _t_ test. A p value less than 0.05 was considered statistically significant; 95% confidence intervals (95% CI) for proportions were calculated according to Fleiss.16 Multivariate logistic regression analyses were used to estimate 
+
+the independent effect of ethnicity on the development of respiratory symptoms in the first two years of life. Various models were made to evaluate the effect of socioeconomic factors, housing characteristics, and other potential confounders on the relation between ethnicity, and respiratory and skin symptoms. 
+RESULTS 
+Response 
+
+Of the 4146 children, 267 (6.4%) were lost to follow up in the first two years of life. Reasons for loss to follow up were: perinatal death, premature birth, illness of the child, moved abroad, untraceable, social problems in the family, and lack of time. Data on ethnicity and symptoms at 2 and 1 year of age were available for respectively 89% and 86% of the total cohort. Children with incomplete data for either a 1 or 2 years questionnaire were similar to children with complete data with respect to gender, paternal allergy and asthma, duration of pregnancy, season of birth, number of siblings, day care, having pets, damp or mould spots in the home, and paternal age. Children with incomplete data for a 1 or 2 years questionnaire were more likely (compared to children with complete data) to have an asthmatic mother (13.7% versus 7.2%, p < 0.001), to have an allergic mother (45.5% versus 29.7%, p < 0.001), to have an asthmatic sibling (8.0% versus 4.2%, p = 0.001), to have a mother who smoked during pregnancy (30.6% versus 18.3%, p < 0.001), to be exclusively formula fed at 3 months of age (63.9% versus 51.7%, p < 0.001), to live in an apartment (12.4% versus 6.2%, p < 0.001), to live in southwest Netherlands (42.6% versus 27.3%, p < 0.001), to have a mother without a paid job (45.9% versus 34.2%, p < 0.001), to have a mother with low level of education (20.8% versus 12.7%, p = 0.002), to have a father without a paid job (8.2% versus 2.8%, p < 0.001), and to have a father with low level of education (25.7% versus 19.0%, p = 0.03). In addition, children with incomplete data had a lower birth weight (3.448 kg versus 3.514 kg, p = 0.03) and had younger mothers (mean 29.3 versus 30.4 years, p < 0.001). 
+General characteristics 
+
+Seventy three mothers were born in Western countries other than the Netherlands (mainly Germany, the UK, and Belgium) and their children were excluded from further analysis. From the remaining children, 3490 were defined as Dutch, and 131 as non-Dutch. From the latter group, the mothers were born in the following countries/regions: the Netherlands, but with a self reported non-Western ethnicity (n = 14), Indonesia (n = 8), Dutch Antilles (n = 16), Suriname (n = 27), Turkey (n = 20), Northern Africa (n = 14), Central and Eastern Europe (n = 10), and other (n = 22). Table 1 summarises the general characteristics of the study population. Children with non-Dutch ethnicity (compared to children with Dutch ethnicity) had a lower birth weight, were less often exposed to pets, and more often exposed to environmental tobacco smoke at age 1 year. In addition, there was more dampness and crowding in their homes, they more often lived in apartments, they more often lived in Rotterdam, and the SES of their parents (measured by level of education and employment status) was lower. 
+Symptoms in relation to ethnicity 
+
+In the first year of life, parents from children with non-Dutch ethnicity more often reported a runny nose with itchy/watery eyes compared to parents of children with Dutch ethnicity (fig 1A). In the second year of life, children with non-Dutch ethnicity had a higher prevalence of wheeze at least once, night cough without a cold, runny nose without a cold, and runny nose with itchy/watery eyes (fig 1B). No association was found between ethnicity and recurrent wheezing as well as itchy skin rash in the first two years of life. Table 2 shows the 
+
+www.archdischild.com 
+
+Koopman, Wijga, Smit, et al 
+
+484 
+
+Table 1 General characteristics of the study population 
+
+||Dutch
+(n=3490)|Non-Dutch
+(n=131)|p value|
+
+|Mother ever asthma (%)|7.2|6.2|0.4|
+|Atopic mother (%)|29.4|35.1|0.2|
+|Father ever asthma (%)|7.8|6.3|0.7|
+|Atopic father (%)|30.3|29.2|0.8|
+|Sibling ever asthma (%)|4.2|3.2|0.8|
+|Allergic sibling (%)|25.7|28.1|0.6|
+|Gender male (%)|51.8|50.4|0.8|
+|Smoking during pregnancy (%)|18.6|22.4|0.5|
+|Smoke exposure in the home at age 1 (%)|26.9|38.7|0.02|
+|Premature birth (<37 weeks of gestation) (%)|4.8|7.3|0.4|
+|Mean birth weight (kg, SD)|3.519 (0.542)|3.271 (0.567)|<0.001|
+|Mean weight at age 1 (kg, SD)|9.8
+(1.1)|9.7
+(1.3)|0.2|
+|Exclusive formula feeding at 3 months (%)|52.7|50.4|0.7|
+|At least one sibling (%)|51.7|46.4|0.3|
+|Day care at age 1 (%)|65.5|61.7|0.7|
+|Crowding (<1.25 room/person) (%)|41.0|53.2|0.007|
+|Exposure to pets (%)|52.7|25.4|<0.001|
+|Living in apartment (%)|5.6|27.8|<0.001|
+|Damp or mould spots in the home (%)|13.6|23.3|0.009|
+|Carpet floor bedroom child (%)|56.4|51.6|0.3|
+|Carpet floor bedroom parents (%)|70.1|64.7|0.2|
+|Mechanical ventilation in the home (%)|54.2|67.5|0.003|
+|Mean age mother of the child (years, SD)|30.5
+(3.7)|28.8
+(4.9)|<0.001|
+|Mean age father of the child (years, SD)|32.8
+(4.5)|32.0
+(5.3)|0.1|
+|Groningen (%)|32.8|11.5|<0.001|
+|Utrecht (%)|40.5|32.8||
+|Rotterdam (%)|26.6|55.7||
+|Mother low level of education (%)|12.6|21.4|0.01|
+|Father low level of education (%)|19.3|22.0|0.5|
+|Mother unemployed (%)|33.9|41.2|0.1|
+|Father unemployed (%)|2.4|15.5|<0.001|
+|Natural history study (%)|82.5|80.9|0.5|
+|Intervention study active (%)|9.5|8.4||
+|Intervention study placebo (%)|8.4|10.7||
+
+prevalence of respiratory symptoms in the various ethnic subgroups. Although the number of children included in the subgroups is too small to draw definite conclusions, it is obvious that the group of non-Dutch ethnicity is heterogeneous. Parents of Turkish, Surinamese, and North African children reported more respiratory symptoms than parents of Dutch children and non-Dutch children with Indonesian, Antillean, Eastern European, and other ethnicity. 
+Symptoms in relation to exposure to pets, housing characteristics, and SES 
+
+For the total study population, the prevalence of respiratory symptoms in the first two years of life was similar in homes with and without pets at age 3 months (data not shown). Having pets in the home was inversely related to itchy skin rash in 
+
+the first year of life (crude odds ratio (cOR) 0.74, 95% confidence interval (CI) 0.6 to 0.9) and second year of life (cOR 0.79,95% CI 0.7 to 0.9).Living in an apartment was unrelated to the development of respiratory and skin symptoms in the first two years of life (data not shown). Having damp or mould spots in the home was associated with wheezing at least once in the first (cOR 1.28, 95% CI 1.0 to 1.6), and second year of life (cOR 1.36, 95% CI 1.1 to 1.7). Crowding was associated with runny nose with itchy/watery eyes in the first year of life (cOR 1.42, 95% CI 1.0 to 1.9) and second year of life (cOR 1.53, 95% CI 1.1 to 2.1). Table 3 shows the association between respiratory symptoms and several indicators of SES (independent of ethnic background).Having a mother with a low level of education and especially having a father without a paid job was associated with various respiratory symptoms in the first two years of life. 
+
+|Table 2
+Prevalence (%) of r|espiratory|symptoms, s|tratified for|ethnicity|of the child||Eastern||
+
+||Dutch|Indonesian|Antillean|Suriname|se
+Turkish|North Afr|ican
+European|Other|
+|Symptoms 0–1 year|n=3365|n=10|n=16|n=28|n=21|n=13|n=9|n=21|
+|Wheeze at least once|26|10|25|29|38|38|22|10|
+|Recurrent wheezing|7|0|6|11|9|18|0|0|
+|Night cough without a cold|18|9|0|25|48|17|0|14|
+|Runny nose without a cold|31|18|27|50|57|31|11|24|
+|Runny nose with itchy/watery eyes|5|0|0|14|29|15|0|5|
+|Symptoms 1–2 years|n=3467|n=11|n=17|n=30|n=23|n=14|n=10|n=26|
+|Wheeze at least once|18|27|12|27|48|21|10|27|
+|Recurrent wheezing|6|0|0|10|4|7|0|19|
+|Night cough without a cold|15|18|18|27|39|36|0|20|
+|Runny nose without a cold|21|0|23|43|48|42|0|42|
+|Runny nose with itchy/watery eyes|4|0|18|7|30|29|0|8|
+
+www.archdischild.com 
+
+The PIAMA study 
+
+485 
+
+Figure 1 (A) Prevalence of respiratory and skin symptoms in the first year of life, stratified for ethnic background. (B) Prevalence of respiratory symptoms in the second year of life, stratified for ethnic background. Error bars represent 95% CI. *p = 0.01; †p = 0.02; ‡p = 0.001; ¶p < 0.001, all χ 2. 
+
+No association was found between socioeconomic indices and the development of skin rash in the first two years of life (data not shown). 
+Multivariate regression analysis 
+
+To evaluate the independent effect of non-Dutch ethnicity on the development of symptoms in the first two years of life, various logistic regression models were used (fig 2). Because no associations were found between ethnicity and skin rash in the 
+
+unadjusted and adjusted analyses (data not shown), fig 2 focuses on respiratory symptoms. Controlling for a standard set of confounders (gender, allergic family history, day care, birth weight, smoke exposure in the home at age 1, type of feeding at 3 months of age, and study type) had little effect on the association between ethnicity and symptoms (model 2). This is illustrated by similar crude (model 1) and adjusted odd ratios (model 2). The association between non-Dutch ethnicity and the development of various respiratory symptoms disappeared 
+
+Table 3 Crude odds ratios (95% CI) for association between socioeconomic factors and the development of respiratory symptoms in the first two years of life 
+
+||Wheeze at least onc|e Recur|rent wheezing|Night 
+a cold|cough without
+|Runny
+cold|nose without|Runny nose with
+itchy/watery eyes|
+
+|First year of life|||||||||
+|Mother no paid job†|0.96 (0.8 to 1.1)|1.05|(0.8 to 1.4)|0.98|(0.8 to 1.2)|1.00|(0.9 to 1.2)|0.85 (0.6 to 1.2)|
+|Father no paid job‡|1.71 (1.1 to 2.6)*|2.00|(1.1 to 3.7)*|1.48|(0.9 to 2.4)|2.07|(1.4 to 3.1)*|2.05 (1.0 to 4.1)*|
+|Mother education low§|1.14 (0.9 to 1.4)|1.25|(0.9 to 1.8)|1.00|(0.8 to 1.3)|1.36|(1.1 to 1.7)*|1.40 (0.9 to 2.1)|
+|Father education low¶|1.00 (0.8 to 1.2)|1.21|(0.9 to 1.7)|1.19|(1.0 to 1.5)|1.12|(0.9 to 1.3)|0.77 (0.5 to 1.2)|
+|Second year of life|||||||||
+|Mother no paid job†|1.16 (1.0 to 1.4)|1.10|(0.8 to 1.5)|1.14|(0.9 to 1.4)|1.28|(1.1 to 1.5)*|1.56 (1.1 to 2.1)*|
+|Father no paid job‡|1.58 (1.0 to 2.5)*|2.94|(1.6 to 5.3)*|1.68|(1.0 to 2.7)*|1.51|(0.9 to 2.4)|1.68 (0.8 to 3.7)|
+|Mother education low§|1.29 (1.0 to 1.6)*|1.29|(0.9 to 1.9)|1.12|(0.8 to 1.5)|1.67|(1.3 to 2.1)*|1.75 (1.2 to 2.6)*|
+|Father education low¶|1.26 (1.0 to 1.6)|1.38|(1.0 to 1.9)|1.09|(0.9 to 1.4)|0.95|(0.8 to 1.2)|1.02 (0.7 to 1.5)|
+|*p<0.05.
+†Mother paid job is reference 
+group.|group; ‡father paid job is ref|erence|group; §mother|educati|on high is refere|nce gr|oup; ¶father edu|cation high is reference|
+
+www.archdischild.com 
+
+Koopman, Wijga, Smit, et al 
+
+486 
+
+Figure 2 cOR and aOR (horizontal bars) and 95% CI (vertical lines) for the association between non-Dutch ethnicity and the development of respiratory symptoms in the first two years of life, using Dutch children as the reference group. *Model 1, crude odds ratios. †Model 2, adjusted for gender, allergic family history, day care, birth weight, smoke exposure in the home at age 1, type of feeding at 3 months of age, and study type (natural history, intervention active, intervention placebo). ‡Model 3, as in model 1, but also adjusted for maternal age, parental employment, and maternal education. 
+
+after controlling for SES (model 3), except for runny nose with itchy/watery eyes in the first and second year of life (adjusted odds ratio (aOR) 2.18, 95% CI 1.0 to 4.5 and aOR 2.87, 95% CI 1.4 to 5.8 respectively). After additional controlling for housing characteristics (living in an apartment and having damp or mould spots in the home, not in fig 2), the association between 
+
+non-Dutch ethnicity and runny nose with itchy/watery eyes in the second year remained statistically significant (aOR 2.89, 95% CI 1.3 to 6.4), but this was not the case for runny nose with itchy/watery eyes in the first year of life (aOR 1.62, 95% CI 0.6 to 4.0). Adding region of birth and having pets in the home to the model did not alter the adjusted odds ratios given in fig 2. 
+
+www.archdischild.com 
+
+The PIAMA study 
+
+487 
+Doctor visits for upper airway symptoms in relation to ethnicity 
+
+Parental report of symptoms might be influenced by the parents’ readiness to consult a doctor. We therefore investigated ethnic differences in upper airway symptoms in the month prior to completing the 1 and 2 years questionnaires, and doctor visits for these symptoms. Children with non-Dutch ethnicity had a similar risk of developing upper airway symptoms as children with Dutch ethnicity (0–1 year: aOR 0.70, 95% CI 0.4 to 1.1; 1–2 year: aOR 0.83, 95% CI 0.5 to 1.3; Dutch children = reference). If a child had upper airway symptoms, parents of non-Dutch children visited a doctor (for these symptoms) more frequently than parents of Dutch children (0–1 year: aOR 1.32, 95% CI 0.8 to 2.2; 1–2 year: aOR 2.34, 95% CI 1.3 to 4.0). 
+DISCUSSION 
+
+In this large prospective birth cohort study, we found that the prevalence of runny nose with itchy watery eyes in the first year of life was higher in children with a non-Dutch ethnicity than in children with a Dutch ethnicity. The prevalence of wheeze at least once, night cough without a cold, runny nose without a cold, and runny nose with itchy watery eyes in the second year of life was higher in children with a non-Dutch ethnicity than in children with a Dutch ethnicity. No association was found between non-Dutch ethnicity, and recurrent wheeze or itchy skin rash. Unemployment of the father and low level of education of the mother was associated with an increased risk of developing respiratory symptoms in the first two years of life. After adjustment for these socioeconomic indices, the association between non-Dutch ethnicity and respiratory symptoms disappeared, except for runny nose with itchy/watery eyes in the second year of life. In addition, parents from children with a non-Dutch ethnicity were more likely to visit a doctor when their child had respiratory symptoms in the first two years of life. 
+Ethnic differences in symptoms 
+
+Only few studies have investigated the role of ethnicity in the development of respiratory and skin morbidity in young children. In a study in Boston, USA, black children were two times more likely to develop repeated wheeze (two or more episodes) in the first year of life compared to white children.17 Also in the USA, Hispanic children were found to have an increased risk of developing wheeze and RSV bronchiolitis.18 19 In another American study, black infants were more likely to develop persistent respiratory symptoms (cough or wheeze) compared to white children.20 In Sweden, hospital admissions for lower respiratory tract infections in the first year of life were found to be more common in children of immigrants from Southern Europe than in children from Swedish parents.21 To our knowledge, no European studies focusing on respiratory symptoms in this age group are available, so our findings are difficult to compare with other studies. However, we found only a weak association between nonDutch ethnicity and wheezing in the second year of life and no association with recurrent wheeze, so it seems that ethnic differences in respiratory morbidity found in the USA can not be translated to the European situation, at least not in the Netherlands. We found some differences between Dutch and nonDutch children in the prevalence of night cough and runny nose (with and without itchy/watery eyes). The differences in respiratory symptoms were more prominent in the second year of life compared to the first year of life. It is unknown whether these symptoms reflect an increased prevalence of respiratory tract infections or early allergic disease in the children from non-Dutch ethnicity. An interesting observation is that we did not find differences in the prevalence of itchy skin rash between Dutch and non-Dutch children. Together with the absence of a difference in recurrent wheezing, which is 
+
+used in most prospective cohort studies as a marker for early respiratory allergic disease,22 our study points towards a difference in non-specific or infectious symptoms, rather than allergic symptoms. Follow up of the PIAMA cohort might give more insight on this matter. 
+Relevance of higher prevalence of respiratory symptoms in a subgroup of non-Dutch ethnicity 
+
+The prevalence of “wheezing at least once” was much higher in children with Turkish ethnicity compared to children with Dutch ethnicity. The number of children with Turkish ethnicity included in the study was small (n = 23), but taking this limitation into account, this finding is in contrast with other studies in Turkish immigrants in Sweden, Germany, and the Netherlands.5–7 In these studies, children with Turkish ethnicity were found to have a decreased risk rather than an increased risk of developing wheezing episodes. A possible explanation might be that we have studied symptoms in children age 0–2, while the other studies investigated children age 2–11.5–7 Further studies that include larger ethnic subgroups are needed to confirm our findings in these young children. 
+Role of socioeconomic factors 
+
+Adjustment for socioeconomic factors largely eliminated the differences in odds ratios between non-Dutch and Dutch children. This indicates that a socioeconomic disadvantaged position, which is more frequently found in non-Dutch families compared to Dutch families, rather than the genetic or ethnic background is responsible for the increased prevalence of respiratory morbidity. This finding is in agreement with other studies on respiratory morbidity in children in relation to ethnic background. In a study in schoolchildren in the UK, the association between ethnic background and persistent wheeze disappeared after controlling for Townsend score, which is a parameter of SES.4 In a study performed in the USA, Wissow _et al_ concluded that asthma is more prevalent among black children than white children, but this difference could be largely explained by differences in poverty.10 In Sweden, the association between ethnicity and admissions for lower respiratory tract infection in infancy disappeared after adjusting for socioeconomic factors.21 In contrast, adjustment for socioeconomic factors did not alter the decreased risk for allergic disease in children of Turkish immigrants, and the increased risk in children from Chilean immigrants in studies performed in Germany, the Netherlands, and Sweden.5–7 
+Validation issues 
+
+The strength of the present study is the large sample size, minimal loss to follow up, and the prospective design. However, this study has some methodological limitations. The group of non-Dutch children was relatively small and heterogeneous. Because participants had to be able to read and understand the Dutch language, we probably over sampled children with non-Dutch parents who are relatively well adjusted to the Dutch society, resulting in some selection bias. Another potential source of bias is cultural and linguistic differences in reporting symptoms. Because no objective measures of disease activity are available in this age group, it is difficult to address this issue. There were some indications in this study that parents from non-Dutch children with upper airway symptoms consulted a doctor more easily compared to parents from Dutch children, even after correction for SES. It seems plausible that this can have some interaction with the parental report of the outcome measures we studied, leading to a higher prevalence of our outcome measures. We also encountered some selective loss to follow up related to low SES, which is frequently found in prospective cohort studies. Loss to follow up and missing data were more frequent in the city of Rotterdam. Because asthmatic and allergic mothers were over sampled in this area, the children with missing data 
+
+www.archdischild.com 
+
+Koopman, Wijga, Smit, et al 
+
+488 
+
+were more likely to have an asthmatic or allergic mother. The definition of ethnic background was made at the end of the follow up period (at age 2). Hence, we were unable to determine whether the frequency of loss to follow up and missing data in the first two years of life was unequally distributed among the different ethnic groups. Because the group of children with non-Dutch ethnicity had a lower SES, it is likely that loss to follow up was more frequent in the children with non-Dutch ethnicity. However, complete data on ethnicity and symptoms were available for over 86% of the study population, so we believe that selective loss to follow up cannot explain our findings. 
+
+In conclusion, we found that the prevalence of some respiratory symptoms (night cough, runny nose without a cold) was increased in children from non-Dutch ethnicity, but that the prevalence of recurrent wheeze was similar in both ethnic groups during the first two years of life. The differences in respiratory symptoms could largely be explained by differences in SES. Follow up of our cohort can provide more insight in the impact of ethnic differences on childhood allergic disease. 
+ACKNOWLEDGEMENTS 
+
+The PIAMA study is financially supported by the Netherlands Asthma Fund, the Ministry of the Environment, Zorg Onderzoek Nederland, and the National Institute of Public Health and the Environment. 
+Authors’ affiliations 
+
+L P Koopman, J C de Jongste, H J Neijens, Erasmus University Medical Center/Sophia Children’s Hospital Rotterdam, Department of Pediatrics 
+
+A Wijga, H A Smit, National Institute of Public Health and the Environment, Department of Chronic Disease Epidemiology M Kerkhof, J Gerritsen, Groningen University/Beatrix Children’s Hospital Groningen, Department of Epidemiology/Pediatric Pulmonology A P H Vos, R T van Strien, B Brunekreef, University of Utrecht, Institute for Risk Assessment Sciences, Department of Environmental and Occupational Health

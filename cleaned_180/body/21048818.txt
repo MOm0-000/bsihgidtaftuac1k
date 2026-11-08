@@ -1,0 +1,568 @@
+Arboprotozoae represent protozoal infectious agents transmissible by arthropods. This paper only deals with arboprotozoae which can be transmitted by blood transfusion in an epidemiologically relevant way. Essential characteristics and possible transmissibility are described for the following arboprotozoae:
+
+A Leishmania
+
+B Trypanosoma brucei gambiense and rhodesiense, Trypanosoma cruzi
+
+C Babesia microti and/or divergens
+
+D Toxoplasma gondii
+
+Plasmodium sp. was described previously [1].
+
+Infectious agents such as Giardia lamblia, Dientamoeba sp., Entamoeba sp., Cryptosporidium parvum and Isospora belli are also protozoae which can infect humans, depending on region, food and water hygiene, and which can be transmitted via blood in exceptional cases [2]. They cause infections of the gastrointestinal tract and occasionally lead to penetration of tissue layers so that they are also present in the blood following phagocytosis by macrophages/monocytes within a short period, e.g. in only few days up to a week. After the gastrointestinal symptoms have subsided, these agents are normally no longer present in the blood. Up to now, transmissions by these protozoae have not been reported in Germany. Therefore, they will not be discussed in detail. Since acutely infected donors are excluded from donating blood for 4 weeks following an episode of diarrhoea, the probability of an infection is negligibly low. However, such a transmission cannot be ruled out entirely as reports of transmissions by organs and stem cells show [3].
+
+The three typical clinical patterns of malaria and the transmission of the four types of plasmodia (Plasmodium falciparum, Plasmodium ovale, Plasmodium vivax and Plasmodium malariae) by blood have already been described by the subgroup of the Advisory Committee Blood (Arbeitskreis Blut) [1] and are therefore not discussed in more detail in this paper. Plasmodia have adapted to humans in such a way that they cannot be transmitted from humans to different species (the chimpanzee is a rare exception) and vice versa. Therefore – unlike the pathogens discussed here – they are not zoonoses.
+
+The protozoae listed in table 1 are also wide-spread in animals. They are by definition typical pathogenic agents of zoonoses and can therefore not be eradicated. The transmission risk can normally be reduced by keeping apart and combating the vector or vehicle. Attempts at developing a protective vaccine against these protozoae have so far not been successful and will prove to be difficult in future, too, due to the great variability of the surface antigens of the protozoae. In this context, transmission of a protozoa infection by domestic animals, with the exception of malaria, as explained above, should also be considered.
+
+A 1 Current Knowledge about the Pathogen
+These protozoae were characterised by Leishman and Donovan in 1903. Leishmania is wide-spread in tropical and subtropical regions world-wide. Indications pointing to mutilating infections of the face can be found on ceramic containers excavated in Central America that date as far back as 1,000 years, and on pictures of the Spanish conquerors in the 16th century [4]. In 1911, Gaspar Vianna found the difference in the replication cycles between Leishmania of the Old World and that of the New World. Leishmaniasis of the Old World was described around 1500 AD [4] in the region of present-day Afghanistan in the Middle East. The Leishmania pathogen was described for the first time by the Russian military doctor Borovsky in a skin wound in 1898 [5].
+
+Leishmania belongs to the family of trypanosomatides in the order of kinetoplastides, and their evolution probably dates back 1 billion years.
+
+Approximately 350 million people are threatened by Leishmania [6], and around 12 million have chronic pathological symptoms. Around 90% of all cases of visceral leishmaniasis occur in eastern India and Bangladesh, in Sudan and in Brazil. Around 90% of the cases of cutaneous leishmaniasis occur in the countries of the Middle East, in Afghanistan up to Central Asia, and in Latin America up to Peru, and around 90% of the cases of mucocutaneous leishmaniasis in Brazil, Bolivia and Peru.
+
+The genus Leishmania is subdivided into the subgenera Leishmania (world-wide geographical distribution) and Viannia (only occurs in America). Viannia's replication cycle slightly differs in the vector. The classification of Leishmania has not yet been completed. Different Leishmania types can cause clinically overlapping clinical symptoms. Important Leishmania species include: L. donovani, L. infantum, L. major, L. chagasi, L. amazonensis, L. brasiliana, L. mexicana, L. peruviana and others.
+
+A 1.1 Characteristics of Leishmania spp.
+In dependency of the replication organ or host, diploid Leishmania have a flagellum (promastigotes) or lack the flagellum (amastigotes), e.g. when growing in the cells of a reticuloendothelial system of mammals. Leishmania actively penetrate the cell wall and replicate there. They are taken up into the vector during the blood-sucking process of sand flies of the Phlebotomus species in Europe and Asia, and of the Lutzomyia species in the two Americas [7]. There, they replicate in the intestines and accumulate in the foregut. Then, they are injected into the skin of the mammal by the sting.
+
+A 1.1.1 Structure
+Leishmania have a length of 2–3 μm and a width of 0.7-1 μm. As promastigotes, they have a polar flagellum of 2–3 μm in length when they are in the vector (fig. 1). They change into the elongated to round amastigotes (3-5 μm) that lack the flagellum when they are in human macrophages or other cells (fig. 2). The cell body shows a large core and a kinetoplast. The flagellum of amastigotes remains in the cell membrane. Leishmania can be stained by trichrome-, Giemsa- and haematoxylin-eosin staining.
+
+A 1.1.2 Replication
+A sexual replication phase has so far not been described for Leishmania. In humans, Leishmania replicates in macrophages or other mononuclear cells, in Langerhans and dendritic cells of the skin or in Kupffer cells of the liver within the acidic parasitophorous vacuole after an incubation period of approximately 10 days. Cell death causes amastigotes to be released which infect further cells.
+
+A 1.2 Infection and Infectious Disease
+Visceral leishmaniasis, synonym: kala-azar: After a sand fly sting, the promastigotes are ingested by macrophages and replicate in an intracellular manner. A papule remains visible at the stinging site which swells up due to the entering leucocytes. The pathogens propagate from the stinging site causing lymphad-enopathy and progressive swelling of the spleen and liver. Depending on the immune response, the infection is either overcome or results in chronic illness or fatal outcome.
+
+Cutaneous leishmaniasis: Typical clinical manifestations include the oriental sore or aleppo button in the Near East and the cutaneous verruciform leishmaniasis in South America. After the sting, the amastigotes replicate within the Langerhans cells of the skin. Following this, leucocytes enter the site, the peripheral wall of the site swells up and a papule forms, and finally, after weeks, an ulcer with white base. The lesions partly resemble lepra. After the ulcer has healed, relapses can occur since amastigotes persist in some cells and can be released sporadically. Infected individuals show persistent fever, weight loss, fatigue, exhaustion, and hepatosplenomegaly. Laboratory tests reveal anaemia, leucopenia, and hypergammaglobulinaemia.
+
+A 1.3 Epidemiology
+Leishmania is wide-spread in the subtropical regions of the world where the main vector, the sand fly (Phlebotomus and Lutzomyia), is located as well as habitats for its replication, such as suitable wild and productive livestock reservoirs (fig. 3). Poor hygienic conditions also contribute to the spreading of the vector. Apart from being transmitted by the vectors sand fly, horse fly and tick, Leishmania can also be transmitted parenterally by blood transfusion, needle prick lesions and intravenous (i.v.) drug consumption.
+
+L. donovani is wide-spread in Eastern India, Bangladesh, East Africa (particularly Sudan and Kenya) and in the entire Mediterranean region, and leads to the visceral form of leishmaniasis (kala-azar). In case of chronic courses, especially if the primary infection occurs in a child, the skin is also affected, and the vectors are infected during the sting and the subsequent blood uptake. Animal reservoirs include cattle, dog, cat, rat, mouse and small domestic animals. The Leishmania aethiopica infection is similar to that of L. donovani. Double infections have been described with various Leishmania species.
+
+In the Gulf region of the Arabian world, US soldiers became infected with Leishmania tropica during the Gulf War [8]. Infections of soldiers from Iraq and Afghanistan are known [9]. No Leishmania transmissions by blood transfusions have so far been reported in Germany.
+
+In the rural regions of Brazil, L. infantum/L. chagasi has caused regionally restricted epidemics. L. peruviana more frequently caused the cutaneous form of leishmaniasis such as L. mexicana, amazonensis, and brasiliensis, which rank among the more wide-spread species in that region. L. brasiliensis also causes the mucocutaneous form, called espundia. It causes inflammations and ulcers which may persist up to 6 years.
+
+Visceral leishmaniasis has been observed in patients with the immune deficiency HIV in Switzerland [10] and in some patients in Spain [11]. Up to late 1995, 734 AIDS-infected patients were reported to the WHO from France, Italy, Portugal and Spain [33]. In addition, a high number of Leishmania and HIV-co-infected individuals are known from Brazil, Ethiopia and India from WHO studies [12].
+
+A chronic infection was identified in Germany in one patient with erythaematous, infiltrative plaques [13], in 42 patients, who were examined between 2001 and 2004 [14] and in 58 patients in the Berlin area between 2000 and 2002 [15]. Out of the 58 patients in the Berlin area, 48 were Germans who had acquired their infection as tourists in the following countries: in Europe (France, Italy, Malta and Spain), in America (Brazil, Bolivia, Ecuador, French Guyana and Peru), in Asia (Afghanistan, United Arabian Emirates, Syria and Turkey), and in Africa (Egypt, Kenya and Libya). The data show that Leishmania also exists in Germany, but endogenous transmissions have so far not been described in Germany. In one case of visceral leishmaniasis in a child which had not stayed in an endemic region, Leishmania transmission in Germany cannot be ruled out [16]. In 130 imported Leishmania infections in Germany, the average time from occurrence of the symptoms up to diagnosis was 3–4 months [17].
+
+A 1.4.1 Identification of the Pathogen
+a) Microscopy: Amastigotes (fig. 2) can be detected in tissue, squash specimens of the ulcer, enriched mononuclear cells of the blood and bone marrow cells.
+
+b) Culture: Leishmania can be cultured from tissue in Novy, Mac Neal, and Nicoll medium (NNN) [18]. Isolation is performed from peripheral blood mononuclear cells (PBMC) which are enriched via gradient centrifugation from blood and kept in culture for several months [19].
+
+c) NAT (nucleic acid testing): Kinetoplast DNA from PBMC is used for identification in blood [20]. For this purpose, a duplex PCR was developed [21] or a real-time PCR adapted [22, 23]. A sensitivity level of 1 parasite per 8 μl blood can be reached, while parasitaemia levels may fluctuate between 32 and 188,000 parasites/ml blood [22].
+
+Leishmania can also be identified via the DNA of the glucose-6-phosphate dehydrogenase of the pathogen [24]. This test is particularly suitable for the identification of the Viannia species which circulate in Brazil.
+
+A real-time PCR was developed which is located in the cytochrome b-gene of Leishmania and with which Leishmania species can be identified at the same time [25].
+
+A PCR which amplifies ‘minicircles’ in kinetoplasts and simultaneously permits assignment of the Leishmania species by geographical regions was described in 2008 [26]. Sensitivity levels of the test were 5 parasites/ml blood.
+
+A 1.4.2 Detection of Antibodies
+The detection of antibodies means there is an immunological response to Leishmania. It does not automatically mean that the disease has been overcome.
+
+a) ELISA is available both as commercial and as in-house test with a sensitivity of around 93%. False-positive results can occur due to cross-reactivity of antibodies against Mycobac-terium leprae and Trypanosoma [27].
+
+b) Western blot: Western blot strips can be produced in special laboratories with a reaction involving proteins with molecular weights of 40, 18, and 14.4 kDa having particular informative value [28, 20].
+
+A 2 Blood and Plasma Donors
+Cutaneous inoculation and manifestation of the primary infection can also lead to parasitaemia, as shown in mice.
+
+Leishmania remains replication-competent up to 25 days after a blood sample was drawn. Replication-competent Leishmania can also be identified in red blood cell and platelet concentrates, but not in fresh frozen plasma (FFP) [8].
+
+A 2.1 Prevalence and Incidence in Donor Populations
+Out of 565 blood donors in South France, 76 were seropositive, and in 9 of these donors, L. infantum could be detected by means of PCR and culturing. This corresponds to a prevalence of 1.2%. This analysis shows that L. infantum with undulating parasitaemia can occur periodically in exposed but healthy seropositive blood donors [20].
+
+A 2.2 Definition of Exclusion Criteria
+The general guidelines of the Bundesärztekammer (German Medical Association) and the Paul-Ehrlich-Institut [29, 30] apply to the exclusion of potentially infectious donors. So far, it has not been necessary to define specific exclusion criteria for the prevention of Leishmania transmission in Germany. A temporal deferral after a stay in endemic regions with sand fly exposure might be thinkable. A deferral of persons who stayed in Leishmania-endemic areas such as the Kosovo or Afghanistan for longer periods could also be considered.
+
+In Spain, a country which is more affected by leishmaniasis than Germany, no further Leishmania-specific deferral criteria are used besides the deferral after travelling to malaria-, HTLV-1- and Chagas-endemic areas. Tests for Leishmania are not performed, since the compulsory leucocyte depletion used in Spain is considered as a suitable prevention measure. However, donors who stayed in an endemic region in Italy or Spain are deferred from donating blood for 6 months [31].
+
+A 2.3 Donor Testing and Significance
+A screening test for antibodies in donors of blood and blood components is currently not performed in Germany. As described in section A 1.4, sensitivity levels of around 93% are to be expected for ELISA tests. The epidemiological situation of few annual Leishmania infections imported from endemic countries currently do not justify general testing for Leishmania antibodies.
+
+The detection of Leishmania in blood by means of NAT is possible. Sensitivity levels of the NAT rise if mononuclear cells of the blood are used (cf. section A 1.4). Due to the epidemiological situation of only isolated cases of clinical manifestation among the normal population and the absence of documented cases of transmission by blood donation in Germany, no NAT tests are currently performed.
+
+A 2.4 Donor Interviews
+Donors are not interviewed after a stay in endemic regions or after stings of Phlebotomus in the Mediterranean region or Lutzomyia in Central and South America. However, they are excluded for 6 months after staying in regions were the occurrence of Leishmania and malaria overlap.
+
+A 2.5 Donor Information and Counselling
+No donor information regarding Leishmania and the possibility of Leishmania transmission nor advice on the clinical outcome and chronic course takes place.
+
+A 3.1 Prevalence and Incidence of Blood-Associated Infections and Infectious Diseases in Recipient Populations
+No examinations are carried out on the prevalence and incidence of Leishmania in recipients of blood and blood products in Germany.
+
+A 3.2 Immune Status (Resistance, Existing Immunity, Immune Response, Age, Exogenous Factors)
+Leishmania can be transmitted even if the defence situation is good. In this case the infection can be partly overcome as described in section A 1.2. A clinically visible defence reaction can be expected after approximately 3 weeks. Particularly severe clinical outcomes are found in the case of an immune disorder, e.g. AIDS [32, 33].
+
+A 3.3 Severity and Course of the Disease
+As described in section A 1.2, the infection can be overcome spontaneously or take on the chronic form with cutaneous or visceral manifestation, depending on the inoculation dose, the Leishmania species, the initial defence reaction and the treatment performed. If left untreated, leishmaniasis can result in fatal outcome.
+
+A 3.4 Therapy and Prophylaxis
+Liposomal amphotericin B (Ambisome) has proved to be the treatment of choice in visceral leishmaniasis. It is administered weekly over a period of 4 weeks, in case of an immune disorder over a period of 6 weeks. In India, approximately 40% of the Leishmania types are resistant to pentavalent antimon. Miltefosin (Impavido) is a more recent, efficacious substance, which is also used against cutaneous leishmaniasis, and can be administered to out-patients [34]. The stinging site can be treated with 15% paro-momycin and 12% methylbenzetoniumchloride after the ulcer has formed. Miltefosin is also a product which is used successfully in India for the treatment of visceral leishmaniasis [35].
+
+Cutaneous leishmaniasis can also be treated successfully with a combination of imiquimod and megluminantimoniat [36]. Pen-tamidin, which is available as second-line medication, is eliminated from amastigotes via the ABC transporter [37]. Meglu-minantimoniat could be more efficacious if encapsulated by liposomes [38].
+
+Three methods are available for preventing the disease:
+
+– mechanical protection from the stinging attacks by the sand fly,
+
+– eradication of the vector by insecticides in regions with particularly high infestation, and
+
+– decontamination of the livestock and domestic animals by appropriate treatment or elimination of infected animals; checking of imported live animals, particularly dogs, from endemic areas.
+
+Preventative medicinal products or vaccinations are not available.
+
+A 3.5 Transmissibility
+As described in section A 1.2, Leishmania can be infectious in the blood component up to 25 days after it was collected. Therefore, the agent can be transmitted via blood and blood products. Eleven transmissions by blood transfusion have been reported [39] and, in addition, 32 by haemodialysis in Brazil [40]. Transmission from human to human by social contacts has not been described. Known vectors include Phlebotomus, Tabanides and Lutzomyia.
+
+The first laboratory infection probably occurred in China in 1930. The first proven laboratory infection with L. donovani was reported in 1950 [41]. Altogether, 12 laboratory transmissions with Leishmania have been published, out of which 6 occurred in the USA, 3 in Latin America, and 1 each in Asia, Canada and Europe [42]. More than half of the infections described occurred after parenteral inoculation. These transmissions are avoidable if the appropriate precautionary measures are observed.
+
+A 3.6 Frequency of Administration, Type and Amount of Blood Products
+Leishmania agents are enriched in leucocytes [43]. They can be transmitted by red blood cells, granulocytes and platelet concentrates. Because of the low prevalence and incidence in Germany, the type and quantity of the blood products are of no significance.
+
+A 4.1 Infectious Load of the Starting Material and Test Methods
+Leishmania can be transmitted by blood and blood products, which was proven in endemic regions [9, 20]. In one case described, transmission of the infection by blood from an asymptomatic carrier to a newborn led to fever and hepatosplenomegaly within 1 month and to the infant's death within 7 months [39]. Thrombocyte concentrates, too, can transmit Leishmania, which led to the visceral form, as shown in one report from India [44].
+
+A 4.2 Methods for Removal and Inactivation of the Infectious Agent
+Since Leishmania is cell-bound, all cell-containing contaminated blood products can transmit Leishmania [8]. Leucocyte depletion can reduce the burden by 3–4 log10 if carried out in a timely manner after the blood is drawn [43, 45].
+
+When using sterile filtered plasma, Leishmania is without any significance since the pathogen is retained in the filter [43]. Leishmania agents are eliminated and/or inactivated during the fractionation of products such as plasma for the preparation of coagulation factors and immunoglobulin.
+
+Leishmania can be inactivated by DNA intercalating photoin-activators such as thiopyrilium after light irradiation by more than 5.7 log10 TCID50 [46]. Inactivation can also be carried out by treatment with psoralen and UV light, bringing about a reduction of 4 log10 [47], and riboflavin and UV light, in which case a reduction of approximately 5 log10 in plasma and platelet concentrates was achieved [48].
+
+Leishmanias can be removed entirely by sterile filtration and do therefore not have any significance for plasma derivatives.
+
+A 4.3 Feasibility and Validation of Procedures for Removal/ Inactivation of the Infectious Agent
+After successful replication of Leishmania in culture media and cell culture as well as after identification and quantification of the agent via PCR, spike experiments by external contamination have become possible and have been carried out [43]. Filtration via leucocyte filter can reduce promastigotes in plasma by up to 6–8 log10; filtration of red blood cell concentrates brought about a reduction of up to 4 log10 after 2 weeks storage. The reduction of free promastigotes and amastigotes is explained by their negative surface charge and adsorption to the filter matrix [49].
+
+A 5 Assessment
+Persons who live in Germany are also infected with Leishmania when travelling to endemic regions after vector stings. The essential vectors of the Mediterranean (Phlebotomus) or American regions (Lutzomyia) were identified in Germany in isolated cases. However, currently the highly infected animal reservoir, by which the vector would be infected, is still missing. Individuals with chronic leishmaniasis are in any case permanently excluded from donation, due to their impaired state of health, partly with fever and anaemia. Donors in whom leishmaniasis has been detected, whether cutaneous or visceral, should be permanently excluded from donation [9, 50].
+
+In Germany the risk of Leishmania transmission via blood is very low, and via plasmas products non-existent. Therefore, there is currently no justification for introducing testing, neither as an antibody test nor by NAT. Nevertheless, the epidemiological development regarding both the agent and the vector should be observed.
+
+B 1 Current Knowledge about the Pathogen
+Carlos Chagas described American trypanosomiasis in Brazil at the beginning of the 20th century [51]. He also identified the transmission mechanism of trypanosomes via kissing bugs, and transmitted trypanosomes from the blood of infected patients to guinea pigs and monkeys [52]. The pathogen was identified by Oswaldo Cruz. Around 18 million people are infected with Chagas disease [4].
+
+African trypanosomiasis was first described by John Atkin in 1721 and then by Thomas Winterbottom in 1803 [4, 53]. In 1881, Griffith Evans found trypanosomes in the blood of horses and dromedaries infected with Surra disease, in 1894, David Bruce detected the pathogens during an outbreak of nagana disease in cattle in South Africa, and in 1891, Gustave Nepveu identified them in human blood of infected hunters [54].
+
+The genus of Trypanosoma consists of 20 species out of which 2 or 3 are human pathogenic [55]. Trypanosoma cruzi, also known as Schizotrypanum cruzi has a geographical distribution ranging from Mexico up to Central Argentina and Chile, while Trypanosoma brucei gambiense prevails in West and Central Africa, and Trypanosoma brucei rhodesiense in East Africa. T. cruzi is transmitted by the kissing bug (Triatoma infestans) and other bugs; T. brucei is transmitted by the tsetse fly. American trypanosomes cause Chagas disease while African trypanosomes cause sleeping sickness. Both diseases are zoonoses. The domestic animals armadillo and opossum and the invertebrates triatoma are the main hosts for T. cruzi. Hosts for T. brucei include wild animals such as antilopes, gazelles and bush bucks, and domestic animals from cattle to dog; among the invertebrates, only the tsetse fly has so far been known as a host.
+
+B 1.1 Characteristics oof Trypanosoma
+Depending on their way of replicating in the vector, trypanosomes are subdivided into two categories:
+
+Stercoraria: An amastigote forms in humans, the development of which ends in the straight intestine of the vector, e.g. Triatoma. An example is T. cruzi. The ingested amastigotes replicate in the midgut of Triatoma as epimastigotes which bear a flagellum and are finally excreted in the faeces as mature trypomastigotes.
+
+Salivaria: The trypomastigote stage exists in humans and in the vector, but its development ends in the vector (Glossina) in the salivary gland. An example is T. brucei. In case of the short route, trypanosomes penetrate from the midgut to the salivary gland. In case of the classical route, the pathogenic agents are transported up to the end of the intestine, penetrate into the ectiperitrophic space and then migrate to the front end of the midgut within 10–20 days, from where they penetrate into the hyopharynx. Then they infect the salivary gland.
+
+Trypomastigotes move in body liquids such as blood. They are approximately 10 μm long, 3 μm wide, and bear of flagellum of 10 μm in length which is attached to the body via a pterygium. Intracellularly, there is a large nucleus, kinetoplast, cytoplasmatic granula and the usual cellular organelles (fig. 4). The kinetoplast is a complex DNA-containing mitochondrion which in the case of T. brucei spans the entire body. Only T. cruzi replicates in humans intracellularly as amastigote as described for Leishmania. T. brucei has no intracellular form and circulates in blood and tissue fluids as trypomastigote. Trypanosomes can express various different proteins on the surface so that they can escape the immune system, e.g. after cell passage.
+
+B 1.2 Infection and Infectious Disease
+T. cruzi: After rubbing the trypomastigotes which are present in the faeces of the bug into the skin, the pathogen replicates and spreads within the body. A chagom forms locally, consisting of oedema and inflammatory cell infiltration. These clinical signs, together with the not very painful swelling of periorbita and lid are called Romaña's sign. The local muscular and tissue cells contain trypomastigotes and amastigotes. The infected cell is lysed, and trypanosomes are released.
+
+Pseudocysts may form in the tissue, which are filled with amastigotes. Very frequently, there is a lymphocytary infiltration. If the cardiac muscle is infected, this will cause necroses which may cause acute cardiac death or chronic cardiac muscle disease, depending on the severity. Another complication arises if the cardiac conduction system and the associated ganglia in the plexus are affected.
+
+Around 10–30% of all infected individuals develop Chagas disease which takes a chronic course. In such cases, the cardiac muscle is the organ most affected. Sudden cardiac death in young adults can be due to the infection of the cardiac muscle and lysis of the muscle cells by T. cruzi. Arrhythmia occurs frequently in infected individuals. Other symptoms include megacolon, megaoesophagus, the lumen of which can be dilated by over 10 cm due to paralysis of the nerves of the plexus myentericus. The tissue affected shows strong lymphocytary infiltration.
+
+General signs of the infection include fever and exhaustion, anorexia, lymphoid adenopathy, and minor hepatosplenomegaly. Meningoencephalitis seldom occurs. The intermediary phase, in which high antibody titres against T. cruzi are present, follows the acute disease. After several years or decades, the chronic symptomatic Chagas disease follows, affecting the inner organs and showing cardiac arrhythmia and thromboembolism with possible death within several months or years. Even if the course is asymptomatic, immune suppression leads to reactivation of trypanosome replication with general infection of the organs and finally death.
+
+T. brucei: Around 300 trypanosomes form a human infectious dose [56]. After a sting by the tsetse fly, replication occurs in the local tissue which is then invaded by inflammatory cells. The local lymph nodes swell up and finally become fibrotic. These symptoms are followed by hepatosplenomegaly, infection of the cardiac muscle, kidneys, bone marrow and also the skin. Anaemia occurs through accelerated lysis of the red blood cells, which increases by the burden of trypanosome components. Bleeding occurs in the event of thrombocytopenia. A typical sign is when the central nervous system is affected, initially starting in the arachnoidal cavity and the ventricles, then in the entire cavity containing the liquor cerebrospinalis. The latter is rich in protein and contains cells including mononuclear cells such as the special morula cells (also called Marshalko cells). The incubation period is 5 days to 3 weeks until a local inflammation site is formed. For T. brucei gambiense, 1–2 years elapse until the brain is affected; for T. brucei rhodesiense, this period is 3–6 months. The disease may subside spontaneously. General signs, as described above, include fever, lymphadeno-pathy, oedema, myocarditis, and neuralgia. The disease with increasing apathy and wasting away of the personality, ends in sleeping sickness with chronic meningoencephalitis, if left untreated. Initially, only a deterioration of the mental state is present, followed by mania, hemiplegia, and finally death.
+
+B 1.3 Epidemiology
+T. cruzi: The transmitting agents are blood-sucking kissing bugs which replicate in the gaps of brick work, particularly clay tiles or fissures in the tree bark of particularly rural areas. Many wild animals act as hosts. In the latter, as well as in humans, trypanosomes replicate intracellularly as amastigotes, are ingested by the bugs with the blood meal, mature in the rectum (epimastigotes) and are excreted with the faeces during the blood meal (trypomastigotes). They usually enter the body via small skin lesions, conjunctivae, or mucosae during smearing of the bug faeces, which causes a strong itching irritation. Many cells of the body are infected in which amastigotes form afresh. Humans are non-essential hosts in the infection cycle.
+
+In line with the wild animal reservoir and the habitat for the development of Triatoma, T. cruzi has a cluster-shaped geographical distribution between the south of the USA and Argentina (fig. 5). More than 150 animal species have been described, in which T. cruzi replicates. They partly become infected when eating kissing bugs, e.g. armadillo.
+
+Vectors for the transmission of T. cruzi to humans include Triatoma infestans (fig. 6), and Rhodnius prolixius, to a lesser extent Panstrongylus megistus, which are wide-spread in rural areas, and, above all, sting at night. Therefore, children living under primitive hygienic conditions, stung in their sleep, are affected particularly frequently (cf. Romaña's sign as described in section B 1.2).
+
+The prevalence of the T. cruzi infection in the poor rural population of South America can exceed 9%. Roughly 12% of the infected individuals die of Chagas disease, corresponding to about 45,000 individuals in the two Americas yearly. Combatting Triatoma is simple theoretically, but it fails due to economic and political obstacles and the lack of consistent preventive action.
+
+Tourists returning from Latin America to Europe can be T. cruzi-infected [57], and Trypanosoma can be transmitted by blood donation (cf. sections B 2.1 and B 2.2).
+
+T. brucei: The affected region in Africa is between the northern and southern 20th parallel, ranging more or less from Senegal/ Gambia in the west to Botswana/Zimbabwe in the south (fig. 5). Transmission depends on the occurrence of the tsetse fly (Glossina morsitans, G. swynnertoni, G. palipides), which prefers low shrubbery near large animal herds, sucks the blood of the animals and lays its eggs in the faeces of the animals.
+
+Depending on the effectiveness of programmes of combating the tsetse fly, the geographical distribution of sleeping sickness and its incidence vary. A high probability of T. brucei transmission persists in the African wild animal reservations [58]. Domestic animals, particularly pigs, act as a reservoir for T. brucei, but also antilopes, bushbucks, and Cape buffalos. Some Glossina species, e.g. G. palipides, are adapted to the human habitat, thus contributing to the regionally increased occurrence of T. brucei [59].
+
+B 1.4 Detection Methods and Their Significance
+A T. cruzi/brucei infection can occur if a donor/recipient has spent a longer period of time in a region with a high degree of infection or spent some time in the region as tourist under primitive conditions of hygiene. Infection with trypanosomes occurred e.g. by a sting from Triatoma or Glossinia or if he/she received a blood transfusion in an endemic region.
+
+B 1.4.1 Serological Detection (Antibody and Antigen Tests, So-Called Immunological Tests)
+T. cruzi: For this chronic infection, the detection of IgM against Trypanosoma is of little informational value. Many ELISAs with differing antigen preparations for the detection of IgG are currently commercially available [60, 61], which are also used for the testing of blood donors. The line immunoassay can be used as confirmation test [60]. Many of the tests show low sensitivity and specificity, and display cross-reactions with Leishmaina, Plasmodium and other protozoae as well as with Treponema palladium. In endemic regions, partly 2 or 3 ELISAs are used for the screening of blood donations because of the low specificity.
+
+In Brazil new (rapid) tests for the detection of the T. cruzi antibodies on the basis of immunochromatography reach a specificity of 99% at a sensitivity of approximately 93% [62].
+
+T. brucei: To determine exposure, a card agglutination test (CATT) has been developed which is positive 3–4 weeks post infection and reaches a sensitivity of roughly 70–80% [59]. In addition, a latex agglutination test is available displaying a specificity of 96-99% at a sensitivity of 70–100% [63].
+
+Antigen tests for Trypanosoma surface proteins based on ELISA or agglutination have so far shown insufficient specificity [59].
+
+B 1.4.2 Isolation of the Pathogen Xenodiagnosis
+Traditionally, for enriching the trypanosomes, the mouse is inoculated with the suspected material, usually blood or tissue. High concentrations of trypanosomes can be found in the blood of the animals after few weeks, and can be detected microscopically after Giemsa staining (fig. 4). Feeding infected material to Triatoma is another method used in some specialised laboratories in South America.
+
+Cell Culture
+
+Cell culture systems have been used, usually by employing a feeder layer that can be formed by more than 20 different cell lines, but have been of no significance for the diagnostics of T. brucei [64]. L929 cells are suitable for culturing T. cruzi [65]. T. cruzi can be cultured both in cell-free, and in cell-containing medium [66]. First culturing attempts date back to 1904, the so-called tomato medium [67]; this shows that trypanosomes are relatively undemanding as regards the conditions under which they replicate.
+
+B 1.4.3 Detection by Microscope
+The quantity of trypanosomes in peripheral blood is partly very low during chronic infection. Therefore, detection by microscope displays low sensitivity and plays a moderate role. In the acute phase of the infection, a sufficient amount of trypanosomes can be detected over a few days. Histologically, large quantities of trypomastigotes can be detected following biopsy or post mortem examination in the case of T. cruzi and T. brucei, and large quantities of amastigotes can be detected in the case of T. cruzi above all in the cardiac muscle and the intestine.
+
+B 1.4.4 Genome Detection
+T. cruzi: Since some genomic sequences are repetitive in kinetoplasts of trypanosomes [68], with roughly 100,000–120,000 copies per parasite, it is possible to detect 1–2 parasites per reaction assay, normally 100–200 μl, using PCR [69, 70]. The amplificates thus obtained have a size of 200–300 base pairs (bp) [71]. PCR is more sensitive than the methods of xenodiagnosis [72].
+
+PCR tests were also developed to determine the success of treatment with benznidazol [73] or nifurtimox [74]. An observation period of several months is necessary to recognise a drop in the PCR amplificates on a quantitative basis. During treatment, a selection of resistant strains can occur. Appropriate analyses show that sub-populations of T. cruzi are present in roughly 12% of the cases, and provide proof for the major genetic heterogeneity of the circulating trypanosomes [75].
+
+T. brucei: A PCR was described taking into account the heterogeneity of the Trypanosoma strains present in Cameroon, and amplifying sectors within the mobile genetic elements [76], furthermore, a real-time PCR in which the 177 bp repeat satellite DNA is detected [77]. The PCR analysis was able to prove that an infection with T. brucei was established in the tsetse fly after 11 days. After 29 days, the trypanosomes were mature, and after 47 days, they could be detected in the saliva [78]. PCR can also be used to analyse isometanidium resistance [1]. The significance of positive PCR results which could not be confirmed by other parasitologic detection methods remains unclear due to the variable specificity [63].
+
+B 2 Blood and Plasma Donors
+In Germany, blood and plasma donors are not tested for Trypanosoma. No publications on transmissions by blood or blood products exist in Germany which would currently justify such tests from an infectiological point of view.
+
+B 2.1 Prevalence and Incidence in Donor Populations
+In Los Angeles, were a high portion of individuals intending to donate blood are of Mexican origin (so-called Hispanidos), between 0.001% and 0.002% have been exposed to or infected with T. cruzi [79]. Leiby et al. [80] have indicated a higher prevalence of 0.15% in Los Angeles, CA, and 0.09% in Miami, FL. In endemic regions, transmission by blood is not a rare event. The probability is around 0.75% of the donations in Mexico [81]. Trypanosoma transmission also occurs in North America if individuals from endemic regions without clinical symptoms act as donors [82]. T. cruzi has also been transmitted by heart and other organ transplantations in the USA [83], and in Europe, namely Spain, by transplantations of bone marrow [84]. In South America, the prevalence of a T. cruzi exposure referred to 100 donors, determined by antibody tests, is 4.5 in Argentina, 9.9 in Bolivia, 1.0 in Guatemala, 2.8 in Paraguay and less than 1.0 in the remaining South American countries. T. cruzi occurs in all South American countries [85]. In Brazil, about 0.6% of the blood donations are Trypanosoma antibody-positive and are rejected. Within Brazil, there are considerable geographical differences concerning prevalence [31]. In Toronto, Canada, 1,317 blood donors had a possible risk of acquiring T. cruzi judged on the basis of their travel destinations and their country of birth, but none of them tested antibody-positive [86]. In California, USA, on the other hand, the parasite was detectable by means of PCR in 33 out of 51 T. cruzi antibody-positive blood donors (63%) two decades after immigration, and in 3 individuals also by means of culturing [87].
+
+B 2.2 Definition of Exclusion Criteria
+The exclusion criteria in compliance with the guidelines of the Bundesärztekammer and the Paul-Ehrlich-Institut apply for the exclusion of potentially infectious donors [29, 30].
+
+Individuals who show symptoms as described in section B 1.2 and have spent a part of their lifetime in an endemic region [cf. 1] shall be excluded from the donation. Among Latin American immigrants in Berlin, 2% of those who fall into this category, were exposed to T. cruzi [88]. Only part of these individuals would be excluded from donating blood due to the current exclusion criteria with respect to a possible malaria transmission.
+
+In 2003, in Madrid, 6 of 659 (0.9%) donors born in T. cruzi-en-demic regions were antibody-positive [31]. In Spain and Italy, donors originating from endemic regions are deferred from donation for 6 months [31].
+
+B 2.3 Donor Testing and Significance
+A testing for Trypanosoma or antibodies in donors is not performed in Germany and is not indicated based on the epidemiological situation. Most of the serological tests are of little informational value due to low sensitivity and specificity (cf. section B 1.4). The infection could be identified better by means of PCR than by means of serological tests (cf. section B 1.4).
+
+B 2.4 Donor Interviews
+Because of a possible transmission of malaria, donors are interviewed regarding a short or long-term stay in tropical and endemic regions. There are no donor interviews regarding stings by kissing bugs or tsetse flies and periods under simple hygienic conditions. If endemic regions overlap with those where malaria is transmitted, the donor is deferred for 6 months.
+
+B 2.5 Donor Information and Counselling
+Information can be provided in connection with travelling to tropical regions. No information is given regarding Trypanosoma, the possible risk of Trypanosoma transmission and advice concerning the acute clinical symptoms and the chronic course of the infection.
+
+The infection with Trypanosoma is not notifiable. Therefore, reliable infection epidemiology data are not available.
+
+B 3.1 Prevalence and Incidence of Blood-Associated Infections and Infectious Diseases in Recipient Populations
+No data have been collected on the prevalence and incidence of Trypanosoma infections in blood recipients in Germany. In the past 20 years, no reports have been compiled on an infection of Trypanosoma transmitted within Germany or on suspected transmission by blood; the same applies to other European countries such as Spain, Italy and France [31].
+
+B 3.2 Immune Status (Resistance, Existing Immunity, Immune Response, Age, Exogenous Factors)
+Even if an individual's immune reaction is unimpaired, he or she can be infected with T. cruzi if the latter have been rubbed into the skin from the faeces of the arthropode. The infection has a chronic course with clinical manifestation only in 10–30% of the infected individuals (cf. section B 1.2). As immunity decreases, Trypanosoma can spread in the body again [74, 82]. In case of T. brucei, a sting by the tsetse fly which is painful and therefore clearly perceivable must have preceded.
+
+B 3.3 Severity and Course of the Disease
+The infection can be of lethal outcome in case of clinical manifestation and without treatment, partly also under treatment, showing acute heart failure, complications of megaoesophagus and megacolon as well as cerebral defects (cf. section B 1.2).
+
+B 3.4 Therapy and Prophylaxis
+T. cruzi: Successes of treatment of Chagas disease are still not satisfactory. Nifurtimox, a nitrofuran derivative, was manufactured by Bayer (Lampit®, Leverkusen, Germany; 8–10 mg/kg body weight for 60–90 days) and used for 20 years. It reduces the symptoms and the death rate, but has considerable adverse effects in around 70% of the patients. Benznidazole (Rochagan® or Radanil® Roche, Basel, Switzerland; 5 mg/kg body weight for 60 days) is of similar effectivity and has adverse effects similar to those of Nifurtimox. For this reason, only patients showing symptoms receive treatment, and a cure is only achieved in 10% of the cases.
+
+Posaconazol (Noxafil®, Essex Pharma, Munich, Germany) can be efficacious according to the first few studies, whereas fluconazol, ketoconazol, veronazol and itraconazol show no effect. IFN-?, if administered in the acute phase, can eliminate the protozoae [55]. Possible approaches to treatment derive from the interference of peptides with the dimer formation of enzymes as shown on pathogen-specific triosephosphate-isomerase [89].
+
+T. brucei: Suramin was introduced by Bayer as the first medicinal product about 100 years ago. It shows considerable adverse effects. Pentamidine, administered i.m. is of considerably better efficacy and is used today. A cure can only partly be achieved. Dihydroxyacetone in low doses leads to killing of T. brucei in cell culture and is possibly suitable for treatment [90]. Difluor-omethylornithin and melarsoprol can be used for the treatment of T. brucei gambiense infection in Africa with a success rate of around 80% [91]. In this study, antibodies against T. brucei gambiense are measured using a latex test.
+
+No chemotherapy and no vaccine are available for the prevention of Trypanosoma transmission. Vaccine candidates that have been tested so far have not shown sufficient potency.
+
+B 3.5 Transmissibility
+Around 65 laboratory transmissions of T. cruzi are known, out of which 11 were caused by parenteral lesions, 3 by contact with the mucosae and 2 by a vector sting [42]. Only 1 of the 6 reported laboratory transmissions with T. brucei did not occur in Europe, 5 of the transmissions occurred by sting lesions [42]. Laboratory transmissions of T. brucei should occur more frequently in endemic regions of Africa; however, they are not documented.
+
+In a WHO study, estimates of transmissions of T. cruzi by blood transfusions in South America for 2000/2001 show the following figures for transmissions per 1,000 donations: 68 for Bolivia, 11 for Chile, 2 for Columbia, 29 for Costa Rica, 11 for Guatemala, 360 for Mexico, 2 for Nicaragua, 52 for Panama and 1 for Paraguay [85]. It can be assumed that these figures are at the lower end of the scale for transmissions which occurred. In blood and cellular blood products, Trypanosoma also remains infectious if cooled down to 4 °C. It can be assumed that plasma products do not contain infectious trypanosomes because of their manufacturing procedure.
+
+B 3.6 Frequency of Administration, Type and Amount of Blood Products
+Low contamination of a blood component can be sufficient to transmit Trypanosoma infection. It can be assumed that transmission in Germany does not take place, or at least extremely rarely, since no transmissions of Trypanosoma by blood transfusion or blood products have been reported so far.
+
+B 4.1 Infectious Load of the Starting Material and Test Methods
+It can be assumed that the burden in the starting material is very low in Germany. Test methods for the antibodies formed against Trypanosoma are available. However, they are of little use due to low specificity and prevalence. Since no cases of Trypanosoma transmission have been reported, it is currently not necessary to introduce the tests.
+
+B 4.2 Methods for Removal and Inactivation of the Infectious Agent
+In cellular blood products, high parasitaemia is present only in the acute phase of the infection. Trypanosomes can be accumulated in macrophages. In the case of leucocyte depletion of blood, a marked reduction of the pathogenic agents takes place by removal of the Trypanosoma-bearing cells and, in addition, by adhesion of the trypanosomes to the matrix of the filter material based on the negative surface charge [45].
+
+When using sterile filtered plasma, Trypanosoma has no significance since the pathogen is retained in the filter [45]. In fractionation of plasma for the preparation of products such as coagulation factors and immunoglobulin, trypanosomes are inactivated and/or removed by sterile filtration.
+
+Inactivation in cell-containing products: Up to 5 log10 trypanosomes can be killed by means of amotosalen and UV irradiation, if grown in cell culture and added to the buffy coat, independently of the T. cruzi strain used [92].
+
+B 4.3 Feasibility and Validation of Procedures for Removal/ Inactivation of the Infectious Agent
+Blood and/or blood products can be experimentally contaminated with T. cruzi, and their depletion and/or inactivation can be evaluated. Because of the extremely low prevalence of Trypanosoma infections in Germany, this examination of the depletion is currently not indicated, but could be performed since the technical preconditions are present [92]. Handling Trypanosoma requires a safety level 2 laboratory.
+
+B 5 Assessment
+Trypanosoma can cause chronic infection in 10–30% of the individuals which can be fatal after illness for months or years. T. cruzi and T. brucei transmissions depend on the presence of vectors (Triatoma and Rhodnius or Glossina) which do not occur in Central Europe.
+
+Till to date, no Trypanosoma transmissions via blood, bone marrow or organ donation have been reported in Germany. After assessment the existing epidemiological and pathogenetic data for transmission and manifestation of Trypanosoma, the following preventive steps are currently considered as indicated:
+
+– Exclusion of all donors who received a blood transfusion in the endemic regions of Central and South America and Africa.
+
+– Temporary exclusion of donors after a stay in Trypanosoma-endemic regions for 6 months. The Trypanosoma-infected regions partly overlap with the malaria endemic regions (fig. 5).
+
+– Exclusion of donors whose centre of activity was temporarily in Trypanosoma-endemic regions for 6 months following the time of leaving the endemic region and admission to blood donation only after a decision by a doctor.
+
+C Babesia spp.
+The pathogenic agent was identified by Victor Babes in the red blood cells of cattle suffering from febrile haemoglobinuria in Romania in 1888. In 1893, a similar agent, described as Pyro-soma, was described in Texas. This pathogen today bears the name Babesia bigemina [93]. In 1957, Babesia divergens was described post mortem in a farmer from Yugoslavia who had undergone splenectomy. In 1969, in Massachusetts Babesia microti was found in a man suffering from fever and headache [93].
+
+C 1 Current Knowledge about the Pathogen
+Babesia is a member of the Apicomplexa family (apical mi-crotubule complex), in the order of Piroplasmidora and the Theileriidae family, together with Plasmodium and Toxoplasma as well as other protozoae such as Cryptosporidium, Isospora, Microsporidia, and Sarcocystis. Babesias are essentially transmitted by the bite of the tick Ixodes ricinus in the Old World, and Ixodes scapularis (also called Ixodes dammini) in the New World. Babesiosis is a typical zoonosis.
+
+Babesias are either oval or round, of crescent-like shape such as Plasmodium falciparum. However, they are smaller and grow within erythrocytes usually as 3–5 trophozoites, which replicate asexually, a process which is known as merogony. Sexual replication only takes place in the tick. This finally leads to formation of sporozoites which invade the salivary gland of the tick.
+
+C 1.1 Characteristics of Babesia
+Depending on size, babesias are subdivided into two categories:
+
+– The small variant has a diameter of 1-2.5 μm and includes Babesia gibsoni (canines piroplasma), B. microti, and Babesia rodhaini. Trophozoites divide into 4 daughter cells and partly form structures resembling a maltese cross in the Giemsa-stained smear of red blood cells. They can be transmitted in the tick transovarially.
+
+– The large variant has a diameter of 2.5-5 μm and includes B. divergens, Babesia bovis, Babesia canis, and Babesia odocoilei. Trophozoites of this type divide into two daughter cells. They are transmitted in the tick non-transoviarially.
+
+The nuclear small subunit ribosomal DNA (nss-rDNA) is used for the further characterisation of babesias. From the point of view of genetic code analysis, B. divergens is a member of the small type, but as far as its morphology is concerned, it forms part of the large type. Small babesias are more similar to Theileria than to large babesias. Babesias are not host-specific. They infect various animals, including humans. B. divergens causes babesiosis in Europe, B. microti in North America, above all at the East Coast and in the Great Lake region. Not all known Babesia strains have so far been classified, and not all Babesia strains can infect all animal species.
+
+C 1.1.1 Replication in the Tick
+Around 10 h after the blood meal, Babesia-infected red cells aggregate in the gut of the tick, and the cytosome, an endocytic organelle, is formed. Around 40–50 h later, the microtubules condense at one end and form the so-called ‘ray body’. That way, the basis is formed for fusion of the gametes into the zygote. The zygote penetrates into the gut cell of the tick, then enters the haemolymph and develops into ookinetes which migrate into the salivary gland. There, the sporoblast is formed which replicates by sporogony (sporozoites) at warm temperatures. Sporogony can also happen during the sucking action on the infested animal, through the warming up process. One sporoblast can produce up to 10,000 sporozoites.
+
+C 1.1.2 Replication in Vertebrates
+Around 10,000 sporozoites are deposited in the victim's skin, and from there, they probably directly invade red blood cells and develop to merozoites. Merozoite release leads to lysis of the red blood cells. After invading the red blood cells, the merozoites partly changes into trophozoites which can move freely in the cytosol of the cell. The exact mechanism of leaving the cell, also called ‘budding’ is not known.
+
+C 1.2 Infection and Infectious Disease
+Clinical symptoms develop 1–4 weeks after tick bite with malaise, fatigue, lack of appetite and finally fever and chills. The fever can continue to rise up to 40 °C and persist for months if the patient is immunocompromised. Further symptoms may include photophobia and vomiting. In exceptional cases, exanthema can be found, petechiae are rare. While no lymph node swelling occurs, splenomegaly and hepatomegaly can form. Laboratory results point to haemolytic anaemia at reduced haptoglobin and increased reticulocyte values. 1-10% of the red blood cells contain babesias if the patient's immune response is intact. In case of immune deficiency, this figure is 85%. Trombocytopenia occurs frequently [93]. In over 25% of immunocompetent individuals, an infection with B. divergens can be expected to subside spontaneously without occurrence of clinical symptoms.
+
+In case of Amercian babesiosis, 25% of the infected individuals are hospitalised, around 25% of the hospitalised individuals require treatment in the intensive ward, and 6.5% of these patients die. Causes of death include severe breathing impairment, intravasal coagulation and heart failure. Severe infections can be found at an increased age and in case of immune deficiency [94]. The function of T helper cells plays an important part for overcoming the infection. Removal of the babesias from the tissue and tissue fluid is regulated via the unrestricted function of the macrophages.
+
+C 1.3 Epidemiology
+The probability of transmission to humans depends on the prevalence of infected animals in the animal stock. In Southern Switzerland (Tessin), B. bigemia was once detected in approximately 1,900 ticks in cows, sheep, red deer and roe in 2004, which was not previously found in that region [95]. In addition to I. ricinus, other tick species were examined, and in 6 animals B. divergens, in 2 B. major, and in 14 Babesia were found which were not further characterised [95].
+
+Most of the Babesia infection in humans in Europe caused by B. divergens were reported from France and England [96]. In 2000, more than 31 cases were reported of which 26 patients (84%) had undergone splenectomy. B. divergens was the causative agent in 23 of the infected individuals [97]. One Babesia case in a patient who had received splenectomy occurred on the Canary Isles [98]. The first case of B. divergens/odocoilei infection in a human was reported from the Hegau region (Germany) in 2007 in a patient who had undergone splenectomy under immunosuppressive treatment. The patient did not remember a tick bite and had never stayed outside Germany [99]. Results of another study showed that in 31 of 3,113 (1%) of the ticks collected in South West Germany, B. divergens could be detected by means of PCR [100]. Dogs are another reservoir for Babesia. Thus lowland forest ticks (Dermatocentor reticulatus) can transmit Babesia to dogs [101, 102]. The significance of lowland forest ticks for the spread of babesias needs to be evaluated in further studies.
+
+In North America most of the human cases of babesiosis are caused by B. microti. The number of the cases described exceeds 300 [97]. One case in Germany [103] and one case in Switzerland [104] showed serological reactions against B. microti. Infections with B. canis and B. bigemina in humans were reported from Mexico, other endemic infectious areas are found in West Africa, South Africa, Egypt and China [105].
+
+C 1.4 Detection Methods and Their Significance
+The classical method of detection for Babesia is the examination of blood smears under the microscope after staining with Giemsa solution or similar methods. At an intraerythrocytic level, 3–5 oval ring shapes can be found, which resemble those of P. falciparum, but do not show any other staining besides the blue colour. Extracellular merozoites can be found in severe infections. The so-called maltese cross formation in case of B. microti infection is extremely rare.
+
+C 1.4.1 Serological Detection (Antigen and Antibody Tests)
+Indirect immunofluorescence is considered as positive if titres >1:64 are reached in case of B. microti infection. Titres are usually >1:1,024. Sensitivity depends on the Babesia strain used in the immunofluorescence test.
+
+ELISAs based on synthetic peptides of B. microti have been developed and are more sensitive than indirect immunofluores-cenc [93, 105]. IgG antibodies are usually detectable 2–4 weeks after the occurrence of clinical symptoms. Antigen tests are not commercially available.
+
+C 1.4.2 Culturing
+Babesias can be replicated and identified in experimental animals such as hamsters and mice by inoculation of blood of the infected animals [106]. In red blood cells, B. divergens can be cultured using the continuous culturing method with high parasite density [96, 107]. Cultured Babesia strains adapt to the culture used and lose their virulence.
+
+C 1.4.3 Genome Detection – NAT
+By means of PCR, parasitaemia in untreated patients can be detected even 27 months following infection [108, 109]. From that point of view, PCR is the most sensitive method currently available. The target sequence used for the primers is nss-rDNA (nuclear small subunit ribosomal DNA; cf. section C 1.1). Sensitivity is low if primers for B. microti are used for the detection of B. divergens. The starting material for the PCR is EDTA blood. If Babesia DNA is detected in patient blood, this is an indicator for an active infection. If the infection is treated successfully, Babesia DNA is no longer detectable in the blood few days later [109, 110]. Detection of Babesia (in-situ PCR) using PCR is possible on blood smears [111].
+
+C 2.1 Prevalence and Incidence in Donor Populations
+Only one publication exists on analysing a blood donor collective for the occurrence of Babesia in Germany. Among 120 healthy blood donors, indirect immunofluorescence revealed 1.7% (2 of 120) individuals with antibodies [103] (cf. section C 3.1 for specificity). Two of 298 foresters in Southern Germany who, for professional reasons, had a higher risk of exposure to ticks showed antibodies reacting with B. microti, but were free of parasitaemia [112]. Two of 190 blood donors in France revealed antibodies against B. divergens [96].
+
+Three (0.4%) of 848 blood donors in Connecticut who had reported a tick bite, and 6 (0.6%) of the 1,007 non-interviewed donors used as controls had antibodies against Babesia [113]. When the examination was repeated in 2005, 24 (1.4%) from the endemic region and 6 (0.3%) from the non-endemic region out of 1,745 donors altogether had Babesia antibodies. In 19 seropositive donors, Babesia DNA could be detected in 10 (53%) donors using PCR. The peak of Babesia incidence in the USA was reached in July [114]. In the USA, it is assumed that around 50 Babesia transmissions occurred by blood transfusions [31].
+
+C 2.2 Definition of Exclusion Criteria
+The general guidelines of the Bundesärztekammer and the Paul-Ehrlich-Institut [29, 30] apply to the exclusion of potentially infectious donors. General exclusion criteria that may point to a Babesia infection include fever, headache, fatigue and exhaustion, more rarely arthralgia. Anaemia is a typical symptom of chronic Babesia infection.
+
+The question for tick bite in the past is a very inaccurate parameter for the prevention of Babesia infection [114]. Blood donors remembering tick bite are deferred from donation for 4 weeks, as a preventative measure, also to prevent other viral and bacterial infections.
+
+C 2.3 Donor Testing and Significance
+Testing of blood donors for Babesia antibodies is not performed in Germany. Based on the low prevalence of Babesia infections and the absence of reports on the transmission of Babesia spp. by blood transfusion in Germany, such tests are currently not necessary as long as the epidemiological situation does not change (cf. section C 1.3).
+
+A great number of Babesia transmissions occurred in the USA from asymptomatic donors even if the blood was kept refrigerated for 5–35 days and even if the blood was frozen in the presence of glycerol [115,116,117,118,119]. The first transfusion-associated case of babeosis was reported in Canada in 2001 [120]. Babesia can be transmitted by an asymptomatic donor over a period of 6 months [121].
+
+C 2.4 Donor Interviews
+In compliance with the guidelines, donor interviews on the general symptoms of Babesia infection (cf. section C 2.2) are not carried out. Questions are asked referring to a tick bite depending on the season. No interviewing takes place concerning Babesia infection since the clinical symptoms in connection with this infection are not known among the general population; based on the epidemiological situation, interviewing would be of little informational value and barely successful. Since no case of Babesia infection caused by blood transfusion has so far been reported in Germany, a special interview is not required.
+
+C 2.5 Donor Information and Counselling
+Since Babesia infections and the clinical symptoms of Babesia are very rare, it is currently not necessary to provide advice in the blood donation centres.
+
+C 3 Recipients
+The incubation period of B. microti infections via blood is between 17 days and 9 weeks, for infections transmitted by ticks it is 1–4 weeks [119, 122].
+
+C 3.1 Prevalence and Incidence of Blood-Associated Infections and Infectious Diseases in Recipient Populations
+Prevalence and incidence depend on the endemic region, essentially are the rate of infection in the animal reservoir (cf. section C 1.3), tick density, season, and the corresponding tick activity and leisure activities of the recipients.
+
+A study is available concerning this topic [103]. In the Rhine-Main region, 11.5% (26 of 225) of the individuals exposed to tick bite were Babesia antibody-positive (indirect immunofluorescence, no confirmation test) as opposed to 2% (2 of 120) of blood donors. In the collective examined which included, 467 sera, reactivity against Babesia was higher against B. microti with 5.4% (25 of 467) than against B. divergens with 3.6% (17 of 467). The cut-off of the antibody dilution was 1:64 for B. microti and 1:128 for B. divergens (cf. section C 1.4).
+
+In the USA, one case of Babesia transmission by heart transplantation [123] and three cases by kidney transplantation were reported [124,125,126].
+
+C 3.2 Immune Status (Resistance, Existing Immunity, Immune Response, Age, Exogenous Factors)
+Immune deficiency caused by splenectomy promotes Babesia replication and leads to severe, often deadly courses of the disease. The immune deficiency, which is also age-related, favours an infection with clinical symptoms [93, 124]. The relatively high prevalence of antibody-positive individuals points to the fact that persons with an unimpaired immune system overcome infection without any signs of disease pointing to babesiosis.
+
+C 3.3 Severity and Course of the Disease
+Effective treatment can prevent deaths even in immunosuppressed individuals and patients after splenectomy [119]. The infection with B. microti in North America often presents with minor symptoms, such as fatigue or exhaustion, possibly also anaemia (cf. section C 1.2 and C 2.2), or occurs subclinically [93].
+
+C 3.4 Therapy and Prophylaxis
+Around 75% of immunocompetent patients infected with Babesia have minor clinical signs or overcome the infection with minor clinical symptoms without treatment.
+
+B. microti: Patients after splenectomy and with immune deficiency are treated with clindamycin and oral quinine for 7–10 days. Chloroquine, which is administered for P. falciparum, is ineffective. The same applies to medicinal products such as primaquine, pyrimethamine, tetracycline, pentamidine and others. Atovaquone combined with azithromycine leads to death of Babesia and shows fewer adverse effects than the combination of clindamycin and quinine. Atovaquone as monotherapy leads to rapid development of resistance [93].
+
+B. divergens: In addition to the combination of clindamycin and quinine, the combination of pentamidine and trimetho-prim/sulfamethoxazol can be used. Blood transfusions are indicated for patients with high parasitaemia and strong haemolysis. [93].
+
+Vaccination: No vaccination is currently available against Babesia. Attempts at vaccinating against B. divergens and B. bigemia, including vaccinations in cattle with attenuated babesias, were unsuccessful [127]. Among the recombinant antigens, the RAP-1 protein (rhoptry-associated protein) induced a high antibody and good T-lymphocyte response, but did not confer protective immunity [128]. In vaccinated cattle, immunity is rapidly compromised by Babesia, which have an altered amino acid composition in the hypervariable region of the MSA-2 (merozoite surface antigen) [129] or MSA-1, if the latter is used in the vaccination [130].
+
+C 3.5 Transmissibility
+Babesia in blood is neither destroyed by cooling down to 4 °C nor by freezing. Consequently, parasite-containing blood is always infectious. Babesia was seldom transmitted via blood after kidney or heart transplantations. The infection probably manifested itself due to immune suppression [123]. In 1993 in Connecitcut, the risk of Babesia transmission by red blood cells was higher than that of Borrelia transmission with 0.17%. Borrelia could not be detected in any of the blood samples. In the cited study, no pathogenic agent was transmitted via platelets< [131].
+
+Till to date, no accidental transmissions of Babesia during laboratory work have been reported [42].
+
+C 3.6 Frequency of Administration, Type and Amount of Blood Products
+With increased administration of red blood cells, the theoretical risk of Babesia transmission rises also. Since no transmissions have been reported in Germany so far, the risk of increased application is also negligible. To obtain more accurate data, epidemiologically verified results should be awaited from studies with validated tests.
+
+C 4.1 Infectious Load of the Starting Material and Test Methods
+Apart from the study by Hunfeld et al. [103] on blood donors, no detailed studies have been conducted on the burden in blood donations in Germany. As described in section C 1.4, Babesia can be detected by microscopy in case of higher infections in red blood cells. However, nucleic acid detection by PCR [108,109,110] is a better and more sensitive method (cf. section C 1.4).
+
+Since Babesia is present in the blood in cell-bound form, the burden in the plasma has no significance.
+
+C 4.2 Methods for Removal and Inactivation of the Infectious Agent
+Since Babesia growth is preferably intraerythrocytic, the protozoon cannot be removed from cellular blood components by methods such as filtration. Since up to 10% of the cell fraction of granulocyte concentrates consist of red blood cells and also platelet concentrates contain erythrocytes, Babesia cannot be removed from these products either.
+
+In blood plasma, Babesia is not contained in quantities sufficient to cause infection [121, 123]. Because of their size, free babesias can be retained by suitable filters (0.22 μm) [64, 119]. Therefore, Babesia has no significance for the use of sterile filtered plasma. Babesias are depleted and/or inactivated during fractionation of plasma for the production of preparations such as coagulation factors and immunoglobulin.
+
+C 4.2.1 Inactivation
+Photoinactivation of Babesia in plasma with amotosalen and UV irradiation is possible; more than 5.5 log10 could be inactivated following spiking [132].
+
+C 4.3 Feasibility and Validation of Procedures for Removal/ Inactivation of the Infectious Agent
+Since Babesia can be replicated in culture [64, 133], spiking of blood is theoretically possible. However, since the pathogenic agent's growth is intraerythrocitic, the method for measuring the burden on the red blood cells involves a high workload. In addition, additives such as foetal calf serum impair the growth of Babesia in culture [134]. An animal model involving mouse or hamster could be used for validation of the inactivation method, since many Babesia strains also grow in these experimental animals [64].
+
+C 5 Assessment
+Babesia is a parasite that grows within erythrocytes and is transmissible from animals to humans via ticks. The infection is often resolved spontaneously, but it can also have a subclinical course with persisting parasitaemia for several months. In immunocompromised individuals in North America, e.g. after splenectomy, severe, partly deadly infections were caused by B. microti, and in Europe by B. divergens, when treatment with combinations of quinine and clindamycin or with atovaquone and azithromycin were not started promptly.
+
+B. divergens and similar species are also present in Germany [99]. Since transfusion-associated Babesia transmission have so far not been reported in Germany, the presence of these agents does not justify general testing of all blood donations for markers of a Babesia infection. Clinical signs of chronic babesiosis are noticeable with severe anaemia, liver and spleen swelling, high LDH and reduced haptoglobin values as a sign of haemolysis. A Babesia infection can be diagnosed microscopically in the blood smear with high parasite density during the acute phase of infection with intraerythrocytary merozoites. Cases of transmission would have been identified using these diagnostic parameters in the past.
+
+Based on the epidemiological situation, the small number of cases, and the missing reports on preventing a potential Babesia transmission via blood transfusion, there is currently no action required in Germany that goes beyond the general exclusion criteria.
+
+D 1 Current Knowledge about the Pathogen
+Toxoplasma has a world-wide geographical distribution, and more than a quarter of the world population is infected with this agent. Since transmissions from humans to humans by social contacts have so far not been observed, with the exception of pregnancies, the disease is a typical zoonosis. Vertical transmission of the infection from the mother to the foetus with severe malformation is only possible if primary infection occurs during pregnancy.
+
+Toxoplasma was discovered independently in 1908 by Charles Nicolle and Louis H. Manceaux [135], while they were looking for Leishmania in a rodent (Ctenodactylus gundi) in North Africa, and by Alfonso Splendore in rabbits in Sao Paulo [136]. The first human infection was decribed by Josef Janku in Czechia in 1923 [4], and congenital transmission was discovered by Arne Wolf and David Cowen in the same year and published later [137].
+
+D 1.1 Characteristics of T. gondii
+T. gondii are classified as members of Apicomplexa (fig. 7) in the class of the Sporozoae and occurs in three distinct forms:
+
+– as oocyst which forms sporozoites;
+
+– as tachyzoite, the crescent shaped form which develops when sporozoites infect tissue cells which replicate by longitudinal division in these cells and are then released (particularly affected cells include macrophages, neutrophil granulocytes, ependymal cells and atrocytes), and
+
+– as tissue cyst containing bradyzoites which remain infectious in the cyst for many years.
+
+Sexual cycles of the development only take place in cats and felides, while asexual replication takes place in many animal species and humans [138].
+
+For T. gondii, 3 genotypes can be distinguished: Genotype I and II have been found in congenital toxoplasmosis [139]. Genotype II is the strain most frequently found in humans that has a tendency for reactivation and chronic infection and is also found in 65% of the AIDS patients [140]. Genotype III strains preferentially occur in animals, rarely in humans.
+
+Oocyst: Oocysts are formed in jejunium cells of the intestine of the cat after sporozoites have entered the organism. Sporozoites merge during the sexual cycle after the sporozoites have transformed into gametocytes. Unsporulated oocysts are of 10–12 μm in diameter, they are formed 7–20 days following infection. 10 million oocysts can be excreted per day. Only sporulated oocysts are infectious. They contain 2 sporocysts which in turn contain 4 sporozoites. Sporulation takes 2–3 weeks at a temperature of 11 °C; at 24 °C it takes 2–3 days. Oocysts remain infectious in humid soils for more than 18 months. Tachyzoite: Tachyzoites have the crescent shaped form with a length of 5–7 μm and a width of 2–3 μm. Tachyzoites can only replicate within cells. The period of division is about 6–8 h. If the number is too high, the cell will burst and the tachyzoites thus released will infect the adjacent cells or cells in other tissues by active propulsion. They are phagocytised by macrophages and are transported by neutrophil granulocytes in blood. A conoid is located at a pole of the tachyzoite which contains 8 organelles (rhoptries and micronemes, fig. 7, 8). The enzymes of the organelles are used to penetrate the cell wall. Tachyzoites are sensitive to desiccation, freezing, thawing, and an acid environment [141].
+
+Bradyzoite: Bradyzoites are located in tissue cysts. They are morphologically distinct from tachyzoites and replicate very slowly. Tachyzoites transform into bradyzoites under the influence of substances such as IFN-? and heat shock proteins. A tissue cyst can contain more than 1,000 bradyzoites. In the muscle, bradyzoites are inactivated in the tissue system by heating to >67 °C, and by freezing at −20 °C for 24 h. Bradyzoites can migrate from the cyst and transform into tachyzoites [142]. Bradyzoites can remain infectious in tissue for decades [143].
+
+D 1.2 Infection and Infectious Disease
+In humans, Toxoplasma replicates intracellularly at the entry site without any preference for any cells, no matter whether sporozoites, tachyzoites or bradyzoites are inoculated. Regional lymph nodes act as the primary collection site for released Toxoplasma. The clinical outcome in the lymph node is that of histiocytosis accompanied by microabcesses and granuloma with abnormally large Langerhans cells. Tachyzoites can survive in phagocytes if they form parasitophorous vacuoles which protect them from fusion with lysosomes. Even if immunity has been established, intracellular or intra-tissue protozoae cannot be killed. Such cysts can be identified in the brain, eye, cardiac or skeletal muscle of 10% of seropositive individuals [144].
+
+In immunocompetent individuals, infection with Toxoplasma leads to chronic or latent infection. Bradyzoites can occasionally be released from tissue cysts [142]. Infection with Toxoplasma leads to humoral and cellular immunity which persists life-long by boostering through endogenous or exogenous re-infection. As immunity is established, Toxoplasma is eliminated from the blood stream. IFN-? plays an essential part in immunity establishment [145]. Antibodies of the classes IgG, A, M, and E are formed. Patients with the cell surface marker HLA-DQ3 have a higher probability of developing encephalitis [146].
+
+Typical signs of primary infection only occur in 10–20% of infected individuals. Cervical lymph node swelling is frequently found, which persists and reaches up to 3 cm in size, accompanied by fever, nocturnal sweating, malaise, and muscular pain. Clinical signs resemble those of mononucleosis caused by EBV (Epstein-Barr virus) and CMV (cytomegalovirus). A differential diagnosis should be made to exclude malignant lymphoma such as Morbus Hodgkin. Lymph node swelling can persist several months [138].
+
+D 1.3 Epidemiology
+Toxoplasma gondii has a world-wide geographical distribution. Infections in humans are usually caused by eating uncooked or undercooked meat, contaminated vegetables and water, or swallowing oozytes, e.g. in dust. Toxoplasma could also be isolated from hen's eggs [147]. Tachyzoites can be transmitted via uncooked goat's milk and can lead to infection [148].
+
+Maternofoetal infections are very rare in Germany (2007: 20 cases reported, 2006: 10 cases, 2005: 18 cases, 2004: 16 cases, 2003: 19 cases, 2002: 17 cases, and 2001: 37 cases; source of data: Robert Koch-Institut). Toxoplasma transmissions by blood transfusion and organ transplantations did occur (cf. section D 3.5), furthermore, also those by needle pricks [149].
+
+Arthropods which also feed on faeces (coprophagia), such as cockroaches and flies, albeit rarely, can be transmitters upon entering open wounds or contaminating the mucosae. From that point of view, Toxoplasma can also be classified as ranking among arboprotozoae. Toxoplasma antibody incidence in humans increases with age; there is no gender dependency [138]. Toxoplasma seroprevalence in Western Europe and Africa (Uganda, Zambia) can amount to up to 50 and 70% respectively [150, 151]. In France, 1,215 (72.2%) of 1,683 HIV-infected individuals were seropositive for Toxoplasma [152]. In the USA, the prevalence is lower than in Europe. Among the recruits of the US army, 9.5% were seropositive in 1989, and 14.4% in 1965. 9% of women of child-bearing age in San Francisco, CA, were seropositive in 2003.
+
+D 1.4 Detection Methods and Their Significance
+The most suitable method for detecting acute infection in blood or other body fluids is NAT (amplification of Toxoplasma DNA). A negative NAT result, however, does not indicate that the material is free from Toxoplasma infection since Toxoplasma is not equally distributed in blood and tissue. Tachyzoites can be identified in the case of acute infection in histological products, above all lymph nodes. For the detection of chronic infection or exposure, IgG antibody determination is the best suitable methods.
+
+D 1.4.1 Antibody Detection
+Antibody tests also detect a high number of exposed individuals among blood donors. These tests are not suitable for distinguishing between infectious and non-infectious donors. The Sabin-Feldman test is rarely used now. The most frequently used test is the ELISA which is not free from false-negative and false-positive results. Immunoblot can be used as a confirmatory test. This test is available from various manufacturers and reaches a sensitivity of 52–67% and a specificity of 96-99% if a postnatal diagnosis is required for congenital infection [153]. In another study, the Western blot reached a sensitivity of 82% and a specificity of 97%. More recent tests show a sensitivity of 99% and specificity of 100% [154]. The differentiation can be made more accurate by means of a two-dimensional immunoblot analysis [155]. The avidity test reveals the duration of an infection only to a limited extent [156].
+
+IgM antibodies decline again after 12–18 months following an immune reaction. IgA antibodies can persist 6–9 months up to 1 year [138, 156]. IgM tests have a low specificity, even if their structure is based on the sandwich principle [157]. It has been reported that IgE antibody determination performs better than IgM determination for differentiating between an acute and a chronic infection [158]. IgE determination can be valuable in detecting acute infection, since IgE antibodies decline after 4–6 months while IgM antibodies only decline after 12–18 months [156].
+
+D 1.4.2 Culturing
+Inoculation of the mouse or cell culture are suitable for pathogen isolation. Cell culturing is simpler and faster. Tachyzoites can be detected in the stained sample after only 3–6 days (fig. 7). Peripheral mononuclear cells from the blood of non-Toxoplasma-exposed individuals can be used, or granulocytes which would have to be added every 2–3 days. A well-established cell system uses fibroblasts of the MRC5 cell line [159].
+
+D 1.4.3 Antigen Detection
+ELISA and agglutination test: An antigen test which probably only recognised tachyzoites was described in 1982 [160], but was not commercialised. Further antigen tests were described in the 1980s and have today been replaced by NAT. Microscopy: In the microscopic preparation, tachyzoites can be found in the Giemsa stain, if present in large numbers. Fluorescent antibodies have been used to increase sensitivity. However, these antibodies also caused more unspecific staining [161].
+
+D 1.4.4 Genome Detection by Means of NAT
+Many methods have been described for Toxoplasma DNA PCR, above all for the detection of Toxoplasma in AIDS patients [162, 163]. Primers from the B1 gene of Toxoplasma are used for amplification. [68]. The gene is present several times (usually 5-fold). More recent methods use real-time PCR [164]. Sensitivity depends on the parasite density in the product. A sensitivity of 64% and a specificity of nearly 100% can be reached using real-time PCR [165].
+
+PCR can be used for genotyping of Toxoplasma [166]. Using this method, differentiation takes place by amplification of 5 different genes. When comparing the different PCR methods, real-time PCR is the fastest and FRET (fluorescence resonance energy transfer) or nested PCR is the most sensitive method [167]. PCR is more sensitive for detecting Toxoplasma in blood, if leucocytes are used for nucleic acid extraction. One Toxoplasma can be detected in enriched leucocytes corresponding to approximately 200 μl blood after a storage period of 1–6 days [168].
+
+D 2.1 Prevalence and Incidence in Donor Populations
+Prevalence depends on the endemic region, the exposure to animals, above all cats, and the age of the individual, and basically corresponds to the prevalence in the general population (cf. section D 1.3). Thus, an antibody prevalence of 0.3–7.6% has been indicated for haematopoietic stem cell donors [169]. Among blood donors in Thailand, a Toxoplasma antibody prevalence of 4.9% has been found in 2000 [170]. In the Canton of Zurich, Switzerland, in 1995 a prevalence of 52% and 40% was found among blood donors and women between 20 and 40 years, respectively [171].
+
+D 2.2 Definition of Exclusion Criteria
+The general guidelines of the Bundesärztekammer and the Paul-Ehrlich-Institut apply to the exclusion of potentially infectious donors and, in addition, the deferral for 6 months after the symptoms of toxoplasmosis have subsided [29, 30]. Characteristic symptoms of an acute Toxoplasma infection include in particular fever, malaise, exhaustion and cervical lymoph node swelling.
+
+D 2.3 Donor Testing and Significance
+Testing for Toxoplasma or Toxoplasma NAT in donors is currently not performed and is not indicated based on the lack of reports on Toxoplasma infections in the recipient collective following blood transfusion.
+
+D 2.4 Donor Interviews
+Donors are interviewed for signs of inflammation, particularly fever and lymph node swelling after a known Toxoplasma infection, however, not for contact with pets or the consumption of insufficiently cooked meat.
+
+D 2.5 Donor Information and Counselling
+Since Toxoplasma infections and Toxoplasma-associated clinical symptoms are very rare in blood donors, it is currently not necessary to provide advice concerning the subject in the blood donation centres. Such advice can be given in any centre of infectious diseases in Germany, if required.
+
+D 3 Recipient
+Similarly to donors, the rate of infection among recipients is as high as that of the general population with regional differences and the age-dependent increase in seropositivity. Concerning infections in recipients, differentiation must be made between new infection, re-infection, and reactivation. A distinction is possible only if serological results are available.
+
+D 3.1 Prevalence and Incidence of Blood-Associated Infections and Infectious Diseases in Recipient Populations
+The recipient collective in Germany has an antibody prevalence of 20–30%, depending on dietary behaviour and age, and partly also higher with 50 and 70%, as found in Switzerland [171]. Contrary to these findings, the prevalence described in the USA was 9-14% [138] (cf. section D 1.3).
+
+D 3.2 Immune Status (Resistance, Existing Immunity, Immune Response, Age, Exogenous Factors)
+The immunological condition is essential for controlling Toxoplasma infection. AIDS patients with a CD4 cell number of <200/μl often develop cerebral or pulmonary toxoplasmosis due to endogenous reactivation, which is of fatal outcome when untreated [172].
+
+D 3.3 Severity and Course of the Disease
+In case of impaired immune response, including chemotherapy, Toxoplasma continues to spread in the body and can lead to acute disease up to 3 years after bone marrow transplantation [159]. Toxoplasma can be transmitted via liver transplant and can lead to pneumonia [173]. Pneumonia rarely occurs in immunocompetent individuals [174]. Cerebral toxoplasmosis is of fatal outcome in immunosuppressed patients, if it is not diagnosed early and treated sufficiently [175].
+
+The serious immune suppression after stem cell or bone marrow transplantation may require testing for Toxoplasma antibodies in the donor and the recipient [175].
+
+D 3.4 Therapy and Prophylaxis
+Drugs used for treatment will inhibit the growth of tachyzoites, but will not damage bradyzoites in the tissue cysts. Pyrimeth-amine as folic acid antagonist is the most efficacious product. It should be administered in combination with sulfadiazine or clindamycin. Duration of treatment should be at least 3 weeks. On the one hand, azithromycine, clarithromycin, atovaquone, dapsone and trimethoprime-sulfomethroxazol are effective. On the other hand, little experience is available on the duration of treatment using these products [138]. Spiramycine can be administered successfully during pregnancy. In case of severe immune suppression, IFN-? is administered as a supportive measure in combination with roxithromycine, or pyrimethamine and/or azithromycine.
+
+D 3.5 Transmissibility
+Toxoplasma can survive in citrated blood at 4 °C for >50 days [138]. Toxoplasma was transmitted by whole blood and by leucocyte concentrates, with leucocytes increasing the risk of transmission [176]. Organ transplantations, too, can cause transmission of Toxoplasma [177]. Besides the transmission, reactivation can occur in seropositive transplanted patients. No Toxoplasma infection was transmitted through the transfer of haematopoietic stem cells during autologous transplantation (0 of 6,787). However, this did occur during allogenic transplantation in 0.97% of the cases (41 of 4,231) [178]. A pyrimethamine prophylaxis can probably prevent Toxoplasma infection after transplantation with a >80% probability.
+
+47 laboratory infections with Toxoplasma have been described, out of which 14 were lesions caused by stinging, 12 without recorded event of an accident, 8 by moistening the mucosa, 8 by oocyst uptake. The mean incubation period was 8.5 days, with a range of 2 days up to 2 months; most of the patients suffering from the accidents had an incubation period of <13 days [42].
+
+D 3.6 Frequency of Administration, Type and Amount of Blood Products
+Non-leucocyte-depleted blood products have an increased risk of causing transmission of Toxoplasma gondii tachyzoites. The highest risk is represented by granulocyte concentrates [176]. The more donors are included in the preparation of a granulocyte product, the higher the risk of Toxoplasma contamination. Plasma products do not contain any viable tachyzoites since these agents are removed by sterile filtration during the manufacturing process.
+
+D 4.1 Infectious Load of the Starting Material and Test Methods
+Cell-containing blood products can contain Toxoplasma. The probability of Toxoplasma burden is especially high if a donor is in the acute phase of the infection or in a chronic relapsing phase of the course of infection.
+
+D 4.2 Methods for Removal and Inactivation of the Infectious Agent
+Since tachyzoites of Toxoplasma mainly occur in phagocytes, the protozoae can be removed effectively (>3 log10) by leucocyte depletion.
+
+Thermoinactivation is effective as from 67 °C [179]. This method cannot be used for cellular blood products and plasma derivatives. The tachyzoites are isolated and inactivated during fractionation and sterilisation of plasma proteins. If sterile filtered fresh frozen plasma is used, Toxoplasma has no significance since the pathogenic agent is retained in the filter because of its size [165]. Fresh frozen plasma does not transmit Toxoplasma since the agent looses its infectiousness at temperatures of <20 °C. During fractionation of plasma for the manufacture of products such as coagulation factors and immunoglobulin, Toxoplasma is depleted and/or inactivated.
+
+D 4.3 Feasibility and Validation of Procedures for Removal/ Inactivation of the Infectious Agent
+Since Toxoplasma can be replicated in cell culture, spiking of blood and blood products is possible. The essential aspect of Toxoplasma contamination, however, is the growth in phagocytes which cannot be simulated by simple spiking, and for which special culturing conditions and spiking with infected leucocytes is required. Adding infected MRC5 cells [159] from cell culture, however, has little similarity to the natural infection process.
+
+If the aim is to test depletion or inactivation in plasma, spiking of plasma with Toxoplasma enriched in culture cells can be helpful, analogous with spiking with Babesia [132].
+
+Specific methods for elimination or intracellular inactivation have so far not been described.
+
+D 5 Assessment
+Toxoplasma gondii has a world-wide geographical distribution, and depending on the human population studied, the infection prevalence can be up to 80%. The progression of the infection is stopped after successful immune response, but can be reactivated in case of immune suppression. Treatment is available only against tachyzoites. The administration of therapeutic drugs cannot inactivate Toxoplasma in the dormant state. No infections by blood transfusions have so far been reported from Germany. Consequently, the donor selection regime and leucocyte depletion appears to prevent such infections. Thus, additional steps, such as the routine testing for Toxoplasma antibodies, are not required.
+
+Footnotes
+This paper was completed on August 28, 2008, and approved by the German Advisory Committee Blood (Arbeitskreis Blut) on October 29, 2008. It was compiled by the members of the subgroup ‘Assessment of Pathogens Transmissible by Blood’ of the German Advisory Committee Blood (Arbeitskreis Blut):
+
+Prof. Dr. Lutz Gürtler
+
+Dr. Johannes Blümel
+
+Prof. Dr. Reinhard Burger
+
+Prof. Dr. Christian Drosten
+
+Dr. Albrecht Gröner
+
+Dr. Margarethe Heiden
+
+PD Dr. Martin Hildebrandt
+
+Prof. Dr. Dr. Bernd Jansen
+
+Dr. Thomas Montag-Lessing
+
+Dr. Ruth Offergeld
+
+Prof. Dr. Georg Pauli
+
+Prof. Dr. Rainer Seitz
+
+Dr. Uwe Schlenkrich
+
+Dr. Volkmar Schottstedt
+
+Dr. Johanna Strobel
+
+Dr. Hannelore Willkommen

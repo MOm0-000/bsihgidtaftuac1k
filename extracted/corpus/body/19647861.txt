@@ -1,0 +1,117 @@
+Key Messages
+
+Total IgE is related to asthma only among individuals reactive to specific IgE
+
+In the U.S. population, asthma independent of IgE is not uncommon.
+
+Total IgE should not be a routine measurement in the evaluation of an individual with asthma
+
+The complete identification of atopics in a population requires a large panel of allergen-specific IgEs
+
+INTRODUCTION
+
+Allergy has long been known to play an important role in asthma. Sensitization to specific allergens can make asthma more difficult to control. For certain allergens, the combination of sensitization and exposure to high levels of the allergen can decrease asthma control.1, 2 Allergic sensitization also plays a role in the development of asthma. Illi et al 3 reported that development of sensitization to perennial allergens early in life (less than 3 years of age) combined with exposure to high allergen levels was predictive of chronic asthma and reduced lung function at age 13 years.
+
+The extent of asthma which is related to IgE-mediated sensitization is controversial. Rackeman4 proposed that not all asthma has an allergic basis but rather there existed a non-allergic form of asthma which was more prevalent in adults. This intrinsic form of asthma was defined by the lack of sensitization to asthma-specific allergens. The concept of intrinsic asthma was challenged by later studies which reported that the prevalence of asthma increased with increasing levels of total IgE among allergen skin test negative individuals, 5–7 and that asthma did not exist below certain levels of total IgE.6, 8
+
+The NHANES 2005–2006 was the first nationwide assessment of total and allergen-specific IgE antibodies in the U.S. population. The NHANES sample offers a unique opportunity to determine the role of total IgE in the prevalence of asthma.
+
+Data were obtained from the NHANES 2005–2006 which was designed to assess the health and nutritional status of the civilian, non-institutionalized U.S. population. The NHANES 2005–2006 over-sampled low-income individuals, adolescents (12–19 years), persons 60 years of age and older, African Americans, and Mexican Americans, among others. The NHANES classifies participants into 4 main racial/ethnic groups: non-Hispanic whites, non-Hispanic blacks, Mexican Americans, and others. Family income is classified by the poverty income ratio (PIR), the ratio of the family’s income to the appropriate poverty threshold for a family of that specific size. The NHANES 2005–2006 protocol was approved by the National Center for Health Statistics (NCHS), Centers for Disease Control and Prevention (CDC), Institutional Review Board. Informed consent was obtained from all participants 18 years and older. In addition to written consent from their parents, all participants 12 to 17 years of age signed an assent form. Details of the survey design and implementation of NHANES 2005–2006 may be found online at http://www.cdc.gov/nchs/nhanes.htm.
+
+Assessment of Asthma
+
+The primary outcome for this analysis was doctor-diagnosed current asthma. To be classified as an asthmatic, a participant had to respond in the affirmative to the following questions: 1) Has a doctor or other health professional ever told you that you have asthma? 2) Do you still have asthma? A responsible adult provided information for sample persons less than 16 years of age and for individuals who could not self-report.
+
+Total and Allergen-Specific IgE
+
+Participants aged 6 years and older were tested for total IgE and the following 15 allergen-specific IgE antibodies against aeroallergens [ Alternaria alternata , Aspergillus fumigatus , Bermuda grass ( Cynodon dactylon ), birch ( Betula verrucose ), cat dander, cockroach ( Blatella germanica ), dog dander, dust mite ( Dermatophagoides farinae and D. pteronyssinus) , mouse urine proteins, oak ( Quercus alba ), ragweed ( Ambrosia elatior ), rat urine proteins, Russian thistle ( Salsola kali ), rye grass ( Lolium perenne )]. The panel of specific IgEs was selected for the US as a whole and not optimized for any specific region. Total and specific IgE was measured with the Pharmacia Diagnostics ImmunoCAP 1000 System (Kalamazoo, Michigan). The lower limit of detection (LLOD) was 2.00 kU/L for total IgE and 0.35 kU/L for each of the allergen-specific IgEs. For samples below the LLOD, NHANES provided fill values equal to the LLOD divided by the square root of 2. For each allergen-specific IgE assay, the upper limit of detection (ULOD) was 1000 kU/L, and NHANES provided the fill value of 1000 kU/L when the ULOD was exceeded. For total IgE testing, no samples exceeded the ULOD of 50,000 kU/L. For this analysis, atopy was defined as at least one positive allergen-specific IgE test, with a positive test defined as a concentration ≥ 0.35 kU/L.
+
+Sample and Response Rate
+
+These analyses were limited to participants aged 6 years and older who were examined in the Mobile Examination Center (N = 8,086) because the diagnosis of asthma is difficult to establish in early childhood and examinees less than 6 years of age had a limited panel of allergen-specific IgE tests.
+
+Of the 8,086 participants aged 6 years and older who were eligible for IgE testing, 7,398 (91.5%) had blood drawn for total IgE measurement. Of these 7,398 participants, 97.6% (SE = 0.35) had a detectable level of total IgE (a concentration was imputed for observations below LLOD; see Methods). The prevalence of asthma was not statistically different between participants with and without total IgE results (8.8% versus 8.7%, respectively, p = 0.99). Across the 15 allergen-specific IgE tests, the percentage of eligible participants with reported results ranged from 90.7 to 91.5%.
+
+Statistical Analyses
+
+The distribution of total serum IgE in the U.S. population aged 6 years and older was log-normal. Thus, total IgE was logarithmically transformed (base 10) for statistical analyses. Differences in geometric mean concentrations of total IgE across population characteristics were tested with the F-statistic and differences in prevalences of asthma across population characteristics were tested with the Chi-square statistic.
+
+The main association of interest was between total IgE concentration (continuous, log 10 transformed) and asthma. Unadjusted and adjusted odds ratios for that association were estimated with logistic regression. Odds ratios were adjusted for age, gender, race, education, poverty, BMI, and serum cotinine (log 10 transformed). Differences in odds ratios across population characteristics were assessed with two-way interaction terms.
+
+To assess the contribution of allergen-specific IgE to the association between total IgE and asthma, results were stratified by three different categories of allergen-specific IgE results: at least one positive allergen-specific IgE test (atopy), the number of positive allergen-specific IgE tests, and summed concentrations of allergen-specific IgE. Differences in odds ratios across strata were tested with an interaction term. Statistical significance was established a priori at 0.05 for main effects and 0.10 for interactions.
+
+The sample weight variable WTMEC2YR was used in all analyses in order to obtain unbiased national estimates. The survey design variables SDMVSTRA and SDMVPSU were used to adjust the standard errors (SE) for the complex survey design. Analyses were performed with R version 2.9.09 survey package (Version 3.15),10 to adjust for the NHANES complex sampling design and confirmed with SAS (Version 9.1.3, Cary, NC) survey sampling procedures. Matching analysis and figures were constructed using the R packages Matching11 and lattice12 respectively.
+
+Distribution of Total IgE
+
+The median total IgE was 40.8 kU/L (IQR 15.5 – 114). The median total IgE value peaked at 52.7 kU/L in the 16–19 year age group and decreased in older ages, reaching a nadir of 32.6 kU/L in the 70+ age group. Median values were higher for males than for females, for non-Hispanic Blacks and Mexican-Americans than for non-Hispanic whites, for persons with <12 th grade education, increased poverty, higher serum cotinine levels, higher BMIs and individuals with at least one positive specific IgE (Table 1, Figure 1a).
+
+Prevalence of Asthma and Atopy
+
+Current asthma was reported by 8.8% of the population (Table 1). The prevalence of asthma differed significantly by age, race\ethnicity, sex, poverty, serum cotinine, and body size. The prevalence of asthma was higher among atopics than non-atopics (12.9% versus 5.8%, p<0.001) (Table 1). The percent of asthmatics who had >=1 positive specific IgE was 62.1% (SE=1.87). The adjusted odds ratio for the association between atopy and asthma among this population was 2.41 (95% CI: 1.94–2.99). The adjusted odds ratio did not varied significantly (p>0.05) across the age groups studied: 6 to 19 years 2.73 (95% CI: 1.97, 3.80); 20–49 years 2.79 (95% CI: 1.95, 3.98); 50+ years 1.94 (95% CI: 1.25, 3.01).
+
+Association between Total IgE and asthma
+
+The geometric mean for total IgE was significantly higher among asthmatics than non-asthmatics (81.1 vs 40.8 kU/L, p< 0.0001). The distribution density curve for asthmatics compared to non-asthmatics was shifted towards higher total IgE concentrations; however, there is considerable overlap between the curves (Figure 1b). The adjusted odds ratio for asthma for a 10-fold increase in total IgE (i.e. 1 to 10, 10 to 100, 100 to 1000, etc.) was 2.18 (95% CI: 1.66–2.87) (Table 2). However, as illustrated in Figure 2, total IgE predicted asthma prevalence only among persons who were atopic. For the total population the adjusted OR for the association between total IgE and asthma was 2.41 (95% CI: 1.62, 3.60) among atopics and 1.11 (95% CI: 0.72, 1.71) among non-atopics (interaction p = 0.005). The association remained across all age groups: atopics: 6–19 years 2.90 (95% CI: 1.72, 4.88); 20–49 years 2.19 (95% CI: 1.44, 3.31); 50+ years 2.23 (95% CI: 1.49, 3.35); non-atopics: 6–19 years 1.35 (95% CI: 0.82, 2.22); 20–49 years 0.81 (95% CI: 0.55, 1.19); 50+ years 1.17 (95% CI: 0.57, 2.44).
+
+The association between total IgE and asthma became stronger as the number of positive specific IgE tests or summed concentrations of specific IgE increased (Table 2). As shown in Figure 2, there was no level of total IgE among atopics or non-atopics for which the risk of asthma did not exist.
+
+Sensitivity analyses were conducted to determine if a lack of sufficient overlap in the distribution of total IgE between atopics and non-atopics could explain the effect of atopy on the association between total IgE and asthma. Approximately 1800 atopics and 1800 non-atopics were matched one-to-one on total IgE concentrations and without regards to asthma status. Consistent with the primary analysis, the matched analysis indicated that the association between total IgE and asthma was dependent on atopy – atopics OR=2.04 (95% CI: 1.40, 2.96) and non-atopics OR=1.09 (95% CI: 0.70, 1.69).
+
+The Number of allergen-specific IgE tests needed to identify atopics in the population
+
+The prevalence of atopy was 42.5% using all 15 specific IgEs. The range of prevalences for the 15 individual specific IgEs ranged from 19.5% for rye grass to 1.1% for mouse urine proteins (Table 3). In order to determine how many of our 15 specific IgEs were necessary to identify the atopics in our population, we first selected the specific IgE which identified the largest number of atopics. Then from the remaining 14 specific IgEs another specific IgE was selected for the panel based on the largest contribution to the percent of atopy identified. After the addition of six allergens (rye grass, D. pteronyssinus, cat, ragweed, cockroach, Alternaria alternata ) 92.8% of the atopics were identified. Identification of 99.2% of the atopics required five additional allergens (birch, D. farinae, Russian thistle, Aspergillus fumigatus, dog) (Figure 3).
+
+DISCUSSION
+
+Among the U.S. population aged 6 years and older, total serum IgE was associated with doctor-diagnosed current asthma, but only among persons who were atopic, as defined by a panel of allergen-specific IgE tests. Total IgE, in the absence of specific IgE, is not associated with asthma. This finding validates the use of specific IgE to determine the proportion of asthma associated with atopy in a previous publication.13 Among atopics as defined by the presence of at least one specific IgE, the prevalence of asthma increased with both total and specific IgE. However, the impact of total IgE was non-uniform across the asthma-related atopic group; the impact of total IgE increased as the number of positive specific IgEs increased and as the summed concentrations of specific IgEs increased.
+
+The NHANES 2005–2006 findings clearly demonstrate a significant portion of asthma in the population exists independent from IgE – total or specific. It is not correct however to label this group non-atopic asthma. Certainly the asthma independent of IgE identified in the NHANES would be a part of any definition of non-atopic asthma, but a complete definition of non-atopic asthma must also include those individuals who have coincidently developed sensitivities to allergens but whose sensitivities are not related to their asthma.14 The data collected in the NHANES does not allow identification of such individuals.
+
+The concept of non-atopic asthma, defined as the absence of any positive allergen skin test or specific IgE, is not a new one.4 Studies dichotomizing asthma by presence or absence of atopy found differences in distribution by age, gender and risk factors.15–17 For example indoor NO 2 is a risk factor among non-atopic but not among atopic inner city asthmatics,18 while markers of atopy and inflammation have been reported to predict steroid responsiveness among asthmatics.19
+
+Other reports have discounted the existence of non-atopic asthma by demonstrating the association of asthma with total IgE in the absence of demonstrated sensitivity to specific allergens (positive allergen skin tests or presence of allergen-specific IgE). The ability of the panel of allergens or specific IgEs used in these studies to completely identify all atopics brings into question the conclusions. In a sample of 2,657 individuals 6 years and older (average age 44 years), total IgE was found to be related to the prevalence of asthma even in the absence of allergen skin test reactivity using a panel of 5 allergen tests that did not include pets.6 Sunyer et al. evaluated 20 to 44 year olds (N=1,916) in Spain using specific IgEs to 5 allergens.7 Among the participants who had no positive specific IgEs, the odds ratio for asthma was 18 (13.9–120) for those above versus below 100 kU/L total IgE. However, previous work based on the European Community Respiratory Health Survey (ECRHS) which was conducted in the same region of Spain recommended a minimum of 7 allergens to identify atopy. 20 The data presented in the Spanish sub-sample of ECRHS indicates that the panel used in the Sunyer analyses was not optimal to identify atopy. Among 1,219 consecutive patients in a pulmonary clinic, using a 150 U/mL total IgE cutoff the prevalence of asthma was elevated among non-atopics (negative to 14 aeroallergens and an additional panel of 8 food allergens) with elevated total IgE.5 This panel did not contain cockroach or rodents.
+
+The number of allergens or specific IgEs which must be included in a panel to identify all the atopics in a population is not certain. A number of studies have looked at this question and have concluded 90 to 95% of atopics can be identified with a relatively small panel. At age 4, only 4 aeroallergens were need to identity 94% of children with a positive (>= 3 mm wheal) allergen skin test reaction to a panel of 12 allergens – 6 aeroallergens and 6 food allergens.21 In the Avon Longitudinal Study of Parents and Children at 7 years allergen skin testing was performed with 6 core allergens and an additional panel of 7 to 8 allergens. Both the core and additional panels contained food allergens. Sensitization (wheal >= 3 mm) to one grass, D. pteronyssinus or cat allergen identified more that 95% of individuals who reacted to one or more allergen on the complete panel.22 The ECRHS, which studied 20 to 44 year olds, included a panel of 9 allergen skin tests and using a wheal size of > 0 mm to define a positive found on subsequent analyses that 7 were needed to identify almost all of the sensitized individual across the 13 countries contributing data.20 Similarly in the NHANES 2005–2006 only six allergens were needed to identify approximately 92% of the atopics, however, to identify over 99% of the asthmatics required 11 allergens. The misclassification of individuals with positive specific IgEs to the non-atopic group will result in a spurious relationship between total IgE and asthma in the non-atopic group.
+
+The lack of reported asthma below certain levels total IgE has been used promulgated as evidence of the lack of or rarity of asthma independent of IgE. Sears et al. 8 studied 562 children (11-years of age) and reported the prevalence of diagnosed asthma was positively related to total IgE levels – specific allergens were not evaluated in this study. No asthma was reported in participants with less that 32 IU/ml of total IgE. Burrows et al. 6 studied 2,657 white non-Mexican Americans age 6 years and older living in Tucson AZ and reported that no asthma was reported among individuals with the lowest total IgE levels (<−1.46 Z score). The findings of NHANES 2005–2006 clearly show that asthma unassociated with IgE is a large and important group and deserves further study. The larger sample size (N= 7398) of the NHANES allowed a more complete enumeration of asthma at low levels of total IgE.
+
+For the most part, the variation in total IgE across socio-demographic variables in the NHANES 2005–2006 is consistent with what has been previously reported in the literature. In regards to age, the peak of total IgE in the 16 to 19 year old group is slightly later than the previous literature would suggest where the peak was reported in 6 to 14 years of age,23 before 10 years of age,24 or the 8 to 14 years of age.25 Among adults, the level of total IgE is generally reported to decrease with age 23, 26 but not in all studies.27, 28 Our data show a clear decrease in total IgE among the older population. Additionally, our findings on the relationship of total IgE with other socio-demographic, environmental, and atopic factors is generally consistent with the reported literature. Total IgE has consistently been reported to be higher in men,23, 25–29 those with self-reported atopic disease or positive allergen skin tests 7, 23, 25, 28–31 and smoking has generally been reported to increase total IgE.25, 26, 29, 32 While fewer studies have looked at racial/ethnic differences, whites have consistently had lower total IgE as compared to blacks.24, 30, 31 One study including Latinos reported elevated levels compared to whites.30 Total IgE has been reported to increase with poverty or decreased education.30
+
+The representative nature of the NHANES 2005–2006 makes it an excellent data source to examine the allergic basis of asthma. The individuals were not selected on the basis of disease but to reflect the civilian non-institutionalized U.S. population. The survey is comprehensive; asthma and allergy assessments were but a small part, therefore limiting any possibility that respondents were aware of the research question being evaluated in this paper. The data were collected and processed in a standardized, consistent fashion across all sites. A major limitation is the cross-sectional nature of the study, and the self-report of asthma with no confirmatory measures of bronchoreactivity. A self-report of asthma may undercount the number of patients with asthma in the population, but the patients with asthma identified will have a high probability of truly having asthma.33 A number of other limitation also apply to this data. Only a single measure of total IgE was available in NHANES 2005–2006. While over the lifespan total IgE raises and falls, over the span of several years the values are highly correlated as shown in the report from the German Multicenter Allergy Study (MAS) where a correlation of greater than 0.8 was observed for total IgE was measured at ages 6, 7, and 10 years of age.34 IgE levels in symptomatic individuals can vary with season. No information is available as to the time of the year the individual specimens were collected. However, the NHANES data collection occurred all year around so the impact of seasonal variation in IgE levels should be minimized. Finally while the specific IgE panel in the NHANES 2005–2006 was optimized for the US population, it may not be optimal for a specific region or individual.
+
+The implications of the NHANES 2005–2006 total IgE data are clear. In the absence of specific IgE, asthma prevalence is independent from total IgE. The measurement of total IgE should not be a routine measurement in the evaluation of an individual with asthma. However, in certain clinical situations such as the evaluation of an asthmatic for allergic bronchopulmonary aspergillosis measurement of total IgE is still required. Asthma independent of IgE appears to be a phenotype of asthma which is large in number and therefore requires further study. However, the complete identification of non-atopic asthma will require the ability to determine if the co-existence of allergen sensitization and asthma within an individual are clinically related. At present this is not possible. Identification of clinically meaningful phenotypes is an important step in untangling the conflicting findings on risk factors, treatment response, and prognosis which are found in the asthma literature.
+
+Figures and Tables
+
+[图片请参阅原始 PDF 或 PMC 网页]
+
+[图片请参阅原始 PDF 或 PMC 网页]
+
+[图片请参阅原始 PDF 或 PMC 网页]
+
+Distribution of total serum IgE and asthma prevalence among persons aged 6 years and older
+
+Crude and adjusted odds ratios (OR) for the association between diagnosed current asthma and total IgE (log10 transformed) stratified by positive specific IgE tests.
+
+Prevalence of specific IgEs.
+
+This research was supported in part by the Intramural Research Program of the NIH, National Institute of Environmental Health Sciences (Z01 ES025041-10) and National Institute of Allergy and Infectious Diseases under contract number N01-AI-25482
+
+Abbreviations
+
+Centers for Disease Control and Prevention
+
+European Community Respiratory Health Survey
+
+Immunoglobulin E
+
+Lower limit of detection
+
+National Health and Nutrition Examination Survey
+
+National Center for Health Statistics
+
+Upper limit of detection
+
+This is a PDF file of an unedited manuscript that has been accepted for publication. As a service to our customers we are providing this early version of the manuscript. The manuscript will undergo copyediting, typesetting, and review of the resulting proof before it is published in its final citable form. Please note that during the production process errors may be discovered which could affect the content, and all legal disclaimers that apply to the journal pertain.

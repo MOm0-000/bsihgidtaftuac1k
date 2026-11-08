@@ -1,0 +1,43 @@
+Specifications Table TableSubject area Randomized clinical trial, medicine More specific subject area Allergic asthma Type of data Tables How data was acquired Clinical study protocol, spirometry, Fractional exhaled nitric oxide, total serum IgE, rescue medication use and pharmacokinetic evaluation Data format Analyzed Experimental factors Randomized clinical trial in uncontrolled allergic asthma Experimental features The efficacy of QAW039 in patients with mild to moderate persistent allergic asthma was assessed using Peak Flow Expiratory Rate (PEFR), Fractional Exhaled Nitric Oxide (FeNO), total serum IgE levels and the use of rescue medication over 28 days. Data was compared with patients who were randomized to receive placebo. A subgroup analysis of patients with a FEV 1 (% predicted) <70% was carried out evaluating PEFR and FeNO. Pharmacokinetic profiling of QAW039 was carried out using LC–MS/MS method Data source location Basel, Switzerland. Data accessibility Data with this article
+
+Value of the data •The data presented on clinical endpoints are important for studies performed for clinical development of drugs in asthma to determine aspects of clinical and mechanistic efficacy.•The pharmacokinetic data from this study help to describe the compound׳s properties and support its suitability for once daily dosing.•Uncontrolled allergic asthma patients with a FEV 1 (% predicted) <70% might benefit from once daily QAW039 treatment, but further data is required
+
+A detailed inclusion and exclusion criteria for the clinical trial can be found in Table 1. Patients taking inhaled corticosteroids and/or LABA/other asthma medications entered a weaning period whereby a stepwise tapering of their asthma medication occurred every 7 days (Figure 1 in [1]). Peak Flow Expiratory Rate in the morning and evening for the PD analysis set over 28 days are highlighted in Table 2.
+
+Statistical analysis of fractional exhaled nitrous oxide and total serum IgE over 28 days in the PD analysis set and the subgroup of patients with a FEV 1 (% predicted) <70% is highlighted in Tables 3 and 4, respectively.
+
+Rescue medication (salbutamol/albuterol) use over 28 days in the PD analysis set is displayed in Table 5.
+
+In Table 6, results from the plasma PK parameters of QAW039 on Days 1 and 28 from the PK analysis set are highlighted.
+
+Experimental design, materials and methods
+
+Weaning period, patient randomization and drug administration
+
+A weaning period was carried out in using a 3 step method prior to randomization to either treatment arm. At Step 1, all non-ICS asthma medication (e.g. LABA) was stopped, with SABA rescue medication (salbutamol/albuterol) for on demand administration. At Step 2/3, ICS doses were reduced from a medium daily dose to a low daily dose and/or from a low daily dose to a complete withdrawal of ICS. Postweaning, patients were randomized to either QAW039 500 mg or placebo treatments. Both treatments were administered to patients in a double-blind fashion (both the patient and investigator remained blinded to the treatment allocation). The appearance of both treatments was identical to maintain blinding. Randomization data were kept strictly confidential, and were accessible only to authorized personnel until database lock.
+
+Treatments were administered with approximately 200 mL of water. Patients who were randomized were dosed in the morning (between 07:00 and 10:00). Patients received treatments at their respective clinical trial site on Days 1, 7, 14, 21 and 28 which corresponded with time points for recording the data for the respective clinical endpoints (Peak expiratory flow rate, fractional exhaled nitric oxide, total serum IgE and pharmacokinetics).
+
+Peak expiratory flow rate, fractional exhaled nitric oxide and total serum IgE
+
+Peak expiratory flow rate (PEFR) was measured by the patients using a home spirometry device both in the in morning and evening over the course of the 28 day period. Time course of PEFR was plotted for morning and evening assessments, and analyzed using a repeated measures mixed effects model. The model included treatment and time as fixed factors, the treatment by time interaction terms, mean baseline PEFR values as a covariate, and patient as a random effect. A statistical analysis was also performed on the mean morning and evening PEFR values on Days 1, 2, 7, 14, 21 and 28.
+
+Fractional exhaled nitric oxide (FeNO) has been successfully used to monitor anti-inflammatory treatment and was assessed using the NIOX MINO analyzer in line with the recommendations for standardized procedures for the online and offline measurement of exhaled lower respiratory nitric oxide and nasal nitric oxide in adults and children [2]. Blood samples (10 mL) were collected and serum obtained to determine levels of total IgE. Quantification of IgE was part of the standard laboratory practice.
+
+Pharmacokinetic evaluation
+
+All patients who received QAW039 or placebo had blood and urine samples collected for pharmacokinetic (PK) analysis. Blood samples (2×3 mL) for pharmacokinetic evaluation were collected from a forearm vein (direct venipuncture or from an indwelling cannula) into vacuum polypropylene tubes or monovettes containing EDTA as anticoagulant at each time point. Within 10 min of collection, blood samples were centrifuged at 3000× g for 15 min between 0 and 4 °C. Following centrifugation, 1 mL of the plasma was transferred into a polypropylene screw cap tube containing lactic acid solution (10 μL of lactic acid at 70% per mL of plasma), and stored at ≤−70 °C.
+
+Urine samples were collected on Day 1 (pre-dose) and over a 24 h period on Day 28. During each sampling interval the urine portions were pooled in a polypropylene container and stored either on ice or in a refrigerator at 0–4 °C. Immediately after the end of the collection interval, 2×5 mL aliquots of urine were removed from the pooled sample and placed into polypropylene tubes and frozen at ≤−70 °C within 15 min of the collection. Prior to this, 5 mL aliquot of urine per time period was then transferred into polypropylene tubes containing lactic acid solution (10 μL of lactic acid at 70% per mL urine).
+
+Concentrations in plasma and urine of QAW039 and the glucuronide metabolite CCN362 were determined by a validated LC–MS/MS method with a LLOQ of approximately 1 ng/mL for QAW039 and 2 ng/mL for CCN362.
+
+Supplementary material
+
+Transparency document
+
+Supplementary material
+
+Transparency document
+
+Transparency data associated with this article can be found in the online version at doi:10.1016/j.dib.2016.08.039.

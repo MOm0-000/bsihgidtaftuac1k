@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "input": "extracted/corpus/papers.jsonl",
+  "metadata": "extracted/papers_metadata_reviewed.csv",
+  "source_count": 183,
+  "kept_count": 180,
+  "excluded_count": 3,
+  "excluded_pmids": {
+    "14450716": "书目汇编，不作为单篇研究论文",
+    "40011409": "多篇会议摘要合集，不作为单篇研究论文",
+    "8457977": "已核实PDF多栏阅读顺序错乱，无法可靠还原正文"
+  },
+  "status_note": "ok=通过自动规则，并非人工确认全文正确；review=保留在180篇中等待复核"
+}

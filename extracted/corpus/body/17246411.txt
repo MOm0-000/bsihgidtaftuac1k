@@ -1,0 +1,637 @@
+Copyright _0_ 1987 by the Genetics Society of America 
+
+A Comprehensive Study of Genic Variation in Natural Populations of _Drosophila melanogaster._ 111. Variations in Genetic Structure and Their Causes Between _Drosophila melanogaster_ and Its Sibling Species _Drosophila simulans_ 
+M. Choudhary and Rama S. Singh 
+
+Manuscript received March 2, 1987 Revised copy accepted August 22, 1987 
+ABSTRACT 
+
+The natural populations of _Drosophila melanogaster_ and _Drosophila simulans_ were compared for their genetic structure. A total of 114 gene-protein loci were studied in four mainland (from Europe and Africa) and an island (Seychelle) populations of D. _simulans_ and the results were compared with those obtained on the same set of homologous loci in fifteen worldwide populations of _D. melanogaster._ The main results are as follows: (1) _D. melanogaster_ shows a significantly higher proportion of loci polymorphic than _D. simulans_ (52% _us._ 39%, P < 0.05), (2) both species have similar mean heterozygosity and mean number of alleles per locus, (3) the two species share some highly polymorphic loci but they do not share loci that show high geographic differentiation, and (4) _D. simulans_ shows significantly less geographic differentiation than _D. melanogaster._ The differences in genetic differentiation between the two species are limited to loci located on the X and second chromosomes only; loci on the third chromosome show similar level of geographic differentiation in both species. These two species have previously been shown to differ in their pattern of variation for chromosomal polymorphisms, quantitative and physiological characters, two-dimensional electrophoretic (2DE) proteins, middle repetitive DNA and mitochondrial DNA. Variation in niche-widths and/or genetic “strategies” of adaptation appear to be the main causes of differences in the genetic structure of these two species. 
+
+C OMPARISON cies can provide information about the relative of genetic structure between speimportance of various evolutionary forces, _i. e.,_ migration, natural selection and genetic drift, that shape the pattern of genetic variation within species, and about the genetic mechanism or “strategies” of adaptation that are employed to deal with the variation in the physical and biotic environments between species. Comparisons of genetic structure are usually done between closely related species _(e.g.,_ see HUBBY and THROCKMORTON 1968; AYALA and POWELL 1972; LAKOVAARA, SAURA and FALK 1972; PRAKASH 1977; EISSES, VAN DIJK and VAN DELDEN 1979; GONZALEZ _et al._ 1982; OHNISHI, KAWANISHI and WATANABE 1983), and if such species are similar in their geographic and climatic distribution, so much the better as this reduces the number of variables to be examined and makes the comparison easy. 
+
+The sibling species _Drosophila melanogaster_ and _Drosophila simulans_ are such as species pair. They are the two better known species of the ”melanogaster complex’’; both are cosmopolitan (BOCK 1980) and suffciently versatile to adapt to both temperate and tropical regions (PARSONS 1975, 1983). Their similar distribution increases the probability of finding similarity in their genetic mechanisms of adaptation. A question of evolutionary significance is whether or not these 
+
+sibling species have used the same genetic strategies in adapting to their varied environments. This problem can be pursued by asking: Do these sibling species have similar patterns of genetic variation over their geographic and climatic distributions? 
+
+The above question has been the focus of attention in a number of comparative studies on genetics, morphology, ecology and behaviour of this sibling pair (for reviews, see PARSONS 1975, 1983; PARSONS and STANLEY 1980). Recent studies have shown that the two species differ in the overall level of genetic variation within populations, and geographic differentiation between populations for various genetic elements. For example, polymorphic inversions occur in _D. melanogaster_ (STALKER 1976; ASHBURNER and LEMEUNIER 1976; METTLER, VOELKER and MUKAI 1977; KNIBB, OAKESHOTT and GIBSON 1981) but not in _D. simulans_ (ASHBURNER and LEMEUNIER 1976). _D. simulans_ has been shown to be substantially less polymorphic than _D. melanogaster_ for allozymes (O’BRIEN and MACINTYRE 1969; BERGER 1970; KOJIMA, GILLESPIE and TOBARI 1970; TRIANTAPHYLLIDIS 1973; STEINER, SUNG and PAIK 1976; TRIANTAPHYLLIDIS _et al._ 1980, 1982; CABRERA _et al._ 1982; HYYTIA _et al._ 1985; WATADA, TOBARI and OHBA 1986; SINGH, CHOUDHARY and DAVID 1987), two-dimensional electrophoretic (2DE) proteins (OHNISHI _et al._ 1982) and 
+
+Genetics 117: 697-710 (December, 1987) 
+
+M. Choudhary and R. S. Singh 
+
+698 
+
+mitochondrial DNA (BABA-AISSA and SOLIGNAC 1984; HALE and SINGH 1985). Taken together, these studies show that D. _simulans_ has less of both the genetic variation within populations and genetic differentiation between populations than D. _melanogaster._ 
+
+One reason for the differences in the genetic structure of these species may be that relatively fewer populations and genes have been studied in _D. simulans_ than in D. _melanogaster._ In fact, as the number of populations and genes studied in D. _simulans_ has increased, the differences of heterozygosity between the two species have decreased. In view of the large interlocus variance of heterozygosity (FUERST, CHAKRABORTY and NEI 1977), it is important to sample a large number of loci; and, preferably the same set of homologous loci should be studied in both species. Here we report the results of a study of genic variation with 114 gene-protein loci in four mainland (from Europe and Africa) and an island (Seychelle) populations of D. _simulans._ The results are compared with those obtained on the homologous set of protein loci in _D. melanogaster_ (SINGH and RHOMBERG 1987b). The comparison shows that D. _simulans_ is as heterozygous as D. _melanogaster_ but the former shows significantly less geographic differentiation than the latter. Hypotheses are discussed to explain the apparent contradiction between the ecological similarity and genetic differences between the two species. 
+MATERIALS AND METHODS 
+
+The D. _simulans_ lines used in this study came from five geographic locations-South France (55 isofemale lines), Tunisia (52), Congo (45), Capetown, South Africa (32) and Seychelle Island (26). The flies were maintained as isofemale lines on corn meal medium at 20". Unlike our previous study (SINGH, CHOUDHARY and DAVID 1987) in which we deliberately sampled loci that showed latitudinal clines in D. _melanogaster_ or loci that were polymorphic in D. _simulans,_ in the present study we sampled almost the entire set of allozyme loci that have recently been studied in D. _melanogaster_ (SINGH and RHOMBERC 198713). 
+
+A total of 114 gene loci were studied, of which 79 code for enzymes and the remaining 35 for abundant proteins of unknown functions. Of the latter, 19 were stained by Coomassie Brilliant-Blue, and the others by ultrasensitive silver stain (MERRIL, DUNAU and GOLDMAN 198 1 ; MORRISSEY 1982). 
+
+The extraction and electrophoretic buffers used in this study were the same as described in SINGH, HICKEY and DAVID (1 982), SINCH and COULTHART (1 982) or SINCH and RHOMBERG (1 987b). Larvae were used for LAP, APH and larval proteins; pupae for EST-IO and GOT; and adults for all other enzymes and silver proteins. The samples were prepared by grinding ten larvae or adults in 50 on buffer. The crude extract was centrifuged at 16,OOOg for 5 min at 4, and the supernatant was used for electrophoresis. Electrophoresis was carried out on vertical slab-gels following the standard methods (PRAKASH, LEWONTIN and HUBBY 1969). [Sequential electrophoresis was not used as it has shown a relatively low level of hidden variation in D. _melanogaster_ (CHOUDHARY and SINCH 1987).] For most of the enzymes, 5% gel of commercial grade acrylamide (Cynogum) and a continuous buffer system was used [see SINCH 
+
+and RHOMBERC (1 987b) for details]. Run times for electrophoresis varied from enzyme to enzyme and were adjusted for optimum separation. The staining methods were adapted from HARRIS and HOPKINSON (1 976), SMITH (1 976) or as referred in SINCH and RHOMBERC (1 987b). Isozyme loci and electrophoretic alleles were designated as described in SINCH, HICKEY and DAVID (1 982). 
+RESULTS 
+
+Of the 114 loci studied, 44 were found to be polymorphic in D. _simulans_ and _60_ in D. _melanogaster._ Number of alleles, average heterozygosity and fixation index for polymorphic loci in the two species are shown in Table 1. The data for _D. melanogaster_ have been analyzed and reported elsewhere (SINGH and RHOMBERG 1987a, b). Here we analyze the data for _D. simulans_ and compare the results with those of _D. melanogaster._ 
+
+Table 2 shows a summary of genic variation in five geographic populations of _D. simulans._ An average population is polymorphic for about 30% of its loci and an average individual is heterozygous at 9% of its genes. All five populations are highly heterozygous but the Continental tropical population (Congo) shows higher heterozygosity than the temperate populations. However this difference appears to be limited to only the enzyme loci; the abundant proteins have similar heterozygosity in all populations. The difference in heterozygosity arises from the fact that the Congo population contains a number of polymorphic loci _(e.g., 6-Pgd, Hex-1, a-Gpd, Odh)_ that are monomorphic in the remaining populations. The polymorphic loci are about equally heterozygous in all populations. Similar differences in heterozygosity between temperate and tropical populations are reported in D. _melanogaster_ (SINGH, HICKEY and DAVID 1982), but here the differences arise mostly from the highly polymorphic loci and seem to disappear when the comparison is made with respect to all loci (SINGH and RHOMBERG 1987b). The geographically isolated Seychelle population is less heterozygous than Congo although both are tropical in location. 
+
+The distribution of polymorphic loci with respect to number of alleles and the frequency of the most common allele is shown in Figure 1. Two points emerge from these data. First, in both species the majority of polymorphic loci have only two to five alleles and very few loci have more than five alleles. Half of the polymorphic loci (48% in _D. simulans_ and 50% in _D. melanogaster)_ have only two major alleles with a frequency of 10% or more, and fewer than _5_ loci in both species have three or more alleles with individual frequencies of 10% or more. Second, a larger proportion of di- and tri-allelic loci in D. _simulans_ show an uneven distribution of allele frequencies, _i.e.,_ one allele is common and the others are rare. The multi-allelic loci, on the other hand, appear to be more evenly distributed in D. _simulans_ than in D. _melanogaster._ Thus the lower heterozygosity of the di- 
+
+Genetic Structure 
+
+699 
+
+TABLE 1 
+
+Number of allele (n,,), mean heterozygosity _(H,)_ and fixation index _(Fa)_ for various allozyme loci in _D. melanogaster_ and _D. simulans_ 
+
+||_D.melanogas_|_ter_||_D.simulan_|_s_|
+
+|Enzymesor proteins|_n.'_
+_H,_|_F,_|_n/_|_H._|_F,,_|
+|_ChromosomeI:_||||||
+|
+Carbonic anhydrase-3 (CA-3)|1
+0.018|0.043|4|0.467|0.140|
+|
+Diaphorase-7 (DIA-7)|2
+0.048|0.094|1|0|0|
+|Glucose-6-phosphate dehydrogenase (G-6PD)|3
+0.254|0.472|1|0|0|
+|Glutamate pyruvate transaminase (GPT)|3
+0.345|0.249|4|0.245|0.077|
+|
+6-Phosphate gluconate dehydrogenase (6-PGD)|
+2
+ 
+0.252|
+0.249|2|
+0.040|
+0.070|
+|
+Larval protein- 11(Pt- 1 1)
+|5
+0.478|0.259|4|0.41 1|0.190|
+|Alcohol dehydrogenase (ADH)
+_ChromosomeII:_|2
+0.233|0.503|1|0|0|
+|
+a-Amylase (@-AMY)|||2|0.019|0.020|
+|Dipeptidase-3 (DIP-3)|2
+0087|0064|1|0|0|
+|
+&Galactosidase (@-GAL)|
+1
+.
+0|.
+0|
+3|
+0.082|
+0.175|
+|
+a-Glycerophosphate dehydrogenase (a-GPD)|2
+0.306|0.107|2|0.037|0.066|
+|Hexokinase-1 (HEX-1)|3
+0.255|0.242|3|0.094|0.108|
+|
+Malate dehydrogenase- 1 (MDH- 1)|2
+0.027|0.129|1|0|0|
+|Phenol oxidase (PHOX)|2
+0.062|0.209|2|0.064|0.023|
+|Larval protein-10 (Pt-10)|5
+0.262|0.205|4|0.232|0.032|
+|Succinate dehydrogenase (SDH)|3
+0.143|0.243|3|0.324|0.077|
+|
+Trehalase (TREH)|3
+0.402|0.204|4|0.398|0.100|
+|_ChromosomeIII_||||||
+|Acid phosphatase (ACPH)|2
+0.040|0.025|6|0.464|0.186|
+|
+Aldehyde oxidase (AO)|
+8
+ 
+0.416|
+0.189|
+4|
+0.5 12|
+0.129|
+|Alkaline phosphatase (APH)|3
+0.085|0.056|2|0.074|0.085|
+|Dipeptidase-1 (DIP-I)|1
+0|0|4|0.343|0.382|
+|
+Esterase-C (EST-C)|4
+ 
+0.238|
+0.365|
+5|
+0.649|
+0.110|
+|Esterase-6 (EST-6)|3
+047 1|0098|4|05 17|007 1|
+|
+a-Fucosidase (a-FUC)|
+3
+.
+0.446|.
+0.116|
+3|.
+0.259|.
+0.455|
+|Glucose oxidase (GO)|4
+0.240|0107|2|0028|0039|
+|
+@-Glucoronidase (@-GUS)|
+1
+ 
+0|.
+0|
+2|.
+0.039|.
+0.084|
+|
+Isocitrate dehydrogenase-1(IDH-1)|2
+0.025|0.052|4|0.224|0.094|
+|
+Leucine aminopeptidase-D (LAP-D)|3
+0.335|0.2 13|1|0|0|
+|Leucine aminopeptidase-A (LAP-A)|3
+0.424|0.157|1|0|0|
+|Malate dehydrogenase-2 (MDH-2)|2
+0.071|0.121|1|_0_|0|
+|
+Octanol dehydrogenase (ODH)|2
+0.141|0.152|2|0.104|0.257|
+|Phosphoglucomutase (PGM)|3
+0.197|0.077|4|0.244|0058|
+|
+Larval protein-9 (Pt-9)|
+3
+ 
+0.228|
+0.433|3|
+0.145|.
+0.031|
+|Larval protein-I5 (Pt-15)|3
+0.127|0.585|5|0.553|0.045|
+|
+Sorbitol dehydrogenase-1 (SODH-1)|2
+0.070|0.074|2|0.078|0.181|
+|
+Tetrazolium oxidase-1 (TO-1)|2
+0.122|0.115|1|0|_0_|
+|Xanthine dehydrogenase (XDH)
+|5
+0.521|0.126|4|0.544|0.073|
+|Aconitase-1 (ACON-I)
+_Autosomes:_|2
+0.385|0.085|1|0|0|
+|
+Aconitase-2 (ACON-2)|3
+0.245|0.088||||
+|Adenylate kinase-1 (ADK-I)|1
+0.027|0.066|1|0|0|
+|Carbonic anhydrase-1 (CA-I)|3
+0331|0236|4|0457|0186|
+|
+Carbonic anhydrase-2 (CA-2)|
+3
+.
+0.108|.
+0.095|
+5|.
+0.522|.
+0.159|
+|
+Carbonic anhydrase-4 (CA-4)|2
+0.055|0.082|3|0.246|0.230|
+|
+Diaphorase-1 (DIA-1)|3
+0.190|0.087|1|0|0|
+|Diaphorase-2 (DIA-2)
+Glucose dehydrogenase (GDH)|4
+4
+0.369
+0.527|0.125
+0.203|4
+3|0.437
+0.164|0.069
+0.055|
+|
+a-Glucosidase-4 (a-GLU-4)|3
+0369|0141|3|0152|0034|
+|
+Glutamate dehydrogenase (GLUD)|
+4
+.
+0.257|.
+0.350|
+2|.
+0.141|.
+0.346|
+|
+a-Mannosidase-4 (a-MAN-4)
+Mannose phosphate isomerase (MPI)|2
+2
+0.077
+0.040|0.167
+0.050|1
+3|0
+0.044|0
+0.875|
+|
+_Unmapped:_||||||
+|Esterase-9 (EST-9)
+|4
+0.480|0.092|3|0.229|0.104|
+|
+Esterase- 10 (EST-10)|2
+0046|0043|4|0250|0050|
+|
+a-Glucosidase-3 (a-GLU-3)|
+1
+.
+0|.
+0|
+2|.
+0.032|.
+0.040|
+|Lactate dehydrogenase (LDH)
+|1
+ 
+0
+|0
+|4
+|0.307|0.112|
+|Leucine aminopeptidase-6 (LAP-6)
+Tetrazolium oxidase-2 (TO-2)|3
+1
+0.307
+0012|0.385
+0053|1
+1|0
+0|0
+0|
+|
+Larval protein-1 (Pt-1)|
+3
+.
+0.377|.
+0.126|
+4|
+0.468|
+0.187|
+
+M. Choudhary and R. S. Singh 
+
+TABLE _1-Continued_ 
+
+|Enzymesorproteins||||||
+
+|Pt-2|3
+0.077|0.068|1|0|0|
+|Pt-6|2
+0.081|0.107|1|0|0|
+|Pt-12|1
+0.024|0.028|1|0|0|
+|Pt-13|4
+0.126|0.075|1|0|0|
+|Pt-16|1
+0|0|2|0.02 1|0.044|
+|Adult protein-7A (Pt-7A)|2
+0.076|0.277|1|0|0|
+|Pt-SA|2
+0.070|0.095|2|0.070|0.043|
+|Pt-1OB|2
+0.053|0.098||||
+|Pt-15A|1
+0.011|0.065|2|0.040|0.032|
+|Pt-26|2
+0.186|0.461|1|0|0|
+|Pt-37|2
+0.368|0.242|1|0|0|
+
+Monomorphic Loci: 
+
+_Chromosome I:_ Fumerase (FUM), Hydroxy acid dehydrogenase (HAD) and Hexokinase-3 (HEX-3). _Chromosome I I_ Glutamate oxaloacetate transaminase-1 (GOT-l), Glyceraldehyde-3-phosphate dehydrogenase (GAPDH), Phosphoglucose isomerase (PGI), 3-Phosphoglycerate kinase (PCK), a-Glycerophosphate oxidase (a-GPO) and Sucrase (SUCR). _Chromosome III:_ Acetylcholine esterase (ACE), Aldolase (ALD), Arginine kinase-1 (AK-l), AK-2, Catalase (CAT), Dipeptidase-2 (DIP-2), Isocitrate dehydrogenase-:! (IDH-2) and Malic enzyme (ME). _Autosomes:_ Adenylate kinase-2 (ADK-2). _Unmapped:_ Acetyl glucosaminidase (HEXOS-l), Arylsulphatase (ARS), Diaphorase-6 (DIA-6), _a-_ Clucosidase-2 (a-GLU-2), Hexokinase-2 (HEX-2), a-Mannosidase-1 (a-MAN-l), a-MAN-2, a-MAN-3, Sorbitol dehydrogenase-2 (SODH-2), Triosephosphate isomerase (TPI), Larval protein-3 (Pt-3), Pt-4, Pt-5, Pt-7, Pt-8, Adult protein-10A (Pt-1 OA) and 14 other adult protein loci. a The number of alleles shown are only those having a frequency of at least 1 % in the species. 
+
+TABLE 2 
+
+Summary of genic variation in various geographic populations of _D. simulans_ 
+
+|Populations and latitude|No.ofloci
+studied"|Proportion
+polymorphic|No.ofalleles
+(mean_2_SE)|Heterozygosity
+(mean&SE)|
+
+|France|79|0.304|1.66f1.12|0.105f0.193|
+|43"N|35|0.228|1.51f1.12|0.076f0.178|
+||114|0.281|1.61f1.12|0.096f0.188|
+|Tunisia|79|0.304|1.70k1.21|0.105f0.191|
+|35.6"N|35|0.171|1.37f0.91|0.060f0.162|
+||114|0.263|1.60f1.13|0.091f0.183|
+|Congo|79|0.380|1.80f1.20|0.140f0.225|
+|4.2"s|35|0.200|1.34f0.84|0.056f0.172|
+||114|0.324|1.66f1.12|0.114f0.213|
+|Capetown|79|0.329|1.67f1.07|0.099f0.183|
+|34"s|35|0.200|1.43f0.95|0.053f0.129|
+||114|0.289|1.60f1.04|0.085f0.169|
+|Seychelle|79|0.329|1.56f0.94|0.110f0.183|
+|3.8"s|35|0.171|1.26f0.66|0.032f0.097|
+||114|0.281|1.46f0.87|0.086f0.166|
+|Overall mean:|||||
+|Enzymes|79|0.329f0.031|1.68+.0.09|0.112f0.016|
+|Abundant proteins|35|0.194f0.024|1.38f0.10|0.055f0.016|
+|Total|114|0.288f0.022|1.59f0.07|0.094f0.012|
+
+For each population the three sets of loci are for enzymes, abundant proteins and their total, respectively. 
+
+and tri-allelic group of loci in D. _simulans_ is offset by the higher heterozygosity of the multi-allelic group of loci. The net result is that D. _simulans_ shows a stronger correlation between number of alleles and heterozygosity than D. _melanogaster,_ although the overall mean heterozygosity is about the same in both species. 
+
+Comparison of genetic structure across homologous loci: It is possible that inversions might affect the pattern of genetic variability between the two species. Table 3 shows variation statistics for each chromosome separately. As reported earlier for _D._ 
+
+_melanogaster_ (SINGH and RHOMBERC 1987b) the X chromosome and the autosomes are equally heterozygous within species as well as between species (Wilcoxon rank sum test, P > _0.05)._ However, the mean fixation indices for the X and the second chromosome are significantly higher in D. _melanogaster_ than in _D. simulans_ (P < _0.05)._ The third chromosome loci do not differ in their mean _F,,_ but when all autosomal loci are pooled together, the difference between the two species is still significant (P = 0.02). 
+
+The comparison of genetic variability of loci asso- 
+
+701 
+
+Genetic Structure
+T I 1 I
+T I 1 I
+W d T % I 1
+4 20
+3 15
+2 10
+1 5
+0
+3 -
+2 -
+.! 1 - n n
+I I I I I I
+0 0.10 0.20 0.30 0.40 0.50 0.80 0.70 0.80 0.90 1.0
+FREQUENCY OF MOST COMMON ALLELE
+
+FIGURE 1 .-Frequency distribution of polymorphic loci with different numbers of alleies (vertical bars at right-hand side), and the frequency distribution of loci within each of these groups _(e.g.,_ those with two alleles, three alleles, etc.) into classes representing the commonness of the most frequent alleles at that locus (box on left-hand side). _D. melanogaster (open bars), D. simulans (closed bars)._ The data on _D. melanogaster_ are from SINCH and RHOMBERC (1987b). 
+
+TABLE 3 
+
+Proportion of loci polymorphic, average number of alleles, mean heterozygosity and mean fixation index for protein loci located on various chromosomes 
+
+|Chromosome|No.ofloci
+studied
+(homologous)|Species|Proportion
+polymorphic|No.ofalleles|Heterozygosity|Fixation index|
+
+|X|9|_D. simulans_|0.444|2.111-C1.453|0.129f0.193|0.053f0.072|
+|||_D.melanogaster_|0.667|2.111f1.364|0.155_3-_0.181|0.152f0.165|
+||Probabili tf|||0.893|0.463|0.046|
+|2|16|_D.simulans_|0.437|1.875f1.147|0.077f0.127|0.036f0.054|
+|||D._melanogaster_|0.562|1.937f1.124|0.111f0.136|0.119f0.142|
+||Probability|||0.753|0.110|0.008|
+|3|27
+|_D.simulans_|0.555|2.444f1.601|0.174f0.222|0.078_f_0.118|
+|||_D.melanogaster_|0.667|2.444f1.577|0.155f0.173|0.113f0.114|
+||Probability|||0.962|0.823|0.231|
+|2 + 3|56b
+|_D.simulans_|0.536|2.286f1.436|0.144-+0.194|0.083+-0,148|
+|||D._melanogaster_|0.696|2.339f1.352|0.155f0.164|0.119f0.131|
+||Probability”|||0.729|0.553|0.020|
+
+* Wilcoxon rank sum test. 
+
+’ Includes 13 additional autosomal loci that are unmapped. 
+
+ciated within or outside of inversions in D. _melanogaster_ with their counterparts in D. _simulans_ (note that _D. simulans_ is not polymorphic for inversions) shows that the difference in the mean _F,,_ of loci associated with inversions is on the borderline of statistical sig- 
+
+nificance (P = 0.05) and there is no difference in the mean _F,,_ of loci that are not associated with inversions (Table 4). Similarly, there is no difference in the mean number of alleles or mean heterozygosity of these two groups of loci. This result confirms our earlier conclu- 
+
+M. Choudhary and R. S. Singh 
+
+702 
+
+TABLE 4 
+
+Comparison of genic variation for loci located inside and outside inversions in _D. melanogaster_ with homologous loci in _D. simulans_ 
+
+||No.ofloci
+studied|Proportion
+polymorphic|No.ofalleles|Heterozygosity|Fixation index|
+
+|Inside Inversion"||||||
+|_D.melanogasterb_|12|1.ooo|2.33f0.49|0.180f0.156|0.182f0.174
+*|
+|D._simulans_|12|0.583|2.42f1.50|0.158k0.203|0.068 0.126|
+||Probability"||0.767|0.433|0.050|
+|Outside Inversion||||||
+|_D.melanogasterb_|31|0.484|2.23f1.67|0.123k0.162|0.090k0.121|
+|_D.simulans_|31|0.484|2.16k1.46|0.130f0.196|0.060f0.090|
+||Probability"||0.730|0.777|0.231|
+
+_a_ The loci associated with inversions in _D. melanogaster_ are: _a-Gpd, Mdh-1, Mdh-2, Adh, a-Amy, Phox, Idh, To-1, a-Fuc, Est-6, Pgm, Sodh-1_ and _Pt-15 ("-Amy_ was not included in the analysis). D. _simulans_ has no inversion polymorphism. Data of SINGH and RHOMBERG (1987b). Wilcoxon rank sum test. 
+
+0 All 5 Populations
+Excluding !3eychelle
+n
+FIGURE 2.-Distribution of single
+locus heterozygosity in geographic
+populations of D. simulans.
+I I I I I I I I I I I
+0 0.08 0.16 0.24 0.32 0.40 0.48 0.56 0.64 0.72 0.80
+MEAN HETEROZYGOSITY (HS)
+
+sion (SINGH and RHOMBERC 1987b) that inversions play a minor role in the overall geographic differentiation of associated loci and they do not appear to affect the overall heterozygosity of associated loci. 
+
+Correlation of single locus heterozygosity and interpopulation differentiation between _D. melanogaster_ (France and Benin) and _D. simulans_ (France and Congo) shows that while the two species share some highly polymorphic loci _(r2_ = 0.292, P < _0.05),_ they do not share homologous loci with high genetic differentiation. In fact the loci with high Fst in the two species appear to be negatively correlated (data not shown), although the overall correlation is nonsignificant _(r'_ = -0.121, P > 0.05). Since homologous loci do not appear to be constrained in the amount or the pattern of variation between species, in the following we compare the geographic differentiation of all loci across populations between the two species. 
+
+Comparison of genetic structure across populations: The distribution of average single locus heterozygosity for the 44 polymorphic loci of D. _simulans_ is shown in Figure 2. If one takes the 70 additional monomorphic loci into account, the distribution is strongly L shaped. The polymorphic loci are rather widely distributed over the range of heterozygosities observed. However, the high heterozygosity at many loci shown in Figure 2 applies to an average population and does not tell us if the total heterozygosity _(H,)_ in the species as a whole is greater than the mean heterozygosity per population (Hs) shown in Figure 2. The species as a whole would have higher total heterozygosity if the geographic populations were differentiated from each other. This is because _H,_ is based on mean allele frequencies averaged over populations, which increases the evenness of allele frequencies resulting in higher heterozygosity. The _H,_ and _H,_ are 
+
+Genetic Structure 
+
+703 
+
+0 All 5 Populations
+Excluding Seychelle
+FIGURE 3.-Distribution of fixa-
+tion index (Fst) at polymorphic loci in
+geographic populations of D. simu-
+lans.
+10 J
+I I I I I I I I I I 1 I 1
+0.00 0.18 0.24 0.32 0.10 0.40 0.56 0.84 0.72 0.00 0.00 0.k
+FlXATlON lNbEX (Fit)
+
+related as _F,,_ = _(H,_ - _HJH,)_ where _F,,_ is a measure of standardized interpopulation genic differentiation. The distribution of _F,,_ for individual polymorphic loci in _D. simulans_ is shown in Figure 3. The distribution of _F,,_ has a prominent mode around _5%_ and there are only six loci showing _F,,_ > 20% if all populations are considered. These loci are _Mpi, a-Fuc, Dip-1, GluD, Odh_ and _Ca-4._ A large portion of the interpopulation differentiation is contributed by the Seychelle population as only two loci _(Odh_ and _a-Fuc)_ show _F,,_ > 20% if Seychelle is dropped from the computation. In contrast, 21 out of the 60 polymorphic loci of _D. melanogaster_ have _F,,_ > 20% (SINGH and RHOMBERG 1987b). 
+
+There is no correlation between mean heterozygosity and population differentiation (data not shown). Two-thirds of all polymorphic loci in mainland _D. simulans_ have very little geographic differentiation _(F,,_ < 1 _O%),_ which is not surprising as a large number of these loci (such as _a-Gpd, a-Glu-3, 6-Pgd, Phox,_ _a-_ _Amy, Aph, @-Gus, Go)_ have very little variability _(H,_ < 10%); a locus has to have some variation before it can show geographic differentiation. Most of these loci have one common allele which is the same in all populations (often monomorphic in many populations) and one or two rare alleles. On the other hand, there are several loci _(e.g., Ao, Est-6, Xdh, Est-C, Est10, Pgm, Sdh, Treh)_ that have high variability and yet show low _Fft._ Thus, all except two polymorphic loci _(Odh_ and _a-Fuc)_ show _F,,_ < 20% and yet they range in heterozygosity from 0 to 64%. Only six loci _(Mpi,_ 
+
+_Odh, GluD, a-Fuc, Ca-4, Dip-1)_ show significant interpopulation differentiation when Seychelle is included in the analysis (Figure 3). It is interesting to note that, like D. _melanogaster,_ the loci showing high _F,,_ in _D. simulans,_ when Seychelle is included in the analysis, are mostly di- or tri-allelic and they show intermediate levels of heterozygosity. Seychelle is significantly differentiated from the mainland populations at five loci _(Mpi, a-Fuc, GluD, Dip-1, Ca-4),_ and alternately fixed at two loci _(Mpi_ and _Dip-1)._ 
+
+Thus, the overall comparison shows that in both species most of the polymorphic loci have low _F,,_ (<20%) and many of them show low genetic variability as well. Both species share a second group of loci (such as, _Ao, Est-6_ and _Xdh)_ which have high heterozygosity but show little geographic differentiation. A third group of loci show high interpopulation differentiation in both _D. melanogaster_ and _D. simulans,_ but the membership of this group is not the same in the two species. This group includes about 20 loci in _D. melanogaster_ (such as _Adh, G6-pd, Lap-6, GluD, Est-C, Pt-9, Pt-15_ and _Pt-26)_ and six loci _(Mpi, a-Fuc, Dip-1, GluD, Odh_ and _Ca-4)_ in D. _simulans._ Some of the loci that are highly differentiated in _D. melanogaster_ are either monomorphic (such as _Adh, G6-pd, Lap-6_ and _Pt-26)_ or show little geographic differentiation _(Pt-9, Pt-15_ and _Est-C)_ in _D. simulans._ 
+
+Table _5_ shows an overall summary of genic variability in the two species. _D. melanogaster_ shows a larger proportion of loci polymorphic than _D. simulans (t_ = 2.074, _P_ < _0.05)._ Both species are similar in the mean 
+
+M. Choudhary and R. S. Singh 
+
+704 
+
+TABLE 5 
+
+Comparison of various genic variation statistics of _D. melanogaster_ and _D. simulans_ 
+
+|Statistics|_D.melanogosler_|_D.simulans"_|Probability
+(Wilcoxon rank_sum_test)|
+
+|No.of populations|15|5||
+|No.of loci studied|117|114||
+|Proportion of loci polymorphic:|0.420f0.070|0.289f0.025
+0.288f0.022||
+|Average number of alleles:|1.48f0.11|1.62f0.03
+1.59f0.07|0.626|
+|Heterozygosity|0.102f0.014|0.096f0.012
+0.094f0.012|0.149|
+|Fixation index|0.091f0.130|0.025+.0.052
+0.052f0.113|0.001|
+|Genetic distanceb
+~~|0.031f0.015|0.013f0.006
+0.026f0.017
+~~|~
+~~|
+
+' For D. _simulans,_ each statistic shows two values; the first is based on four mainland populations while the second is based on all five populations including Seychelle Island. The average genetic distance in _D._ melanogaster is based on only 9 populations (see SINCH and RHOMBERC 1987b). 
+
+TABLE 6 
+
+Summary of allozyme polymorphism in climatically comparable populations of _D. melanogaster_ and _D. sitnulans_ 
+
+||_D.mela_|_D.sim_
+_nogaster_|_ulans_|
+
+|Statistics|France
+46.1"N|Benin
+France
+6.3"N
+43"N|Congo
+4.2"s|
+|Percent of loci polymorphic|0.351|0.377
+0.281|0.324|
+|Average number of alleles|2.58f0.83|2.75f1.26
+3.19f1.00|3.03f1.04|
+||1.53f0.88|1.61f1.12
+1.61f1.12|1.66f1.12|
+|Heterozygosity|0.304f0.201|0.275f0.215
+0.342f0.206|0.351f0.238|
+||0.107f0.187|0.104f0.187
+0.096f0.188|0.114f0.213|
+|Fixation index|0.126f|0.179
+0.075|f0.086|
+||0.053f|0.131
+0.024|f0.060|
+|Genetic distance|0.0|50
+0.0|21|
+||Probability"_(0._
+m
+Numb|
+elanogastervs._D._simulans):
+er of alleles:P=0.939||
+||Heter|ozygosity:
+_P_=0.839||
+||Fixati|on index:
+P=0.031||
+
+Where a statistic has two values, the first is for polymorphic loci and the second for all loci. a Wilcoxon rank sum test. 
+
+number of alleles and mean heterozygosity, but they differ in the level of interpopulation differentiation (Wilcoxon rank sum test, _P_ = 0.001). D. _melanogaster_ is geographically more differentiated than D. _simulans_ even if we include the highly differentiated Seychelle population in the analysis, although we must keep in mind that the geographic range of D. _simulans_ sampled in this study is smaller than that of D. _melanogaster._ 
+
+The general conclusions derived from Table _5_ can be substantiated by making a more direct comparison between the sympatric populations of these two species. Table 6 shows a summary of genic variation in the France and Benin populations of D. _melanogaster,_ and France and Congo populations of D. _simulans._ While both species have similar levels of heterozygos- 
+
+ity and number of alleles, D. _simulans_ (France/Congo) shows significantly less geographic differentiation _(P_ = 0.03 1) than D. _melanogaster_ (France/Benin). 
+
+T o see if the genetic differentiation between populations is associated with geographic distance, the NE1 genetic distance between all pairs of populations was plotted against the minimum geographic distance between populations (Figure 4). The genetic distances between populations of D. _melanogaster_ are shown for comparison. As would be expected, Seychelle is significantly isolated from the mainland populations of D. _simulans._ The genetic distances among mainland populations show no correlation with geographic distance, and the mean genetic distance for the mainland D. _simulans_ is significantly lower than that for D. _melanogaster._ D. _melanogaster_ shows only a weak but 
+
+Genetic Structure 
+
+0
+0
+0.06 1
+0
+I I I I
+V
+2000 4000 6000 8000 10000
+GEOGRAPHIC DISTANCE (miles)
+
+FIGURE 4.-Correlation between Nei genetic distance and geographic distance in populations of _D. melanogaster_ and _D. simulans. D. melanogaster:_ temperate-temperate _(closed circle),_ tropical-tropical (open circle), and temperate-tropical _(circle with dot),_ regression line A: y = 0.022 + O.O02rc, correlation coefficient _(r’)_ = 0.337, _P_ > 0.05. Mainland _D. simulans (solid square,_ regression line B): y = 0.009 + O.OOlx, correlation coefficient _(r‘)_ = 0.351, _P_ > 0.05. Seychelle _vs._ Mainland _D. simulans (open square)._ Data are from HYYTIA _et_ _al._ (1985), SINGH and RHOMBERG (1987b) and the present study. 
+
+positive correlation between genetic distance and geographic distance. This is partly due to the fact that all temperate populations, regardless of geographic distance, have similar genetic distances (SINGH and RHOMBERG 1987b). 
+
+The populations of _D. simulans_ analyzed in the present study came from a rather narrower geographic range than that of _D. melanogaster,_ and _so_ it is not possible to tell from the Figure 4 if samples of _D. simulans_ from different continents would increase the genetic distance significantly. To gain an insight into this question, we gathered data from all studies of genic variation on _D. simulans_ in the literature (including the present study) and selected a total of eight studies that have eight loci in common. The correlation between genetic distance and geographic distance for these populations is shown in Figure 5. Note that here we are not concerned with the absolute amount of genetic distance, since we are looking at a different set of loci, which may be larger or smaller than that shown in Figure 4; it is the strength of association between genetic distance and geographic distance that we wish to investigate. As noted above, Seychelle again comes out to be significantly isolated from the other populations of _D. simulans,_ and the genetic distances for both groups of populations _(i.e.,_ with or without Seychelle) show a weak but positive correlation with the geographic distances _(I‘_ < 0.05). Thus, the data shown in Figure 4 and 5, together, strengthen the conclusion that on a worldwide scale _D. simulans_ is significantly less differentiated than _D. melanogaster._ 
+
+0.12 I 1
+0.10
+g 0.08
+b
+E
+0 z 0.06 c
+L I I
+w
+z
+0.04
+t
+I A I
+2000 4000 6000 8000 10000 12000
+GEOGRAPHIC DISTANCE (miles)
+
+FIGURE 5.-Correlation between genetic distance (based on eight loci) and geographic distance in several populations of _D. simulans._ Mainland populations (regression line A): y = 0.004 + O.OOlx, correlation coefficient _(r’)_ = 0.586, _P_ < 0.05. Seychelle _vs._ Mainland _D. simulans_ (regression line B): y = 0.086 + O.O02x, correlation coefficient _(r’)_ = 0.739, _P_ < 0.05. Data are from KOJIMA, GILLFSPIE and TOBARI (1 970); TRIANTAPHYLLIDES (1 973); STEINER, SUNG and PAIK (1976); TRIANTAPHYLLIDFS _et_ _al._ (1980, 1982); CABRERA _et_ _al._ (1982); HYYTIA _et_ _al._ (1985); SINGH, CHOUD HARY and DAVID (1987), and the present study. 
+DISCUSSION 
+
+_D. melanogaster_ and _D. simulans_ are two of the eight cosmopolitan species in the genus _Drosophila_ (BOCK 1980). The two species are morphologically almost identical except the posterior process of their male genital arches (STURTEVANT 1920). Although widely spread, both species are restricted in occurrence in most parts of the world to urban or farm environments or other places in which natural habitats have been modified by human, and therefore they are regarded as “domestic species” (PARSONS 1975, 1983). Except in certain tropical regions where they occur in natural habitats, both species are unable to survive winters outdoors and are reintroduced annually from manmade habitats. Their demographic profiles are similar in sympatric populations but different in allopatric populations, thus apparently showing a parallel response to environmental variations (DAVID _et al._ 1984). With exception to alcohol, both species appear to utilize similar environmental resources (MCKENZIE and MCKECHNIE 1979). 
+
+In view of these similarities, one would expect to find similar the levels of genetic variation within populations and the genetic differentiation between populations of the two species. While similar latitudinal variations have been reported for some phenotypic and physiological characters (TANTAWY, MALLAH and TEWFIK 1964; DAVID and BOCQUET 1975; PARSONS 
+
+706 
+
+M. Choudhary and R. S. Singh 
+
+1980) as well as for some allozymes (ANDERSON and OAKESHOTT 1984), previous studies from our laboratory as well as from those of others (HYYTIA _et al._ 1985; WATADA, TOBARI and OHBA 1986; SINGH, CHOUDHARY and DAVID 1987) have shown that D. _simulans_ differs from _D. melanogaster_ in having less both genic heterozygosity within populations and geographic differentiation between populations. The results from the present study show that while both species have about the same level of mean heterozygosity and mean number of alleles, D. _simulans_ still shows significantly less geographic differentiation than D. _melanogaster._ 
+
+On the 99% criterion of polymorphism _(i.e.,_ the most common allele being 99% or less), D. _melanogaster_ shows more loci polymorphic than D. _simulans_ (52% _vs._ 39%: _t_ = 1.989, _P_ < 0.05). This is mostly due to the fact that D. _melanogaster_ harbors low frequency alleles at many loci which are monomorphic in D. _simulans._ In fact, if we use a more stringent criterion of polymorphism _(i.e.,_ the most common allele being 95% or less), the number of polymorphic loci is about the same in the two species (39 in D. _melanogaster_ and 34 in D. _simulans)._ The presence of more middle repetitive and nomadic DNA (DOWSETT and YOUNG 1982) and of possibly “breakage inducing factors” (VOELKER 1974; YAMAGUCHI, CARDELLINO and MUKAI 1976) or mutator loci (GREEN 1976) in D. _melanogaster_ are suggestive of higher mutation rate in this species and can potentially explain the high percentage of polymorphic loci but is not obvious how these genomic mechanisms can have an effect on the allozyme variation _per_ se. 
+
+The high genetic differentiation between Seychelle and mainland D. _simulans_ requires an explanation. The high heterozygosity and the presence of unique allozyme alleles, together, rule out the possibility that high genetic differentiation of Seychelle is due to recent founder effect. Recently it was shown that D. _simulans_ from Madagascar island is also significantly differentiated from the mainland (HYYTIA _et al._ 1985). These results suggest that D. _simulans_ in Seychelle and Madagascar has been isolated from the mainland for a longer period of time and may even represent an ancestral race quite different from the one that gave rise to the mainland D. _simulans._ These speculations appear to be supported by the results from work on mitochondrial DNA (SOLIGNAC and MONNEROT 1986; L. R. HALE and R. S. SINGH, unpublished data). D. _simulans_ from Seychelle has a mitochondrial DNA variant which is quite different from that found in the mainland but very similar to the one found in _Drosophila sechellia_ and _Drosophila mauritiana._ In view of the results on mitochondrial DNA, a comparison of allozyme variation among these related species would be interesting which we would take up elsewhere; here it should suffice to say that the high genetic differentiation between Seychelle and 
+
+mainland D. _simulans_ appears to be due to their long isolation, and thus in the following the discussion of genetic structure between D. _simulans_ and _D. melanogaster_ would be limited to their continental populations. 
+
+The most obvious explanation for the differing amount of geographic differentiation between two species is gene flow. All other things being equal, species with less gene flow would show more geographic differentiation. Gene flow should be an important consideration in the present case as all genetic and phenotypic markers that have been studied show less geographic differentiation in D. _simulans_ than _D. melanogaster._ Estimates of _Nm_ based on _F,,_ values _(Fst_ = _%Nm_ + 1 : WRIGHT 193 1) show that to explain the differences of geographic differentiation between D. _melanogaster_ and _D. simulans_ would require a two- to fourfold lower gene flow in the former than in the latter species. On the other hand, estimates of _Nm_ based on the distribution of rare alleles (SLATKIN 1985) are very similar in these species, ranging from 1.27 to 3.09 in D. _simulans_ and from 2.74 to 5.83 in D. _melanogaster_ (SINGH and RHOMBERG 1987a). Furthermore, D. _melanogaster_ enters human habitat more readily than D. _simulans_ (J. R. DAVID, personal communication) which would suggest that the level of gene flow in D. _melanogaster,_ if anything, should be more not less than that in _D._ _simulans._ Thus, if anything, the differences in the level of gene flow in the two species are in the wrong direction and cannot explain the differences of geographic differentiation between the two species. In the following, we discuss four hypotheses which individually or in combination can explain the differences of geographic differentiation. A brief description of these hypotheses has been presented elsewhere (SINGH, CHOUDHARY and DAVID 1987). 
+
+Neutral-mutation hypothesis: Our expectation to find similar pattern of geographic variation in the two species was based on the implicit assumption that allozyme variation is representative of genes enabling these species to achieve their worldwide distribution and climatic adaptation. But the fact may be otherwise, _i.e._ allozyme variation may not be representative of the genetic variation which is the basis of similar adaptation in these species. In other words, allozymes may be irrelevant or neutral with respect to climatic adaptation. This hypothesis does not seem tenable as reduction in variability and/or geographic differentiation in D. _simulans_ is also observed for chromosome inversion (ASHBURNER and LEMEUNIER 1976), morphological and quantitative variation (DAVID, BOCQUET and DE SCHEEMAEKER-LOUIS 1977; HYYTIA _et al._ 1985; WATADA, OHBA and TOBARI 1986), middlerepetitive DNA variation (DOWSETT and YOUNG 1982), 2DE proteins (OHNISHI _et al._ 1982) and mitochondrial DNA restriction length polymorphism (BABA-AISSA and SOLIGNAC 1984; HALE and SINGH 
+
+Genetic Structure 
+
+707 
+
+1985). Since all genetic elements consistently show, on the average, less geographic differentiation in D. _simulans_ than _D. melanogaster,_ and since the levels of gene flow appear to be similar in the two species, the neutrality argument even if accepted for the majority of protein variation within the individual species cannot adequately explain the varying levels of geographic differentiation between these species. 
+
+Population bottleneck and recent colonization hypothesis: In most colonizing species genetic variation appears to be lower than those of comparable noncolonizing species (PARSONS 1983). In the past, a population bottleneck has been invoked to account for low level of variation in a diverse variety of organisms (HAIGH and MAYNARD SMITH 1972; SCHWAEGERLE and SCHAAL 1979; BRYANT, VAN DIJK and VAN DELDEN 198 1 ; NEI, MARUYAMA and CHAKRABORTY 1975; MARUYAMA and FUERST 1985a,b; CHOUDHARY and SINGH 1987). That colonization has reduced the overall amount of genetic variation is evident from the fact that in both species ancestral populations from tropical Africa show more genic diversity and more private alleles (LEMEUNIER _et_ al. 1985; SINGH, HICKEY and DAVID 1982; HYYTIA _et al._ 1985; SINGH, CHOUDHARY and DAVID 1987, and this study). But neither heterozygosity nor number of alleles per locus give any indication of a _recent_ bottleneck in _D. simulans._ In this respect, the only relevant difference between the two species is in the proportion of polymorphic loci, which can be satisfactorily explained by assuming higher rate of mutation in D. _melanogaster._ However, if it could be shown that D. _simulans_ has become cosmopolitan much more recently (evolutionarily speaking) without entailing a severe bottleneck, then the low geographic differentiation can be explained simply by arguing that D. _simulans_ has had less time to equilibrate with its physical and biotic environment than D. _melanogaster._ 
+
+Niche-width hypothesis: According to this hypothesis the amount of variation in a species is proportional to the niche-width of that species (VAN VALEN 1965; ROTHSTEIN 1973). It is argued that a species with a wide spectrum, say, in its food resource or environmental adaptation, is likely to have more variety of genotypes than one with a narrow spectrum of food resource or environmental adaptation (DA CUNHA, BURLA and DOBZHANSKY 1950; DA CUNHA _et al._ 1959; POWELL 197 1 ; MCDONALD and AYALA 1974; POWELL and WISTRAND 1978; STEINER 1977; LACY 1982). Because of its ecological relevance and its ability to maintain genetic variation without genetic load, the niche-width model has a wide appeal among population biologists _(e.g.,_ SeeJOHNSON _et al._ 1969; HAMRICK and ALLARD 1972; TAYLOR and POWELL 1977; DE ALBUQUERQUE and NAPP 1981) although it is not without criticism _(e.g.,_ see WILSON 1969; SOULE and STEWART 1970; HALLETT 1980; ATKINSON and MILLER 1980). 
+
+The relationship between genetic variation and niche-width has also been considered in D. _melanogaster_ and _D. simulans_ (BERGER 1971; JOHNSON and SCHAFFER 1973; MINAWA and BIRLEY 1975; DE ALBUQUERQUE and NAPP 1981; MACKAY 1981). D. _melanogaster_ is reported to be physiologically and behaviorally more flexible than D. _simulans_ [see PARSONS (1 975, 1983) for review] but the niche-width variation that appears to be of major significance here is one of a difference in their range of climatic adaptation. Although both species are cosmopolitan and co-occur extensively, D. _melanogaster_ is more successful than D. _simulans_ in the temperate regions. D. _melanogaster_ can tolerate wider temperature fluctuations than D. _simulans_ (MCKENZIE 1974; MCKENZIE and PARSONS 1974; PARSONS 1979), and on a seasonal basis D. _mezanogaster_ builds up large populations in the spring or early summer, and D. _simulans_ in the late summer (PARSONS 1975). Therefore, the difference in the levels of their geographic differentiation could be a result of their varying capacity for macroclimatic adaptation. 
+
+Selection hypothesis: The low geographic differentiation in D. _simulans_ may result from a selection “strategy” favoring broad adaptability of “a single purpose genotype” _( c j_ BAKER 1965). Under this hypothesis both species would be assumed to have similar niches but they differ in their genetic mechanisms of dealing with it. Species with similar niche-width may have qualitatively different genetic strategies (ANGUS and SCHULTZ 1979;JAENIKE, PARKER and SELANDER 1980; LYNCH 1983; PARKER _et al._ 1977), _i.e.,_ some may respond to the environmental gradient as fine grained while others react as coarse grained with resultant selection, respectively, for or against polymorphism independent of niche width. For example, both D. _melanogaster_ and _D. simulans_ may respond to a temperature gradient, however, the former may strongly react to incremental changes and consequently show altered gene frequency but the latter may react less strongly with no significant alteration of gene frequency or may even respond to the same range of temperature as “acceptable” with no consequent polymorphism. The observation of fewer gene clines in D. _simulans_ than in _D. melanogaster_ provides evidence for this scenario. However, besides differences in attraction to alcohol and light dependent dispersal (MCDONALD and PARSONS 1973; PARSONS 1974), little is known about their natural environment, which may not be all that different as the sympatric populations of these species appear to possess an equal amount of genetic variation. Therefore, if the selection hypothesis is relevant in this case, the differences in their natural environments must be of spatial nature _(e.g.,_ geographic and/or climatic) which would explain why they have similar levels of heterozygosity within populations but different levels of differentiation between populations. An observation in favor of selection hypothesis and against recent 
+
+M. Choudhary and R. S. Singh 
+
+708 
+
+bottleneck is that while all the three major chromosomes, _i.e.,_ X, 2 and _3,_ are equally heterozygous in both species, only chromosomes X and 2 show significant reduction in geographic differentiation of D. _simulans_ (Table _3)._ 
+
+The above hypotheses are not mutually exclusive, but they do differ in their relevance to account for the different features of genetic variation between the two species. In a preliminary report of this study (SINGH, CHOUDHARY and DAVID 1987) we concluded that bottleneck effect and niche-width appear to be the leading hypotheses to account for the differences in both the amount and the pattern of genetic variation between these species. This conclusion was based on the observation that _D. simulans_ has lower heterozygosity than D. _melanogaster._ The present results show that the major difference in the genetic variation of these species is not in the heterozygosity or number of alleles per locus but in the levels of genetic differentiation between populations. These conclusions are supported by our study of 2DE proteins in these species (COULTHART and SINGH 1987a,b). Thus, these results appear to rule out the role of population bottleneck but we are presently making another check of this hypothesis by looking at the mitochondrial DNA of these species. If the role of bottleneck can be satisfactorily ruled out, then we must conclude that variation in niche-widths and/or in genetic “strategies” of adaptation are the major contributing factors to the varying levels of geographic differentiation in these species. More work is required before we can choose between these two hypotheses. 
+
+We thank JEAN DAVID for providing stocks of _D. simulans_ and DICK MORTON, CHIP AQUADRO, and an anonymous reviewer for providing critical comments on the manuscript. This work was supported by a research grant from the Natural Science and Engineering Research Council of Canada to R.S.S.

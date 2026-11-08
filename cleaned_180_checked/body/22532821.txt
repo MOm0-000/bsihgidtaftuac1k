@@ -1,0 +1,474 @@
+More than a million known species make up the class of insects within the phylum Arthropoda. Human disease can result from toxic or allergic reactions to insect venom and saliva, as well as to other insect-derived substances or body parts.
+
+Reactions to an insect sting can be either local, i.e., around the site of contact, or else systemic and independent of the site of contact. The causative sting can be either from a blood-sucking insect or from one with a venomous stinger.
+
+Learning objectives
+
+This article is intended to provide readers with
+
+an overview of the clinical features, diagnosis, and treatment of reactions to insect stings, and
+
+basic knowledge of the treatment of patients with immediate systemic reactions to bee or wasp stings.
+
+The authors selectively searched Medline for pertinent publications, including current guidelines from Germany and abroad. The discussion in this article focuses on the current situation in central Europe. Infectious diseases transmitted by insects are beyond the scope of this article.
+
+Introduction
+
+The most common type of reaction to an insect sting is a local reaction to the bite of a mosquito (a small fly of the family Culicidae). The reaction reflects an allergic response to proteins in the insect’s saliva, leading in about three-quarters of all persons to an immediate allergic reaction (wheal) and in about one-half to a delayed reaction (papule) ( 1 ). The bites of mosquitoes and other blood-sucking insects only rarely cause serious disease.
+
+Reactions to insect stings.
+
+Toxic or allergic mechanism
+
+Local or systemic reactions
+
+Caused by insects with poisonous stingers or salivary secretions of blood-sucking insects
+
+IgE-mediated systemic allergic reactions are of far greater clinical significance; induced by the stings of insects belonging to the order Hymenoptera, they are associated with an immediate (anaphylactic) response that can have fatal consequences. They are most commonly caused by honeybees ( Apis mellifera, hereafter designated simply bees) and certain species of wasp in the family Vespidae (particularly Vespula vulgaris and V. germanica, hereafter designated wasps). Anaphylaxis is occasionally caused by other species of Vespidae, such as Dolichovespula spp., hornets ( Vespa crabro ), and bees (mainly bumblebees [ Bombus spp.]).
+
+Such reactions are very rarely induced by the stings of ants (which also belong to the order Hymenoptera) or other insects, such as mosquitoes. The major emphasis of this article is on diseases caused by bee and wasp stings, in view of their clinical importance.
+
+A recently issued S2 guideline on this subject contains ratings of the pertinent literature by evidence level ([ 2 ], AWMF registration number 061–020; see the website www.awmf.org/leitlinien/detail/ll/061-020.html [in German]).
+
+Hymenoptera stings
+
+The venomous stinger of Hymenoptera evolved from their egg-depositing apparatus. Up to 140 μg of venom is released per bee sting, and up to 3 μg per wasp sting ( e1 ). In bee stings, the stinger and the venom apparatus usually remain in the skin and continue to release venom afterward, while wasps can usually retract their stingers after the sting.
+
+Hymenoptera venoms contain low-molecular weight compounds (e.g., biogenic amines, such as histamine) as well as potentially allergenic peptides (e.g. melittin in bee stings) and proteins, which are species-specific. The allergens most commonly causing IgE-mediated anaphylaxis are:
+
+in bee venom, phospholipase A2, hyaluronidase, and probably acid phosphatase and a serine protease,
+
+in wasp venom, phospholipase A1, hyaluronidase, and antigen 5.
+
+Bee and wasp venom differ in their composition, but the venoms of V. vulgaris and V. germanica are very similar.
+
+Bee venom is related, though not identical, to bumblebee venom; likewise, wasp venom is related, though not identical, to the venom of other Vespidae. Immunological cross-reactions to allergens in bee and wasp venom—or the venoms of other Hymenoptera—are often encountered, as are cross-reactions to pollen and food allergens.
+
+Hymenoptera venoms.
+
+Contain low-molecular-weight compounds as well as allergenic peptides and proteins
+
+Allergens are species-specific, but cross-reactions are common
+
+Local reactions to bee and wasp stings
+
+The toxic effect of a sting in the skin manifests itself as an area of pain, redness and swelling that is generally less than 10 cm in diameter and improves markedly within 24 hours. A severe local reaction larger than 10 cm in diameter that persists for several days (large local reaction) may induce non-infectious lymphangitis and mild systemic symptoms. The prevalence of such reactions may be as high as one person in four ( e1 ); although presumably of allergic origin, they are not necessarily mediated by IgE. Only very rarely do local sting reactions near the airways cause clinically significant airway obstruction.
+
+Local reactions to bee and wasp stings.
+
+Toxic reaction
+
+Large local reaction
+
+The diagnosis is established on the basis of the history and physical findings; an allergological diagnostic work-up is indicated only in exceptional cases. Local sting reactions are treated symptomatically ( Box 1 ). Patients with severe local reactions need long-term treatment ( Box 2 ).
+
+Box 1. The treatment of acute reactions to bee and wasp stings (from [ 2 ]).
+
+Local reaction Potent topical glucocorticoid creme or gel, perhaps a moist compress (for ca. 20 minutes, possibly repeated once or twice at intervals of a few hours) H 1 -blocker p.o. For large local reactions: 0.5–1 mg prednisolone equivalent per kg body weight p.o., rapid dose reduction to zero in 3 to 5 days For large local reactions in the head and neck area: additional observation, symptomatic treatment in case of airway obstruction
+
+Anaphylactic reaction Immediate treatment according to guidelines ( 8 )
+
+Unusual sting reaction Basic treatment: usually, systemic glucocorticoids Symptomatic treatment
+
+Systemic intoxication (after a very large number of stings) Symptomatic treatment
+
+Box 2. The long-term treatment of bee- or wasp-venom allergy (from [ 2 ]).
+
+Patient counseling and education *1 on how to avoid further stings and what to do if one occurs (oral information, information sheet)
+
+Note : If ever stung again, the patient should seek medical help immediately (except if specific immunotherapy has already been performed with documented success).
+
+In case of a prior large local reaction
+
+The patient should always carry an emergency kit with the necessary medications: topical: potent glucocorticoid creme or gel oral: H 1 -blocker
+
+Specific immunotherapy is indicated only in special cases.
+
+In case of a prior systemic immediate-type reaction
+
+No treatment with ACE-inhibitors or beta-blockers (not in eye drops, either), unless absolutely necessary. Remark : Anaphylaxis can take a more serious course in patients taking medications of these two classes ( 3 , e2 ).
+
+The patient should always carry an emergency kit with the necessary medications *2 : rapid-onset H 1 -blocker p.o. (up to 4 times the usual daily dose) glucocorticoid p.o. (100 mg prednisolone equivalent) epinephrine in an autoinjector for intramuscular injection (0.3 mg for body weight 30 kg or above) for patients with asthma or marked bronchial obstruction with prior anaphylaxis: rapidly acting β 2 -sympathomimetic for inhalation
+
+Specific immunotherapy
+
+In case of a prior “unusual” sting reaction
+
+When indicated, the patient should always carry an emergency kit with the necessary medications: a medication counteracting the symptoms that arose in a prior episode
+
+*1 A training program has been developed for patients who have had anaphylaxis by the German Working group for Anaphylaxis Training and Education ( Arbeitsgemeinschaft Anaphylaxie Training und Edukation, AGATE): www.anaphylaxieschulung.de
+
+*2 The stated doses are for adults; for special considerations regarding emergency medication for children, see Table 2
+
+Systemic reactions to bee and wasp stings
+
+In multiple stings, the toxin can cause severe or even fatal illness. The serious conditions that are most often induced in this way are rhabdomyolysis, hemolysis, cerebral disturbances, and hepatic and renal dysfunction. Fortunately, such severe problems are very rare. They are diagnosed and treated symptomatically.
+
+There are also unusual types of sting reaction that have been reported in single or few stings, for example, serum sickness, vasculitis, thrombocytopenic purpura, and neurological, renal, or cardiovascular disease. These reactions are assumed to arise by an immune mechanism. The diagnostic work-up is based on the clinical manifestations; for treatment, see Box 1 and Box 2 .
+
+Immediate systemic reactions (anaphylaxis) will be discussed in detail in the following section.
+
+Anaphylaxis induced by bee and wasp stings
+
+Anaphylaxis induced by a bee or wasp sting is a common problem that affects 1.2% to 3.5% of all people at some point in their lives ( 5 ). Adults most commonly experience severe anaphylaxis after being stung by Hymenoptera, mainly wasps ( 6 ). The reaction can be fatal: in Germany, the official statistics include about 20 fatal Hymenoptera stings each year, but the real number may be much higher, as anaphylaxis is often not recognized as such ( e3 , e4 ).
+
+With respect to its pathogenesis, Hymenoptera-toxin anaphylaxis is a typical immediate-type allergic reaction. Specific IgE antibodies directed against components of the toxin mediate the activation of mast cells and basophilic granulocytes, leading to the release of mediators that cause the acute manifestations of disease. In the great majority of cases, a single sting is the cause. The reaction usually arises 10 to 30 minutes after the sting, although the latency may be shorter or longer. The severity of anaphylaxis is graded on the basis of its clinical manifestations ( Table 1 ). Most patients recover without any permanent sequelae. The main causes of death due to anaphylaxis are airway obstruction and cardiovascular failure; rarer causes are disseminated intravascular coagulation (DIC) and epinephrine overdose ( 7 ). Myocardial infarction, stroke, and thrombotic events can cause permanent morbidity.
+
+Table 1. Ring and Messmer grading scale for anaphylactic reactions ( 2 ) *1 .
+
+*1 Grading is always according to the worst manifestation present (no manifestation is obligatory);SBP, systolic blood pressure
+
+Systemic reactions to bee and wasp stings.
+
+Anaphylaxis
+
+Rarely, intoxication (after very many stings)
+
+Rarely, “unusual” sting reactions
+
+Anaphylaxis due to bee and wasp stings.
+
+1.2% to 3.5% of the population is affected
+
+Circa 20 documented deaths in Germany per year
+
+The diagnosis is established on the basis of the history of a Hymenoptera sting and typical clinical manifestations. The most typical manifestation is a generalized cutaneous reaction, but this is only transient and may be lacking in some cases. Particularly in severe reactions, the patient may remember nothing other than a sudden loss of consciousness. If the history is unclear, other causes of anaphylaxis (stings of other arthropods; foods, medications) should be considered, as well as other entities in the differential diagnosis of anaphylaxis ( 8 ).
+
+Anaphylaxis is a life-threatening emergency needing immediate treatment. Immediate summoning of the emergency medical services is generally indicated. The first steps of treatment are cardiopulmonary resuscitation (severity grade IV), epinephrine administration (grade II or above; usually given intramuscularly by the first helper on the scene), and, as soon as possible, shock positioning and the placement of an intravenous catheter (all grades) ( Table 2 ).
+
+Table 2. Emergency drugs for self-administration by children ( 2 , 4 ): special aspects.
+
+oral betamethasone 0.5 mg/kg or
+
+suppository (e.g., 100 mg prednisolone)
+
+oral prednisolone 2–5 mg/kg or
+
+oral betamethasone 7.5 mg
+
+oral prednisolone 2–5 mg/kg or
+
+oral betamethasone 15 mg
+
+Epinephrine 1:10000, 0.1 mL/kg IM
+
+Autoinjector with 0.15 mg epinephrine *1
+
+Autoinjector with 0.3 mg epinephrine
+
+*1 Approved for patients weighing 15 to 30 kg; off-label use for patients weighing 7.5 kg or more but less than 15 kg
+
+Further components of basic treatment are:
+
+oxygen administration (grade II or above),
+
+intravenous glucocorticoid administration, and
+
+the administration of an H 1 blocker (all grades).
+
+Depending on the clinical manifestations, fluid administration and treatment of airway obstruction may be needed. Calcium administration is no longer considered to be indicated. For further aspects of treatment, the reader is directed to the published guidelines on the acute treatment of anaphylactic reactions ( 8 ). Because an anaphylactic reaction can recur after its initial manifestations have susbsided (biphasic anaphylaxis), patients must be hospitalized and closely observed for at least 10 hours ( e5 ).
+
+Any patient who has had anaphylaxis needs long-term treatment to prevent further episodes ( Box 2 ). An allergological diagnostic work-up to identify the initiating factor of anaphylaxis should be performed as soon as possible. The patient should avoid the initiating factor for the rest of his or her life and should know what to do in case of a second exposure ( Box 2 ). Most persons who have had an anaphylactic response to a bee or wasp sting should undergo specific immunotherapy (SIT) (hyposensitization treatment), which requires a special diagnostic evaluation.
+
+The most important steps in the treatment of anaphylaxis after a bee or wasp sting.
+
+Call for help!
+
+Resuscitation (for grade IV reactions)
+
+Epinephrine administration (grade II and above)
+
+Shock positioning, intravenous access
+
+The diagnostic evaluation of anaphylaxis due to a bee or wasp sting
+
+In taking the history, the physician should inquire about the nature of the insect sting reaction(s) and the circumstances in which it arose. Patients are often unsure whether they were stung by a bee or a wasp, or give incorrect information on this point. The circumstances of the sting are often informative: A sting in the vicinity of a beehive is probably from a bee, while a sting in an outdoor café is more likely to be from a wasp.
+
+Allergological tests are performed on patients with sting anaphylaxis to demonstrate IgE-mediated sensitization and to determine the type of insect that was responsible. Such tests should generally not be performed if the patient has not had a systemic immediate-type reaction, because irrelevant sensitizations are found in as many as one-quarter of adults and one-half of children ( 5 , e6 , e7 ). These findings only cause confusion in cases where SIT is not indicated.
+
+Ask about the nature of the insect sting reaction(s) and the circumstances in which it arose. The circumstances are often informative: A sting near a beehive is probably from a bee, but one in an outdoor café is more likely to be from a wasp.
+
+Basic tests
+
+The basic evaluation consists of skin-prick tests and/or intradermal tests with bee and wasp venom and the determination of specific serum IgE antibody titers against these substances. Sensitization can be detected more reliably if these tests are performed within one week of the sting and then a second time four to six weeks later ( e8 ). If the patient cannot be tested on two separate occasions, then the tests should be done no sooner than two weeks after the sting—but as soon as possible after that—so that they will not fall within the refractory phase that follows the sting reaction in some cases ( 2 ).
+
+If the basic evaluation does not reveal the sensitization that the history would have led one to expect, then the skin tests should be repeated, and IgE antibody titers against the relevant individual venom antigens should be determined; these are manufactured with the aid of recombinant techniques (the currently available ones are Api m 1, Ves v 1, and Ves v 5) ( 2 , e9 ).
+
+Special aspects of emergency medication and self-treatment for children.
+
+H 1 -blockers: adjust dosage for age and weight!
+
+Epinephrine: For children weighing 7.5 kg or more, an autoinjector is recommended
+
+Additional studies
+
+Should these tests be negative as well, cellular testing can provide additional help, particularly a basophil activation test with flow-cytometric determination of the expression of the activation markers CD63 or CD203c ( e10 , e11 ). Such tests are carried out in specialized centers. The detection of specific IgG antibody titers is irrelevant to the indication for SIT.
+
+Double sensitization to both bee and wasp venom is found in about 50% of cases ( e12 ); this may reflect either a primary sensitization to both types of venom or the presence of cross-reacting antibodies. Such antibodies can be demonstrated in the serum with the aid of inhibition tests ( 9 , e13 ). Cross-reactions are often caused by antibodies that bind to carbohydrate side-chains of allergens (cross-reactive carbohydrate determinants, CCD) ( 9 ). The individual allergens, made with recombinant techniques, that are currently used for in vitro testing are free of CCD.
+
+Both false-positive and false-negative findings can arise in any type of test. All test results should be interpreted with caution in the context of the patient’s history. For example, the serum concentration of specific IgE antibodies generally rises within a few weeks of a sting; this may indicate the type of venom that was responsible ( e1 ). The concentration later drops, sometimes rapidly ( e14 ) and possibly below the threshold of detection. Moreover, the degree of sensitization is not correlated to any diagnostically useful extent with either the severity of past systemic reactions or the probability and severity of any future ones ( e15 – e18 ).
+
+If a definitive diagnosis cannot be made, the further procedure must be determined by a specialist on an individual basis. Diagnostic challenge tests with the sting of a live insect are generally not performed on non-hyposensitized patients, both because of the risk of a severe reaction and because of the limited information that can be obtained ( e19 ). They are only rarely performed on children in specialized centers ( e20 ).
+
+Risk profile
+
+It is useful to determine the patient’s individual risk profile. Persons who are frequently exposed to insects or who are predisposed to very severe anaphylaxis are at higher risk ( Box 3 ). A particularly important fact is that mastocytosis is present, often systemically, in 3% to 5% of patients with insect-venom anaphylaxis, and about 10% have an elevated basal serum tryptase concentration (above 11.4 μg/L) ( 10 ). Persons with such mast-cell disease are at especially high risk of severe anaphylaxis ( 3 , 11 , e21 ); treatment in accordance with the guidelines should be initiated without delay and continued over the long term. Therefore, the diagnostic evaluation also includes inspection of the skin for cutaneous mastocytosis ( Figure ) and measurement of the basal serum tryptase concentration. Patients found to have mastocytosis need special treatment beyond the management of the insect-venom allergy ( 12 ).
+
+Box 3. Risk factors for anaphylaxis due to Hymenoptera venom ( 2 ).
+
+Risk of frequent exposure Beekeepers and their families and neighbors Other professions, including: persons who sell fruit or baked goods, foresters, gardeners, firefighters, farmers, construction - workers, truck drivers Intense outdoor activity
+
+Elevated risk of severe anaphylaxis Prior episode(s) of severe sting anaphylaxis (grade III or IV, or grade II with significant airway obstruction) *1 Age (from about age 40 onward) Cardiovascular disease Asthma Certain drugs including beta-blockers (eye drops as well), ACE inhibitors, perhaps non-steroidal anti-inflammatory drugs Physical and mental stress Basal serum tryptase concentration >11.4 μg/L (mastocytosis is not rare in such cases) Cutaneous or systemic mastocytosis
+
+*1 Prior sting reactions, even if not particularly severe, were found in a recent study ( 3 ) to be an independent risk factor for later, severe anaphylaxis.
+
+Cutaneous involvement in systemic mastocytosis in two patients with severe anaphylaxis due to insect stings:
+
+severe maculopapular cutaneous mastocytosis (urticaria pigmentosa), basal serum tryptase concentration 34 μg/L;
+
+very mild maculopapular cutaneous mastocytosis (“occult” mastocytosis), basal serum tryptase concentration 177 μg/L
+
+Additional tests.
+
+Cellular tests, especially basophil activation tests
+
+No diagnostic sting challenge tests in non-hyposensitized patients (exception: sometimes in children)
+
+Specific immunotherapy with bee or wasp venom
+
+Specific immunotherapy (SIT) is the treatment of first choice for patients who have had a systemic immediate reaction to a Hymenoptera sting. Prospective, controlled studies have confirmed the efficacy of SIT with bee or wasp venom ( e 22 , e23 ). The standard maintenance dose of 100 μg of insect venom protects about 75% to 95% of persons so treated from a further episode of sting anaphylaxis ( e24 ). If the treatment is ineffective at first, it nearly always succeeds when the maintenance dose is increased.
+
+SIT is indicated for adults in
+
+sting anaphylaxis of grade II or higher, or grade I with a risk factor ( box 3 ) or impaired quality of life due to insect-venom allergy, and
+
+demonstrated sensitization to the reaction-inducing venom ( 13 ).
+
+In practice, SIT can be recommended to all adult patients independently of the degree of severity of anaphylaxis ( 2 ). Mild to moderate sting reactions were recently found to be a significant risk factor for the later occurrence of severe reactions (odds ratio 4.687, 95% confidence interval 2.913–7.542) ( 3 ). In exceptional cases, hyposensitization can also be offered even to patients who have not been proven to be sensitized, if they have a very high risk of severe reactions (mainly patients with mastocytosis, or those who have had a grade IV reaction to an earlier sting).
+
+Children with exclusively systemic cutaneous reactions (grade I) who were later stung a second time had a systemic reaction again in less than 20% of all cases, without any increase in severity, and this was true whether or not they had undergone SIT ( 14 ). Thus, children with such mild reactions can do without SIT. On the other hand, insect-venom SIT can be considered in special cases of adult patients who have had repeated, large local reactions to insect stings because of occupational exposure to insects ( 2 , e25 ).
+
+Specific immunotherapy (SIT) with bee or wasp venom.
+
+SIT is the first line of treatment for patients with a systemic immediate-type reaction to a Hymenoptera sting.
+
+Temporary contraindications, such as vaccinations or intercurrent infections, should be heeded, just as in aeroallergen SIT ( 15 ). In women of child-bearing age, SIT should be started before conception to protect the unborn child from the potential consequences of anaphylaxis (miscarriage, birth defects) ( e26 , e27 ). Maintenance therapy, if well tolerated, can be continued during pregnancy. Permanent contraindications, such as severe cardiovascular disease, cancer, or disorders of the immune system (whether hereditary, acquired, or iatrogenic), are only relative contraindications in patients with insect-sting anaphylaxis. The decision whether to perform SIT in such case should be based on an individual risk-benefit analysis. For patients who have had anaphylaxis, ACE inhibitors are contraindicated, as they are associated with a risk of severe sting reactions in patients who have not undergone SIT ( 3 ) as well as with the failure of SIT (unpublished personal data). Even beta-blockers can make anaphylaxis more severe ( e2 ). If these medications are considered indispensable for the individual patient, they are continued ( e28 , e29 ) while SIT is performed with the observance of special precautions. For patients who must continue to take beta-blockers, cardioselective ones are preferred.
+
+Pregnancy and SIT.
+
+In women of child-bearing age, SIT should be started before conception to protect the unborn child from the potential consequences of anaphylaxis (miscarriage, birth defects).
+
+For the dose-increase phase, inpatient hyposensitization with an aqueous allergen preparation is recommended ( 2 ). The maintenance dose is reached in three to five days. Outpatient dose escalation over several weeks to months is feasible, but the protective effect sets in only after a delay, and systemic side effects are more difficult to treat. Patients at high risk for severe anaphylaxis should always undergo dose increase in the hospital. SIT is less effective with bee venom than with wasp venom ( 16 ); for patients with bee-venom allergy and one or more risk factors ( Box 3 ), a higher maintenance dose of 200 μg is recommended at the outset as the target of dose escalation. Once the maintenance dose is reached, the injections are given at longer intervals—eventually, once every four weeks in the first year of treatment, and once every four to six weeks thereafter. After rush hyposensitization with an aqueous allergen preparation, a depot preparation can be used for the maintenance phase.
+
+Redness and swelling arise at the injection site in almost all cases, usually in the escalation phase. It is not rare for patients to have a single episode of anaphylactic side effects, but such episodes are usually mild and responsive to treatment. Anaphylactic side effects are more common among patients with mastocytosis or an elevated basal serum tryptase concentration ( e30 ); in rare cases, very severe reactions can arise ( 10 ). Recurrent systemic anaphylactic side effects are rare and are a sign of treatment failure. If they persist despite further modifications of SIT, the treatment can usually be made tolerable again with the short-term simultaneous and/or pretreatment administration of the anti-IgE antibody omalizumab ( 2 ). The use of omalizumab for this indication is off-label.
+
+The treatment of acute reactions to bee and wasp stings.
+
+. .. is symptom-oriented.
+
+Life-threatening anaphylactic emergencies must be treated immediately according to guidelines.
+
+Long-term treatment after anaphylaxis due to bee or wasp venom.
+
+Patient education, emergency medications
+
+No ACE inhibitors or beta-blockers unless absolutely necessary
+
+Specific immunotherapy
+
+There is no way to assess the therapeutic success of insect-venom SIT with laboratory tests. Instead, a sting challenge test with a live insect is recommended to verify that the treatment is effective. This should be performed 6 to 18 months after the maintenance dose has been reached; emergency care must be available throughout a sting challenge test ( e31 ). If systemic manifestations are seen, raising the maintenance dose usually leads to success: 38 of 40 patients who still had systemic reactions to a sting challenge test while under maintenance therapy with 100 μg of insect venom had them no longer when tested again under an increased maintenance dose of 150–250 μg ( 17 ). Doses above 300 μg should only be administered after careful consideration of the risks and benefits, as there has been little clinical experience with such doses to date.
+
+The duration of SIT depends on the patient’s risk profile. It can be terminated in three to five years in most cases, as long as both the injections and a sting from the responsible insect species are tolerated without any systemic reaction ( 18 ). If this is not the case, or if the patient has one or more risk factors ( Box 3 ), then the patient’s individual degree of risk is assessed ( 2 ) and, if necessary, SIT is continued for a longer time, perhaps for life. Lifelong SIT is required above all by patients with mastocytosis and those who have had a grade IV reaction to a prior sting. All patients should carry emergency medication with them regardless of the success and duration of SIT.
+
+Diptera bites
+
+Blood-sucking Diptera, most importantly mosquitoes ( Culicidae ) but also others including horseflies ( Tabanidae ), are the most common inducers of local, allergic bite reactions, usually seen as wheals, papules, or a biphasic response (wheals and papules). Continued high exposure leads to tolerance, i.e., the bite no longer induces a cutaneous reaction ( 19 ). Other pathological manifestations can arise on an immunological basis, occasionally in the form of a long-lasting, disfiguring, unusually severe local swelling, accompanied by fever ( 20 ). Anaphylaxis and a condition resembling serum sickness have also been observed. Allergens in mosquito saliva induce an immune response in which IgE, IgG, and T lymphocytes may all be involved ( 1 ). A condition mainly seen in Japanese children, in which a mosquito bite is followed by local skin necrosis combined with fever, lymphadenopathy, and hepatosplenomegaly ( 21 ), is thought to represent reactivation of a latent Epstein-Barr virus infection. Half of the affected persons die of a hematological disease.
+
+The duration of specific immunotherapy.
+
+Depends on the individual patient’s risk profile
+
+Lifelong treatment may be necessary
+
+Pathological conditions induced by Diptera bites are treated symptomatically (as are reactions to Hymenoptera stings, see Box 1 ). The currently available allergological tests for the diagnosis of Diptera allergies are unsatisfactory and generally yield no clinically useful information. In what may be an advance in this field, a number of single Diptera antigens have recently been identified, some of which are now being manufactured by recombinant techniques (e.g., the 37 kilodalton salivary protein rAed a 2 [ e32 ]). Recommended long-term measures include exposure prophylaxis, mainly through the use of mosquito netting, window screens, and adequate skin coverage by clothing, as well as the use of repellents. The preventive administration of H 1 -blockers can lessen the severity of local skin reactions ( 22 ). SIT with a whole-insect-body extract has reportedly been used successfully to prevent anaphylaxis due to mosquito bites, but this technique is not routine.
+
+Lice, bedbugs, fleas
+
+Pediculus humanus capitis (the head louse), P. humanus corporis (the body louse), Phthirus pubis (the crab louse), Cimex lectularius (the bedbug), and Ctenocephalides felis (the cat flea) are among the “classic” parasites that suck human blood; Pulex irritans (the human flea) has become rare. Head and body lice usually cause urticarial papules and dermatitis, while bedbugs have highly variable cutaneous manifestations, including wheals, papules, hemorrhages, vesicles, or lid edema, and cat fleas cause erythematous wheals and papules, occasionally strophulus infantum, and rarely vesicles. The site of the bite may be recognizable from punctate bleeding. Kissing bugs are an important cause of anaphylaxis in the tropical Americas ( e33 ). These disease manifestations are evidently due to an immunological reaction to the insects’ salivary secretions, but their pathophysiology has hardly been studied to date, except for a few partial aspects ( e34 – e36 ).
+
+Parasites should never be overlooked as a possible cause of disease. Bedbug infestation, in particular, has become more common ( e37 , e38 ); not merely humble lodgings, but even high-class ones are now affected. Reactions to bedbug bites are often misinterpreted, e.g., as urticaria ( 23 ). Bite reactions are treated symptomatically (like reactions to Hymenoptera stings) ( Box 1 ). Parasites should be eliminated with appropriate professional help.
+
+Other reactions due to contact with insects
+
+We will only briefly mention reactions provoked not by bites, but by other types of contact with insects. In Germany, reactions to the poisonous hairs (setae) of the oak processionary caterpillar ( Thaumetopoea processionea ) have been observed ( e39 ). These bear thaumetopoein, a protein toxin that can also induce IgE-mediated sensitization. The most common manifestation is “caterpillar dermatitis,” but the eyes and respiratory tract can be affected as well, and there have been rare cases of anaphylaxis. Setae can persist in the environment for a long time ( 24 ).
+
+Blood-sucking insects.
+
+Mosquitoes, horseflies, and other Diptera often induce local sting reactions, but only rarely systemic ones. The human louse, bedbug, and cat flea are “classic” parasites. Bedbugs are becoming more common.
+
+Pathogenic airborne allergens derived from many different kinds of insects can cause disease, particularly of the respiratory tract ( 25 ). In central Europe, cockroaches are the main insect source of allergens in the general environment, although allergy can obviously develop to any insect species given sufficient occupational or leisure-time exposure.
+
+Other reactions to insects.
+
+Reactions to the oak processionary caterpillar are now being seen more commonly in Germany. They are induced by a toxic protein (thaumetopoein) found on the hairs of the caterpillar.
+
+E-Supplement. A 34-year-old woman who was working outdoors at her job was stung by a bee. Within minutes, she developed generalized pruritus, urticaria, dyspnea, and dizziness, and then lost consciousness for about 5 minutes. She received emergency medical treatment at once and was hospitalized; one day later, she had fully recovered. She was generally in good health and had not been taking any medications at the time of the sting.
+
+One month after this episode of anaphylaxis, the concentration of specific IgE antibodies against bee venom in the patient’s serum was 11.9 kU/L (CAP class 3), while that of specific IgE atibodies against wasp venom was CAP class 0. Cutaneous testing was performed in the hospital because of the history of a severe reaction; a skin-prick test revealed a reaction to 100 μg/mL of bee venom, while an intracutaneous test revealed a reaction to 1.0 μg/mL wasp venom. The basal serum tryptase concentration was 7.6 μg/L. Skin inspection revealed no evidence of cutaneous mastocytosis. In view of the history and test findings, a diagnosis of grade III anaphylaxis due to bee-venom allergy was made.
+
+Rush hyposensitization with bee venom was initiated in the hospital, and the target maintenance dose of bee venom was set at 200 μg from the beginning in view of the history of a severe reaction. Aside from a flush reaction with mild dyspnea after the injection of 20 μg of bee venom, the dose-escalation phase of specific immunotherapy and the ensuing maintenance treatment were well tolerated. In view of the patient’s occupational exposure, she underwent a sting challenge test with a live bee eight weeks after the maintenance dose had been reached; in this test, she developed grade II anaphylaxis within minutes of the sting. In parallel, the serum tryptase concentration rose to 136 μg/L in the first hour after the sting. An increase of the maintenance dose to 300 μg of bee venom was planned because of the failure of treatment, but this was not possible because of repeated systemic side effects of the hyposensitization injections. Ultimately, she no longer tolerated even the previously tolerated dose of 200 μg. Add-on treatment with an H 1 -blocker did not improve the patient’s toleration of specific immunotherapy.
+
+To make the specific immunotherapy tolerable, treatment with omalizumab was initiated. 150 μg of omalizumab (a dose selected according to the patient’s weight and total IgE level) were injected subcutaneously twice, two weeks apart, whereupon the specific immunotherapy was recommenced. Both the dose-escalation phase leading to a dose of 300 μg and the ensuing maintenance phase were tolerated without any systemic side effects. Omalizumab was then given once every 4 to 6 weeks for a total of 6 injections. Even after omalizumab was stopped, the specific immunotherapy was well tolerated without any systemic side effects. Two months after taking her last dose of omalizumab, the patient was able to tolerate a sting challenge test with a live bee without any systemic reaction.
+
+Because of her occupational exposure, the patient in this case needed to be protected quickly and reliably against further anaphylactic sting reactions. Therefore, the sting challenge test was performed two months after the maintenance dose had been reached (earlier than usual) and revealed that the treatment had not yet succeeded. The repeated systemic reactions to specific immunotherapy that arose thereafter were suppressible by pre- and comedication with omalizumab. The repeated sting provocation test was well tolerated without any systemic reaction.
+
+Further Information on CME.
+
+This article has been certified by the North Rhine Academy for Postgraduate and Continuing Medical Education. Deutsches Ärzteblatt provides certified continuing medical education (CME) in accordance with the requirements of the Medical Associations of the German federal states (Länder). CME points of the Medical Associations can be acquired only through the Internet, not by mail or fax, by the use of the German version of the CME questionnaire within 6 weeks of publication of the article. See the following website: cme.aerzteblatt.de
+
+Participants in the CME program can manage their CME points with their 15-digit “uniform CME number” ( einheitliche Fortbildungsnummer, EFN). The EFN must be entered in the appropriate field in the cme.aerzteblatt.de website under “meine Daten” (“my data”), or upon registration. The EFN appears on each participant’s CME certificate. The solutions to the following questions will be published in issue 21/2012.
+
+The CME unit “Cancer-Related Fatigue” (issue 9/2012) can be accessed until 13 April 2012. For issue 17/2012, we plan to offer the topic “The Treatment of Climacteric Symptoms.”
+
+Solutions to the CME questionnaire in issue 5/2012:
+
+Häuser W, et al.: Functional Bowel Symptoms in Adults.
+
+Solutions: 1e, 2d, 3d, 4d, 5d, 6a, 7b, 8b, 9c, 10a
+
+Please answer the following questions to participate in our certified Continuing Medical Education program.
+Only one answer is possible per question. Please select the answer that is most appropriate.
+
+Question 1
+
+A sting from what type of insect most commonly provokes a local allergic reaction?
+
+Butterfly
+
+Question 2
+
+What is the most common type of dangerous reaction to a wasp sting?
+
+Thrombocytopenic purpura
+
+Serum sickness
+
+Anaphylaxis
+
+Systemic intoxication
+
+Airway obstruction by local reaction
+
+Question 3
+
+How common is anaphylaxis in response to a bee or wasp sting in the general population?
+
+0.1 – 0.5%
+
+>0.5 – 1.0%
+
+>1.0 – 3.5%
+
+5.0 – 10.0%
+
+Question 4
+
+The treatment of anaphylaxis depends on its severity. What drug is given first in anaphylactic reactions involving more than just the skin?
+
+An H 1 -blocker
+
+Epinephrine
+
+An H 2 -blocker
+
+A glucocorticoid
+
+A β 2 -sympathomimetic agent
+
+Question 5
+
+Allergologic testing is required in patients who have had an episode of bee or wasp venom anaphylaxis. If the history suggests sensitization, but this cannot be demonstrated either by a skin test or by the measurement of specific IgE antibodies in the serum, what test should be performed next?
+
+A basophil activation test
+
+Measurement of specific IgG antibodies in the serum
+
+A lymphocyte stimulation test
+
+A sting challenge test
+
+An inhibition test to detect cross-reacting IgE antibodies
+
+Question 6
+
+A 13-year-old girl is stung in the left big toe, presumably by a bee, while playing in a meadow. The foot and the lower portion of the leg become markedly red and swollen. What allergological tests are indicated?
+
+A skin-prick test with bee and wasp venom and measurement of specific IgE antibodies against bee and wasp venom in the serum
+
+A skin-prick test with bee venom and measurement of specific IgE antibodies against bee venom in the serum
+
+A basophil activation test with bee and wasp venom
+
+Measurement of specific IgG antibodies against bee and wasp venom in the serum
+
+Question 7
+
+A 36-year-old woman who sells baked goods is stung by a wasp in the bakery and develops anaphylaxis with cardiopulmonary arrest. She is successfully resuscitated and makes a full recovery after a brief stay in the hospital. Skin testing and the measurement of specific IgE antibodies in the serum reveal sensitization to wasp venom, but not to bee venom. Her basal serum tryptase level was elevated (38.6 μg/L). She therefore underwent a bone biopsy leading to the diagnosis of an indolent systemic mastocytosis. Specific immunotherapy with wasp venom was initiated. How long should it be continued?
+
+Until the success of treatment is documented with a well-tolerated sting challenge test
+
+For 3 years
+
+For 5 years
+
+For as long as she remains at risk for a wasp sting in the workplace
+
+Question 8
+
+Beta-blockers are generally contraindicated in patients who have had an episode of anaphylaxis and should only be given when they are absolutely necessary and cannot be replaced by other drugs. Of what other class of drug can the same be said?
+
+Thiazides
+
+Proton-pump inhibitors
+
+Neuroleptic drugs
+
+Penicillins
+
+ACE inhibitors
+
+Question 9
+
+A 24-year-old man who presented with pollen-related complaints underwent an “allergy screening” that revealed specific IgE antibodies against bee venom in the serum (3.2 kU/L). He has never been stung by a bee in his life, there is no evidence of mastocytosis, and his basal serum tryptase level is not elevated. What should be done next?
+
+A skin test with bee and wasp venom
+
+Measurement of the total serum IgE concentration
+
+Reassurance that the finding is of no clinical significance
+
+Prescription of an emergency drug for the patient
+
+Initiation of specific immunotherapy
+
+Question 10
+
+A 23-year-old woman who was stung by a bee develops a red, intensely pruritic 10 × 8 cm swelling on her left forearm near the wrist. What treatment is indicated?
+
+Topical glucocorticoid and oral H 1 -blocker
+
+Topical H 1 -blocker
+
+Oral glucocorticoid
+
+Topical H 1 -blocker, oral non-steroidal anti-inflammatory agent
+
+Topical H 1 -blocker, intramuscular glucocorticoid
+
+Footnotes
+
+Conflict of interest statement
+
+Professor Przybilla is a member of medical specialty societies that participated in the development of guidelines on the subject of this article: the German Society for Allergology and Clinical Immunology (Deutsche Gesellschaft für Allergologie und klinische Immunologie) , the German Allergologists’ Association (Ärzteverband Deutscher Allergologen), the German Dermatological Society (Deutsche Dermatologische Gesellschaft), and the European Academy of Allergy and Clinical Immunology. He has received lecture honoraria from ALK-Abelló, Novartis, and Stallergenes and served in an advisory capacity for Janssen. He has also received payment for carrying out clinical studies on behalf of HAL and Novartis.
+
+Professor Ruëff is a member of medical specialty societies that participated in the development of guidelines on the subject of this article: the German Society for Allergology and Clinical Immunology, the German Dermatological Society, the German Dermatologists’ Association (Berufsverband Deutscher Dermatologen), and the European Academy of Allergy and Clinical Immunology. She has received lecture honoraria from ALK-Abelló, Bencard and HAL.

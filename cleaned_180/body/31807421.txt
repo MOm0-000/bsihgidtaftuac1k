@@ -1,0 +1,87 @@
+Introduction
+
+Kidney transplantation remains the most effective treatment for uremia ( 1 ), and the administration of immunosuppressive agents ensures the long-term survival of renal transplant recipients (RTRs) ( 2 , 3 ). Immunosuppressive agents can reduce immune rejections by inhibiting specific immune responses (especially T lymphocyte-mediated cellular immune responses). As a result, some immunosuppressive agents have even been used in treating severe allergic reactions.
+
+In theory, RTRs using immunosuppressive agents will not develop type I allergy to ingested or inhaled allergens. However, such cases have been frequently reported in the literature ( 4 , 5 ), although the vast majority of the affected patients were children.
+
+Gruber et al. ( 6 ) for the first time reported that adult RTRs taking either calcineurin inhibitor tacrolimus (FK506) or cyclosporin A (CsA) after renal transplantation developed allergies to ingested or inhaled allergens, especially in the former. With an attempt to further elucidate the transplant-acquired allergies (TAA) in adult RTRs, we designed this study to explore the effects of different immunosuppressive agents on sensitization and type I allergy in adults RTRs.
+
+Patients undergoing primary kidney transplantation at the Second Affiliated Hospital of Guangzhou Medical University during the period from February 2015 to February 2016 were selected as subjects.
+
+Inclusion criteria: (I) receiving the primary kidney transplantation in our center; (II) receiving a maintenance treatment protocol of “FK506 + mycophenolate mofetil (MMF) + prednisone (Pred)” or “CsA + MMF + Pred”; (III) aged 18–55 years; (IV) receiving long-term follow-up in our center; and (V) recipients of single-organ transplants.
+
+Exclusion criteria: (I) with parasitic infection; (II) positive allergen-specific IgE before surgery; (III) loss of renal function or death during follow-up; (IV) change of immunosuppressive agents during the follow-up and (V) lost to follow-up. A total of 79 patients were enrolled, and the follow-up visits were arranged at 6 months, 1 year, 2 years, and 3 years after surgery. Serum samples were collected before transplantation and at the above time points. The hospital ethics committee approved the study. All subjects signed informed consent forms.
+
+A standard questionnaire was used to investigate whether the subjects developed an allergic disease such as allergic bronchial asthma, atopic dermatitis, and food allergies; patients who were positive for specific IgE in serum were considered “sensitized”, and patients already had a history of allergy were considered “allergic”.
+
+Determination of serum total IgE and specific IgE
+
+Serum total IgE and specific IgE were determined by using the UniCAP luciferase reporter assay. The normal range for the IgE blood test is <10 4 kU/L in adults ( 7 , 8 ). The specific IgE is divided into seven classes (from class 0 to class 6) to determine the severity of allergies. The detected allergens included inhaled allergens (including willow, poplar pollen, elm, ragweed pollen, mugwort pollen, dust mites, house dust, cat hair, dog dander, cockroaches, mold, and humulus pollen) and ingested allergens (including eggs, milk, peanuts, soybeans, beef, lamb, cod, lobster, scallops, perch, carp, shrimp, and crab). During the detection of a specific IgE, any value above 0.35 kU/L was considered positive.
+
+Statistical analysis
+
+Statistical analysis was performed by using SPSS 19.0 statistical software package. The total IgE levels before and after transplantation were compared using a paired t -test. The measurement data were compared using the independent samples t -test. Chi-square test was applied for qualitative data. A P value of <0.05 was considered significantly different.
+
+General data
+
+A total of 79 patients were included in the study. Among them, there were 44 males (55.7%) and 35 females (44.3%). The age of primary kidney transplantation was 39.27±8.97 years, and 58 and 21 patients used FK506 and CsA, respectively ( Table 1 ).
+
+Table 1. General data of 79 patients.
+
+Comparison of total IgE levels before and after transplantation
+
+The total IgE level was 32.99±24.28 kU/L before transplantation (before the use of immunosuppressive agents) and 20.21±15.45, 18.18±14.88, 17.52±11.23, and 17.73±13.14 kU/L at 6 months, 1 year, 2 years, and 3 years after the surgery. Comparison of the total IgE level before and after surgery by paired t -test showed that the total IgE levels at 6 months, 1 year, 2 years, and 3 years after the surgery were significantly lower than that before surgery (all P<0.05) ( Figure 1 ).
+
+Figure 1.
+
+Comparison of total IgE levels before and after transplantation. *P<0.05.
+
+Sensitization
+
+Patients who were positive for specific IgE in serum were considered “sensitized”. Allergen sensitization occurred in 9 of 79 patients. Among them, the sensitization occurred in 2 cases within 6 months after renal transplantation, in 1 case from 6 months to 1 year, in 3 cases from 1 to 2 years, and in 3 cases from 2 to 3 years. The majority of sensitization was induced by inhaled allergens (n=7) ( Table 2 ).
+
+Table 2. Sensitization and allergy at different time points after kidney transplantation.
+
+Allergies
+
+Among the 79 RTRs, only 3 patients (3/79, 3.8%) had a history of type I allergy, which occurred within 6 months after transplantation in 2 cases (allergic dermatitis) and from 2 to 3 years in 1 case (diarrhea after peanut allergy) ( Table 2 ).
+
+Sensitization and allergies in the FK506 group and CsA group
+
+Among these RTRs, 58 were treated with FK506 and 21 with CsA. There were no significant differences in age, gender, underlying disease, and type of donation between these two groups ( Table 3 ).
+
+Table 3. Comparison between FK506 group and CsA group.
+
+Sensitization occurred in 8 RTRs using FK506 and in 1 patient treated with CsA (P=0.432), and allergies occurred in 3 RTRs using FK506 and were not found among CsA users (P=0.561, Figure 2 ).
+
+Figure 2.
+
+Sensitization and allergies in the FK506 group and CsA group. CsA, cyclosporin A.
+
+Discussion
+
+Type I allergies are mainly mediated by IgE antibodies. When the body is first exposed to an allergen, it is sensitized and produce IgE antibody to fight against it. The Fc region of the IgE antibody binds to its specific Fc receptor FcƐRI on the surface of mast cells. When the body is exposed to the allergen again, the allergen binds explicitly to the IgE antibody on the surface of the sensitized mast cells, causing the release of histamine and other mediators and thus triggering an allergic reaction ( 9 ).
+
+The IgE antibody is generated by B lymphocytes. Precursor CD4+ T cells develop into Th0 cells after antigen stimulation. Under sustained stimulation of the antigen, Th0 cells continue to differentiate into different Th cell subsets, including Th1 cells, Th2 cells, Th3 cells, and Th17 cells (mainly Th1 and Th2 cells). Among them, Th1 enhances phagocyte-mediated anti-infective immunity mainly by secreting IL-2 and IFN-γ and is also an effector T cell in type 4 hypersensitivity; in contrast, the cytokines (including IL-4, IL-5, and IL-6) secreted by Th2 cells promote the proliferation and differentiation of B cells and the production of antibodies and mediate humoral immune response, especially in type I allergies. Due to the inhibitory effect of immunosuppressive agents on adaptive T cells, some immunosuppressive agents have even been used to treat severe allergic reactions ( 10 ).
+
+In theory, RTRs using immunosuppressive agents will not develop type I allergy to ingested or inhaled allergens. However, transplant-acquired food allergy has been frequently reported ( 4 , 5 ). Dehlink et al. ( 11 ) observed allergic sensitization in 78 pediatric RTRs and concluded immunosuppressive therapy does not prevent the occurrence of immunoglobulin E-mediated allergies in children and adolescents with organ transplants in our current series, 9 of 79 patients developed sensitization. Among them, the sensitization occurred in 2 cases within 6 months after renal transplantation, in 1 case from 6 months to 1 year, in 3 cases from 1 to 2 years, and in 3 cases from 2 to 3 years. The majority of sensitization was induced by inhaled allergens (n=7), among whom 3 patients (3/79, 3.8%) had a history of type I allergy, which occurred within 6 months after transplantation in 2 cases (allergic dermatitis) and from 2 to 3 years in 1 case (diarrhea after peanut allergy), suggesting administration of immunosuppressive agents in adult RTRs cannot wholly prevent IgE-mediated allergy or sensitization.
+
+Focusing on the occurrence of sensitization and allergy following the use of FK506 or CsA in RTRs, Gruber et al. ( 6 ) analyzed the allergies to nutritive and inhalant allergens in adult patients under FK506 (n=100) vs. CsA (n=100) and found the prevalence of sensitization was significantly higher in the FK506 group than in the CsA group (34%, n=34, vs. 20%, n=20; P=0.026); the rate of clinically relevant allergy was also higher in FK506 group than in CsA group, but the difference was not statistically significant (15%, n=15, vs. 8%, n=8; P=0.12).
+
+Koppelstaetter et al. ( 12 ) indicated that both FK506 and CsA are calcineurin inhibitors; by inhibiting the activation of nuclear factor of activated T cells (NFAT) and blocking the calcium-dependent signaling pathways, they can suppress the secretion of cytokine IL-2 by Th1 cells. Therefore, after FK506 or CsA was used after renal transplantation, the differentiation of Th0 cells may be Th2-biased. In some other studies ( 13 , 14 ), transplant recipients were more like to develop newly-onset allergies after the use of FK506 (compared with CsA). Gruber et al. ( 6 ) detected the regulatory T cells in peripheral blood mononuclear cells (PBMC) after transplantation and found the decrease of regulatory T cells in RTRs taking FK506 were more pronounced than in CsA users, suggesting that FK506 might interfere with the regulation of allergies by interfering with regulatory T cell proliferation. Also, tacrolimus enhances the osmotic effect of allergens in the gastrointestinal mucosa may be another reason.
+
+Like the study of Gruber et al. ( 6 ), our current study revealed that the rates of sensitization and allergies in RTRs using FK506 were higher than those in CsA users (8/58 vs. 1/21, 3/58 vs. 0/21, respectively). However, the rate of sensitization was not significantly different between FK506 group and CsA group. The possible explanations may include: (I) the follow-up lasted up to three years in our study, and the relevant data after 3 years need to be further collected; (II) only 79 patients were included in this study, and the sample size was smaller than that in Gruber et al. ’s study ( 6 ); and (III) Gruber et al. ( 6 ) did not assess pre-transplant allergic disease.
+
+The effect of immunosuppressive agents on total IgE in vivo after transplantation remains controversial. It has been indicated ( 15 ) that oral administration of FK506 after transplantation increased total IgE, while another study ( 6 ) found the total IgE was decreased. In our current study, comparison of the total IgE before and after transplantation in adult RTRs showed that the total IgE levels at 6 months, 1 year, 2 years, and 3 years after the surgery were significantly lower than that before surgery (all P<0.05), suggesting age is another influencing factor for the reduction of total IgE after transplantation.
+
+The rates of sensitization and allergies were relatively low in the adult RTRs in our study, especially when compared with pediatric patients. Ozdemir et al. ( 16 ) performed the gastrointestinal biopsy in children who had developed newly-onset allergies after cardiac transplantation and found eosinophilic infiltration from the stomach to rectum, indicating transplant-acquired food allergy is more likely to occur in children whose immune and gastrointestinal systems have not been well developed.
+
+Since spin prick test (SPT) is associated with specific risk and most patients refuse to take SPT, a questionnaire-based survey and UniCAP luciferase reporter assay were performed in our current study to investigate the serum total IgE and specific IgE, and no SPT data were available, which was also one of the limitations of our study.
+
+In summary, administration of immunosuppressive agents in adult RTRs cannot wholly prevent allergy or sensitization. Studies with larger sample sizes and more extended follow-up periods are still required to further explore the potential association between the use of FK506 and CSA and the allergies or sensitization.
+
+Ethical Statement : All authors are accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the work are appropriately investigated and resolved. The study was approved by the ethics committee of the Second Affiliated Hospital of Guangzhou Medical University and the approval number was 2014053. All patients gave written informed consent before participation.
+
+Footnotes
+
+Conflicts of Interest : The authors have no conflicts of interest to declare.

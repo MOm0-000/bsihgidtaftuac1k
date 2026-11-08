@@ -1,4 +1,0 @@
-﻿method,trustworthiness_k,knn_overlap_k,global_spearman,normalized_stress,runtime_seconds
-PCA,0.857666,0.350273,0.686165,0.401449,0.413
-UMAP,0.934524,0.575956,0.644049,0.494554,4.795
-LocalMAP,0.924437,0.545355,0.558208,0.45697,0.825

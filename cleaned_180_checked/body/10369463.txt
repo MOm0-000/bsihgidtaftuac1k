@@ -1,0 +1,138 @@
+Introduction
+Nicotinic acetylcholine receptors (AChRs) consist of diverse subtypes formed from five homologous subunits in combinations from nine α, four β, γ, δ and ε subunits. Advances in knowledge of nicotinic AChR structure and function provide a means to establish the specific receptor subtypes conferring selectivity for nicotinic drugs. The 6-chloro-3-pyridinyl moiety is present in some of the most potent and/or selective nicotinic agonists as to subtype specificity, e.g. the analgesics epibatidine and ABT-594 (Badio & Daly, 1994; Holladay et al., 1997; Bannon et al., 1998), and it is also important in a new class of synthetic nicotinoid insecticides (Shiokawa et al., 1995) (Figure 1). Imidacloprid (IMI) is the best known example of these highly effective new insecticides and others are acetamiprid (AAP) and nitenpyram (NTP) (Figure 2). These nicotinoid insecticides and their analogues might also be selective in their action on nicotinic AChR subtypes.
+
+α1-Containing nicotinic AChRs expressed in skeletal muscle and Torpedo electric organ are α1γ(or ε in adult)α1δβ1 heteromers; they are the best understood nicotinic AChRs as to the ligand binding site environment (Karlin & Akabas, 1995; Arias, 1997). Neuronal nicotinic AChR subtypes in brain and ganglia are assembled in combinations of α2–9 and β2–4 subunits and are pharmacologically classified into two main groups based on sensitivity to α-bungarotoxin (α-BGT) (Sargent, 1993; Lindstrom, 1997). The α-BGT-insensitive subtypes are formed from combinations of α2, α3, α4 and α6 with β2 or β4 subunits (sometimes with α5 or β3). The most prominent subtype of this group is α4β2 which represents >90% of high affinity tritiated agonist binding sites in brain (Whiting & Lindstrom, 1986; Flores et al., 1992). α3-Containing nicotinic AChRs (α3β4α5 and α3β2α5) are expressed in peripheral ganglia and limited regions of the brain (Conroy & Berg, 1995; Lindstrom, 1997). α-BGT-sensitive neuronal nicotinic AChR subtypes have α7, α8 and α9 subunits (Lindstrom, 1997). The abundance of α7-containing nicotinic AChRs in brain is comparable to that of the α4β2 subtype (Clarke et al., 1985; Whiting & Lindstrom, 1988; Lindstrom, 1997). The α7 nicotinic AChRs are also coexpressed with multiple α3-containing receptors (α3β4α5 and α3β2α5) in ganglia as well as in human neuroblastoma cells such as SH-SY5Y (Lukas et al., 1993; Peng et al., 1994; Lindstrom, 1997). The α8 subunit is found only in chickens and the α9 in limited regions of the rat nervous system (Schoepfer et al., 1990; Keyser et al., 1993; Elgoyhen et al., 1994). The native α7-containing nicotinic AChRs are considered to be assembled either as a homomer (Couturier et al., 1990; Chen & Patrick, 1997; Lindstrom, 1997) or as heteromers with unknown subunit(s) (Whiting & Lindstrom, 1987; Gotti et al., 1991; Anand et al., 1993b).
+
+The structure and function of insect nicotinic AChRs have been investigated with biochemical, molecular biological and immunohistochemical approaches but are poorly understood relative to those of animals. Although several candidate genes encoding the α and non-α subunits are identified from fruit flies (Drosophila melanogaster) and migratory locusts (Locusta migratoria), their functional coexpression has not been successful in any combination, implying the involvement of unidentified subunit(s) in assembling the native insect receptors (Gundelfinger & Hess, 1992; Tomizawa et al., 1996; 1999; Tomizawa & Casida, 1997; Hermsen et al., 1998). Interestingly, functional ion channel properties are clearly observed when either of two Drosophila α type subunits is coexpressed with chick β2 subunit and the two reconstituted Drosophila α/chick β receptors display different sensitivities to α-BGT (Bertrand et al., 1994). It is proposed for the cockroach (Periplaneta americana) that the α-BGT-sensitive and -insensitive nicotinic AChRs are expressed in the dorsal unpaired median neurons and that both subtypes are affected by IMI, based on electrophysiology studies (Lapied et al., 1990; Buckingham et al., 1997).
+
+IMI and its desnitro metabolite (DN-IMI) (Figure 1) differ greatly in binding site specificity: IMI is highly potent at insect but not mammalian nicotinic AChRs (Liu & Casida, 1993; Zwart et al., 1994; Yamamoto et al., 1998) whereas DN-IMI is much more active in mammals than insects (Liu et al., 1993; Chao & Casida, 1997; Nauen et al., 1998). On this basis, minor structural variations in nicotinoid insecticides may also alter the subtype specificity for mammalian nicotinic AChRs. The objective of this study is to determine the contribution of α1-, α3-, α7- and α4β2-containing nicotinic AChRs to the specificity of nicotinoid insecticide action.
+
+Chemicals
+Structures and abbreviations for the nicotinoids studied are given in Figure 2. They were available from our previous studies (Liu et al., 1995; Tomizawa et al., 1996; Chao & Casida, 1997) except for DN-THP which was synthesized by a procedure analogous to that used for DN-IMI (Latli et al., 1996). The purity of these compounds was >95% and they were stored in amber bottles (under nitrogen atmosphere if needed) at room temperature, and the test sample was freshly prepared for each experiment.
+
+Sources for other chemicals were as follows: (3-[125I]iodotyrosyl)α-BGT ([125I]α-BGT, >277 Ci mmol−1) and 86rubidium chloride (1.7 mCi mg−1 Rb, 86Rb+) from Amersham Life Science (Arlington Heights, IL, U.S.A.); L-[N-methyl-3H]-nicotine ([3H]-nicotine, 81.5 Ci mmol−1) from NEN Life Science Products (Boston, MA, U.S.A.); α-BGT, (−)-nicotine hydrogen tartrate and poly-L-lysine hydrobromide from Sigma (St. Louis, MO, U.S.A.); Dulbecco's modified Eagle's medium (DMEM), foetal bovine serum (FBS) and penicillin-streptomycin from Gibco Life Technologies (Grand Island, NY, U.S.A.). The nicotinic AChR monoclonal antibodies (mAb) used were mAb 35 against α1, α3 and α5 subunits (Conroy et al., 1992) and mAb 306 against the α7 subunit (Schoepfer et al., 1990) from Research Biochemicals International (Natick, MA, U.S.A.).
+
+Torpedo receptor preparation
+Torpedo electric organ (Biofish Associates, Georgetown, MA, U.S.A.) was homogenized in four volumes of 50 mM sodium phosphate buffer (pH 7.5) containing (in mM): NaCl 1000, EDTA 5, EGTA 5, phenylmethanesulphonyl fluoride (PMSF) 2, benzamidine 5 and iodoacetamide 5 at 4°C using a Polytron for three 30 s periods with 60 s intervals in between. The homogenate was filtered through four layers of cheesecloth and the filtrate was centrifuged at 40,000×g for 30 min at 4°C. The pellet was suspended in lysis buffer (in mM): sodium phosphate (pH 7.5) containing 2% Triton X-100 50, NaCl 50, EDTA 5, EGTA 5, PMSF 2, benzamidine 5 and iodoacetamide 5 (same volume as the homogenate) and the suspension was solubilized by rotation on a rocking platform for 60 min at 4°C. Insoluble material was removed by centrifugation at 40,000×g for 30 min at 4°C.
+
+Human neuroblastoma cell receptor preparation
+Cultures of SH-SY5Y cells (Department of Molecular and Cell Biology, University of California, Berkeley) were maintained in DMEM supplemented with 10% FBS, 50 u ml−1 penicillin and 50 μg ml−1 streptomycin at 37°C in 5% CO2/95% air atmosphere with a medium change every 2–3 days. The cells were harvested with a cell lifter in phosphate-buffered saline (PBS, NaCl 100 mM, sodium phosphate buffer 10 mM, pH 7.5). The harvested cells were disrupted by brief vortexing in five volumes of lysis buffer as above. After 20 min gentle rotation on a rocking platform at 4°C, the sample was centrifuged for 20 min at 4°C in an Eppendorf microcentrifuge and the supernatant was recovered.
+
+Radioligand binding
+Supernatants from Torpedo electric organ or SH-SY5Y cell preparations were used for immuno-isolation of receptor subtypes (Anand et al., 1993a; Peng et al., 1997) then radioligand binding assay. mAb 35 or 306 (immunoglobulin at 5 mg ml−1) was coupled to Immulon 4HBX Removawells (Dynex Technologies, Chantilly, VA, U.S.A.) by incubating 4–5 μg mAb (per well) in 0.1 ml of 10 mM sodium bicarbonate buffer (pH 8.8) overnight at 4°C. After three washes with 0.2 ml of the bicarbonate buffer, the wells were quenched with 0.2 ml of 3% bovine serum albumin in PBS-Tween 20 buffer (0.05% Tween 20 in PBS) for 4 h at 4°C. The wells were then washed three times with 0.2 ml of the PBS-Tween 20. The receptor preparation (0.1 ml) was added to each mAb-precoated well and incubated overnight at 4°C. The wells were washed three times with 0.2 ml of the PBS-Tween 20 buffer and then treated with various concentrations of test compound for 20 min. Radioligand binding assay was initiated by addition to this medium of [3H]-nicotine (20 nM for α3 nicotinic AChRs) or [125I]-α-BGT (0.2 nM for α1 nicotinic AChRs or 2 nM for α7 nicotinic AChRs) and incubation in 0.1 ml final volume for 60 min (for [3H]-nicotine binding) or overnight (for [125I]-α-BGT binding) at 25 or 4°C, respectively. The wells were then rinsed three times with 0.2 ml PBS-Tween 20 buffer and the radioactivity remaining was subjected to liquid scintillation counting. Every experiment included (−)-nicotine as a standard at 50 nM (for α3 nicotinic AChRs with [3H]-nicotine) or 10 μM (for α7 nicotinic AChRs with [125I]-α-BGT). Background binding was determined using wells lacking mAb. For comparison, the binding affinity for (−)-nicotine in [3H]-nicotine binding to immuno-isolated α3 receptors from SH-SY5Y cells is 0.02 μM (Peng et al., 1997), and for α-BGT and (−)-nicotine in [125I]-α-BGT binding to immuno-isolated α7 receptors from the same cells are 0.00106 and 2.6 μM, respectively (Peng et al., 1994).
+
+Membranes from male rat whole brain were prepared and assayed for 2 nM [125I]-α-BGT binding by the method of Marks et al. (1986) and for 5 nM [3H]-nicotine binding as described by Yamamoto et al. (1995). Data for [3H]-nicotine binding to mouse brain membranes are from Chao & Casida (1997).
+
+86Rb+ efflux assay
+Agonist-induced cation flux in SH-SY5Y cells has been attributed to α3-containing nicotinic AChRs; α-BGT-sensitive receptors do not contribute detectably to the ion flux measured in this assay (Lukas et al., 1993). SH-SY5Y cells were therefore used to assay α3-containing receptor function by the procedure of Lukas (1989) with minor modification. The cells were seeded in 24-well (18.5 mm diameter) culture plates at a density of 106 cells well−1 following the coating of each well by treatment with poly-L-lysine (30 μg ml−1) then aspiration off. At confluence, the cells attached to the culture plates were loaded with 0.2 μCi of 86Rb+ in DMEM supplemented with 10% FBS, 50 u ml−1 penicillin and 50 μg ml−1 streptomycin (0.5 ml) and incubated overnight at 37°C and 5% CO2/95% air atmosphere. The medium containing 86Rb+ was removed by aspiration, the cells were rinsed twice with 0.5 ml of fresh medium and then exposed to 0.25 ml of medium with or without a test compound for 5 min. (−)-Nicotine (0.1 mM) was tested as a standard in each experiment. After exposure to the test compound, the assay medium was immediately transferred into a vial for Cerenkov counting. For validation in a preliminary experiment, we confirmed that 0.1 mM d-tubocurarine gave 97–100% blockage of 86Rb+ efflux induced by 0.1 mM (−)-nicotine as reported by Lukas et al. (1993).
+
+Data calculation
+IC50 (molar concentration of test compound for 50% inhibition of specific radioligand binding) and EC50 [molar concentration of test compound to induce 50% specific 86Rb+ efflux relative to 0.1 mM (−)-nicotine] values were determined by iterative nonlinear least-squares regression using the SigmaPlot program (Jandel Scientific Software, San Rafael, CA, U.S.A.).
+
+Toxicity
+Male albino Swiss-Webster mice (20–25 g) were treated i.p. with the test compounds dissolved in water or dimethyl sulphoxide with mortality observations at 24 h as described by Chao & Casida (1997). Toxicity data are from Chao & Casida (1997) for seven compounds and the present determination for three compounds. These studies were carried out in accordance with the Guide for Care and Use of Laboratory Animals as adopted and promulgated by the United States National Institutes of Health.
+
+Interaction with α1 nicotinic AChRs
+The Torpedo electric organ was used as the source of α1 nicotinic AChRs with immuno-isolation by mAb 35 and binding assay with [125I]-α-BGT. DN-IMI is 2 fold more potent than nicotine with IC50 values of 13 and 25 μM, respectively (Table 1). THPCH-IMI has low activity (IC50 120 μM) and all the other nicotinoids are essentially inactive (Table 1).
+
+Interaction with α3 nicotinic AChRs
+Human neuroblastoma SH-SY5Y cells express multiple α3β2β4α5 nicotinic AChRs; the α3 receptors were immuno-isolated with mAb 35 for [3H]-nicotine binding. DN-IMI is the most potent compound (IC50 0.014 μM) and nicotine is 3 fold less active (Figure 3, Table 1). The potency order for the other nicotinoids is DN-THP and THPCH-IMI (IC50 0.14–0.18 μM)>CH-IMI (IC50 2.3 μM)>IMI, AAP, Cl-TMNI, SCH-IMI and NTP (IC50 14–48 μM) (Table 1).
+
+Induced 86Rb+ efflux with intact SH-SY5Y cells provides another means to evaluate nicotinoid agonist effect attributable to α3-containing receptor function. DN-IMI with an EC50 of 2.4 μM is 4–5 fold more potent than nicotine, DN-THP and THPCH-IMI (EC50 10–13 μM), and DN-IMI and DN-THP display steep efflux induction curves (Table 1, Figure 4). THPCH-IMI induces higher 86Rb+ efflux than that induced by 0.1 mM (−)-nicotine. The remaining chemicals do not induce an efflux response that reaches the maximum of the nicotine standard.
+
+The inhibitory potency of eight nicotinoids with immuno-isolated α3 nicotine AChRs of SH-SY5Y cells is highly correlated (r=0.99) with that for agonist-induced 86Rb+ efflux from intact cells (Figure 5).
+
+Interaction with α7 nicotinic AChRs
+[125I]-α-BGT binding was determined to mAb 306 immuno-isolated α7 nicotinic AChRs of SH-SY5Y cells and in putative α7 nicotinic AChRs of rat brain membranes. The α7 nicotinic AChRs of the human neuroblastoma cells are most sensitive to THPCH-IMI (Figure 6) and then CH-IMI (IC50s 1.2 and 6.1 μM, respectively), least sensitive to IMI, AAP and NTP (IC50s 210–>300 μM) and with intermediate sensitivity to nicotine and the other five nicotinoids (IC50s 11–33 μM) (Table 1). The same structure-activity relationships are obtained with the several-fold more sensitive rat brain putative α7 nicotinic AChR (Figure 6 and Table 1) as clearly apparent by a correlation plot for inhibition of the SH-SY5Y and rat brain receptors (Figure 7).
+
+Interaction with putative α4β2 nicotinic AChRs
+[3H]-Nicotine binding in mouse or rat brain membranes was used to determine putative α4β2 nicotinic AChRs. Data for mouse [3H]-nicotine binding were taken from our previous report (Chao & Casida, 1997). There are four potent inhibitors in this assay (IC50 0.009–0.033 μM for nicotine, THPCH-IMI, DN-IMI and CH-IMI) with moderate activity for SCH-IMI, DN-THP and Cl-TMNI (IC50 0.093–0.25 μM), lower activity for IMI and AAP and the lowest activity for NTP.
+
+Toxicity
+The i.p. toxicity rating in mice of two chloropyridinyl compounds (CH-IMI and THPCH-IMI) and one chlorothiazolyl compound (Cl-TMNI) is similar to that of nicotine while DN-IMI is a little less toxic than nicotine and the others are much less active (Table 1). The poisoning signs at an LD50 dose included tremors and seizures and appeared to be consistent with action on nicotinic AChRs.
+
+Discussion
+The chloropyridinyl nicotinoid insecticide IMI has little or no activity in vertebrate systems based on six observations: (1) the failure to recognize [3H]-IMI specific binding site(s) in brain from several mammalian and avian species and the electric eel (Liu & Casida, 1993); (2) low potency as an inhibitor of [3H]-α-BGT binding and low agonistic effect in muscle-type nicotinic AChR from Torpedo electric organ (not only for IMI but also for AAP and NTP) (Tomizawa et al., 1995); (3) little activity as an inhibitor of [3H]-nicotine binding to rat and mouse brain membranes (Yamamoto et al., 1995; Chao & Casida, 1997); (4) very weak agonistic action in mouse N1E-115 neuroblastoma and BC3H1 muscle cells (IMI and an analogue) (Zwart et al., 1992; 1994); (5) low activity in ion channel activation compared to acetylcholine with rat α4β2 and α7 subtypes expressed in Xenopus oocytes (Yamamoto et al., 1998); (6) weak or partial agonistic nature with recombinant chick α4β2 receptor (Matsuda et al., 1998). The present study extends these relationships for IMI, AAP and NTP to include very low apparent affinity to α1, α3 and α7 nicotinic AChR subtypes. However, these conclusions are based only on the parent insecticide which might undergo metabolic activation such as the case of IMI to DN-IMI (Klein, 1994; Chao & Casida, 1997). The imine metabolite DN-IMI is much more effective than the parent IMI, not only for putative α4β2 receptors (Chao & Casida, 1997) but also for α1, α3 and α7 nicotinic AChRs (this study).
+
+The chloropyridinyl group is an important structural feature for several nicotinic agonists conferring outstanding potency but little selectivity with epibatidine (Holladay et al., 1997) and remarkable α4β2 nicotinic AChR specificity with ABT-594 (Bannon et al., 1998). The binding affinities of analogues without the chlorine atom in the insect receptor are several-fold less than those with the chlorine atom (Liu et al., 1993; Tomizawa & Yamamoto, 1993). The chlorothiazolyl replacement for the chloropyridinyl moiety (Cl-TMNI versus CH-IMI) greatly reduces potency in the mammalian receptor assays but not the toxicity to mammals or activity at the insect nicotinic AChR (Liu et al., 1993; Chao & Casida, 1997).
+
+Differential nicotinic AChR subtype selectivity is conferred by minor structural changes in the chloropyridinyl nicotinoid insecticides (Figure 8). The desnitro analogues favour the α1, α3 and putative α4β2 receptor subtypes and the nitromethylene analogues the α7 nicotinic AChRs. THPCH-IMI and CH-IMI are much more potent than nicotine on α7 nicotinic AChRs while SCH-IMI and Cl-TMNI are less active than the first two compounds. All four of these nitromethylenes are much less active than nicotine on α1 and α3 nicotinic AChRs. Interestingly, the two desnitro analogues DN-IMI and DN-THP prefer the α3 over the α7 nicotinic AChRs. The change from a five-membered imidazolidine to a six-membered tetrahydropyrimidine ring greatly reduces the potency of the imines (DN-IMI versus DN-THP) but increases the activity of the nitromethylenes (CH-IMI versus THPCH-IMI) in all nicotinic AChR subtypes.
+
+The mammalian toxicity of the nicotinoid insecticides and analogues studied on an overall basis is most closely related to their potency at α7 nicotinic AChRs with decreasing relationships sequentially at the α4β2, α3 and α1 nicotinic AChRs. More specifically, the nitromethylenes are more potent in the α7-containing receptors while DN-IMI is particularly potent at α1, α3 and putative α4β2 receptors (Figure 8). Thus, the toxicity of the nicotinoid insecticides in mammals may involve action at multiple receptor subtypes with selectivity conferred by minor structural changes.
+
+Abbreviations
+AAP
+
+acetamiprid
+
+AChR
+
+acetylcholine receptor
+
+α-BGT or [125I]α-BGT
+
+α-bungarotoxin or its 125-iodine labelled ligand
+
+CH-IMI
+
+nitromethylene analogue of IMI
+
+Cl-TMNI
+
+chlorothiazolyl analogue of CH-IMI
+
+DMEM
+
+Dulbecco's modified Eagle's medium
+
+DN-IMI
+
+desnitro metabolite of IMI
+
+DN-THP
+
+tetrahydropyrimidine analogue of DN-IMI
+
+EC50
+
+molar concentration of test compound to induce 50% specific 86Rb+ efflux
+
+FBS
+
+foetal bovine serum
+
+IC50
+
+molar concentration of test compound for 50% inhibition of specific radioligand binding
+
+IMI
+
+imidacloprid
+
+mAb
+
+monoclonal antibody
+
+NTP
+
+nitenpyram
+
+PBS
+
+phosphate-buffered saline
+
+PMSF
+
+phenylmethanesulphonyl fluoride
+
+86Rb+
+
+86rubidium ion
+
+SCH-IMI
+
+thiazolidine analogue of CH-IMI
+
+THPCH-IMI
+
+tetrahydropyrimidine analogue of CH-IMI

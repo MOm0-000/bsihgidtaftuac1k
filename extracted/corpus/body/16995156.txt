@@ -1,0 +1,209 @@
+220 
+
+J. Physiol. (I939) 97, 220-232 6I2.31I.I:6I2.8I3 
+
+BY CARL PFAFFMANN1 
+
+From the Physiological Laboratory, Cambridge 
+
+(Received 5 August 1939) 
+
+IN a previous paper [Pfaffmann, 1939] it was pointed out that tapping the intact tooth with an insulated rod produced large potential spikes in the nerve at each moment of contact and that this large potential apparently represented a synchronous volley of impulses. If, in place of these single taps, a series of mechanical stimuli are given to the tooth by means of an oscillator, a series of large potential spikes will be set up in the nerve which follows the frequency of the stimulus. The present experiments are concerned with a further analysis of this response, since it has been possible to obtain an oscillatory discharge of fairly high frequency and at the same time to analyse this response in terms of the contribution of single fibres. 
+APPARATUS AND PROCEDURE 
+
+The preparation and the apparatus used for the recording of nerve impulses from the teeth of the cat have already been described. 
+
+The vibratory stimulator consisted of a modified crystal loud-speaker unit activated by a heterodyne oscillator of standard make. A stylus of glass tubing mounted on the speaker movement transmitted the oscillations to the skin or tooth. Most of the unit, with the exception of the moving parts, was enclosed in a metal shield, earthed by way of the covering of the lead-in cable from the oscillator. There was no artifact picked up by the amplifier with a direct lead from this cable to earth. The stimulator was attached firmly to a heavy upright which could be moved in two dimensions by a rack and pinion adjuistment. 
+
+> 1 George Henry Lewes Student. 
+
+IMPULSES FROM TEETH AND VIBRATORY STIMULI 221 
+
+The excursion of the stylus for various frequencies at maximum output of the oscillator was determined directly with a microscope fitted with a micrometer eyepiece. There was a maximum excursion at 400 c./sec., but in use the response at all frequencies was equated to the displacement at 1500 cycles (0.03 mm.) by means of the volume control of the oscillator. The setting for each frequency was indicated on a scale pasted directly on the oscillator panel. These measures, however, give only an approximate idea of the stimulating conditions, since contact with the tooth produced probably some distortion. 
+
+On the other hand, it was possible to gain some idea of the accuracy of mechanical transmission from the vibrator to some more or less rigid structure. The stylus of the stimulator was placed in firm contact with the arm of a moving armature speaker unit, the leads of which were led to the pentodes of the oscillograph amplifier. The electrical fluxes generated in the coils of this unit, when the armature was moved by the stylus of the stimulator, were then registered by the oscillograph. It was found that at all frequencies up to 1500 cycles, a reasonably good sinusoidal wave was transmitted when firm contact between the two surfaces was maintained. When this connexion was loose so that a buzzing sound originated from the stylus itself, the resulting wave form became complex. Frequency halving and other changes, especially at the higher frequencies, were observed. It is believed that such distortions were adequately eliminated from the present experiments. 
+RESULTS 
+
+The oscillatory response recorded from the nerve can be shown to be nervous in origin by such controls as placing the electrodes on the bone of the orbital margin, crushing the nerve between the tooth and the electrodes and finally abolishing the response by novocaine. Indeed, the very character of the response shows this to be true, since the oscillatory discharge tends to have a rough character quite unlike the relatively pure sine wave produced by the stimulus itself The fact that the electrical response decreases during a period of constant stimulation further substantiates this conclusion. 
+
+Fig. 1 illustrates the response of the whole nerve to different frequencies. For low frequencies, the composite nature of each pulse is more apparent since each cycle of the stimulus has a longer duration and gives rise to impulses for the duration of this pressure pulse. The disintegration of the response is more rapid at the higher frequencies. At any one frequency, the diminution is greater in the first few seconds 
+
+222 
+
+C. PFAFFMANN 
+
+(Fig. 2). Not only is the potential magnitude reduced, but more and more gaps appear in the "frequency following" as the stimulus continues. 
+
+B
+C
+D
+
+Fig. 1. The response of the whole nerve taken immediately and 10 sec. later (right-hand record). A, 80 cycles; B, 500 cycles; C, 1000 cycles; D, 1500 cycles. Time 0-02 sec. 
+
+A
+B
+C
+D
+
+Fig. 2. Response of the whole nerve to 430 cycles. A, beginning; B, 4 sec. later; 0, 8 sec. later; D, 24 sec. later. Time 041 sec. 
+
+The relationship between frequency and this diminution can be stated quantitatively in terms of the average potential magnitude for a constant unit of time or a constant number of cycles. Where gaps occur, these are 
+IMPULSES FROM TEETH AND VIBRATORY STIMULI 223 
+
+treated as zero values and are included in the calculation. The amplitude of the stylus excursion was maintained relatively constant as determined in the previous calibrations. Since the stylus had to be readjusted in its application to the tooth at each of the higher frequencies, in order to avoid distortions, etc., differences in the initial uV. output of the nerve recorded for different frequencies cannot have a physiological significance. In order to reduce all values to a common basis, including the response to steady pressure (which is calculated merely as the average spike height) the initial potentials in each case were treated as 100 % and the other values were adjusted accordingly (Fig. 3). Note that the greatest 
+
+100
+PC.
+200-%,
+50 S5oo
+.1000
+._ . 0~~~500
+1 2 3 sec
+
+Fig. 3. The average potential magnitude at different times after the start of stimuli of different frequencies given as percentages of the initial voltage. Upper line is the response to steady pressure. Vertical lines in the three lower curves indicate where gaps occurred in the "frequency following". 
+
+diminution in response takes place during the first 1-2 sec., after which there is only a gradual fall in the curve. Similar phases in the diminution of the response of the eighth nerve upon acoustical stimulation of the cat's ear have been described by Davis [1934] and have been termed "fast equilibration" and "slow equilibration" respectively. It should be remembered that in the eighth nerve " frequency following " is accurate up to about 2500 cycles. The vertical lines drawn across the percentage curves of Fig. 3 indicate those points at which gaps in the "frequency following" begin to appear. These gaps occur when the response falls to about 75 % of its initial value. The response to 200 cycles, however, never reaches this value and never shows gaps in the "following". Such a relation is to be expected, since both aspects of the response are manifestations of the dropping out of impulses. Fewer impulses at 
+224 
+C. PFAFFMANN 
+
+each cycle mean lower voltages as well as less accurate "frequency following". 
+
+In most cases, the upper limit of "following" for the response of the whole nerve was found to be in the region of 1500 cycles. Some preparations responded to this value, others just failed to, yet the writer does not place much emphasis on this exact value, since the stimulus source itself could well have been the limiting factor. It is instructive, however, to compare this value with the upper limit for the skin, which was found to be about 700 cycles under the same conditions, as shown in Fig. 4. 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~.:................:.:.:..:::::::.:::..
+Fig.4:.Response of a cutaneous nerve to a vibratory stimuls a d to te sn.........
+..:
+of"frequency following".
+thisreposOfm:r interest: in terms. from.. of. it the. uniar thoeiaelements.pon Siglof view..fireis thwereobtaine.anlyi :of. . .
+
+this. 4Responseinftermstofeitsunitrye elmetsaSngevibretrtmlswpperoteobtined byicuttingsdown the oratrriginaltnerv trunk Inotmanyucasres ratparticuar strand might contain many fibres only one of which innervated a particular tooth. Restriction of the stimulus to this tooth provided a preparationwhichwas functionallya single fibre. 
+
+It has been found, first of all, that different endings were capable of followingdifferent frequencies, and that this could be related to the other propertiesof the ending.TableI includes the adaptation times, as tested 
+IMPULSES FROM TEETH AND VIBRATORY STIMULI 225 
+
+||Adapt.
+time|Max. F.|Max
+vib|TABLE I
+. F.
+rat.|||
+
+|Exp.|100 g.|pres.|Opt.|Max.|Tooth|Comments|
+|14D|8|-|80|80|Canine|Only
+1
+or
+2
+widely
+separated
+to
+pres.
+Oscillator at 500|
+|17A|0 3|180|<200|350|Canine||
+|20|0-3|140|0|0|Incisor|No effect with oscillator
+at many diff. orienta-
+tions|
+|21D|e|300|200|360|Canine|Response only to mul-
+tiples
+of
+higher
+fre-
+|
+|||||||quencies|
+|22A|8|500|200|500|Premolar||
+|14E|m|150|75|75|Canine|Response only to mul-
+tiples
+of
+higher
+fre-
+|
+|||||||quencies|
+|21 B|20|300|280|400|Canine||
+|16C|>300|400|400|900|Incisor||
+|18B|>300|900|400|900|Premolar||
+|19|>300|1200|520|>900|Canine|Impulses travel in
+rel.
+ref. period ofnerve|
+
+Adaptation time is given in sec., 8 means short adaptation time, usually after only a few impulses, m means moderate adaptation time (100 g. was not used for the stimulus). The grouping of the adaptation times around the long and short time regions may merely be a chance selection, since endings with intermediate times were found but are not included in this table as the other relevant data were not available for them. 
+
+under standard conditions with the same stimulus (100 g.); the maximum frequency elicited by the most rapid changes of pressure that could be administered by hand (1 . minimal separation of two impulses= maximum frequency); the highest frequency obtainable with the vibrator at which there was no break-up of the "following", i.e. the optimal frequency; and finally that frequency at which only momentary " following" of the stimulus occurred, i.e. the maximal frequency. No effort was made to maintain the output of the oscillator constant in these single-fibre experiments. In general, it will be seen that those endings with the shorter adaptation times to maintained pressure had a lower maximal frequency, both to suddenly applied pressures and to the vibrating source. The limiting factor seems quite definitely to be the ending, since there is no sign, at these lower frequencies, that the impulse itself is decreasing in size as would be expected if encroachment upon the refractory period of the nerve were the cause of this disintegration of response. 
+
+It was noted that the endings with short adaptation times tended to have higher thresholds, although no accurate measurements were made. 
+226 
+C. PFAFFMANN 
+
+In Exp. 20 (see table) it was impossible to obtain a response to the oscillating source in spite of the fact that many different orientations of the stimulus were tried. In Exps. 14 D, 21 D and 14 E, the response of the fibre was always some low frequency which was a simple fraction of the stimulus. Stimulation with the actual frequency corresponding with this fraction did not cause the same response because the output of the oscillator was weaker at these lower frequencies. Presumably if the energy could have been increased there would have been more accurate "frequency following". This could be demonstrated with other endings which followed the higher frequencies. If such an ending were responding to every cycle of the stimulus, reduction in the intensity led to such fractional responses as are observed in these three cases. In other words, low frequency of "following" was related to short adaptation times and high thresholds. Although there is no direct proof that these endings do not differ intrinsically in their quantitative properties, the fact that these three characteristics are related suggest that the endings are mechanically buffered to varying degrees, and that they differ in their relative accessibility to stimulation. 
+
+Fractionation is also observed in the disintegration of the response of an ending that initially follows the imposed stimulus, but cannot maintain the high rate of activity. The exact manner in which the response breaks up is determined by the frequency. As indicated in Table I, there is a given rate of stimulation for a particular ending at which there is no diminution in the response for a long period of time. With frequencies slightly higher than this there may be "following" for several seconds, after which there is a gradual fall to a frequency one-half the stimulus. With still higher frequencies there may be sudden falls to the ratio of 1: 2 with several swings between 1: 1 and 1: 2 followed by a gradual break-up of the frequency. With still higher frequencies, more rapid disintegrations may occur (Fig. 5). At the highest frequencies, there will be no response at all in the 1: 1 range. Fig. 6 illustrates graphically the response of another single-fibre preparation to varying frequencies. In this case it must be admitted that there are two factors involved in the reduction of the nerve response, namely, frequency and intensity of the stimulus. Since the output of the oscillator decreased for the higher frequencies, the recorded disintegration of the response at these higher frequencies takes place more rapidly than would occur if the intensity were constant. On the other hand, in another experiment (no. 17) the maximum frequency at which any "following" occurred was 350 cycles. This is below the maximal output of the stimulator, and therefore 
+
+- Fig. 5. Response of a single fibre. A. Optimal frequency, 550 cycles. B. Beginning of response to 880 cycles. Stimulus started by quickly turning up the volume control of the oscillator from zero to maximum which accounts for the gradual development of the high-frequency response. C and D. Continuous with B. Note the 1 1, 1: 2, and finally the 1: 3 response. Time 0-1 sec. 
+
+no break up
+_ \t \8\S. S~~~~~~~~BO's
+88\ % 800
+\cI I I I I
+I 5 10 #eC.
+
+Fig. 6. Single fibre response to different frequencies. The dark vertical lines of the graph represent sudden shifts from 1: 1 to 1 : 2 response. Note that the 1000 cycle response dropped immediately to 1: 5. 500 cycles is the optimal frequency. The responses were not followed beyond the times indicated on the graphs except the 1000 cycle response which ceased at 1-5 sec. 
+
+228 C. PFAFFMANN reduction in the intensity of stimulation as frequency was increased could not be the limiting factor. For frequencies below 350 cycles essentially the same behaviour as that described above was observed. In these cases the increase in intensity for the higher frequencies would tend to delay the disintegration. 
+
+Fig. 5 is of additional interest because it indicates that the nerve ending may be driven to respond at a rate which causes the nerve to conduct in its relative refractory period. It will be observed that, for any one train of impulses at 1: 1, there is a progressive reduction in the size of the impulse height, which recovers after the omission of one impulse. This is a good demonstration of the progressive falling off in the potential height in a train of impulses at high frequency in a single fibre similar to that observed in the whole nerve [Gasser & Grundfest, 1936]. Even when conducting at the ratio of 1: 2, the impulse is still travelling in the relative refractory period as indicated by the reduction of spike height. From this it can be calculated that the relative refractory period of this fibre must extend over 1 1-2-3 msec. Similar values are obtained from other preparations. Fibres in class A have been shown to have an absolute refractory period of 0 5 msec. with a complete recovery after 3 msec. [Gasser & Grundfest, 1936]. C fibres, on the other hand, have absolute refractory periods of 1-8-2-0 msec. [Grundfest & Gasser, 1938]. Thus these fibres belong to the fast conducting group, which agrees with the estimated velocities of the impulses produced by pressure on the intact tooth [Pfaffmann, 1939]. 
+DIscusSION 
+
+Oscillatory discharges similar to those described in the above experiments have been reported for a variety of other sensory endings; the ear [Wever & Bray, 1930; Davis, 1934], tactile endings [Adrian, Cattell & Hoagland, 1931; Newman, Doupe & Wilkings, 1939], tactile receptors of the duck's bill [Ludwig, reported by Adrian, 1938], deep tissue afferents [Echlin & Fessard, 1938], lateral line organs of fish [Hoagland, 1935], and the anal cercus of the cockroach [Pumphrey & Rawdon Smith, 1936]. All these discharges have certain features in common, yet because of technical restrictions it has not always been possible to analyse each to the same extent. 
+
+In the present experiments we have seen that for the whole nerve the maximal frequency at which "following" occurred was 1500 cycles. On the other hand, the highest frequency at which "following" occurred in any single fibre was between 900 and 1000 cycles, while many fibres 
+
+IMPULSES FROM TEETH AND VIBRATORY STIMULI 229 
+
+could respond only at a frequency well below this value. In other words, the whole nerve response was a composite made up of single-fibre responses at a lower frequency. 
+
+In the eighth nerve essentially the same thing is thought to occur in a more elaborate form. The behaviour of the single fibre units, however, must be inferred, since only the composite response from the whole nerve can be recorded. At the present time, it is generally accepted that the true nervous response of the auditory nerve is capable of "following" an oscillating stimulus frequency up to about 2000 to 3000 c./sec. [Davis, 1934]. Since the limitations of refractory period do not permit any single fibre to respond at more than 1000 per sec., and even at that only for short intervals, it is necessary to assume that some alternation in activity of the fibres takes place, so that while one is refractory, another is conducting. In any large population such a process of "staggering" would reproduce the stimulating frequency. 
+
+Very good evidence in favour of this volley theory is derived from a consideration of the relation between equilibration and frequency. " Fast equilibration", i.e. the decrease in the response of the nerve which takes place rapidly and is practically complete at the end of 2 sec., is thought to be essentially determined by the refractory period of the auditory nerve or terminal structure. With high-frequency stimulation, the refractory period lengthens, magnitude of potential at each impulse drops and finally the fibre can no longer "follow" the stimulus and responds to every second phase, i.e. by alternation. If the nerve responds at the beginning by alternation there would be little initial equilibration. If the limiting excitable structures are a homogeneous group, the points where alternation sets in should correspond to certain critical frequencies and equilibration should be less above these frequencies. In the eighth nerve such a critical frequency occurs at about 800-1000 cycles. 
+
+In the present experiments the limiting factors are not homogeneous, but range from endings with exceedingly slow time characteristics to those which overlap the capacity of response of the nerve fibre itself. Equilibration would be expected to show a progressive increase with frequency with no decreases at certain critical points. Actually, if a plot is made of the frequency against equilibration in terms of the percentage reduction of the response as calculated previously, it will be found that there is a progressive decrease in the response from 200 to 1500 cycles. In some cases equilibration may not be manifested until 500 cycles or so. The response may be treated in the same manner as the auditory data by neglecting the goodness of "frequency following" and taking PH. XCVII. 15 
+230 
+C. PFAFFMANN 
+
+total potential amplitude of response to varying frequencies with constant amplitude stimulus, recorded on films run at slow camera speed. Fig. 7 shows the relation between the degree of equilibration and frequency. Note that the curves show a progressive fall compared with a rise in the similar curve based on the eighth nerve response as found by Derbyshire & Davis [1935]. 
+
+It must be pointed out that certain precautions should be observed when treating the results in such a manner. In some cases there was an apparent increase in the potential magnitude rather than the decrease 
+
+0/0
+100
+5-
+50~~~~~~
+* 2 sec.
+o 6 sec.
+10
+300 500 1Q00 1400 e
+
+Fig. 7. The percentage of initial response remaining after 2 sec. and after 6 sec. stimulation at different frequencies. These curves indicate the degree of fast equilibration and slow equilibration respectively. 
+
+related to equilibration. Closer examination shows that this is caused by a coincidence of the alternating phases of the nerve response with the result that there is an almost complete lack of potential in the alternate cycles of the response. A similar coincidence of the phases of alternation were observed by Pumphrey & Rawdon Smith [1936] and Echlin & Fessard [1938]. 
+
+With these qualifications and considerations in mind, it seems clear that the evidence of these experiments provide additional support for the volley theory of auditory nerve function. 
+
+One finding that was not altogether expected was that endings with longer adaptation times responded more accurately to the higher fre- 
+
+IMPULSES FROM TEETH AND VIBRATORY STIMULI 231 quencies of stimulation. It would appear that the postulated rapid adaptation of the eighth nerve terminations [Adrian, 1932; Davis, Derbyshire, Lurie & Saul, 1934] is not a necessary condition for the "frequency following" manifested by that nerve. The fact that the non-auditory endings of the inner ear [Ross, 1936] as well as the phylogenetically related lateral line endings [Hoagland, 1935; Sand, 1937] are slow or even non-adapting in type is interesting in this connexion. 
+
+Throughout the preceding discussion we have concerned ourselves solely with the physiological basis of this response to an oscillating stimulus, without regard to the relation this may have to the general behaviour of the animal. It is reasonable to suppose that this oscillatory discharge is related to the peripheral basis for the perception of vibration, although it is not the present intention to consider this aspect of the problem [see Echlin & Fessard, also Newman et al.]. When the stimulator used in these experiments was applied to the experimenter's own tooth there was a complex sensation resulting from tactile plus auditory stimulation. The direct tactile perception of vibration disappeared before the auditory one as the frequency was increased. Because the present apparatus emitted a definite note at the high frequencies, there could be no clear separation of these two effects. At no time was the experience painful, although it has been shown that vibratory stimulation applied to the skin can give rise to pain at the extreme intensities [Knudsen, 1928]. 
+
+SUMMARY AND CONCLUSIONS 
+
+> 1. Application of a vibrating stylus to the surface of the intact tooth gives rise to an oscillatory discharge in the dental nerves which is synchronized with the frequency of the stimulus. 
+
+> 2. With a maintained stimulus, the amplitude of this response falls off together with a decrease in the accuracy of "frequency following". The major part of this diminution or " equilibration" takes place during the first few seconds of activity and the effect becomes progressively greater with the higher frequencies. 
+
+> 3. The upper limit of "frequency following" for the whole nerve in these experiments has been about 1500 cycles. This exact value is probably determined by the characteristics of the stimulating mechanism itself. Since soft tissues of the skin yield maximal values of 700 cycles under the same conditions, it is concluded that the higher values for the tooth result from the greater rigidity of the structures concerned. 
+
+4. Different endings, as indicated by single fibre responses, have different maximal frequencies of response to the oscillating source (from 
+
+15-2 
+232 C. PFAFFMANN 
+
+80 to 900 cycles) which can be related. to other properties of the ending, notably the maximum frequency of response to rapid pressure changes and the adaptation time to a standard pressure. 5. Single fibres when stimulated at rates higher than their optimal frequency show various types of fractional response, 1: 2, 1: 3, etc., which develop gradually at frequencies just supra-optimal and more rapidly and suddenly at still higher frequencies. 6. In some cases, the endings may be activated at frequencies overlapping the relative refractory period of the nerve. 7. The relation of these results to other oscillatory nerve discharges is discussed, especially with respect to that of the auditory nerve. 
+
+The writer wishes to thank Prof. Adrian for his constant help and encouragement and Dr Matthews for his ever-willing advice.

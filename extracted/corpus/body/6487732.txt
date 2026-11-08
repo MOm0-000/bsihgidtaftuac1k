@@ -1,0 +1,289 @@
+KAzuo YANA 
+
+Department ofElectrical Engineering, College ofEngineering, Hosei University, Koganei City, Tokyo 184, Japan 
+NORIKo TAKEUCHI AND YORIKo TAKIKAWA Department ofPhysiology, School of Medicine, Juntendo University, Hongo, Tokyo 113, Japan MASAKAZU SHIMOMURA 
+
+Medical Systems Engineering Department, FUJITSU Limited, Shinkamata, Tokyo 144, Japan 
+
+INTRODUCTION 
+
+Statistical properties of the timing of spontaneous quantal transmitter release at neuromuscular junctions of various species have been well documented (Fatt and Katz, 1952; Boyd and Martin, 1956; Liley, 1956; Dudel and Kuffler, 1961; Usherwood, 1963; Rotshenker and Rahamimoff, 1970; Hubbard and Jones, 1973; Cohen et al., 1973, 1974a, b; Kreibel and Stolper, 1975; Washio and Inouye, 1980). Histograms of intervals between spontaneous miniature potentials were examined in the early stages of the investigations (Fatt and Katz, 1952; Boyd and Martin, 1956; Lily, 1956; Dudel and Kuffler, 1961; Usherwood, 1963). The interval histograms showed good agreement with the exponential distributions, which implies that the timing of spontaneous quantal release is completely random, i.e., it forms a stationary Poisson process (referred to as the Poisson hypothesis in Van der Kloot et al., 1975). In recent years, however, several reports adopting more sophisticated statistical methods (cf. Cox and Lewis, 1966; Van der Kloot et al., 1975) indicate that spontaneous miniature potentials deviate from the stationary Poisson process to a more ordered manner (Hubbard and Jones, 
+
+1973) or a more clustered manner (Usherwood, 1972; Cohen et al., 1973, 1974a, b; Washio and Inouye, 1980). The essential part of the Poisson hypothesis is that spontaneous quantal releases at neuromuscular junctions occur without any aftereffects or interactions. So far, this hypothesis has been tested under the assumption of the stationarity of the whole data set. This assumption of stationarity greatly restricts the available data, since longlasting prominent trends are often found in the frequency of occurrences of spontaneous miniature potentials. In such a nonstationary case, one would at first be interested in the question of whether the observed time sequence is a sample from a nonstationary Poisson process, because the absence of aftereffect or interaction is the common and essential property of both stationary and nonstationary Poisson processes. Thus, we tried to extend the notion of the Poisson hypothesis so as to allow for nonstationarity in the observed data. In this article, a statistical method to test the extended Poisson hypothesis for spontaneous quantal transmitter release was proposed, with special emphasis on the test for the nonstationary Poisson hypothesis. Then, this method 
+
+BIOPHYS. J. © Biophysical Society * 0006-3495/84/09/323/8 Volume 46 September 1984 323-330 
+
+$1.00 
+
+323 
+
+was applied to artificially generated nonstationary data to examine the effectiveness of the method. Finally, some sets of occurrence time sequences of miniature endplate potentials (MEPPs) observed at the frog neuromuscular junctions, which showed apparent monotonic trends in the frequency of occurrences, were analyzed as illustrative examples. 
+METHODS 
+Terminology and Definitions 
+
+Terminology and definitions necessary for the following arguments will be described briefly (for more details, see, e.g., Snyder, 1975, or Cox and Isham, 1980). We will first define N,, as the number of spontaneous miniature potentials observed in the time interval [t, t + u). Here, the variables t and u take arbitrary non-negative real numbers. We assume the observation starts at time 0. The time-varying occurrence intensity of spontaneous miniature potentials, X(t), referred to hereafter simply as intensity, is defined as X(t) A 1im 1 Pr[N,,,,=1]. (1) =,Ia-+o At 
+
+If occurrences of spontaneous miniature potentials have aftereffects on their subsequent occurrences, then the history of the process yf,, more explicitly the occurrence time sequence of spontaneous miniature potentials up to t, modifies the intensity. Thus, the time-varying conditional occurrence intensity of spontaneous miniature potentials X(t X,), referred to hereafter as conditional intensity, is introduced as X[t ,] A Jim 1 Pr[N,,t,=I If,]. (2) = At-+o At The occurrence time sequence of spontaneous miniature potentials is a Poisson process if the the intensity is not modified by the past history of the the sequence, and if the sequence the sequence sequence satisfies the following subsidiary condition, named orderliness: A!lim+o Pr[N,Pr[N,4,,_ -,2] 1]=0. (3) 
+
+The occurrence time sequence of spontaneous miniature potentials is a Poisson process if the the intensity is not modified by the past history of the the sequence, and if the sequence the sequence sequence satisfies the following subsidiary condition, named orderliness: 
+
+The occurrence time sequence of spontaneous miniature potentials is a stationary Poisson process if the intensity is constant for any t. The parameter function A(t) and the conditional parameter function A(t If,) are defined as time integrations of the intensity, X(t), and the conditional intensity, X(t | I,), respectively; i.e., 
+A(t) A f' X(o)du; (4) A(t Yt)If A fj'X(u fj du. (5) Tests for the Stationary Poisson Hypothesis 
+
+The statistical tests for the stationary Poisson hypothesis commonly used in the analysis of spontaneous miniature potentials are listed below (for detailed descriptions, see Cox and Lewis, 1966, or Van der Kloot et al., 1975. 
+
+Tests on the First-Order Statistics. (a) Interval statistics (goodness of fit of the interval histogram to the exponential distribution; Sherman's statistic). (b) Counting statistics (goodness of fit of the 
+
+324 
+
+number of events observed in the fixed interval to Poisson distribution; the uniform conditional test after Durbin's modification). 
+
+Tests on the Second-Order Statistics. (a) Interval statistics (serial correlation coefficients; periodgram). (b) Counting statistics (autocorrelation function; variance-time curve). Tests for the Nonstationary Poisson Hypothesis 
+
+Let t,, t2..tNT be a sample of event occurrence time sequence from the nonstationary Poisson process with the parameter function A(t). Here, NT denotes the number of observed events during the time interval [0, T). It is known that the corresponding new time sequence u,, U2,.. *, UNT iS regarded as a sample from the stationary Poisson process with intensity unity if we define Uk as 
+Uk A A(tk); k = 1, 2,.*, NT. (6) 
+
+Conversely, let u,, U2, --. UNT be a sample of event occurrence time sequence from the stationary Poisson process with intensity unity. Then, the corresponding time sequence t,, t2,.. ., tN,is regarded as a sample from the nonstationary Poisson process with parameter function A(t) if we define tk as tkA A I(Uk);k= 1, 2,. NT(7) 
+
+Thus, the nonstationary Poisson hypothesis is tested, if the parameter function is given under the null hypothesis, by applying the conventional tests for the stationary Poisson hypothesis to the time sequence u,, U2, UNTobtainedbythetime scaling (Eq. 6)of the observed data t,, t2 tNT-This time-scaling techniquewasfirst applied by Lewis (1970) to the nonstationary analysis of series of events. To apply this test procedure to the occurrence time sequence of spontaneous miniature potentials, parameter function must be statistically estimated, since we have no a priori knowledge of the function. The maximum likelihood method for parameter estimation is available for this purpose. Let X(t; 0) be a parametric model of the intensity, where 0 is an n-dimensional column vector of the parameters. Then, the maximum likelihood estimate 0 of the parameter 0 is obtained by maximizing the log-likelihood function L(8) of the nonstationary Poisson process (Bar-David, 1969): NT L(8) = - ]oTX(c; 0)do + k-iZZ ln X(tk; 0). (8) 
+
+NT k-iZZ 
+
+Parameter function, to be used for the time scaling in the test procedure, is then estimated as the time integration of the estimated intensity: 
+A(t)A ], AX(o; )du. (9) bound of the estimation of the estimation the estimation estimation error covariance covariance matrix e(8) A\ E [(O- ) * ( - 6)'] (10) the inverse matrix F matrix F F '(0) of Fisher's Fisher's information matrix F(0) F(0) 1975): F(O)f ; XT(df;( y; 0)O) 0[C00 da. (i 1) 
+
+The lower bound of the estimation of the estimation the estimation estimation error covariance covariance matrix 
+
+is given by the inverse matrix F matrix F F '(0) of Fisher's Fisher's information matrix F(0) F(0) (Snyder, 1975): 
+
+Here, the primes in Eqs. 10 and 11 denote transpositions of vectors. The test procedure for the nonstationary Poisson hypothesis is applied to the observed occurrence time sequence of spontaneous miniature potentials using A(t) instead of A(t), if the parameter estimation errors evaluated by the inverse Fisher's matrix are sufficiently small. Now let us focus on the nonstationary case where the occurrence intensity of spontaneous miniature potentials changes exponentially with 
+
+BIOPHYSICAL JOURNAL Volume 46 1984 
+
+time. This type of nonstationarity is often seen in the analysis of spontaneous quantal release (e.g., Cooke and Quastel, 1973; Cooke et al., 1973; Baker and Crawford, 1975). In this case, the intensity is modeled 
+as X(t; 0) 0=0 . e°2'; 1 > 0. (12) The log-likelihood function reduces to (Cox and Lewis, 1966): L(0) = - (1- eO2T) + NT -ln0l +02 * ST, (13) 02 where NT STAZ tk(14) =k-i 
+
+The likelihood equations, readily derived from Eq. 13, yield the following equations, which the maximum likelihood parameters must follow: 
+ST+ NT082 e2 I)(15)= 0 ~~~(15) 01= 02 NT/(e2T_ 1). (16) 
+
+The maximum-likelihood parameter 02 is numerically obtained by solving Eq. 15, e.g., by the standard Newton Raphson method. The parameter 01 is estimated by assigning 62 to 02 in Eq. 16. Straightforward calculations of the inverse Fisher's information matrix yield the explicit formulae for lower bounds of coefficients of variations cv,* and cv* of the estimated parameters 0, and 02: 
+2 ; (17) A/ (nZ 1)2_ T2X CV=*=-I/2V 2(t0-1) (18) 
+
+where ?7= exp(02T). By Eqs. 17 and 18, expected errors in the parameter estimations are evaluated. For example, -10%o of the coefficients of variations are expected for 0, and 02 when data length T (s), parameters 01 (s-'), and 02 (s-1) are 1,000, 1, and 0.001, respectively. In practice, however, true parameter values for 01 and 02 necessary for the error evaluation are not known. Nevertheless, Eqs. 17 and 18 would be the practical indices for the parameter estimation accuracy assigning the maximum-likelihood parameters 0, and 02 into 0, and 02 in the equations. One may encounter the data set that represents a systematic but more complex type of change in the frequency of occurrences than Eq. 12. In such a case, it is basically possible to develop similar specific arguments as Eqs. 13-18, if one could have a reasonable parametric model for the intensity. A Method for Testing the Poisson Hypothesis 
+
+On the basis of the arguments in the preceding sections, a plausible procedure to test the extended Poisson hypothesis could be introducedas follows. 
+
+The first step is the stationarity check of the data. The nonstationarity of the data is well detected by observing the sample counting process, i.e., the cumulative numbers of observed spontaneous miniature potentials plotted as a function of time. To detect the nonstationarityof a monotonic type of trend, the uniform conditional test, whichis a generaltermforthe YANA ET AL. Spontaneous Quantal Transmitter Release 
+tests to examine whether the events are uniformly distributed over the observation period, is useful. The Kolmogorov-Smirnov statistic (K-S), the Anderson-Darling statistic (A-D), or the "U statistic," defined as UAST- T T/2 = (19) T. 'IvNT/12 
+
+are to be used for the test (Cox and Lewis, 1966). If the apparent nonstationarity is not recognized in this stage, conventional tests for the stationary Poisson hypothesis will be applied to the data. If the apparent nonstationarity is observed, tests for the nonstationary Poisson hypothesis mentioned in the preceding section will be applied to the data. 
+Artificial Data Generation 
+
+To examine the validity of the test procedure, artificial data that qualitatively simulate three types of nonstationary occurrences of spontaneous miniature potentials, i.e. Poisson, non-Poisson-clustered, and nonPoisson-ordered types, were generated and tested. Type I: Nonstationary Poisson process with intensity described by Eq. 12. 
+Type II: Nonstationary non-Poisson-clustered process with conditional intensity: X(t X1,)= Aus(t H,) . 0leO21, (20) where N, AC(t I ,)= 1+ E 03e -('-tk)/4;03, 04> 0. (21) k-- Type III: Nonstationary non-Poisson-ordered process with conditional intensity: X(t H,)= ,o(t H,) * 0leO2%, (22) where IO(t H,)= O(t- tN,)/It-N 0(af)dao (23) 
+
+Type III: Nonstationary non-Poisson-ordered process with conditional intensity: 
+
++(t) in Eq. 23 denotes a truncated (for yielding only positive intervals between successive events) Gaussian probability density function with mean 05 and standard deviation 06. Eqs. 12, 20, and 22 show that they all have the exponential type of trends in the intensities. In the type II conditional intensity, us(t | 71,) characterizes the nonPoisson nature of the process. The process with the conditional intensity ,gI(t| X,)isa specialcaseofthe self-exciting point process (Hawkes, 1971). go(t 1 71,)in Eq.22 characterizesthe non-Poissonnature of the typeIII process. The process with the conditional intensity go(t 1 9,) is a renewal process whose intervals are normally distributed. This means that the release occurrences are more regularly spaced in time than in the Poisson process. These artificial data were obtained by nonlinear transformation of the sample occurrence times of stationary Poisson process with intensity unity using inverse conditional parameter functions (Aalen and Hoem, 1978). Parameters from 0, to 06 were specified as 1, 0.001, 1, 2, 1, and 0.4, respectively. 
+Preparations and Experimental Procedures 
+
+The experiments were carried out on sartorius muscles of the frog (Rana nigromaculata and Rana japonica). For the measurement of miniature endplate potentials (MEPPs) a conventional intracellular recording technique was adopted at the neuromuscular junctions of surface muscle fibers. Normal Ringer solution had the following composition (mM): I17 NaCl, 2.5 KCI, 1.8 CaC12, and the pH was adjusted at 7.2 by HEPES 325 
+A 
+
+buffer. When the concentrations of divalent cations were changed, the corresponding concentration of NaCI was replaced to maintain the tonicity of the solution constant. Isolated muscles were superfused with Ringer solutions with a constant flowing rate (6 ml/min) throughout the experiments. Two data sets, which showed apparent monotonic trends in the frequency of MEPP occurrences, were chosen for demonstrating the nonstationary analysis mentioned above. Data Acquisition and Processing 
+
+Observed MEPPs were recorded on FM tape. The data were processed offline by PDP 11/60 computer system (Digital Equipment Co., Marlboro, MA). The occurrence times of MEPPs were at first automatically acquired using the slicer output after the rising phases of waveforms were emphasized by an analog differentiator. The occurrence times of MEPPs and associated waveforms digitized at the rate of 10 kHz were stored in the computer. Then, all detected waveforms were displayed on the CRT graphic screen and the occurrence times of the MEPPs were edited by an interactive operation. The occurrence times that were missed during their automatic acquisition, noted by apparent notches in the rising phases of the waveforms, were inserted in the time resolution of 100 Js, and falsely acquired occurrence times of MEPPs and corresponding waveforms caused by recording noise were deleted from the data. RESULTS Nonstationary Analysis of Artificially Generated Data 
+
+Prominent exponential type trends were seen in the sample counting processes of all types of artificially generated data. They are shown in Fig. 1 A and B for the type I and II cases (a). Tests for the stationary Poisson hypothesis were formally applied to all types of nonstationary data to demonstrate the effects of nonstationarity on the tests. The second-order statistics for type I and II data are shown in Fig. 1 A and B (b, serial correlation coefficients; c, variance-time curves; d, autocorrelation functions). Inner and outer dashed lines and curves in these figures show significance levels of 5 and 1%, respectively. Straight lines between them are Poisson expectations. These figures show that, in each case, the null hypothesis that the data are samples from a stationary Poisson process was strongly rejected. In the type III case, similar patterns in the second-order statistics were obtained and the stationary Poisson hypothesis was also rejected. Tests for the nonstationary Poisson hypothesis were then applied to the same data. The null hypothesis is now that the data to be examined are samples from a nonstationary Poisson process with the exponential type trend in its intensity. Sample-counting processes after the time scaling were well fitted by straight lines in all cases. They are shown in Fig. 2 A and B for the type I and II cases (a). This fit implies that the time scaling was reasonable. This is further confirmed by the uniform conditional test for the data. Table I represents the results. After time scaling, all data passed the uniform conditional test (p > 0.05), whereas all failed in the test before the time scaling (p < 0.01). The second-order statistics after the time scaling for the type I and II cases are shown in Fig. 2 (b-d). In the type I case, significant deviations from the Poisson expec- 
+
+a
+aT
+I 2.
+2i *'4
+#0.1.
+- 2.
+* .11
+3 .1 ..iw '..Ar ..... ...-
+--. 6
+
+FIGURE 1 Tests on the second-order statistics for artificially generated nonstationary data of type I and II before the time scaling. (A) Nonstationary Poisson process (type I); (B) nonstationary non-Poissonclustered process (type II). (a in A and B) Sample-counting processes, i.e., the cumulative number of events plotted as a function of time. (b-d in A and B) Second-order statistics. (b) Serial correlation coefficients; (c) variance-time curves; (d) autocorrelation functions. Inner and outer dashed lines and curves in the figures (b-d) show, respectively, 5 and 1% confidence levels when the stationary Poisson process is regarded as the null hypothesis. Solid lines between them are Poisson expectations. All tests strongly rejected the null hypothesis in both types of data. 
+
+tations are not seen in any statistics used (A), while significant deviations are seen in all statistics used for the type II case (B). Significant deviations were also found in the variance-time curve and autocorrelation function for the type III case. However, they showed reverse patterns that compared with the type II case; i.e., the variance-time curve showed a significant downward deviation from the Poisson expectation and the autocorrelation function also showed a significant downward deviation at around the time origin. 
+
+The results on the first order statistics are represented in Table II. The table shows that the null hypothesis was rejected after the time scaling for the type II and III cases, but not in the type I case. In the table, the uniform conditional test gives quite different results from those in Table I. This is due to Durbin's modification of the data. The effects of the modification to the test are not yet 
+
+BIOPHYSICAL JOURNAL Volume 46 1984 
+
+326 
+
+A
+-a
+B
+9
+
+-
+-i :<
+:- ~~~dlil;
+
+FIGURE 2 Tests on the second-order statistics for artificially generated data of the type I and II after the time scaling. See the legend of Fig. 1 for the descriptions of the figures. The null hypothesis was rejected by all statistics for the type II case, while no statistic used rejected the hypothesis for the type I case. 
+
+theoretically apparent. However, it is empirically known that the test on modified data has greater power for the detection of non-Poisson nature than the test on the original data (Cox and Lewis, 1966). Hence, clustering and ordering of the occurrence times in type II and III data might be reflected more in the results of the uniform conditional test after Durbin's modification than those before the modification. 
+TABLE I THE UNIFORM CONDITIONAL TEST FOR ARTIFICIALLY GENERATED DATA 
+
+||Befo|retimesca|ling|Afte|r timescal|ing|
+
+||U|K-S|A-D|U|K-S|A-D|
+|Type I|20.89*|0.1695*|221.9*|0.1129|0.0137|0.3203|
+|Type II|14.24*|0.1378*|102.8*|0.0453|0.0222|0.8363|
+|Type III|22.30*|0.1774*|250.8*|0.00459|-0.0352|0.0351|
+
+The number of event occurrences was 2,944 for all types of data. Mean intervals between successive event occurrence times for type I, type II, and type III data before time scaling were 0.471, 0.309, and 0.469 s, respectively. The mean interval of all data after time scaling was 1.00s. *The null hypothesis that the data are distributed uniformly over the observation period is rejected (P < 0.01). 
+
+From the results on the first- and second-order statistics, one can draw the reasonable conclusion that all data have similar types of nonstationarity, but only type I data are a sample from a nonstationary Poisson process. Further, after time scaling, one could know from the variance-time curves and the Sherman's statistics, which are known as indices of clustering, that the timescaled data of type II and type III are, respectively, more clustered or more ordered than the Poisson expectations. 
+Nonstationary Analysis of MEPP Occurrences 
+
+The results of the nonstationary analysis for the two sets of experimentally recorded MEPPs are shown in Figs. 3, 4 and Tables III and IV. The data were recorded from 20 min after (data I), and immediately after (data II) the bathing solution had changed from the normal Ringer solution to low Ca"+ and high Mg"+ solution. The new conditions had been kept stable during the whole period of data acquisition. The number of MEPPs observed in data I and data II were 2,689 and 1,601, respectively. Mean intervals between successive MEPP occurrence times for data I and data II were 0.176 and 0.475 s, respectively. Fig. 3 A (a) shows the sample-counting processes of data I. It shows a slight but apparent concave pattern, which indicates that there is a negative monotonic trend in the MEPP occurrence frequency. A weaker but similar pattern was seen in the sample-counting process for data II. Tests for the stationary Poisson hypothesis were formally applied to the data. The second-order statistics for data I are shown in Fig. 3 A (b-d). The null hypothesis that the data set is a sample from a stationary Poisson process was strongly rejected by all statistics used. They all showed long-lasting positive excesses. No such prominent excesses were found in the second-order statistics for data II. Only the variance-time curve showed the significant upward deviation from the expected line (Fig. 4 a). Then tests for the nonstationary Poisson hypothesis were applied to the data. Time scaling was applied to each data set assuming negative exponential trend in MEPP occurrence intensity, i.e., negative exponent 02 was assumed in Eq. 12. The sample-counting process of each data set was well fitted by a straight line after the time scaling. This is shown in Fig. 3 B (a) for data I. This fit implies that the time scaling was reasonable. The uniform conditional test further supports the adequacy of the time scaling. The results of the test are shown in Table III. Both sets of data passed the test after time scaling (p > 0.05), whereas both failed in the test before time scaling (p < 0.01). Significant deviations were not found in any of the tests on the second-order statistics after time scaling. The results for data I are shown in Fig. 3 B (b-d). The variance-time curve for data II is shown in Fig. 4 b. All these analyses suggest that each data set is a sample from a nonstationary Poisson process. Table IV summarizes the results of the 
+
+YANA ET AL. Spontaneous Quantal Transmitter Release 
+
+327 
+
+TABLE II
+TESTS ON THE FIRST-ORDER STATISTICS FOR ARTIFICIALLY GENERATED DATA
+Counting statistics Interval statistics
+The fit of the number of
+occurrences in the fixed The fit of
+time interval, 0.2 (a) interval histogram
+Uniform conditional test 2,g (b) to the Poisson to the exponential
+after Durbin's modification distribution (;: mean interval) distribution
+Sherman's
+U K-S A-D (a) x2 (b) x2 statistic x2
+Before
+TypeTyeII ftimeAfter scaling 3.944* 0.0422* 6.372* 10.89(2)*t 44.11(5)* 0.3927* 63.68(38)*
+time scaling 1.108 0.0143 1.207 0.1413(2) 3.514(5) 0.3667 23.70(35)
+Before
+Typell1 timescaling -17.8* 0.1524* 158.1* 105.1(2)* 352.6(5)* 0.4667* 351.7(33)*
+TpII After
+time scaling -18.5* 0.1571* 172.2* 94.56(2)* 298.8(5)* 0.4562* 297.4(35)*
+Before
+TypelllI time scaling 35.3* 0.2953* 609.4* 331.4(2)* 187.6(5)* 0.2277* 1,314.4(30)*
+TyeII After
+time scaling 53.8* 0.4221* 1,554* 355.9(2)* 861.1(5)* 0.1550* 3,052.6(20)*
+*The null hypothesis that the data are distributed uniformly over the observation period is rejected (p < 0.01).
+tThe numbers in parentheses indicate the degrees of freedom.
+tests on the first-order statistics. The null hypothesis was phenomena are bursting occurrences of spontaneous min-
+rejected by several statistics before time scaling. However, iature potentials and excess occurrences of giant sponta-
+all the first-order statistics used did not reject the null neous potentials under a certain condition. These phenom-
+hypothesis after time scaling. This also supports the con- ena were concluded by Katz (1969) as being exceptional
+clusion drawn from the tests on the second-order statis- but inconsistent with the general rule that there is no
+tics. mutual interaction between quantal transmitter releases.
+Some investigators, however, have questioned even the
+DISCUSSION AND CONCLUSION
+"general rule" presenting further evidence of the non-
+Some phenomena that could be interpreted as non-Poisson Poisson nature of spontaneous quantal release. We will
+properties of spontaneous quantal transmitter release have focus our attention on the works that suggest the non-
+already been recognized from the early stages of the Poisson hypothesis with evidence other than the bursting
+investigations (Fatt and Katz, 1952; Liley, 1956). The release and excess occurrences of giant spontaneous poten-
+A
+AD,
+/
+S
+. . .
+a}B%' s¢ /
+#~~~~~~~~~- t
+FIGURE 3 Tests on the second-order statistics for a set of MEPPs (data I) observed at the neuromuscular junction of frog sartorius muscle
+(A, before the time scaling and B, after the time scaling). See the legend of Fig. for the descriptions of the figures from a to d. MEPPs were
+intracellularly recorded at room temperature (24.0°C), and at the low Ca++ (0.45/sa>-/mM) . ;and,> . high*,!r\;Mg++ (4.5 mM) conditions of bathing
+solution. In A the second-order statistics (b-d) showed prominent positive excesses. These characteristic patterns are common in the
+second-order statistics of the nonstationary data; cf. b-d in Fig. 1. In B significant deviations from the Poisson expectations were not seen in
+any statistics used.
+328 BIOPHYSICAL JOURNAL Volume 46 1984
+|'r ~~~~~~~~~~~~~~ ~.
+TABLE III a THE UNIFORM CONDITIONAL TEST FORMEPPs INTRACELLULARY RECORDED AT FROG SARTORIUS NEUROMUSCULAR JUNCTIONS 
+
+FIGURE 4 Variance-time curves for a set of MEPPs (dataII)before and after the time scaling. See the text and the legendofTableIIIforthe experimental conditions. A significant upward deviationfrom the Poisson expectation is seen before the time scaling (a),whilenosignificant deviation is found after the time scaling (b). 
+
+tials. Such a report wasfirst made byRotshenkerand Rahamimoff (1970). They showed that theautocorrelation function in high Ca+ + solution represents long-lasting positive excesses. Long-lasting positiveexcessesinthe serial correlation coefficients were reportedforextracellu- larly recorded MEPPs at frogsartoriusneuromuscular junctions in the hypertonic solution (Cohenetal.,1973). The same patterns in serial correlationcoefficientsand consistent upward excesses in variance-to-meancurvesfor extracellularly recorded MEPPsininsectneuromuscular junctions have been reported (WashioandInouye,1980). These results led the above authorstotheconclusionthat the spontaneous quantal releaseismore clusteredthanthe Poisson expectation. However,all ofthesecharacteristic patterns in the second-orderstatisticsare commoninthose for nonstationary data. Such characteristic patternsin autocorrelation functions and serial correlationcoefficients for nonstationary Poisson processeswerealsonoted by Perkel et al. (1967). One would findcloseresemblance among the patterns in the second-orderstatistics presented as evidence to support the non-Poisson-clustered hypothesis and the patterns in Figs. 1 and 3 A. Thus, an alternative 
+
+||Befor|etime scal|ing|After|time scal|ing|
+
+||U|K-S|A-D|U|K-S|A-D|
+|Data I|-7.160*|0.0616*|26.50*|-0.052|0.0104|0.324|
+|Data II|-3.853*|0.0488*|7.621*|-0.043|0.0122|0.199|
+
+The concentrations of Ca"+ and Mg"+ were 0.45and4.5 mMfor dataI, and 0.9 and 3.0 mM for dataII. Temperaturesof the bathingsolutionsfor data I and data II were 24.0°C and 21.50C, respectively. *The null hypothesis that the data are distributeduniformlyoverthe observed period was rejected (p < 0.01). 
+
+interpretation for these results might be thatthesedata were nonstationary, with gradual changesin thefrequen- cies of the spontaneous miniature potentialoccurrences.If this is the case, the prominent departures fromthe station- ary Poisson predictions may reflect bothnonstationarity and a certain non-Poisson nature, or they mayreflect nonstationarity alone. This possibility couldbetestedby the nonstationary analysis mentionedinthisarticle. It is intuitively understood that the monotonictrend, either positive-or negative, in the frequency of spontaneous miniature potential occurrences causes long-lastingposi- tive excesses in the serial correlation coefficients.Ifthe process has a-positive monotonic trendinthe frequencyof spontaneous miniature potential occurrences,relatively long intervals compared with the mean interval areconcen- trating around the beginning of the process and short intervals are located around the end of the process.This evidently results in the long-lasting positive excessesin the serial correlation coefficients. In the case of a negative trend, the same conclusion can be easily drawn.Further, 
+TABLE IV TESTS ON THE FIRST-ORDER STATISTICS FORMEPPsINTRACELLULARYRECORDEDATFROG NEUROMUSCULAR JUNCTIONS 
+
+|||Unif
+after D
+|orm conditiona
+urbin's modifi
+|Counting st
+l test
+cation
+|atistics
+The fit ofthe 
+occurrences i
+time interval, 
+2 IA (b) to the
+distribution (;z: m|numberof
+n the fixed
+ 0.2
+(a)
+ Poisson
+ean interval)|Inte
+Sherman's|rval statistics
+The fitof
+interval histogram
+totheexponential
+distribution|
+
+||||_||||||
+|||U|K-S|A-D|(a)x2|(b) x2|statistic|X2|
+|Data
+DaaI
+Data II|Before
+ftime scaling
+After
+timescaling
+Before
+time scaling
+After
+timescaling|4.76*
+0.866
+-0.901
+-0.624|0.0439*
+0.0170
+0.0232
+0.0249|11.9*
+0.778
+1.272
+1.108|0.960(2)§
+0.338(2)
+1.70(2)
+0.185(2)|9.16(5)
+3.55(5)
+11.1(54)
+8.51(5)|0.370
+0.367
+0.373
+0.371|27.7(34)
+34.3(34)
+23.0(30)
+30.3(30)|
+
+*The null hypothesis that the data are samplesfroma stationaryPoissonprocessisrejected(*p< 0.01, tp<0.05). 
+
+§The numbers in parenthesesindicatethe degreesof freedom. 
+
+YANA ET AL. Spontaneous Quantal TransmitterRelease 
+
+329 
+
+these types of data apparently have two clusters, that of fairly long intervals and that of short intervals, at the beginning and the end of the process. Hence, if the tests for the stationary Poisson hypothesis are formally applied to such nonstationary data, one would reach the conclusion that the process is more clustered than the stationary Poisson process, regardless of the types of interactions. Thus, stationarity of the data must be carefully examined before the data processing. Cohen et al. (1974a, b) used only those data that were not rejected by the uniform conditional test. In these papers, they concluded that the MEPPs intracellularly observed at frog sartorius neuromuscular junctions are more clustered than the Poisson process. Hubbard and Jones (1973), however, reported consistent downward deviations in variance-to-mean curves for the carefully selected stationary data of intraand extracellularly recorded MEPPs from rat neuromuscular junctions, which suggests that the spontaneous quantal release is more ordered than the Poisson expectation. The stationarity conditions have been satisfied in these reports. However, we would like to point out that the nonstationarity is the common feature in the appearance of spontaneous miniature potentials in many cases. For example, when one has changed some physiological conditions of the bathing solution, long-lasting gradual changes in the frequency of the spontaneous potential occurrences are frequently observed even after the new condition has been kept stable (e.g., Cooke and Quastel, 1973; Cooke et al., 1973; Baker and Crawford, 1975). It is usually not practical to wait until the process becomes stationary, for one needs fairly long stationary data in order to draw a reliable statistical conclusion (Cohen et al., 1974a). The proposed method in this article enables one to use the long-lasting nonstationary part of the observed data. This would greatly extend the range of available data for the statistical analysis of spontaneous quantal transmitterrelease. 
+
+The authors wish to thank Professor A. Takeuchi forhis encouragement and critical advice during the course of this study. Weare also indebtedto Mr. Y. Arai for his skillful help in computer programming, to Miss C. Bayne for revising the English text, to Mr. H. Niijima for assistance in preparing the manuscript. 
+
+This work was supported in part by Grant-in-Aids 5889004 and 58770078 for Scientific Research from the Ministryof Education. Received for publication 15 July 1983 andin final form16December 1983.

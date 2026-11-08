@@ -1,0 +1,4 @@
+﻿pmid,status,reason,source,extract_status,before_chars,after_chars,removed_chars,actions,warnings,unrecoverable_chars,long_unspaced_words_at_start,source_sha256,clean_sha256
+8457977,excluded,已核实PDF多栏阅读顺序错乱，无法可靠还原正文,PDF,review,94932,,,,,,,36aecdfa5220ae86f7f49645a27cc5ae5efb698e55a66a392694b626a6b5bc0f,
+14450716,excluded,书目汇编，不作为单篇研究论文,PDF,review,50641,,,,,,,e925b9c3b185d8c6e3a181e9702d320db322f5b252568f7ff2bf7b151a8f7829,
+40011409,excluded,多篇会议摘要合集，不作为单篇研究论文,HTML_TRAFILATURA,review,592532,,,,,,,a9134397b4882424022de45e31f8f2a31f38e8286eaff0ad269e77ae582a9941,

@@ -1,0 +1,263 @@
+INTRODUCTION
+
+Spirochetes occur in a variety of anoxic and microoxic environments ( 1 , 2 ). Most members of the class Spirochaetia (phylum Spirochaetota ) ( 3 ) have been classified in the order Spirochaetales ( 4 ). In contrast to the obligately aerobic or microaerophilic members of the order Leptospirales ( 5 ), which metabolize long-chain fatty acids and alcohols by β-oxidation ( 6 ), members of Spirochaetales typically possess a fermentative metabolism ( 4 ). Many species are tolerant of low oxygen concentrations and incompletely oxidize carbohydrates to acetate and CO 2 in nonrespiratory processes that involve pyruvate oxidase and/or cytoplasmic NADH oxidase, e.g., Treponema pallidum ( 7 ), Spirochaeta perfilievii ( 8 ), and Breznakiella homolactica ( 9 ).
+
+Molecular hydrogen (H 2 ) is a common fermentation product among Spirochaetales and plays a central metabolic role in the family Treponemataceae ( 10 – 12 ). A few Treponema species use H 2 for reductive acetogenesis ( 13 – 15 ). Growth of a coculture of the H 2 -producing Leadbettera azotonutricia and the H 2 -consuming Treponema primitia is markedly enhanced, presumably because of H 2 cross-feeding ( 16 ). It has been proposed that cross-feeding of H 2 between protein- and polysaccharide-fermenting Treponemataceae and sulfate-reducing bacteria drives necromass recycling in anoxic, hydrocarbon-contaminated sediments ( 12 ).
+
+Recently, several free-living and insect-associated species that were previously assigned to the family Treponemataceae ( 17 ) have been reclassified into the separate families Rectinemataceae and Breznakiellaceae ( 9 , 18 ). With one exception, the remaining members of the family Treponemataceae have been isolated from vertebrate hosts ( 19 ). Treponema zuelzerae , which has been isolated from anoxic sediments, ferments a variety of sugars, forming acetate, CO 2 , and H 2 as major products ( 20 ). However, its genome has not been sequenced, and the details of its fermentative metabolism remain to be elucidated.
+
+Here, we report the isolation of the first insect-associated member of Treponemataceae from the gut of a cockroach. It is the closest relative of T. zuelzerae but fundamentally differs in its fermentative metabolism. We sequenced the genomes of both strains and comparatively analyzed the gene functions involved in H 2 production. Based on results of a detailed physiological and phylogenetic characterization, we propose to classify each of the strains as type species of two novel genera.
+
+Morphological characterization of strain RmG11.
+
+A pure culture of strain RmG11 was obtained from serial dilutions of membrane-filtered cockroach gut homogenates. In deep-agar cultures, strain RmG11 formed pale, translucent colonies with blurred edges and diameters of 1 to 2 mm after 2 to 3 weeks. Phase-contrast microscopy of liquid cultures showed highly motile, helical filaments with lengths of 3 to 18 μm ( Fig. 1A and B ); cell lengths of up to 80 μm were occasionally observed. Spherical bodies with diameters of 1 to 4 μm formed in the late stationary phase ( Fig. 1C ).
+
+Morphology of strain RmG11. (A, B) Phase-contrast micrographs of cells in the exponential growth phase (A) and early stationary phase (B). (C) Phase-contrast micrographs of spherical bodies formed in the late stationary phase. (D, E) Scanning electron micrographs of spiral-shaped cells in the early stationary phase (D) and cells and spherical bodies (S) in the late stationary phase (E). Thick and thin arrows point to thick and thin cells, respectively. Bars, 10 μm (A, B), 5 μm (C, D), and 1 μm (E).
+
+Scanning electron microscopy revealed helical cells with a wavelength of 1.0 ± 0.2 μm and an amplitude of 0.2 to 0.4 μm ( Fig. 1D and E ). The cell diameter ranged from 0.19 to 0.23 μm in the exponential phase ( Fig. 1A and D ) and from 0.19 to 0.30 μm in the stationary phase ( Fig. 1B and E ). The small diameter of the cells is consistent with ability of strain RmG11 to pass through a membrane of 0.3-μm pore size. Transmission electron microscopy of ultrathin sections showed the typical structure of spirochetal cells. The number of periplasmic flagella in each radial section (typically one, but sometimes two or none) is consistent with the presence of two flagella that originate at either end but do not always overlap at midcell ( Fig. 2A ). The cytoplasm was filled with granular structures ( Fig. 2B ). In the spherical bodies ( Fig. 2D ), the protoplasmic cylinders were loosely ( Fig. 2C ) or densely ( Fig. 2E ) packed within the outer sheaths, as previously described for Borrellia burgdorferi and Brachyspira hyodysenteriae ( 21 , 22 ). Chain-like granular structures were observed occasionally in negatively stained cells of stationary-phase cultures ( Fig. 2E ). These structures resemble the electron-dense granules that appear on the sheath surface of ectobiotic spirochetes on termite gut flagellates after antibiotic treatment ( 23 ) and might be homologous to the DNA-containing, nuclease-resistant vesicles observed in B. burgdorferi and many other Gram-negative bacteria ( 24 ).
+
+Ultrastructure of strain RmG11. (A to C) Transmission electron micrographs of ultrathin sections of cells (A, B) and a spherical body (C). An arrow points to a periplasmic flagellum in panel A. (D, E) Scanning electron micrograph (D) and negative-stained preparation (E) of spherical bodies. Arrowheads in panel E indicate chain-like, vesicular structures. Bars, 0.1 μm (A), 0.2 μm (B), 0.5 μm (C, E), and 2 μm (D).
+
+Phylogenetic analysis.
+
+Phylogenomic analysis based on 120 concatenated marker genes of all members of Spirochaetales with sequenced genomes confirmed that the former family Treponemataceae ( 17 ) (“Treponematales” in the Genome Taxonomy Database [GTDB] taxonomy; see below) consists of three distinct family-level lineages: Treponemataceae , Breznakiellaceae , and Rectinemataceae ( 9 , 18 ). Strain RmG11 falls into the radiation of the family Treponemataceae . It represents a sister lineage to a cluster of treponemes from anoxic sediments and anaerobic digesters (here addressed as a “free-living cluster”; Fig. 3 ). Classification with GTDB-Tk identified strain RmG11 as a genus-level lineage separate from the genera Spiro-10 (harboring T. zuelzerae ) and DUOS01 (without cultured representatives) ( Fig. 3 ; Table S6). This matches the low values for average nucleotide identity (ANI < 76%) between strain RmG11 and its closest relatives ( Fig. 4 ).
+
+Phylogenomic tree illustrating the relationship of strain RmG11 and Teretinema [ Treponema ] zuelzerae (both are shown in bold, red type) to other members of the order Treponematales. Genus-level lineages from the Genome Taxonomy Database (GTDB) taxonomy are shown in parentheses. All nodes in the tree are fully supported (>99%). Other Spirochaetales were used as an outgroup. GenBank accession numbers are given for each genome; the genome sequence of Rectinema cohabitans was provided by Dong et al. ( 12 ).
+
+Pairwise comparison of sequence identity of the 16S rRNA genes and average nucleotide identity (ANI) of the genomes of strain RmG11, Treponema zuelzerae , and their closest relatives in the family Treponemataceae . The phylogenetic relationship was taken from Fig. 3 . The color depth of each cell was adjusted according to the respective value. ANI values < 76% are below the cutoff the FastANI tool.
+
+The results of the 16S rRNA gene sequence analysis agree with the phylogenomic analysis (Fig. S1). Strain RmG11 clustered with short reads obtained from amplicon libraries of the cockroaches Eublaberus posticus and Opisthoplatia orientalis ( 25 ), indicating that it represents a lineage associated with invertebrate hosts (“cockroach cluster”; Fig. S1). Again, T. zuelzerae , together with numerous clones representing free-living bacteria from diverse anoxic environments, form a sister group to strain RmG11 (Fig. S1). The low sequence similarity of strain RmG11 and T. zuelzerae (94.3%; Fig. 4 ) justifies their classification as separate genera ( 26 ).
+
+Growth and physiology.
+
+Strain RmG11 grew on d -glucose, d -maltose, and starch, forming ethanol, acetate, H 2 , lactate, pyruvate, and trace amounts of malate and fumarate ( Table 1 ). Assuming an equimolar production of CO 2 for each molecule of ethanol and acetate, both carbon and electron recovery were around 80% ( Table 1 ), indicating the presence of additional product(s). Propionate, butyrate, isobutyrate, isovalerate, succinate, formate, glycerol, 2,3-butanediol, propanol, butanol, acetone, butanone, and acetoin were below the detection limit. No growth was observed on d -fructose, d -mannose, d -galactose, N -acetylglucosamine, d -xylose, l -arabinose, d -ribose, l -rhamnose, d -mannitol, d -gluconic acid, d -glucuronic acid, d -cellobiose, d -trehalose, d -lactose, d -sucrose, pyruvate, l -lactate, formate, H 2 + CO 2 , cellulose, carboxymethyl cellulose, xylan, or chitin.
+
+Growth parameters, fermentation products, and carbon and electron recovery of strain RmG11 and Treponema zuelzerae a
+
+The table shows results for strain RmG11 and T. zuelzerae cultivated with different substrates in basal medium. Precultures were grown on glucose. The values are means of results obtained with duplicate cultures (less than 10% deviation). –, not applicable/below detection limit.
+
+Based on consumed substrate and the experimentally determined optical density (OD)/dry weight ratio for glucose-grown cultures (at OD 578 = 0.1: 60 ± 5 mg L −1 for strain RmG11, n = 5; 62 ± 0.5 mg L −1 for T. zuelzerae , n = 2).
+
+Based on an elemental composition of C 4 H 8 O 2 N for bacterial cell mass ( 84 ).
+
+Expressed as if H 2 were completely dissolved in the liquid phase to facilitate comparison with other products. 1 mM H 2 corresponds to a partial pressure of 0.011 bar.
+
+Strain RmG11 formed trace amounts of malate and fumarate.
+
+Based on the assumption that the production of acetate and ethanol was accompanied by the formation, and succinate production was accompanied by the consumption of one CO 2 .
+
+Based on dissimilated substrate.
+
+Turbidity and products formed in basal medium without substrate were subtracted in the subsequent calculations.
+
+Calculated as assimilated glucose.
+
+T. zuelzerae grew on d -glucose, d -mannose, d -galactose, l -arabinose, d -xylose, d -trehalose, d -cellobiose, d -maltose, or starch as previously reported ( 20 ) and also on N -acetylglucosamine, d -lactose, or xylan. Major products were acetate and H 2 in a molar ratio of approximate 1:2, together with small amounts of lactate and succinate ( Table 1 ). The carbon and electron recoveries were complete. No growth was observed on d -fructose, d -ribose, l -rhamnose, d -mannitol, d -gluconic acid, d -glucuronic acid, d -sucrose, pyruvate, l -lactate, formate, or H 2 + CO 2 . T. zuelzerae grew well on xylan but only poorly on starch. No growth occurred on cellulose, carboxymethyl cellulose, or chitin.
+
+Growth rates and growth yields of strain RmG11 on glucose and maltose were much lower than those of T. zuelzerae on the same substrates ( Table 1 ). For T. zuelzerae , the molar growth yields on maltose and cellobiose were more than twice as high as those on hexoses, suggesting that it uses both glucose subunits of these disaccharides as an energy substrate (and may even conserve additional energy by phosphorolytic cleavage). The growth yields of T. zuelzerae on trehalose and lactose were considerably lower than those on the other disaccharides, and that on N -acetylglucosamine was much lower than that on glucose. For strain RmG11, however, the molar growth yield on maltose was only slightly higher than that on glucose, suggesting that only one of the glucose subunits is fermented and that the other is incorporated into dextrins and/or exopolysaccharides. Such a reverse phosphorolysis is common in (but not restricted to) lactic acid bacteria (see reference lists in references 27 – 29 ), and the formation of substrate-derived oligosaccharides, as postulated already for Cytophaga xylanolytica ( 30 ), would also explain the gap in the carbon and electron recovery in the fermentation products of strain RmG11.
+
+The major fermentation products of T. zuelzerae were acetate and H 2 (headspace partial pressure up to 0.5 bar), irrespective of the glucose concentration in the medium ( Fig. 5 ). Strain RmG11, however, always formed ethanol as the major product; acetate and H 2 (headspace partial pressure up to 0.08 bar) never exceeded the amounts formed already at a low concentration of glucose (2 mM). In both strains, lactate formation increased with the glucose concentration. Substrate utilization was incomplete at higher glucose concentrations (>12 mM), most likely due to increasing acidification of the medium, and ceased at pH 6.4 (strain RmG11) or pH 5.4 ( T. zuelzerae ).
+
+Fermentation products and final cell density (maximum turbidity) of strain RmG11 and Treponema zuelzerae cultivated at increasing glucose concentrations. Cultures were grown in rubber-stoppered tubes (16 mL) with 5 mL medium. H 2 concentration is expressed as if H 2 were completely dissolved in the liquid phase to facilitate comparison with other products. In all of the cultures, the glucose was consumed completely. The values are means of results obtained with triplicate cultures (± standard deviation). OD, optical density.
+
+Strain RmG11 grew well between pH 6.1 and 7.0 but not at pH 5.1 and 7.9. The strain grew robustly in the temperature range of 25 to 35°C, with an optimum (highest growth rate) at 35°C. No growth was observed at temperatures above 37°C or below 20°C. The optimum pH for growth of T. zuelzerae has been reported as pH 7 to 8, with fermentation ceasing at pH 6, and the optimum temperature as 37 to 40°C, with good growth at 20°C and no growth at 45°C ( 20 ). In our hands, however, T. zuelzerae grew well between pH 6.1 and 7.0 but only weakly at pH 7.9; no growth occurred at pH 5.1 or 8.5. Robust growth occurred at a temperature range of 15 to 35°C, with an optimum (highest growth rate) at 35°C. T. zuelzerae grew only weakly at 37°C and not at 40°C.
+
+The strains grew well at NaCl concentrations up to 1% ( T. zuelzerae ) or 1.5% (RmG11). At higher concentrations, growth was completely inhibited. Neither strain grew when yeast extract and Casamino Acids were omitted from the medium. Both strains grew weakly in substrate-free controls containing only yeast extract and Casamino Acids. Both strains grew in anoxic medium without reducing agent, but not if O 2 (0.5%) was added to the headspace.
+
+Effect of H 2 partial pressure.
+
+Cultures of strain RmG11 fermented glucose to acetate and hydrogen only in the initial growth phase and switched to ethanolic fermentation already in the early exponential phase ( Fig. 6 ). Since final H 2 partial pressures in the headspace did not exceed 0.08 bar (equivalent to a mixing ratio of 8%; Fig. 5 ), we suspected a detrimental effect of H 2 partial pressure on growth. When we added H 2 to the headspace of growing cultures (0.8 bar), growth ceased immediately, and the cells lost their motility. However, growth and motility were restored when the headspace was flushed with N 2 /CO 2 (details not shown). Growth was impeded already at an initial partial pressure of 0.045 bar H 2 and was strongly inhibited at 0.091 bar H 2 ( Fig. 7 ). The absence of growth at 0.136 bar H 2 matches the observation that the final concentration of H 2 in the cultures never exceeded 0.124 bar, regardless of the amount of glucose added (Table S1).
+
+Time course of metabolite concentrations and cell density (OD 578 ) in cultures of strain RmG11 growing on glucose. See the legend of Fig. 5 for details.
+
+Growth of strain RmG11 and Treponema zuelzerae on glucose (8 mM) at different H 2 partial pressures in the headspace gas (initial values). The results are means of triplicate (strain RmG11) or duplicate ( T. zuelzerae ) cultures (less than 10% deviation). Observe the differences in the abscissa scales. The fermentation products are shown in Table S1.
+
+Repeated flushing of the headspace in growing cultures of strain RmG11 shifted the fermentation products from ethanol to acetate and significantly increased the growth yield of strain RmG11 on glucose (Table S2). The gap in carbon and electron recovery increased with the H 2 partial pressure in the headspace, suggesting that hydrogen accumulation affects the stoichiometry of the unknown product formed from glucose (Table S1).
+
+In contrast, growth of T. zuelzerae was not significantly affected by the presence of H 2 in the headspace ( Fig. 7 ). At any H 2 partial pressure tested (up to 0.8 bar), acetate and H 2 were the major fermentation products from glucose (Table S1).
+
+Cocultivation of strain RmG11 with a hydrogenotrophic methanogen.
+
+In pure cultures of strain RmG11, the majority of the reducing equivalents produced during the fermentation of glucose were recovered as ethanol, whereas acetate, H 2 , lactate, and pyruvate were formed in minor amounts ( Fig. 8 ; for details, see Table S3). When strain RmG11 was cocultivated with the hydrogenotrophic M. hungatei , the headspace concentration of H 2 always remained below the detection limit (100 ppm), and acetate and CH 4 were the only products recovered at the end of the incubation. Using the H 2 /CH 4 stoichiometry of hydrogenotrophic methanogenesis (4:1), we calculated that a substantial amount of H 2 was produced by RmG11 and subsequently consumed by the methanogen. The resulting H 2 /acetate stoichiometry (1.5:1) was more than sufficient to explain the complete shift in the fermentation products from ethanol, lactate, and pyruvate (in pure culture) to acetate (in coculture). The increased electron recovery in cocultures is most likely due to a decrease in the unknown product(s) in pure cultures of strain RmG11 (see above). Growth yield of the cocultures (determined by turbidity) was twice as high as that of the pure cultures, and the relative cell density of strain RmG11 increased almost 3-fold.
+
+Electron recovery in the fermentation products and cell density of strain RmG11 in pure culture and in coculture with Methanospirillum hungatei . Cultures were grown on 4 mM glucose in 16-mL rubber-stoppered tubes with 5 mL medium. H 2 formation is expressed as if H 2 were completely dissolved in the liquid phase to facilitate comparison with other products. The amount of H 2 produced in the coculture (hatched column) was calculated from the amount of CH 4 formed by the hydrogenotrophic partner, assuming a stoichiometry of 4:1. The relative cell density of strain RmG11 was determined by phase-contrast microscopy. The values are means of results obtained with triplicate cultures (± standard deviation) (for details, see Table S3).
+
+Genomic analysis of catabolic pathways.
+
+Genome assembly of strain RmG11 resulted in a circular genome with a size of 3,239,032 bp and a G+C content of 46.0 mol%. Genome assembly of T. zuelzerae resulted in three contigs with a total size of 3,621,248 bp and a G+C content of 52.7 mol%. T. zuelzerae possesses four copies of rRNA genes and 53 tRNA genes, whereas strain RmG11 has only two copies of rRNA genes and 47 tRNA genes. An exploration of the annotated genes in each genome revealed important differences in the energy metabolism of the two strains ( Fig. 9 ; for details, see Table S4).
+
+Energy metabolism of strain RmG11 and Treponema zuelzerae . Substrates and products are shown in boldface. Arrow color indicates differences in the pathways at high H 2 partial pressure. AcCoA, acetyl coenzyme A; AdhE, bifunctional alcohol/aldehyde dehydrogenase; Acetyl-P, acetyl phosphate; DAP, dihydroxyacetone phosphate; F6P, fructose 6-phosphate; Fd, ferredoxin; Frd, fumarate reductase; GAP, glyceraldehyde 3-phosphate; HydABC, ferredoxin- and NAD + -dependent electron-confurcating [FeFe]-hydrogenase; HydA2, ferredoxin-dependent [FeFe]-hydrogenase; Nha, Na + /H + antiporter; Rnf, Na + -translocating ferredoxin:NAD + oxidoreductase complex. (For additional information on annotated genes, see Table S4.)
+
+Like other spirochetes, strain RmG11 and T. zuelzerae both possess a complete glycolytic pathway to oxidize glucose to pyruvate ( 31 ). T. zuelzerae carries genes encoding enzymes required for the utilization of mannose, galactose, and N -acetylglucosamine, and the oxidative pentose phosphate pathway (PPP) (Table S4). These results and the absence of these genes in strain RmG11 agree with the substrate spectra of the respective strains. The absence of a canonical transaldolase in nonoxidative PPP observed in both strains is most likely circumvented by the formation of sedoheptulose 1,7-bisphosphate from erythrose 4-phosphate and dihydroxyacetone phosphate and its subsequent cleavage to sedoheptulose 7-phosphate ( 32 ). These activities are side reactions of fructose 1,6-bisphosphate aldolase and 6-phosphofructokinase, which are encoded in multiple copies in both strains (Table S4). The same situation has been observed in other treponemes (e.g., B. homolactica ) ( 9 ) but can be found also in distantly related spirochetes (e.g., Longinema margulisiae [ Brevinematales ]) ( 33 ), suggesting that this variant of the nonoxidative PPP is typical for spirochetes. Homologs of pentose kinases and isomerases, which are required for the utilization of xylose and arabinose, were found only in T. zuelzerae , corroborating the inability of strain RmG11 to grow on pentoses. Both genomes encode a homolog of trehalase, but only T. zuelzerae encodes homologs of cellobiose phosphorylase, α-amylase and β-galactosidase, which agrees with its growth on cellobiose, maltose, or lactose.
+
+Both genomes encode d -lactate dehydrogenase, pyruvate:ferredoxin oxidoreductase (PFOR), phosphate acetyltransferase, and acetate kinase, which agrees with the production of lactate and acetate as fermentation products. Strain RmG11 encodes a bacterial bifunctional alcohol/aldehyde dehydrogenase (AdhE), and T. zuelzerae encodes a soluble, presumably NADH-dependent fumarate reductase, Frd ( 34 ), which is in agreement with the presence of ethanol or succinate among the fermentation products of the respective strain. Both genomes encode a Na + -translocating ferredoxin:NAD + oxidoreductase (Rnf) complex, a sodium-proton antiporter (Nha), and a ferredoxin- and NAD + -dependent, electron-confurcating [FeFe]-hydrogenase of group A3 (HydABC). Only T. zuelzerae possesses a ferredoxin-dependent [FeFe]-hydrogenase of group B (HydA2). Gene homologs encoding respiratory complexes involved in aerobic or anaerobic respirations were absent from both strains.
+
+Phylogenetic analysis revealed that orthologs of HydABC are common in spirochetes, with orthologs from other treponemes as its closest relatives (Fig. S2A). The gene clusters encoding the three subunits and two intervening genes encoding hypothetical proteins show the same organization (Fig. S2B), supporting their vertical transmission during spirochete evolution. Also, the gene encoding HydA2 of T. zuelzerae is embedded into the radiation of orthologs from other treponemes (Fig. S3A), indicating that it was recently lost in an ancestor of strain RmG11. The HydA2 gene is always located near genes encoding a H 2 -sensing hydrogenase (HydS, group C3) and a protein serine/threonine phosphatase (Psp) (Fig. S3B). In Ruminococcus albus , HydS, Psp, and HydA2 are part of a larger transcriptional unit that also harbors AdhE, protein serine/threonine kinase, and a redox-sensing transcriptional repressor (Rex), which are considered to be involved in the regulation of gene expression at high H 2 partial pressure ( 35 , 36 ). Although T. zuelzerae lacks AdhE and forms H 2 even at high partial pressures, it encodes the same regulatory elements in its genome (HydS and Psp are localized in the gene neighborhood of HydA2).
+
+Genomic potential for polysaccharide degradation.
+
+Both strain RmG11 and T. zuelzerae encode a complete gluconeogenic pathway and the enzymes required for the breakdown of starch and/or glycogen. The absence of signal peptides indicates that the latter are intracellular enzymes involved in turnover of cytoplasmic glycogen reserves. In addition, T. zuelzerae encodes numerous homologs of glycoside hydrolases with signal peptides that are potentially involved in the extracellular degradation of plant polysaccharides (Table S5). They comprise putative endoglucanases (no exoglucanases) and β-glucosidases that may contribute to the breakdown of cellulose and a diverse array of glucanases and glycosidases required for the degradation of hemicelluloses (e.g., xylan, mannan, and arabinogalactan), including numerous homologs of endo-1,3(4)-β-glucanases (Table S5). In contrast, the only potentially secreted glycosyl hydrolases encoded by strain RmG11 are α-amylases, pullulanases, and other debranching glucosidases required for starch utilization, which agrees with its growth on starch but not on other polysaccharides.
+
+DISCUSSION
+
+Comparative analyses of strain RmG11 and T. zuelzerae provide new insights into the fermentative energy metabolism of spirochetes. Despite their close phylogenetic relationship, the strains differ substantially in their substrate and product spectra and their response to the accumulation of H 2 . Strain RmG11 grows exclusively on glucose and α-1,4-bond glucose compounds (maltose and starch), whereas T. zuelzerae utilizes a variety of carbohydrates, including polysaccharides. Unlike T. zuelzerae , strain RmG11 requires a hydrogenotrophic partner for optimal growth. This phenomenon is explained by differences in their fermentation pathways and illustrates the different adaptions of spirochetes to the accumulation of H 2 in their respective environmental niches.
+
+Energy metabolism.
+
+While T. zuelzerae forms acetate and H 2 as major fermentation products at all substrate concentrations and throughout the growth phase, strain RmG11 does so only at low substrate concentrations or in the early growth phase. At the later growth stages of strain RmG11, ethanol is the most prominent product, suggesting that the accumulation of H 2 is responsible for the apparent switch from an acetic acid fermentation to an ethanolic fermentation. This is substantiated by both the increased acetate formation when H 2 is removed from the headspace and the shift to a pure acetic fermentation upon cocultivation with a hydrogenotrophic methanogen. The increased growth yield in coculture indicates that strain RmG11 benefits energetically from the removal of H 2 .
+
+The metabolic basis for this phenomenon is explained by differences in the fermentation pathways encoded by the strains ( Fig. 9 ). At low hydrogen partial pressure, both strains regenerate NADH and the reduced ferredoxin produced during glycolysis and the subsequent oxidation of pyruvate via the electron-confurcating HydABC complex, forming acetate and H 2 at the 1:2 ratio typical of acetic acid fermentation ( equation 1 ).
+
+The production of 4 ATPs per glucose by substrate-level phosphorylation (SLP) is possible because the free energy of the reaction exceeds −280 kJ/mol (70 kJ/mol ATP) ( 37 ). However, this condition is met only at H 2 partial pressures up to 10 −3 bar ( equation 3 ). At higher values, T. zuelzerae invests one of the four ATP produced by SLP to generate a membrane potential via ATP synthase, which then drives a reverse electron transport from NADH to ferredoxin via the Rnf complex. Subsequently, reduced ferredoxin is regenerated by H 2 formation via HydA2. Consequently, the ATP yield decreases to 3 ATPs per glucose, which is thermodynamically possible even at standard conditions (1 bar H 2 ; equation 2 ).
+
+Strain RmG11, however, lacks HydA2 and therefore cannot revert electron transport from NADH to ferredoxin at the expense of an ATP. Instead, the reduced ferredoxin from pyruvate oxidation is regenerated by operating the Rnf complex in the opposite direction, producing 2 NADH. Together with the 2 NADH from glycolysis, the reducing equivalents are used for the production of ethanol from acetyl-CoA ( equation 4 ). Only 2 ATPs are produced by SLP, but an operation of the Rnf complex in the opposite direction should increase the membrane potential and allow additional ATP formation via electron transport phosphorylation (ETP). Since the free energy change of the reaction ( equation 5 ) would allow the formation of >3 ATPs per glucose, the extremely low growth yield of strain RmG11 observed in pure culture must have another explanation.
+
+Ecological relevance.
+
+T. zuelzerae represents a cluster of hitherto unstudied spirochetes that occurs in anoxic environments, such as aquatic sediments and diverse bioreactors (“free-living cluster”), and is phylogenetically distinct from the host-associated members of Treponemataceae . Its capacity for the utilization of xylan and the genomic potential to depolymerize other components of hemicelluloses extends the previously reported ability to grow on a variety of monosaccharides and disaccharides that result from the degradation of plant materials ( 20 ). Although T. zuelzerae did not grow on cellulose, the presence of putatively secreted endocellulases and its robust growth on cellobiose imply that it might contribute also to cellulose degradation. It has been reported that the noncellulolytic Treponema bryantii and Treponema caldarium (now Gracilinema caldarium ) ( 18 ) enhance cellulose breakdown when cocultivated with a cellulolytic bacterium ( 10 , 38 ). Our results for T. zuelzerae support the notion that not only host-associated ( 39 ) but also free-living treponemes play an important role in the synergistic codigestion of plant polysaccharides.
+
+Like T. zuelzerae , many spirochetes are able to produce H 2 as a major fermentation product even at the high H 2 partial pressures caused by fermentative processes in carbohydrate-rich environments (e.g., L. azotonutricia from termite guts [ 11 ] and G. caldarium from hot spring sediment [ 10 ]). In contrast, strain RmG11 is sensitive to high H 2 partial pressure and grows much better when an accumulation of H 2 is avoided, e.g., in coculture with the hydrogenotrophic methanogen M. hungatei . A positive correlation between the abundance of uncultured but presumably hydrogen-sensitive spirochetes and hydrogenotrophic methanogens in anaerobic digesters has been reported ( 40 , 41 ). These observations highlight the importance of interspecies hydrogen transfer between fermentative spirochetes and H 2 -consuming microorganisms in habitats where H 2 production and consumption are well coupled.
+
+Interspecies hydrogen transfer is a common phenomenon in anoxic environments, and it occurs between microorganisms with different metabolic capacities ( 42 ). Primary fermenters that produce H 2 in pure culture typically shift their fermentation pathways toward acetate in the presence of a hydrogenotrophic partner ( 43 , 44 ). Although such interactions result in a higher ATP gain and thus improved growth yields of the primary fermenter, they are typically not of an obligate nature. Most secondary fermenters, however, such as butyrate- and propionate-degrading bacteria ( 45 , 46 ), which are incapable of H 2 production from NADH for either thermodynamic or mechanistic constraints, strictly depend on the presence of hydrogenotrophic partners ( 42 ). Interspecies hydrogen transfer to a syntrophic partner even allows respiring bacteria, such as sulfate-reducing Desulfovibrio spp. ( 47 , 48 ) or aerobic Bacillus spp. ( 49 , 50 ), to oxidize sugars and other substrates to acetate in the absence of an external electron acceptor. While such syntrophic relationships are obligate under the given environmental constraints, strain RmG11 still grows, albeit weakly, in pure culture. Nevertheless, the stimulatory effect of the hydrogenotrophic methanogen is so strong that syntrophic growth appears to be the normal condition. Hence, we chose the term “parasyntrophica” as a species epithet.
+
+The molecular basis for the observed differences in the sensitivity to high H 2 partial pressure seems to be the absence of a ferredoxin-dependent hydrogenase (HydA2) in strain RmG11, which allows T. zuelzerae and many other spirochetes to accumulate H 2 to high concentrations. A prominent example is the strong hydrogen production in termite hindguts, which is correlated with the abundant presence of hydrogenases assigned to termite gut treponemes ( 51 – 54 ). Using the experimentally determined redox potentials of the cofactors in clostridial cultures, Buckel and Thauer ( 37 ) estimated that H 2 formation from reduced ferredoxin ( viz. , via HydA2) is thermodynamically favorable even at extremely high H 2 partial pressure (>1 bar), whereas H 2 evolution by electron-confurcation from reduced ferredoxin and NADH ( viz. , via HydABC) is in thermodynamic equilibrium already at a H 2 partial pressure of 0.16 bar. This matches our observation that glucose fermentation by T. zuelzerae is virtually unaffected even at H 2 partial pressures >1 bar, whereas H 2 formation in pure cultures of strain RmG11 never exceeded a partial pressure of 0.124 bar. The widespread presence of HydA2 homologs among spirochetes, including many close relatives of strain RmG11 (Fig. S3), suggests a relatively recent gene loss among the “cockroach cluster.” The ecological basis for such functional differences in the fermentative metabolism of spirochetes and the surprising dependence of a representative from a hydrogen-rich intestinal environment remain to be clarified.
+
+Taxonomy.
+
+For the longest time, all spirochetes were classified in a single order ( Spirochaetales ) ( 2 ). However, numerous taxa have been subsequently elevated to higher ranks ( 5 , 17 , 26 ). In particular, the genus Treponema is phylogenetically highly divergent ( 19 , 55 ). Based on the GTDB taxonomy, which takes into account phylogeny, average nucleotide identity, and relative evolutionary distance ( 56 , 57 ), we have reclassified several members of the genus Treponema into the family Breznakiellaceae , which includes Gracilinema [ Treponema ] caldarium and several misplaced species isolated from termite guts ( Fig. 3 ) ( 9 , 18 ).
+
+The other members of the genus Treponema represent numerous genus-level lineages in the radiation of the family Treponemataceae , indicating that future taxonomic revision of the genus Treponema is warranted. Based on the GTDB-Tk classification, strain RmG11 represents a novel genus-level lineage, and T. zuelzerae falls into the Spiro-10 lineage (Table S6). This is in agreement with the low nucleotide identity of their genomes and their 16S rRNA genes and the considerable phenotypic differences between the strains ( Table 2 ). Therefore, we describe strain RmG11 as the type strain of B. parasyntrophica gen. nov., sp. nov. and reclassify T. zuelzerae as the type strain of Teretinema zuelzerae gen. nov., comb. nov.
+
+Phenotypic characteristics of strain RmG11, Treponema zuelzerae , and other representatives of the family Treponemataceae a
+
+The table shows a comparison of the phenotypic characteristics of strain RmG11 and Treponema zuelzerae (this study) with selected representatives of the other genus-level lineages in the family Treponemataceae (data from Norris et al. [ 19 ]). –, no activity; ND, not determined; GTDB, Genome Taxonomy Database.
+
+Genome sequence.
+
+The data are from Veldkamp ( 20 ).
+
+Estimated from Fig. 3 of Stanton and Canale-Parola ( 58 ).
+
+Estimated from Fig. 1 and 2 of Schrank et al. ( 85 ).
+
+Estimated from figures of Wolf et al. ( 86 ).
+
+Although classified as microaerophilic ( 19 ), T. pallidum lacks a respiratory chain, and its oxygen-consuming activity is most likely attributable to an NADH oxidase ( 87 ). Therefore, it must be classified as an aerotolerant anaerobe ( 88 ).
+
+In the presence of hemin.
+
+Data from Austin et al. ( 89 ).
+
+In the presence of oxygen.
+
+T. denticola is primarily an amino acid fermenter.
+
+No growth on glucose; products from maltose were not determined.
+
+Description of Brucepastera gen. nov.
+
+Etymology: Bruce.pas'te.ra. N.L. fem. n. Brucepastera , named after the American microbiologist Bruce J. Paster, in recognition of his important contributions to the study of spirochetes.
+
+The description is as given for B. parasyntrophica , which is the type species. The genus is monospecific and separated from other lineages in the Treponemataceae based on phylogenetic analyses of genome and 16S rRNA gene sequences.
+
+Description of B. parasyntrophica sp. nov.
+
+Etymology: pa.ra.syn.tro'phi.ca. Gr. pref. para- , beside; Gr. pref. syn- , together with; Gr. masc. adj. trophikos , nursing, tending, or feeding; N.L. fem. adj. syntrophica , pertaining to syntrophic substrate utilization; N.L. fem. adj. parasyntrophica , resembling a syntrophic substrate utilization.
+
+The cells are helical, with diameters of 0.19 to 0.30 μm, lengths of 3 to 18 μm, and wavelengths of 1.0 μm. They are motile by two periplasmic flagella inserted at opposite ends of the cytoplasmic cylinder. Spherical bodies with diameters of 1 to 4 μm are formed in stationary cultures. The species is mesophilic and grows optimally at 35°C [range, 25 to 35°C]; there is no growth at 37°C. The optimum pH for growth is 6.1 to 7.0. B. parasyntrophica has a fermentative metabolism, and its energy sources include d -glucose, d -maltose, and starch. There is no growth on d -fructose, d -mannose, d -galactose, N -acetylglucosamine, d -xylose, l -arabinose, d -ribose, l -rhamnose, d -mannitol, d -gluconic acid, d -glucuronic acid, d -cellobiose, d -trehalose, d -lactose, d -sucrose, pyruvate, l -lactate, formate, H 2 + CO 2 , cellulose, carboxymethyl cellulose, xylan, or chitin. The products are ethanol, acetate, H 2 , lactate, pyruvate, and trace amounts of malate and fumarate. B. parasyntrophica requires yeast extract and Casamino Acids and is strictly anaerobic. Its genome size is 3.27 Mbp. Its G+C content is 46.0 mol% (based on the type strain).
+
+Source: The intestinal tract of the Madeira cockroach, Rhyparobia maderae (Fabricius 1781).
+
+Type strain: strain RmG11 = DSM 111712 = JCM 39134. GenBank accession numbers: OK632443 (16S rRNA gene) and CP084606 (genome).
+
+Description of Teretinema gen. nov.
+
+Te.re.ti.ne'ma. L. masc. adj. teres , teretis , well turned, round, smooth, elegant; Gr. neut. n. nema , a thread; N.L. neut. n. Teretinema , an elegant thread.
+
+The description is as given for Teretinema zuelzerae , which is the type species. The genus is monospecific and separated from other lineages in the Treponematacceae based on phylogenetic analyses of genome and 16S rRNA gene sequences.
+
+Description of Teretinema zuelzerae comb. nov.
+
+zuel'ze.rae. N.L. gen. fem. n. zuelzerae , of Zuelzer, named after Margarete Zuelzer, who described the occurrence of morphologically diverse spirochetes in sulfide-rich environments.
+
+Basonym: Spirochaeta zuelzerae ( ex Veldkamp 1960) Canale-Parola 1980 ( 20 , 58 ). Earlier homotypic synonym: Treponema zuelzerae (Canale-Parola 1980) Abt et al. 2013 ( 58 , 59 ).
+
+The characteristics of the species are given in the original description ( 20 ) with the following modifications. N -Acetylglucosamine, trehalose, and lactose are fermented. Ribose, gluconic acid, glucuronic acid, cellulose, carboxymethyl cellulose, and xylan are not fermented. The optimum growth temperature is 35°C (range, 15 to 37°C); there is no growth at 40°C. The optimum pH for growth 7.0 (range, pH 6.1 to 7.9). The genome size is 3.62 Mbp, and the G+C content is 52.7 mol% (based on the type strain).
+
+Source: freshwater mud.
+
+Type strain: DSM 1903 = ATCC 19044. GenBank accession numbers: FR749929 (16S rRNA gene) and JAINWA000000000 (genome).
+
+MATERIALS AND METHODS
+
+Microbiological media.
+
+The cultures were routinely grown in medium AM-5, an anoxic, bicarbonate-buffered mineral medium supplemented with vitamins and other growth factors ( 60 ), which was amended with yeast extract and Casamino Acids (0.1% each), cysteine and DTT (1 mM each) as reducing agents, and resazurin (0.8 mg/L) as redox indicator. Unless otherwise indicated, this “basal medium” was amended with glucose (8 mM), dispensed (5 mL) into 16-mL rubber-stoppered culture tubes, gassed with a headspace of N 2 /CO 2 (80:20, vol/vol), inoculated with a fresh preculture (0.1 mL), and incubated at 30°C. Salt tolerance was tested with basal medium by adding different amounts of NaCl (0 to 4%, at steps of 0.5%) to the medium.
+
+For growth tests at different pH values, the bicarbonate buffer was replaced with alternative buffer systems: malic acid, pH 5.1; 2-( N -morpholino)ethanesulfonic acid (MES), pH 6.1; 3-( N -morpholino)propanesulfonic acid (MOPS), pH 7.0; HEPES, pH 7.9; N -Tris(hydroxymethyl)methyl-3-aminopropanesulfonic acid (TAPS), pH 8.5; each at a final concentration of 20 mM. N 2 was the headspace gas.
+
+Enrichment and isolation.
+
+R. maderae was obtained from a commercial breeder (Jörg Bernhardt, Helbigsdorf, Germany) and maintained as previously described ( 61 ). An adult female cockroach was dissected, and the whole gut was placed in a culture tube containing 2-mm glass beads (2 g). After addition of 5 mL basal medium, the tube was closed with a rubber stopper, the headspace was gassed with N 2 /CO 2 (90:20, vol/vol), and the gut was homogenized by vortexing for 2 min. The gut homogenate was passed through a cellulose ester membrane filter (Merck Millipore) with pore diameter of 0.3 μm, and the filtrate was serially diluted in deep-agar tubes containing basal medium with 1% agar under a N 2 /CO 2 headspace. A pure culture of strain RmG11 was obtained by two consecutive agar dilution series ( 62 ) from the ultimate dilution step that showed growth. T. zuelzerae (DSM 1903) and M. hungatei JF1 (DSMZ 864) were obtained from the Deutsche Sammlung von Mikroorganismen und Zellkulturen (DSMZ, Braunschweig, Germany).
+
+Growth and physiology.
+
+Growth was measured directly in the culture tubes (16 mm in diameter) by following the increase in optical density at 578 nm (OD 578 ) using a culture tube photometer (Spectronic 20 + , Milton Roy). Dry weight was determined with replicate cultures grown on glucose (8 mM) in 1-l glass vessels containing 500 mL basal medium. After OD measurement, the cells were harvested by centrifugation (10,000 × g ; 20 min), washed with ammonium acetate solution (20 mM), and dried at 60°C until weight constancy.
+
+Growth on other substrates was tested in basal medium supplemented with the respective substrates (8 to 10 mM for most but 4 to 5 mM for disaccharides); carboxylic acids were supplied as sodium salts. Soluble starch (from potato; Merck, catalog no. 1.01252), cellulose (filter paper), carboxymethyl cellulose (sodium salt; molecular weight, ~250,000; degree of substitution, 0.9; Sigma-Aldrich, catalog no. 419303), xylan (from beechwood; Roth, catalog no. 4414.1), and chitin (from shrimp; Tokyo Chemical Industry, catalog no. C0072) were autoclaved in the culture tubes (6 mg/mL) before basal medium was added. Growth on H 2 + CO 2 (80:20, vol/vol) was tested by adding 5 mL H 2 to the headspace of culture tubes with basal medium.
+
+Oxygen tolerance was tested in culture tubes with nonreduced basal medium with 8 mM glucose under N 2 /CO 2 , which received different volumes of air in the headspace and were incubated on a roller mixer (60 rpm). Oxidase activity was tested with glucose-grown cultures in basal medium using oxidase test strips (Bactident, Merck, Darmstadt, Germany); Bacillus subtilis (oxidase-positive) and Escherichia coli (oxidase-negative) were used as controls. Catalase activity was tested by checking the formation of gas bubbles after adding a drop of H 2 O 2 (3%) to cell pellets of glucose-grown cultures; E. coli (catalase-positive) and Elusimicrobium minutum (catalase-negative) ( 63 ) were used as controls. The effect of hemin on catalase expression was tested by adding hemin (2 μg/mL; Sigma-Aldrich) from a stock solution (5 mg/mL in 50 mM NaOH). To avoid false-positive reactions, the suspended cells were separated from precipitated hemin before centrifugation and washed twice with phosphate-buffered saline (PBS: 10 mM Na 2 HPO 4 , 1.8 mM KH 2 PO 4 , 137 mM NaCl, 2.7 mM KCl, pH 7.2).
+
+Metabolic products.
+
+Hydrogen in the culture headspace was analyzed by gas chromatography, using a molecular sieve column and a thermal conductivity detector ( 64 ). Hydrogen partial pressures are given in bars (1 bar is equivalent to a mixing ratio of 100% [vol/vol] at atmospheric pressure). Fermentation products in the culture supernatant were analyzed by high-performance liquid chromatography (HPLC) after centrifugation at 10,000 × g for 10 min and acidification with H 2 SO 4 to a 50 mM final concentration, using a system equipped with an ion-exclusion column and a refractive index detector ( 61 ). The identity of pyruvate was confirmed by measuring lactate after incubating culture supernatant with lactate dehydrogenase and NADH.
+
+Since the bicarbonate buffer did not allow a reliable analysis of CO 2 formation, carbon recovery was calculated with the assumption that the production of acetate and ethanol was accompanied by the formation (and succinate production by the consumption) of one CO 2 . For the calculation of electron recoveries, all metabolites were formally oxidized to CO 2 , and the number of valence electrons theoretically released from the respective amounts of products was compared with that of the dissimilated substrate ( 65 ).
+
+The formation of pyruvate was verified by an enzymatic assay. Supernatant (400 μL) of a stationary culture was collected by syringe and injected into Hungate tubes gassed with N 2 /CO 2 (80/20, vol/vol), which kept the bicarbonate-buffered analyte pH at around 7.0. The presence of pyruvate was tested with two cohorts: (i) 50 μL NADH (10 mg/mL in PBS) and 1 μL l -lactate dehydrogenase (1 U/μL) were added; and (ii) 51 μL PBS was added as control. After incubating at 37°C for 1 h, duplicates of each cohort were analyzed by HPLC. The changes in pyruvate and lactate concentration were calculated from the changes of the respective peak areas compared to the standards.
+
+Light and electron microscopy.
+
+Cultures were examined by light microscopy using an Axiophot photomicroscope (Zeiss, Oberkochen, Germany). Nonstained cultures were routinely examined using phase-contrast illumination (100× objective). The cells were counted in 10 μL of the culture to on a microscope slide with a cover glass (22 mm × 22 mm) in a fixed field of view.
+
+For electron microscopy, the cells were fixed with glutaraldehyde and postfixed with osmium tetroxide before dehydrating in a graded series of ethanol and embedding in Spurr’s resin ( 66 ). Alternatively, 2-μL samples of concentrated cell suspensions were high-pressure frozen, freeze-substituted with HUGA (0.5% uranyl acetate, 0.5% glutaraldehyde, 5% H 2 O in acetone), and embedded in Epon 812 substitute resin, as previously described ( 67 ). Ultrathin sections were cut with a microtome equipped with a diamond knife and contrasted with uranyl acetate and lead citrate. The sections were examined with a Philips EM 208 transmission electron microscope. For negative staining, the samples were prepared and examined as previous described ( 68 ).
+
+Genome sequencing and annotation.
+
+Genomic DNA was prepared using cetyltrimethylammonium bromide (CTAB) extraction ( 69 ) and commercially sequenced (GATC-Eurofins, Konstanz, Germany) on a PacBio RS platform using one SMRT cell (insert size up to 10 kbp). Reads were assembled with the PacBio SMRT Portal software (version 2.3.0) using the hierarchical genome assembly process (HGAP) for assembly and Quiver for polishing ( 70 ). The polished single contig of strain RmG11 was circularized with Circlator ( 71 ).
+
+Genomes were annotated by JGI via the Integrated Microbial Genomes (IMG) annotation pipeline (version 5.0.3 for strain RmG11 and version 5.0.11 for T. zuelzerae ) ( 72 ). For the analysis of the metabolic pathways, we verified the annotation results and identified missing functions using BLAST with a threshold E value of 1e–5. Hydrogenases were classified using the HydDB reference database ( https://services.birc.au.dk/hyddb/ ) ( 73 ). Families of carbohydrate-active enzymes (CAZy) were classified via the dbCAN2 meta server ( http://bcb.unl.edu/dbCAN2/ ) ( 74 ) with default cutoffs (E value < 1e-15 and coverage > 0.35). Signal peptides were detected using the SignalP-5.0 server ( https://services.healthtech.dtu.dk/service.php?SignalP-5.0 ) ( 75 ).
+
+Phylogenetic analyses.
+
+The 16S rRNA gene of strain RmG11 was amplified with bacterium-specific primers and sequenced by Sanger sequencing as previously described ( 76 ). The sequence was aligned with the SINA aligner ( https://www.arb-silva.de/aligner/ ) ( 77 ) and imported into the reference alignment of the Silva database (version 132) ( 78 ); additional sequences were downloaded from GenBank. The alignments were manually curated using the ARB software package (version 6.0.6) ( 79 ). A maximum-likelihood tree of the 16S rRNA genes was inferred from 1,275 unambiguous alignment positions (sites with more than 50% gaps were masked) using the PhyML algorithm (version 3.3) ( 80 ) with the GTR model and aBayes branch supports ( 81 ) included in ARB. Pairwise sequence identities of 16S rRNA genes are based on a distance matrix of the unfiltered alignment generated in ARB.
+
+The genomes of strain RmG11 and T. zuelzerae were phylogenetically classified within the taxonomic framework of the Genome Taxonomy Database (GTDB, release 202) using GTDB-Tk (version 1.1.3) ( 82 ). A maximum-likelihood tree based on the genomes was inferred from a concatenated alignment of 120 bacterial single copy genes (5,037 amino acid positions) using the PhyML algorithm with LG model and aBayes branch supports. The average nucleotide identities (ANIs) of the genomes were calculated with FastANI (version 1.3) ( 83 ).
+
+Data availability.
+
+16S rRNA gene sequences of strain RmG11 have been submitted to GenBank (ID OK632443 ). The genome sequences have been submitted to GenBank and IMG: strain RmG11, IMG ID 2844784998 (uncircularized), GenBank ID CP084606 (circularized); and T. zuelzerae , IMG ID 2859917081, GenBank ID JAINWA000000000 .
+
+Footnotes
+
+Supplemental material is available online only.
+
+Contributor Information
+
+Andreas Brune, Email: brune@mpi-marburg.mpg.de.
+
+Knut Rudi, Norwegian University of Life Sciences.
+
+Associated Data
+
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+
+Supplementary Materials
+
+Fig. S1 to S3, Tables S1 to S5, and description of Table S6. Download aem.00503-22-s0001.pdf, PDF file, 1.3 MB (1.3MB, pdf)
+
+Table S6. Download aem.00503-22-s0002.xlsx, XLSX file, 0.2 MB (158.7KB, xlsx)
+
+Data Availability Statement
+
+16S rRNA gene sequences of strain RmG11 have been submitted to GenBank (ID OK632443 ). The genome sequences have been submitted to GenBank and IMG: strain RmG11, IMG ID 2844784998 (uncircularized), GenBank ID CP084606 (circularized); and T. zuelzerae , IMG ID 2859917081, GenBank ID JAINWA000000000 .

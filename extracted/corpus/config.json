@@ -1,0 +1,10 @@
+{
+  "version": "7.0-conservative-frontmatter-and-references",
+  "paper_count": 183,
+  "metadata_csv": "../papers_metadata.csv",
+  "status_counts": {
+    "ok": 167,
+    "review": 16
+  },
+  "note": "本程序只提取文本；质量标签是自动筛查，不等于人工验证。"
+}

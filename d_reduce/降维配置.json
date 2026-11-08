@@ -1,0 +1,44 @@
+{
+  "stage": "dimensionality_reduction_only",
+  "n_papers": 180,
+  "original_dim": 768,
+  "seed": 42,
+  "input_feature": "/home/zxx/bigdata/exp1/features_final/specter2_proximity.npy",
+  "input_index": "/home/zxx/bigdata/exp1/features_final/papers_index.csv",
+  "feature_sha256": "8204cebc1ec929d0547690d175093867bfd6d82b8531142c8a8d48e9c773ec20",
+  "index_sha256": "3bb4f3a8eb56824801c6d5264a2f37fab8538165bb75002dc47539992586cf61",
+  "specs": {
+    "PCA": {
+      "spec_id": "PCA_20d",
+      "dim": 20
+    },
+    "UMAP": {
+      "spec_id": "UMAP_10d_n20_md0p00",
+      "dim": 10,
+      "n_neighbors": 20,
+      "min_dist": 0.0
+    },
+    "LocalMAP": {
+      "spec_id": "LocalMAP_10d_n10",
+      "dim": 10,
+      "n_neighbors": 10
+    }
+  },
+  "embedding_sha256": {
+    "PCA_20d": "6f60283596f721a92d92201166e991128545b0428e081853f4925c55a2eaaae6",
+    "UMAP_10d_n20_md0p00": "2bef059363f9356ffce4f3e31c24ecb0b4c14595a019e6ce526c523aec1f8160",
+    "LocalMAP_10d_n10": "81973bee083b6d9ac5655a4c0843032b771b0fef0636bbeb7e944a4b2f04738e"
+  },
+  "method_notes": {
+    "PCA": "full SVD, no feature re-normalization after reduction",
+    "UMAP": "cosine input metric; random_state=42; n_jobs=1",
+    "LocalMAP": "MN_ratio=0.5, FP_ratio=2.0, apply_pca=False, init=pca; internal RNG may vary by version"
+  },
+  "software": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "scikit-learn": "1.9.1",
+    "umap-learn": "0.5.12",
+    "pacmap": "0.9.1"
+  }
+}

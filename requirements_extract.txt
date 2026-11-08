@@ -1,0 +1,14 @@
+# Python 3.12 / Ubuntu
+# 论文 HTML + PDF 基础提取依赖（兼容当前 paper_extract_reference.py）
+beautifulsoup4>=4.12,<5
+lxml>=5,<7
+trafilatura>=2,<3
+
+# 重要：当前脚本使用 `import pymupdf4llm` + `to_markdown()`。
+# 2.x 已迁移接口，因此先固定在兼容脚本的 1.28.2。
+# 会自动安装对应版本的 pymupdf、pymupdf_layout 等依赖。
+pymupdf4llm==1.28.2
+
+# MinerU 是复杂 PDF 的可选后备，单独安装以减少与现有 CUDA/PyTorch 环境冲突：
+# 模型在运行时按脚本设置从 ModelScope 获取或使用本地缓存，无需访问 Hugging Face。
+mineru[torch]>=4.1,<5

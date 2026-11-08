@@ -1,0 +1,278 @@
+INTRODUCTION
+Northern New Mexico College (NNMC) is a small rural college with a 71% Hispanic and 10% Native American population. Despite limited resources, we have created courses to introduce students to neuroscience and in particular neurophysiology, which is typically inaccessible at institutions like NNMC because of cost. One component of a course involving the study of how sensory information is encoded by the firing rate of action potentials (rate coding) led to the development of a project where cockroaches (mostly Blaptica dubia) were used to conduct low-cost neurophysiological experiments. Theobald et al. (1) note that underrepresented students learn better when a “high-quality” active component of a class is used.
+
+Neuroscience programs often require expensive equipment and institutional research clearance for protocols when vertebrate organisms are used. An alternative is to use invertebrates. Although invertebrates have a smaller number of identifiable neurons, the neurons can remain viable for long periods (2). Other authors have used earthworms (3) and crustaceans (2) to teach principles of neuronal excitability and synaptic communication in the student laboratory. Linder and Palka (4) discuss an inexpensive apparatus for recording action potentials in cockroaches. Titlow et al. (5) and Ramos et al. (6) developed biological preparations using the common American cockroach, Periplaneta americana, for teaching undergraduate neurophysiology.
+
+We use B. dubia (orange-spotted cockroach) and Gromphadorhina portentosa (hissing cockroach) as our experimental organisms to study sensory electrophysiology. When it comes to electrophysiology, the cockroach is very suitable since it is incredibly resilient and its legs can be studied for hours after detachment from the thorax (4). Teaching neurophysiology in a laboratory setting can be done inexpensively with the SpikerBox apparatus (7), which we used to record sensory action potentials with extracellular pin electrodes. The SpikerBox is produced by Backyard Brains (https://backyardbrains.com). Other authors have also used the SpikerBox; for example, Dagda et al. (8) used it to study electrophysiological signals when stimulating the cerci or isolated legs of crickets. Nguyen et al. (9) used the SpikerBox to study the response of the descending contralateral movement detector neuron in a grasshopper’s neck to visual stimuli.
+
+An important component of neuroscience research requires isolating the activity of individual neurons with extracellular electrodes. Electrodes record signals from many neurons close to the electrode tip that fire action potentials or spikes. The spike shape received from an individual neuron is determined by the unique morphology of the neuron’s dendritic tree as well the spatial distance and geometric orientation to the recording electrode (10). Mathematically and in neuroscience, spike sorting is the grouping of spikes and the individual neurons that produced them into clusters based on their shapes.
+
+Undergraduates studying neuroscience traditionally spend a significant amount of time learning the biological preparation (cockroach handling, dissections) in which to perform electrophysiological experiments and often use analysis software as “black boxes” to analyze the signals that are generated. In addition to introducing students to the principles of action potentials, our experiment advances the learning of these mechanical procedures with computational analysis. Kazar and Elrod (11) emphasize the need for interdisciplinary training for students to be successful in future STEM careers. We selected this experiment because it allows students to
+
+prepare a cockroach leg for extracellular neurophysiological readings;
+
+monitor and record spiking activity evoked through mechanical stimulation of a cockroach leg with a SpikerBox and a computer;
+
+analyze and sort the various types of action potentials by using and interacting with the free code written in Octave; and
+
+learn how rate coding or the average neuron firing rate can encode sensory information.
+
+After the experiment, students will have learned the procedures for handling cockroaches, how to use hardware and software tools for data acquisition, and the importance of spike sorting for analysis.
+
+Our experiment engages the student in the computational facets of spike sorting, which are often overlooked. Students interact with the code and choose different selection criteria for spike sorting as well as the size and number of the spike sorting groups.
+
+We thus expose undergraduates to interdisciplinary research methods in neurophysiology with low-cost approaches at a small rural minority-serving institution, research they would otherwise only receive at a large university.
+
+METHODS
+Northern New Mexico College maintained a self-breeding facility with 100–200 B. dubia cockroaches. Students first selected a B. dubia female and anesthetized the insect in ice water for 1–2 min. A metathoracic leg was severed below the trochanter on the femur with scissors. The amputated leg was then placed on top of a cork, and electrode leads from a SpikerBox were inserted into the cockroach leg’s femur.
+
+The SpikerBox amplifies the signal 880 times. Marzullo and Gage (7) include an Excel list of components that can be assembled for under $33 along with a detailed circuit diagram.
+
+After allowing the leg to warm up for 2 min, students recorded extracellular action potential activity with Audacity (2.3.1) running on a laptop while mechanically stimulating tactile spines on a cockroach leg with a plastic rod. Action potentials are displayed as spikes above the base neural activity. Figure 1 shows an example of a severed leg with electrodes. Students found that less electrical noise was generated when the spines were stimulated with a plastic or wooden instrument instead of a metal instrument. A Faraday cage was also used to minimize any electrical interference, and the laptop was not connected to the electrical outlet during the recording, as recommended by Marzullo and Gage (7). After the experiment was performed, students exported a .wav file of collected data from Audacity to GNU Octave (5.1.0) for analysis using our own spike sorting code. We used Octave because it is intended for numerical computations, and students can download the software free of charge at https://www.gnu.org/software/octave. We do note that the code can also be run with MATLAB. The spike sorting algorithm itself can be downloaded free of charge at https://github.com/davytorres/Spike-sorting-algorithm.
+
+RESULTS
+Each spine on the leg of the cockroach is innervated by a single sensory neuron (12, 13). However, many sensory neurons will fire spontaneously in addition to the neuron evoked upon spine stimulation. Because many of the spines and hairs are likely stimulated simultaneously simply by the air moving around the preparation, spike sorting is necessary to identify action potentials generated by individual sensory neurons (14). The process of identifying individual action potentials is compounded by the fact that multiple action potentials can occur at the same time. In addition, one must account for the presence of noise in the voltage signal.
+
+A spike sorting algorithm involves setting a threshold voltage to filter out noise and to select prominent action potentials; reducing the dimensionality of the action potentials to a few features by selecting criteria manually or by using the principal component analysis (PCA) algorithm (15); and selecting clusters of similar action potentials in the reduced dimension space. Authors have used algorithms to separate action potentials that occur together (16). Our algorithm does not attempt to separate overlapping spikes and assumes there exist sufficient waveforms in the recorded signal that come from individual neurons that do not overlap (e.g., 1,174 waveforms were identified in the recording from 45 s to 100 s). Once action potentials of similar waveform have been found, the interspike interval (ISI) between similar spikes can be computed. The ISI can then be used to better understand the principles of how information is encoded by neurons.
+
+Two fundamental codes have been suggested: a rate code and a spike time code. In the rate code, information is encoded as the average firing rate of neurons over a specified time interval (17, 18). Generally, the rate of action potential generation is proportional to the strength of a sensory stimulus. Stronger stimuli result in higher firing frequencies (shorter ISIs), and weaker stimuli result in lower firing frequencies (longer ISIs). In contrast, in the spike timing code information is encoded in ISI fluctuations and how neurons fire relative to each other (19). Adaptation can also occur in neural systems. To encode efficiently, a neural system must change its coding strategy as stimuli change (20). For example, the firing rate may decrease after repeated exposure to a stimulus. Our analysis is based on the rate code and finding the firing rate of neurons. The next section discusses how individual spikes are identified from a recording so this firing frequency can be computed.
+
+Spike Sorting
+The use of different features for spike sorting has been explored by Bestel et al. (21). Authors have also made their spike sorting codes available (22–24). Our Octave code allows students to choose their own criteria to sort spikes. Figure 2 shows an extracellular spike extracted from the recording. In contrast to the intracellular spike, the extracellular spike is inverted: a large drop in voltage is followed by a positive voltage peak (25). Although the timescale is similar for both intracellular and extracellular spikes (∼1 ms), the amplitude of the extracellular peak can be an order of magnitude less than the intracellular spike.
+
+Spike sorting begins by selection of a minimum threshold amplitude. Spikes must reach this voltage to be considered for further spike selection. Students can then select any combination of 2 features from 11 different features to characterize a single action potential waveform (see Fig. 2): 1) positive spike height, 2) negative spike height, 3) positive half-width, 4) positive full width, 5) negative half-width, 6) negative full width, 7) area under positive branch, 8) area under negative branch, 9) combined area under both positive and negative branches, 10) time between peaks, and 11) combined height (positive spike height + negative spike height). The PCA algorithm can also be used in lieu of these choices. PCA determines new orthogonal coordinate axis directions such that the spike variations are greatest in these directions (15, 26).
+
+The purpose of using selection criteria is to reduce the dimensionality of the spike data to usually two features in order to apply a sorting or clustering algorithm. Features with more variability, which can be measured with the coefficient of variation, are preferred since variability can be exploited to distinguish and sort spikes into different categories. The code does output and rank the coefficient of variation for each of these selection criteria.
+
+Assume there are n spikes with two (x and y) features: {xi|1≤i≤n}, {yi|1≤i≤n}. We normalize each of the feature scores before computing the distance between the scores,
+
+where ̅̅̅̅̅x and ̅y are the means and sx and sy are the standard deviations of the x and y scores, respectively. The Euclidian distance is then used to compute the distance di,j between two spikes,
+
+The clustering algorithm searches for groups of spikes that are close neighbors according to the distance defined by Eq. 2. Our developed clustering algorithm uses an interactive process. A radius is drawn around one spike score in a densely populated region of scores. Spikes within the radius are included in the clustering group. Subsequently, radii are drawn around newly enlisted members of the clustering group, which themselves recruit new members within their radii. The code generates a figure showing which color-coded scores are currently in the spike group or cluster and queries the student to determine whether additional scores should be added. The process is repeated until the student is satisfied that a representative set of similar scores (and therefore similar spikes) have been established. The search radius that is used to enlist new scores can also be adjusted during the iterative process. If the student chooses, additional clusters can be added. The algorithm then identifies a new dense center of scores sufficiently separated from any previously cluster center. Students can also adjust the minimum distance new clusters need to be separated from existing clusters.
+
+Let us illustrate the process with an actual recorded signal from a G. portentosa leg. Figure 3A displays a total of 284 s of recorded signal collected from a G. portentosa leg. Three different spines were mechanically probed with the same stimulus (strength and duration) from 28 s to 150 s, from 188 s to 228 s, and from 254 s to 284 s, respectively. These intervals are labeled with arrows and numerals in Fig. 3A. The recording used a sampling rate of 44.1 kHz.
+
+During the interactive process, students choose the time range from the entire recording that will be analyzed, the spike threshold, the spike selection criteria, the number of spikes in a spike group or cluster, and the number of distinct spike groups. An example of a code simulation and this interactive process is provided in the appendix. Participating students also took a survey to evaluate the exercise and provide feedback.
+
+Figure 3A highlights in cyan, and Fig. 3B displays a selected recording from 45 s to 100 s generated from the mechanical stimulation of the first spine. A threshold of 0.145 V (amplified) is used to filter low-amplitude spikes, and the PCA algorithm is selected to automatically develop the selection criteria. Figure 4A plots the spike selection criteria scores that are generated with the PCA algorithm. PCA 1 and PCA 2 represent score values in the directions of highest variation. Spikes are matched based on proximity and colored similarly (e.g., red and green). There are 197 spikes in the red cluster and 133 spikes in the green cluster. These were selected from a total of 1,174 cyan spikes that met the threshold criteria. The code also overlays the corresponding matching spikes in Fig. 4B with a plot of an average group spike shown in black so students can visually compare the matched spikes.
+
+Figure 5A plots the normalized selection criteria scores (zxi,zyi) from the same recording selection and threshold as Fig. 4. However, the normalized positive half-width and the positive spike height are used for the selection criteria (see Fig. 2). The corresponding spikes are overlaid in Fig. 5B. There are 142 spikes in the red cluster and 145 spikes in the green cluster, which were chosen from a total of 1,174 cyan spikes that met the threshold criteria. There are noticeable differences in the spikes selected in Fig. 4 and Fig. 5, so the spike selection criteria do affect the composition of the spike groups.
+
+To validate the analysis protocol developed in Octave, we analyzed the same data set with a commercially available software for analyzing electrophysiological signals, ADInstruments LabChart 8.1.13—Spike Histogram Module 2.6.2 (ADInstruments NZ Limited, Dunedin, New Zealand). A figure similar to Fig. 5 was reproduced with LabChart and compared to the Octave code for a very short recording for code validation. Figure 6 plots the selection scores and the matched spikes from the Octave code, and Fig. 7 plots the corresponding information from LabChart.
+
+Computing Interspike Intervals and Frequencies
+Interspike intervals can be computed by finding the time between successive spikes within similar spike groups. Figure 8 shows a 2-s recording selection that has highlighted the red and green spikes from Fig. 4B in the original recording.
+
+Once the interspike intervals have been computed for each spike group, firing frequencies can be computed by taking the reciprocal of the interspike intervals. Figure 9, A and C, show the time history of the frequency and the ISI for the red spikes, respectively, from Fig. 4 when the first spine is mechanically stimulated from 45 s to 100 s. The average value of each spike group is plotted in black. Figure 9, B and D, show the firing frequency distribution histogram and the ISI distribution histogram, respectively.
+
+Figure 10 shows the frequency and ISI time history and corresponding distribution histograms when the third spine of the hissing cockroach (G. portentosa) is mechanically stimulated from 254 s to 260 s. In contrast to Fig. 9, we see that the firing frequency decreases over time.
+
+The differences in the firing rate in Fig. 9 and Fig. 10 and differences in how the firing rate changes over time illustrate that different spines will evoke different electrophysiological responses.
+
+Survey Results
+A survey was administered to eight students (7 biology students and 1 math student) who participated in the computational spike sorting exercise in March 2019. Table 1 shows the average scores. Students rated each question from 1 to 5, where 1 was the lowest and 5 was the highest. A couple of students found the process of uncommenting sections of the code confusing. We have since changed the code, so students input information on the Octave command line instead of changing parameters and lines in the actual code.
+
+Table 1.
+Values are average scores. Students rated each question from 1 to 5, where 1 was the lowest and 5 the highest score.
+
+DISCUSSION
+We have devised a low-cost process that can extract and analyze neural activity from cockroach legs using the output from a SpikerBox apparatus and Audacity. The analysis is performed by setting parameters and interacting with a code developed in Octave. The process allows undergraduates to participate in all phases of a neurophysiology experiment (cockroach handling, data collection, and data analysis). We note that our Octave algorithm can analyze any extracellular spiking signal and not just recordings from cockroaches.
+
+The interactive algorithm allows students to select a threshold amplitude and spike features for spike sorting. Figure 4 shows the spikes that are selected when the principal component analysis algorithm is used, and Fig. 5 shows how the spike half-width and height selections change the selected spike groups. Students can also choose the number and size of the spike groups during the clustering phase of the algorithm. A survey showed that the activity and the code interaction increased students’ understanding of facets of a spike sorting algorithm.
+
+The activity also allows students to explore rate coding. Figures 9 and 10 show that the mechanical stimulation of different spines affects the firing rate of neurons and how the firing rate changes over time. In contrast to Fig. 9, the firing rate decreases over time in Fig. 10.
+
+Our design makes neurophysiology accessible to undergraduates at colleges that may lack the equipment and funding of larger universities. The spike sorting algorithm itself as well as an example .wav recording of spiking activity can be downloaded free of charge at https://github.com/davytorres/Spike-sorting-algorithm. The YouTube video https://www.youtube.com/watch?v=kN8cpM_rOuw explains how to run the code. The design of these experiments could also be modified to demonstrate the effects that various drugs and different temperatures have on the firing rate of these sensory neurons. Since this is the first instance of the computational exercise, we would also pursue integrating the spike sorting activity in a regular course.
+
+APPENDIX
+Enter recording filename (.wav format) Experiment.wav
+
+Press Ctrl C together anytime to end analysis
+
+Length of recording in seconds 284.2817007
+
+Total number of data points 12536823
+
+Sampling rate in Hertz 44100.0000000
+
+Time step in milliseconds 0.0226757
+
+Maximum absolute height of spikes 0.556183
+
+*************** Selection parameters *****************
+
+1: Height 2: Negative height
+
+3: Half positive width 4: Full positive width
+
+5: Half negative width 6: Full negative width
+
+7: Positive area 8: Negative area 9: Total area
+
+10: Distance between positive and negative peaks
+
+*****************************************************
+
+Enter 0 for manual selection or 1 to use Principal Component Analysis 1
+
+Enter 1 to plot total signal, 0 to continue 1
+
+Since the recording is very large 12536823
+
+Plot every 10 points of recording
+
+Plotting total signal
+
+Start time needs to be greater than 0 and less than total time 284.2817007
+
+Enter start time (in seconds) to begin analysis 45
+
+End time needs to be greater than start time 45 and less than total time 284.2817007
+
+Enter end time (in seconds) at which to end analysis 100
+
+Spike threshold needs to be greater than 0 and less than the maximum spike height 0.5561829
+
+Enter minimum threshold for spikes to be considered for analysis .145
+
+Threshold in spike sorting algorithm 0.1450
+
+Extracting recording from start time to end time
+
+Are you satisfied with your choice of the spike threshold and start and end times for analysis?
+
+Enter 0: No (program will end and can be rerun) OR 1: Yes 1
+
+Finding location of peaks
+
+Number of peaks (positive or negative) found above threshold 400
+
+Number of peaks (positive or negative) found above threshold 800
+
+Number of peaks (positive or negative) found above threshold 1200
+
+Number of peaks (positive or negative) found above threshold 1600
+
+Number of peaks (positive or negative) found above threshold 2000
+
+Number of peaks (positive or negative) found above threshold 2400
+
+Number of peaks above threshold 1174
+
+Coefficient of variation of Time between peaks is 0.789149
+
+Coefficient of variation of Negative area is 0.575886
+
+Coefficient of variation of Negative height is 0.498964
+
+Coefficient of variation of Full negative width is 0.288835
+
+Coefficient of variation of Half negative width is 0.258522
+
+Coefficient of variation of Total area is 0.219929
+
+Coefficient of variation of Positive area is 0.21833
+
+Coefficient of variation of Full positive width is 0.193286
+
+Coefficient of variation of Half positive width is 0.181045
+
+Coefficient of variation of Height is 0.131702
+
+First selection criteria PCA Score 1
+
+Second selection criteria PCA Score 2
+
+Normalizing scores by subtracting mean and dividing by standard deviation
+
+Begin clustering algorithm
+
+Finding distances between scores
+
+Finished calculating distance up to peak 400 out of 1174 peaks
+
+Finished calculating distance up to peak 800 out of 1174 peaks
+
+End finding distances between scores
+
+Adding points to cluster 1
+
+Horizontal and vertical range of cluster 1 red scores: 3.255033e-02 6.010697e-03
+
+Number of points in cluster 1 is 46
+
+Refer to figure. Add to cluster? Yes: 1, No: 0 to stop adding points to cluster 1
+
+Horizontal and vertical range of cluster 1 red scores: 6.310170e-02 1.939177e-02
+
+Number of points in cluster 1 is 132
+
+Refer to figure. Add to cluster? Yes: 1, No: 0 to stop adding points to cluster 1
+
+Horizontal and vertical range of cluster 1 red scores: 9.443108e-02 3.438174e-02
+
+Number of points in cluster 1 is 197
+
+Refer to figure. Add to cluster? Yes: 1, No: 0 to stop adding points to cluster 0
+
+Enter 1 to construct a new cluster, 0 to stop adding clusters 1
+
+Adding points to cluster 2
+
+Horizontal and vertical range of cluster 2 green scores: 5.791398e-02 4.106001e-01
+
+Number of points in cluster 2 is 61
+
+Refer to figure. Add to cluster? Yes: 1, No: 0 to stop adding points to cluster 1
+
+Horizontal and vertical range of cluster 2 green scores: 1.057439e-01 4.640091e-01
+
+Number of points in cluster 2 is 133
+
+Refer to figure. Add to cluster? Yes: 1, No: 0 to stop adding points to cluster 0
+
+Enter 1 to construct a new cluster, 0 to stop adding clusters 0
+
+Overlaying spikes
+
+Press enter to continue
+
+Plotting time range and spike types
+
+Number of types of spikes 2
+
+Press enter to continue
+
+Calculating interspike intervals and frequencies
+
+Minimum frequency used 10
+
+Maximum frequency used 120
+
+Total number of frequencies is 196 for group 1
+
+Total number of frequencies is 132 for group 2
+
+Creating plots for group 1
+
+Standard deviation of Interspike Interval scores for Group 1 is 63.20 ms
+
+Total number of interspike intervals is 60 for group 1
+
+Plotting information for group 1
+
+Press enter to continue
+
+Creating plots for group 2
+
+Standard deviation of Interspike Interval scores for Group 2 is 68.21 ms
+
+Total number of interspike intervals is 22 for group 2
+
+Plotting information for group 2
+
+GRANTS
+U.M.R. was supported by grants from the Grass Foundation and the National Institute of General Medical Sciences of the National Institutes of Health under linked Award Numbers RL5 GM-118969, TL4 GM-118971, and UL1 GM-118970. D.J.T. was supported by an Institutional Development Award (IDeA) from the National Institute of General Medical Sciences of the National Institutes of Health under Grant P20 GM-103451.
+
+DISCLOSURES
+No conflicts of interest, financial or otherwise, are declared by the authors.

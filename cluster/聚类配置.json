@@ -1,0 +1,61 @@
+{
+  "stage": "clustering_only",
+  "algorithm": "Leiden",
+  "n_papers": 180,
+  "seed": 42,
+  "input_reduction_dir": "/home/zxx/bigdata/exp1/d_reduce",
+  "input_feature": "/home/zxx/bigdata/exp1/features_final/specter2_proximity.npy",
+  "input_index": "/home/zxx/bigdata/exp1/features_final/papers_index.csv",
+  "input_reduction_manifest_index_sha256": "3bb4f3a8eb56824801c6d5264a2f37fab8538165bb75002dc47539992586cf61",
+  "input_reduction_manifest_feature_sha256": "8204cebc1ec929d0547690d175093867bfd6d82b8531142c8a8d48e9c773ec20",
+  "input_embedding_sha256": {
+    "PCA_20d": "6f60283596f721a92d92201166e991128545b0428e081853f4925c55a2eaaae6",
+    "UMAP_10d_n20_md0p00": "2bef059363f9356ffce4f3e31c24ecb0b4c14595a019e6ce526c523aec1f8160",
+    "LocalMAP_10d_n10": "81973bee083b6d9ac5655a4c0843032b771b0fef0636bbeb7e944a4b2f04738e"
+  },
+  "chosen_configurations": {
+    "PCA": {
+      "spec_id": "PCA_20d",
+      "dim": 20,
+      "graph_mode": "mutual",
+      "graph_k": 10,
+      "gamma": 1.5
+    },
+    "UMAP": {
+      "spec_id": "UMAP_10d_n20_md0p00",
+      "dim": 10,
+      "graph_mode": "union",
+      "graph_k": 5,
+      "gamma": 1.5
+    },
+    "LocalMAP": {
+      "spec_id": "LocalMAP_10d_n10",
+      "dim": 10,
+      "graph_mode": "union",
+      "graph_k": 10,
+      "gamma": 1.0
+    }
+  },
+  "graph_distance": "euclidean",
+  "edge_weight_formula": "exp(-d(i,j)^2 / (sigma_i*sigma_j))",
+  "leiden_objective": "RBConfigurationVertexPartition",
+  "leiden_iterations": -1,
+  "reference_topics_optional": null,
+  "notes": [
+    "Only three selected configurations; not a hyperparameter sweep.",
+    "The 2D UMAP maps in visualize_UMAP_v6.py are visualization-only, not clustering input.",
+    "Distinct Leiden graph parameters for each reduction method mean differences are not solely attributable to reducers.",
+    "Leiden does not mark noise by default; singleton clusters are counted as valid communities.",
+    "Reference topic labels are exploratory, not independent ground truth.",
+    "Original-space silhouette uses SPECTER2 cosine distances.",
+    "Reduced embeddings are read directly from d_reduce/embeddings. No copies or symlinks are created under cluster/."
+  ],
+  "software": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "leidenalg": "0.12.0",
+    "igraph": "1.0.0"
+  }
+}
