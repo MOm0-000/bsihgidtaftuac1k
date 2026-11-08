@@ -472,13 +472,10 @@ def review_complete(folder: Path) -> bool:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description='15篇PDF人工核查后的定向修复（固定180篇，不改动原始文件）')
-    parser.add_argument('--force', action='store_true', help='替换本脚本上次生成的候选目录')
-    args = parser.parse_args()
+    parser.add_argument('--force', action='store_true', help='兼容旧命令；脚本现在每次都重建候选语料')
+    parser.parse_args()
     if not SOURCE.is_file():
         parser.error(f'找不到输入：{SOURCE}，请先运行 2.1clean_corpus.py')
-    if TARGET.exists() and not args.force and review_complete(TARGET):
-        print('2.2：已有完整人工复核结果，跳过。')
-        return
     rows = [json.loads(x) for x in SOURCE.read_text('utf-8').splitlines() if x.strip()]
     ids = [str(x.get('pmid', '')) for x in rows]
     expected_targets = {'2257383', '12194887', '6487732', '17246411',

@@ -51,20 +51,9 @@ def read_corpus():
 
 
 def ensure_paper_index(papers, source_sha):
-    """继承现有 papers_index.csv 的接口；如已存在则严格核对而不覆盖。"""
+    """每次按当前语料生成论文索引，允许正常重跑。"""
     OUTPUT.mkdir(parents=True, exist_ok=True)
     idx, info = OUTPUT / 'papers_index.csv', OUTPUT / 'corpus_info.json'
-    if idx.exists() != info.exists():
-        raise RuntimeError('papers_index.csv 与 corpus_info.json 不完整，请先核对现有特征目录')
-    if idx.exists():
-        old = json.loads(info.read_text(encoding='utf-8'))
-        with idx.open(newline='', encoding='utf-8-sig') as f:
-            records = list(csv.DictReader(f))
-        if (old.get('source_sha256') != source_sha or len(records) != 180 or
-                [str(row['pmid']) for row in records] != [str(p['pmid']) for p in papers] or
-                [int(row['row_index']) for row in records] != list(range(180))):
-            raise RuntimeError('现有论文索引与当前语料不一致；停止以防混用不同批次')
-        return
     with idx.open('w', encoding='utf-8-sig', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=['row_index', 'pmid', 'title', 'has_abstract', 'quality_status'])
         writer.writeheader()
@@ -74,7 +63,8 @@ def ensure_paper_index(papers, source_sha):
             'quality_status': p.get('quality_status', ''),
         } for i, p in enumerate(papers))
     info.write_text(json.dumps({
-        'input': str(INPUT.relative_to(ROOT)), 'source_sha256': source_sha, 'n_papers': 180,
+        'input': str(INPUT.relative_to(ROOT)), 'source_sha256': source_sha,
+        'n_papers': len(papers),
         'missing_abstract': sum(not str(p.get('abstract') or '').strip() for p in papers),
     }, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
 
@@ -227,7 +217,6 @@ def main():
     if not FORCE_RECOMPUTE and existing_features_complete(papers, source_sha):
         print('3：已有与当前180篇语料一致的完整特征结果，跳过模型推理。')
         return
-    ensure_paper_index(papers, source_sha)
     base, adapter = ensure_models()
     from transformers import AutoTokenizer
     from adapters import AutoAdapterModel
@@ -239,16 +228,18 @@ def main():
     model.load_adapter(str(adapter), load_as='proximity', set_active=True)
     model = model.to(device).eval()
 
-    # 保持与既有extract_embeddings.py相同的缓存签名，复用已提取的180个向量。
+    # 按标题/摘要和模型设置缓存；缓存格式不变，原有缓存首次可能需要重建。
     settings = {
         'method': 'specter2', 'model_version': MODEL_VERSION,
         'source_sha256': source_sha, 'specter_max_tokens': MAX_TOKENS,
         'missing_abstract': 'title only; never infer from body',
         'vector_pooling': 'CLS normalized',
     }
-    cfg_hash = hashlib.sha256(json.dumps(settings, sort_keys=True).encode()).hexdigest()
+    # 缓存签名不包含整份语料的 SHA：正文修改不应使所有标题/摘要向量失效。
+    cache_settings = {k: v for k, v in settings.items() if k != 'source_sha256'}
+    cfg_hash = hashlib.sha256(json.dumps(cache_settings, sort_keys=True).encode()).hexdigest()
     vectors, report = [], []
-    print(f'SPECTER2 Proximity：180篇论文；设备：{device}', flush=True)
+    print(f'SPECTER2 Proximity：{len(papers)}篇论文；设备：{device}', flush=True)
     sep = tokenizer.sep_token or '[SEP]'
     for i, p in enumerate(papers, start=1):
         abstract = str(p.get('abstract') or '').strip()
@@ -269,12 +260,13 @@ def main():
             'status': status, 'input_sha256': input_hash, 'input_tokens': n_tokens,
             'chunks_used': 1, 'was_truncated_or_sampled': int(n_tokens > MAX_TOKENS),
         })
-        if i % 10 == 0 or i == 180:
-            print(f'  {i}/180', flush=True)
+        if i % 10 == 0 or i == len(papers):
+            print(f'  {i}/{len(papers)}', flush=True)
     matrix = np.stack(vectors).astype('float32')
     if (matrix.shape != (180, 768) or not np.isfinite(matrix).all() or
             not np.allclose(np.linalg.norm(matrix, axis=1), 1.0, atol=1e-4)):
         raise RuntimeError(f'SPECTER2输出矩阵无效：{matrix.shape}')
+    ensure_paper_index(papers, source_sha)
     atomic_numpy_save(OUTPUT / 'specter2_proximity.npy', matrix)
     settings['shape'] = list(matrix.shape)
     (OUTPUT / 'specter2_config.json').write_text(

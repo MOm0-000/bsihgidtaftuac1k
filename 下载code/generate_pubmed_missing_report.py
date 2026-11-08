@@ -3,9 +3,9 @@
 """扫描本地 PDF / FullText，生成可筛选的 PubMed 缺失文献 HTML 导航报告。
 
 默认使用：
-    Excel:  /home/zxx/bigdata/exp1/zzx.xlsx
-    目录:   /home/zxx/bigdata/exp1/reference
-    HTML:   /home/zxx/bigdata/exp1/reference/pubmed_missing_report.html
+    Excel:  下载code/zzx.xlsx
+    目录:   reference/
+    HTML:   reference/pubmed_missing_report.html
 
 依赖：Python 3.9+ 标准库；不联网、不下载、不修改 PDF/HTML。
 """
@@ -25,8 +25,9 @@ from urllib.parse import quote
 from xml.etree import ElementTree as ET
 from zipfile import ZipFile
 
-DEFAULT_EXCEL = Path('/home/zxx/bigdata/exp1/zzx.xlsx')
-DEFAULT_ROOT = Path('/home/zxx/bigdata/exp1/reference')
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+DEFAULT_EXCEL = Path(__file__).resolve().parent / 'zzx.xlsx'
+DEFAULT_ROOT = PROJECT_ROOT / 'reference'
 OUTPUT_NAME = 'pubmed_missing_report.html'
 
 # 以前的 64 篇失败文献的离线元数据，方便在没有网络时显示 PMC、PMC PDF、DOI。

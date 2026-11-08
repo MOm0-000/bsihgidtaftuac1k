@@ -1,8 +1,10 @@
 import pandas as pd
+from pathlib import Path
 
 # 1. 读取 sheet1
-input_file = "/home/zxx/bigdata/exp1/下载code/pubmedid_for-stu.xlsx"  # 改成你的文件名
-output_file = "/home/zxx/bigdata/exp1/下载code/zzx.xlsx"     # 输出文件名
+HERE = Path(__file__).resolve().parent
+input_file = HERE / "pubmedid_for-stu.xlsx"
+output_file = HERE / "zzx.xlsx"
 
 df = pd.read_excel(input_file, sheet_name="Sheet1", dtype={"Student ID": str})
 
