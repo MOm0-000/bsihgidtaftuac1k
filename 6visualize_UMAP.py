@@ -71,7 +71,7 @@ HULL_MIN_POINTS = 4                 # 少于4个不同位置的点不画面状�
 HULL_RADIUS_FACTOR = 2.4            # 最大三角形外接圆半径，相对簇内最近邻中位距离
 HULL_FILL_ALPHA = 0.12              # 半透明填充，避免掩盖散点
 HULL_LINE_ALPHA = 0.72              # 细边线
-HULL_LOOSE = False                  # False=严格：圈入任意其他簇/噪声点就不画；True=宽松：允许圈入，仍要求完整包围本簇
+HULL_LOOSE = True                  # False=严格：圈入任意其他簇/噪声点就不画；True=宽松：允许圈入，仍要求完整包围本簇
 # v4: 在显示像素中计算边界，每簇最多一个完整区域；不再拆成局部包络。
 # 所有簇的可视化名称统一使用“簇0”“簇1”等编号，不自动判断研究主题。
 ENVELOPE_MIN_PAPERS = 4            # 至少4个点才形成一个完整包络
