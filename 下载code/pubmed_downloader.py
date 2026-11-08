@@ -36,7 +36,7 @@ import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
-DEFAULT_DIR = Path('/home/zxx/bigdata/exp1/reference')
+DEFAULT_DIR = Path(__file__).resolve().parent.parent / "reference"
 S3 = 'https://pmc-oa-opendata.s3.amazonaws.com'
 PUBMED_EFETCH = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi'
 PMC_IDCONV = 'https://pmc.ncbi.nlm.nih.gov/tools/idconv/api/v1/articles/'
