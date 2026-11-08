@@ -1,8 +1,8 @@
 import pandas as pd
 
 # 1. 读取 sheet1
-input_file = "/home/zxx/bigdata/exp1/pubmedid_for-stu.xlsx"  # 改成你的文件名
-output_file = "/home/zxx/bigdata/exp1/zzx.xlsx"     # 输出文件名
+input_file = "/home/zxx/bigdata/exp1/下载code/pubmedid_for-stu.xlsx"  # 改成你的文件名
+output_file = "/home/zxx/bigdata/exp1/下载code/zzx.xlsx"     # 输出文件名
 
 df = pd.read_excel(input_file, sheet_name="Sheet1", dtype={"Student ID": str})
 
