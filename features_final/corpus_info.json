@@ -1,0 +1,6 @@
+{
+  "input": "cleaned_180_checked/papers_180.jsonl",
+  "source_sha256": "586fe514129992c1fd832be110586fd3a1066c67c9fc306aec91e0e6772438e2",
+  "n_papers": 180,
+  "missing_abstract": 8
+}

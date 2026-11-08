@@ -1,0 +1,16 @@
+{
+  "method": "specter2",
+  "model_stamp": "dd964a227f6f4449cf30e02210f324547a27bd48cb48c83d3fac99d94351085a",
+  "source_sha256": "586fe514129992c1fd832be110586fd3a1066c67c9fc306aec91e0e6772438e2",
+  "core_max_tokens": 1024,
+  "chunk_tokens": 512,
+  "chunk_overlap": 64,
+  "max_chunks_per_paper": 32,
+  "specter_max_tokens": 512,
+  "missing_abstract": "title only; never infer from body",
+  "vector_pooling": "CLS normalized; BGE-full mean normalized chunk vectors then L2",
+  "shape": [
+    180,
+    768
+  ]
+}
