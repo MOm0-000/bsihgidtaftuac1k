@@ -5,7 +5,7 @@
 输入：cleaned_180/papers_180.jsonl、reference/PDF/<PMID>.pdf
 输出：cleaned_180_checked/papers_180.jsonl、body/、repair_report.csv、needs_review.csv
 不改动原始提取/元数据；只对固定的已核实PMID进行修复，拒绝未匹配锚点。
-用法：python review_problem_papers.py [--force]
+用法：python 2.2review_problem_papers.py [--force]
 依赖：pip install pymupdf
 """
 from __future__ import annotations
@@ -427,16 +427,58 @@ def repair_32625401(old: str) -> tuple[str, str]:
     return result, f'对照225页PDF结构，保守去除8个由后续附录/小节界定的书目区块，共{sum(b-a for a,b in ranges)}字符；正文及后续附录保留'
 
 
+def review_complete(folder: Path) -> bool:
+    """核对180篇候选语料、逐篇正文以及修复报告的前后 SHA256。"""
+    try:
+        required = ('papers_180.jsonl', 'repair_config.json', 'repair_report.csv', 'needs_review.csv')
+        if not folder.is_dir() or not all((folder / p).is_file() for p in required):
+            return False
+        config = json.loads((folder / 'repair_config.json').read_text(encoding='utf-8'))
+        if config.get('version') != VERSION or config.get('source') != 'cleaned_180/papers_180.jsonl':
+            return False
+        rows = [json.loads(s) for s in (folder / 'papers_180.jsonl').read_text(encoding='utf-8').splitlines() if s.strip()]
+        ids = [str(row['pmid']) for row in rows]
+        if len(ids) != 180 or len(ids) != len(set(ids)) or [r.get('row_index') for r in rows] != list(range(180)):
+            return False
+        with (folder / 'repair_report.csv').open(encoding='utf-8-sig', newline='') as f:
+            report = list(csv.DictReader(f))
+        with (folder / 'needs_review.csv').open(encoding='utf-8-sig', newline='') as f:
+            reviews = list(csv.DictReader(f))
+        if len(report) != 180 or {r['pmid'] for r in report} != set(ids):
+            return False
+        if {r['pmid'] for r in reviews} != {r['pmid'] for r in rows if r.get('quality_status') == 'review'}:
+            return False
+        if {p.stem for p in (folder / 'body').glob('*.txt')} != set(ids):
+            return False
+        by_report = {r['pmid']: r for r in report}
+        for row in rows:
+            pid = str(row['pmid'])
+            body = str(row['body_text'])
+            if (folder / 'body' / (pid + '.txt')).read_text(encoding='utf-8') != body + '\n':
+                return False
+            if sha(body) != by_report[pid]['after_sha256']:
+                return False
+        if SOURCE.is_file():
+            source = [json.loads(s) for s in SOURCE.read_text(encoding='utf-8').splitlines() if s.strip()]
+            if len(source) != 180 or [str(r['pmid']) for r in source] != ids:
+                return False
+            for row in source:
+                if sha(str(row.get('body_text', ''))) != by_report[str(row['pmid'])]['before_sha256']:
+                    return False
+        return True
+    except (OSError, ValueError, KeyError, TypeError, json.JSONDecodeError):
+        return False
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description='15篇PDF人工核查后的定向修复（固定180篇，不改动原始文件）')
     parser.add_argument('--force', action='store_true', help='替换本脚本上次生成的候选目录')
     args = parser.parse_args()
     if not SOURCE.is_file():
-        parser.error(f'找不到输入：{SOURCE}，请先运行 clean_corpus.py')
-    if TARGET.exists() and not args.force:
-        parser.error(f'{TARGET} 已存在；重新生成请加 --force')
-    if TARGET.exists() and not (TARGET / 'repair_config.json').is_file():
-        parser.error('拒绝覆盖不是本脚本生成的目录')
+        parser.error(f'找不到输入：{SOURCE}，请先运行 2.1clean_corpus.py')
+    if TARGET.exists() and not args.force and review_complete(TARGET):
+        print('2.2：已有完整人工复核结果，跳过。')
+        return
     rows = [json.loads(x) for x in SOURCE.read_text('utf-8').splitlines() if x.strip()]
     ids = [str(x.get('pmid', '')) for x in rows]
     expected_targets = {'2257383', '12194887', '6487732', '17246411',
@@ -504,9 +546,21 @@ def main() -> None:
             'repaired': list(fixes), 'manual_review_only': MANUAL,
             'note': '候选语料；原始文件未修改，定向修复后的正文仍保留PDF复核状态，图表未逐项人工认证。',
         }, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+        if not review_complete(stage):
+            raise RuntimeError('新生成的 cleaned_180_checked/ 未通过完整性检查，保留旧结果')
+        backup = ROOT / '.cleaned_180_checked_backup'
         if TARGET.exists():
-            shutil.rmtree(TARGET)
-        stage.rename(TARGET)
+            if backup.exists():
+                raise FileExistsError(f'旧备份仍在：{backup}，请人工检查后再执行')
+            TARGET.rename(backup)
+        try:
+            stage.rename(TARGET)
+        except Exception:
+            if backup.exists():
+                backup.rename(TARGET)
+            raise
+        if backup.exists():
+            shutil.rmtree(backup)
         counts = Counter(row['action'] for row in logs)
         print('完成：' + '，'.join(f'{k}={v}' for k, v in counts.items()))
         for row in logs:

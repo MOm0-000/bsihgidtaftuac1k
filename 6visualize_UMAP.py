@@ -35,14 +35,14 @@ import pandas as pd
 from umap import UMAP
 
 # ===== 用户提供的真实路径：直接运行，不需要命令行参数 =====
-ROOT = Path(r'/home/zxx/bigdata/exp1')
+ROOT = Path(__file__).resolve().parent
 CLUSTER_DIR = ROOT / 'cluster'
 REDUCE_DIR = ROOT / 'd_reduce'
 EMBED_DIR = REDUCE_DIR / 'embeddings'
 FEATURE_NAME = 'SPECTER2'
 OUTPUT_ROOT = ROOT / 'visualizations_UMAP'
 INDEX_FILE = ROOT / 'features_final/papers_index.csv'
-METADATA_FILE = Path(r'/home/zxx/bigdata/exp1/extracted/papers_metadata_reviewed.csv')
+METADATA_FILE = ROOT / 'extracted' / 'papers_metadata_reviewed.csv'
 
 # 从固定的正式实验目录读取指标/标签，三种降维坐标只从d_reduce读取。
 # 通过每组结果的method/spec_id/dim/row_id字段识别可展示的算法和配置。
@@ -266,16 +266,16 @@ def verify_reduction_source():
     r = json.loads(reduction_cfg.read_text(encoding='utf-8'))
     if c.get('input_reduction_manifest_index_sha256') != r.get('index_sha256') or \
             c.get('input_reduction_manifest_feature_sha256') != r.get('feature_sha256'):
-        raise ValueError('聚类结果与降维记录的输入版本不一致；请重新运行cluster_leiden_v2.py。')
+        raise ValueError('聚类结果与降维记录的输入版本不一致；请重新运行5cluster_leiden.py。')
     hash_in_cluster = c.get('input_embedding_sha256', {})
     hash_in_reduce = r.get('embedding_sha256', {})
     if not hash_in_cluster or hash_in_cluster != hash_in_reduce:
-        raise ValueError('聚类配置与降维矩阵版本不一致；请重新运行cluster_leiden_v2.py。')
+        raise ValueError('聚类配置与降维矩阵版本不一致；请重新运行5cluster_leiden.py。')
     for spec, expected_hash in hash_in_cluster.items():
         path = EMBED_DIR / (spec + '.npy')
         assert_file(path, '降维矩阵')
         if file_sha256(path) != expected_hash:
-            raise ValueError(f'降维矩阵已改变：{path}；请重新运行cluster_leiden_v2.py。')
+            raise ValueError(f'降维矩阵已改变：{path}；请重新运行5cluster_leiden.py。')
 
 
 def _maybe_float(v, fallback=0.0):

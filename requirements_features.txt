@@ -1,8 +1,0 @@
-# PyTorch/CUDA 已由用户配置，请不要在此文件中重复安装torch！
-numpy>=1.26,<3
-scipy>=1.11,<2
-scikit-learn>=1.4,<2
-joblib>=1.3,<2
-transformers>=4.45,<5
-sentencepiece>=0.2
-modelscope>=1.20

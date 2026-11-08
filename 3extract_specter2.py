@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """正式实验：仅提取180篇论文的 SPECTER2 Proximity 语义特征。
 
-直接运行：python extract_specter2.py（无命令行参数）
+直接运行：python 3extract_specter2.py（无命令行参数）
 输入：/home/zxx/bigdata/exp1/cleaned_180_checked/papers_180.jsonl
 输出：/home/zxx/bigdata/exp1/features_final/specter2_proximity.npy（180×768）
       同目录 papers_index.csv、corpus_info.json、specter2_config.json、specter2_input_report.csv
@@ -24,13 +24,15 @@ os.environ.setdefault('HF_ENDPOINT', 'https://hf-mirror.com')
 os.environ.setdefault('HF_HUB_DISABLE_XET', '1')
 os.environ.setdefault('TOKENIZERS_PARALLELISM', 'false')
 
-ROOT = Path('/home/zxx/bigdata/exp1')
+ROOT = Path(__file__).resolve().parent
 INPUT = ROOT / 'cleaned_180_checked' / 'papers_180.jsonl'
 OUTPUT = ROOT / 'features_final'
 BASE_MODEL = ROOT / 'models' / 'specter2' / 'base'
 PROXIMITY_MODEL = ROOT / 'models' / 'specter2' / 'adapters' / 'proximity'
 EXCLUDED = {'14450716', '40011409', '8457977'}
 MAX_TOKENS = 512
+# 使用固定模型；实际换权重时请手动升级版本，避免误用上一版本的缓存。
+MODEL_VERSION = 'specter2_base_proximity_v1'
 FORCE_RECOMPUTE = False  # True：忽略逐篇缓存，重新推理全部180篇
 
 
@@ -135,20 +137,6 @@ def ensure_models():
     return base, adapter
 
 
-def model_stamp(paths):
-    """与旧提取脚本一致的模型指纹，用于直接复用原有逐篇缓存。"""
-    records = []
-    for root in paths:
-        if not root.is_dir():
-            continue
-        for p in sorted(root.rglob('*')):
-            if p.is_file() and p.suffix.lower() in ('.bin', '.safetensors', '.json', '.model'):
-                stat = p.stat()
-                records.append((str(root.resolve()), str(p.relative_to(root)),
-                                stat.st_size, stat.st_mtime_ns))
-    return hashlib.sha256(json.dumps(records, ensure_ascii=False).encode()).hexdigest()
-
-
 def normalize_vector(vector):
     import numpy as np
     v = np.asarray(vector, dtype=np.float32)
@@ -196,9 +184,49 @@ def write_cache(path, vector, input_hash, cfg_hash, n_tokens):
         tmp.unlink(missing_ok=True)
 
 
+def existing_features_complete(papers, source_sha):
+    """已有的正式特征如果完整且对应当前语料，就直接复用而不加载模型。
+
+    无 model_version 的旧版配置视为固定 SPECTER2 v1，只用于兼容现有成果。
+    以后换了模型权重必须手动升级 MODEL_VERSION，才会重新计算。
+    """
+    import numpy as np
+    try:
+        names = ('papers_index.csv', 'corpus_info.json', 'specter2_proximity.npy',
+                 'specter2_config.json', 'specter2_input_report.csv')
+        if not all((OUTPUT / name).is_file() for name in names):
+            return False
+        info = json.loads((OUTPUT / 'corpus_info.json').read_text(encoding='utf-8'))
+        cfg = json.loads((OUTPUT / 'specter2_config.json').read_text(encoding='utf-8'))
+        version = cfg.get('model_version', 'specter2_base_proximity_v1' if cfg.get('model_stamp') else None)
+        if (info.get('source_sha256') != source_sha or cfg.get('source_sha256') != source_sha or
+                cfg.get('method') != 'specter2' or cfg.get('specter_max_tokens') != MAX_TOKENS or
+                version != MODEL_VERSION or info.get('n_papers') != 180):
+            return False
+        with (OUTPUT / 'papers_index.csv').open(encoding='utf-8-sig', newline='') as f:
+            index = list(csv.DictReader(f))
+        with (OUTPUT / 'specter2_input_report.csv').open(encoding='utf-8-sig', newline='') as f:
+            report = list(csv.DictReader(f))
+        ids = [str(p['pmid']) for p in papers]
+        if (len(index) != 180 or len(report) != 180 or
+                [str(r['pmid']) for r in index] != ids or
+                [str(r['pmid']) for r in report] != ids or
+                [int(r['row_index']) for r in index] != list(range(180)) or
+                [int(r['row_index']) for r in report] != list(range(180))):
+            return False
+        matrix = np.load(OUTPUT / 'specter2_proximity.npy', allow_pickle=False)
+        return (matrix.shape == (180, 768) and np.isfinite(matrix).all() and
+                np.allclose(np.linalg.norm(matrix, axis=1), 1.0, atol=1e-4))
+    except (OSError, ValueError, KeyError, TypeError, json.JSONDecodeError):
+        return False
+
+
 def main():
     import numpy as np
     papers, source_sha = read_corpus()
+    if not FORCE_RECOMPUTE and existing_features_complete(papers, source_sha):
+        print('3：已有与当前180篇语料一致的完整特征结果，跳过模型推理。')
+        return
     ensure_paper_index(papers, source_sha)
     base, adapter = ensure_models()
     from transformers import AutoTokenizer
@@ -213,12 +241,10 @@ def main():
 
     # 保持与既有extract_embeddings.py相同的缓存签名，复用已提取的180个向量。
     settings = {
-        'method': 'specter2', 'model_stamp': model_stamp([base, adapter]),
-        'source_sha256': source_sha,
-        'core_max_tokens': 1024, 'chunk_tokens': 512, 'chunk_overlap': 64,
-        'max_chunks_per_paper': 32, 'specter_max_tokens': MAX_TOKENS,
+        'method': 'specter2', 'model_version': MODEL_VERSION,
+        'source_sha256': source_sha, 'specter_max_tokens': MAX_TOKENS,
         'missing_abstract': 'title only; never infer from body',
-        'vector_pooling': 'CLS normalized; BGE-full mean normalized chunk vectors then L2',
+        'vector_pooling': 'CLS normalized',
     }
     cfg_hash = hashlib.sha256(json.dumps(settings, sort_keys=True).encode()).hexdigest()
     vectors, report = [], []

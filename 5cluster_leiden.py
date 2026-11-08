@@ -8,7 +8,7 @@
   三份降维矩阵仅存于 d_reduce/embeddings/；此目录不复制、不链接矩阵。
 
 只有三组已经选定的配置，不再进行54组参数Sweep。
-与 visualize_UMAP_v6.py 共享标准字段接口；可视化单独读取 d_reduce/embeddings/。
+与 6visualize_UMAP.py 共享标准字段接口；可视化单独读取 d_reduce/embeddings/。
 依赖：numpy pandas scipy scikit-learn leidenalg（安装leidenalg一般也会安装igraph）
 参考主题CSV是可选的：缺失时照常计算聚类、Silhouette和簇成员。
 """
@@ -29,7 +29,7 @@ from sklearn.metrics import adjusted_rand_score, silhouette_score
 from sklearn.metrics.pairwise import cosine_distances
 
 # ====================== 固定路径和正式聚类配置 ======================
-ROOT = Path('/home/zxx/bigdata/exp1')
+ROOT = Path(__file__).resolve().parent
 INDEX_PATH = ROOT / 'features_final' / 'papers_index.csv'
 FEATURE_PATH = ROOT / 'features_final' / 'specter2_proximity.npy'
 REDUCE_DIR = ROOT / 'd_reduce'
@@ -86,7 +86,7 @@ def load_inputs():
         EMBED_DIR / f'{c["spec_id"]}.npy' for c in METHODS.values()]
     missing = [str(p) for p in files if not p.is_file()]
     if missing:
-        raise FileNotFoundError('请先成功运行 d_reduce.py，缺少以下文件：\n' + '\n'.join(missing))
+        raise FileNotFoundError('请先成功运行 4d_reduce.py，缺少以下文件：\n' + '\n'.join(missing))
 
     index = read_csv(INDEX_PATH, dtype={'pmid': str}, keep_default_na=False)
     if not {'row_index', 'pmid', 'title'}.issubset(index.columns):
@@ -332,7 +332,7 @@ def main():
         'reference_topics_optional': reference_source,
         'notes': [
             'Only three selected configurations; not a hyperparameter sweep.',
-            'The 2D UMAP maps in visualize_UMAP_v6.py are visualization-only, not clustering input.',
+            'The 2D UMAP maps in 6visualize_UMAP.py are visualization-only, not clustering input.',
             'Distinct Leiden graph parameters for each reduction method mean differences are not solely attributable to reducers.',
             'Leiden does not mark noise by default; singleton clusters are counted as valid communities.',
             'Reference topic labels are exploratory, not independent ground truth.',

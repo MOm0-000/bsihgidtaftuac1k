@@ -11,8 +11,8 @@
       needs_review.csv、excluded.csv、cleaning_config.json。
 
 只清洗 body_text；title/abstract 始终以 reviewed CSV 为准。不修改任何输入。
-正常运行：python clean_corpus.py
-重新生成：python clean_corpus.py --force
+正常运行：python 2.1clean_corpus.py
+重新生成：python 2.1clean_corpus.py --force
 """
 
 from __future__ import annotations
@@ -256,14 +256,70 @@ def write_csv(path: Path, rows: list[dict]):
         writer.writerows(rows)
 
 
+def cleaning_complete(folder: Path) -> bool:
+    """检查180篇语料、正文、报告是否可读且相互对应。"""
+    try:
+        required = ('papers_180.jsonl', 'cleaning_config.json', 'cleaning_report.csv',
+                    'needs_review.csv', 'excluded.csv')
+        if not folder.is_dir() or not all((folder / p).is_file() for p in required):
+            return False
+        cfg = json.loads((folder / 'cleaning_config.json').read_text(encoding='utf-8'))
+        if cfg.get('version') != VERSION or cfg.get('kept_count') != 180 or cfg.get('excluded_count') != 3:
+            return False
+        rows = [json.loads(s) for s in (folder / 'papers_180.jsonl').read_text(encoding='utf-8').splitlines() if s.strip()]
+        ids = [str(r['pmid']) for r in rows]
+        if len(ids) != 180 or len(ids) != len(set(ids)) or [r.get('row_index') for r in rows] != list(range(180)):
+            return False
+        if set(ids) & set(EXCLUDED):
+            return False
+        with (folder / 'cleaning_report.csv').open(encoding='utf-8-sig', newline='') as f:
+            report = list(csv.DictReader(f))
+        with (folder / 'excluded.csv').open(encoding='utf-8-sig', newline='') as f:
+            excluded = list(csv.DictReader(f))
+        with (folder / 'needs_review.csv').open(encoding='utf-8-sig', newline='') as f:
+            review = list(csv.DictReader(f))
+        if (len(report) != cfg.get('source_count') or
+                {r['pmid'] for r in report} != set(ids) | set(EXCLUDED) or
+                {r['pmid'] for r in excluded} != set(EXCLUDED) or
+                {r['pmid'] for r in review} != {r['pmid'] for r in report if r['status'] == 'review'}):
+            return False
+        if {p.stem for p in (folder / 'body').glob('*.txt')} != set(ids):
+            return False
+        for row in rows:
+            body = str(row['body_text'])
+            if (folder / 'body' / (str(row['pmid']) + '.txt')).read_text(encoding='utf-8') != body + '\n':
+                return False
+        # 若上游仍存在，额外核对 PMID 集合，避免拿旧批次语料误判为完整。
+        if INPUT.is_file() and METADATA.is_file():
+            original = [json.loads(s) for s in INPUT.read_text(encoding='utf-8').splitlines() if s.strip()]
+            meta = load_csv(METADATA)
+            if set(ids) | set(EXCLUDED) != {str(r['pmid']) for r in original} or \
+                    set(ids) | set(EXCLUDED) != {str(r['pmid']) for r in meta}:
+                return False
+            if [str(r['pmid']) for r in original if str(r['pmid']) not in EXCLUDED] != ids:
+                return False
+            by_meta = {str(r['pmid']): r for r in meta}
+            by_report = {str(r['pmid']): r for r in report}
+            for record in original:
+                pmid = str(record['pmid'])
+                if hashlib.sha256(str(record.get('body_text', '')).encode('utf-8')).hexdigest() != by_report[pmid]['source_sha256']:
+                    return False
+            for row in rows:
+                m = by_meta[str(row['pmid'])]
+                if row.get('title') != m.get('title', '') or row.get('abstract') != m.get('abstract', ''):
+                    return False
+        return True
+    except (OSError, ValueError, KeyError, TypeError, json.JSONDecodeError):
+        return False
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description='183篇V7正文清理，生成180篇独立语料；原文件不修改')
     parser.add_argument('--force', action='store_true', help='替换本脚本此前生成的 cleaned_180 结果')
     args = parser.parse_args()
-    if OUTPUT.exists() and not args.force:
-        parser.error(f'{OUTPUT} 已存在。如需重做，请加 --force')
-    if OUTPUT.exists() and not (OUTPUT / 'cleaning_config.json').is_file():
-        parser.error(f'拒绝覆盖非本脚本生成的目录：{OUTPUT}')
+    if OUTPUT.exists() and not args.force and cleaning_complete(OUTPUT):
+        print('2.1：已有完整清洗结果，跳过。')
+        return
     docs, metadata, reports = load_sources()
     stage = Path(tempfile.mkdtemp(prefix='.cleaned_180_stage_', dir=ROOT))
     try:
@@ -310,9 +366,21 @@ def main() -> None:
             'status_note': 'ok=通过自动规则，并非人工确认全文正确；review=保留在180篇中等待复核',
         }
         (stage / 'cleaning_config.json').write_text(json.dumps(config, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+        if not cleaning_complete(stage):
+            raise RuntimeError('新生成的 cleaned_180/ 未通过完整性检查，保留旧结果')
+        backup = ROOT / '.cleaned_180_backup'
         if OUTPUT.exists():
-            shutil.rmtree(OUTPUT)
-        stage.replace(OUTPUT)
+            if backup.exists():
+                raise FileExistsError(f'旧备份仍在：{backup}，请人工检查后再执行')
+            OUTPUT.rename(backup)
+        try:
+            stage.replace(OUTPUT)
+        except Exception:
+            if backup.exists():
+                backup.rename(OUTPUT)
+            raise
+        if backup.exists():
+            shutil.rmtree(backup)
         summary = Counter(r['status'] for r in all_rows)
         print(f'完成：输入 {len(docs)} 篇；保留 {len(kept)} 篇；排除 {len(excluded)} 篇；'
               f'正常 {summary["ok"]} 篇；需复核 {summary["review"]} 篇')

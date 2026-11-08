@@ -3,8 +3,8 @@
 """论文文本提取（不含TF-IDF/Embedding）。Python 3.10+。
 
 固定输入：reference/FullText/*.html、reference/PDF/*.pdf
-默认运行：python prepare_corpus.py
-重跑正文：python prepare_corpus.py --force
+默认运行：python 1.1prepare_corpus.py
+重跑正文：python 1.1prepare_corpus.py --force
 
 首次运行自动生成 extracted/papers_metadata.csv（优先尝试PubMed，失败回退本地文件）。
 此后保留该CSV中的人工修改；--force只重建extracted/corpus/。
@@ -591,8 +591,6 @@ NONRESEARCH_HEAD = re.compile(r'^(acknowledg(e)?ments?|author contributions?|fun
 ABSTRACT_HEAD = re.compile(r'^(abstract|summary)$', re.I)
 BODY_HEAD = re.compile(r'^(introduction|background|materials? and methods?|methods?|results?|discussion|conclusions?|results? and discussion)$', re.I)
 SCIENTIFIC_HEADER = re.compile(r'\b(19\d\d|20\d\d)\b|\bdoi\b|\bet al\.?\b', re.I)
-_HTML_CONVERTER = None
-_DOC_CONVERTER = None
 
 def norm_match(s):
     return normalized(s)
@@ -950,53 +948,6 @@ def parse_html_trafilatura(path,abstract=''):
             'notes':notes,'parser':'trafilatura'}
 
 
-def parse_html_docling(path,abstract=''):
-    """Independent HTML parser only when Trafilatura did not return usable text."""
-    global _HTML_CONVERTER
-    if _HTML_CONVERTER is None:
-        from docling.document_converter import DocumentConverter
-        _HTML_CONVERTER=DocumentConverter()
-    result=_HTML_CONVERTER.convert(str(path))
-    try:
-        markdown=result.document.export_to_markdown()
-    finally:
-        inp=getattr(result,'input',None)
-        release=getattr(inp,'release',None)
-        if callable(release):release()
-    original=sections_from_markdown(markdown)
-    filtered,notes=prune_sections(original,abstract,'HTML')
-    if len(render_body(filtered))<400:
-        raise ValueError('Docling HTML returned <400 characters')
-    return {'sections':filtered,'raw_text':render_body(original),
-            'notes':notes,'parser':'docling_html'}
-
-
-def parse_pdf_docling(path):
-    global _DOC_CONVERTER
-    if _DOC_CONVERTER is None:
-        from docling.datamodel.base_models import InputFormat
-        from docling.datamodel.pipeline_options import PdfPipelineOptions
-        from docling.datamodel.accelerator_options import AcceleratorOptions, AcceleratorDevice
-        from docling.document_converter import DocumentConverter, PdfFormatOption
-        opts=PdfPipelineOptions()
-        opts.do_ocr=True
-        opts.do_table_structure=False
-        opts.accelerator_options=AcceleratorOptions(num_threads=4,device=AcceleratorDevice.CPU)
-        _DOC_CONVERTER=DocumentConverter(format_options={InputFormat.PDF:PdfFormatOption(pipeline_options=opts)})
-    result=_DOC_CONVERTER.convert(str(path))
-    try:
-        md=result.document.export_to_markdown()
-    finally:
-        inp=getattr(result,'input',None)
-        release=getattr(inp,'release',None)
-        if callable(release):release()
-    sections=sections_from_markdown(md)
-    sections,notes=prune_sections(sections,'','PDF')
-    if len(render_body(sections))<400:raise ValueError('Docling returned <400 characters')
-    return {'sections':sections,'raw_text':plain_text(md),'notes':notes,'parser':'docling'}
-
-
-
 def jats_body(path):
     doc = parse_jats(path.read_bytes())  # 复用旧版JATS解析，front/body/back结构分离
     return render_body(doc["sections"]), doc["notes"]
@@ -1198,22 +1149,6 @@ def choose_body(pid, files, metadata, pmc=None):
     if files["pdf"] and not any(is_usable(c) for c in candidates):
         try_parse("PDF", files["pdf"][0], lambda p: pdf_body(p, title, abstract))
 
-    # Docling仅在轻量提取没有可用正文时启用，避免每篇都运行大型解析器。
-    if not any(is_usable(c) for c in candidates):
-        try:
-            import docling
-            if files["html"]:
-                def docling_html(path):
-                    d = parse_html_docling(path, abstract)
-                    return render_body(d["sections"]), d["notes"]
-                try_parse("HTML_DOCLING", files["html"][0], docling_html)
-            if files["pdf"]:
-                def docling_pdf(path):
-                    d = parse_pdf_docling(path)
-                    return render_body(d["sections"]), d["notes"]
-                try_parse("PDF_DOCLING", files["pdf"][0], docling_pdf)
-        except ImportError:
-            pass
     if pmc and pid.isdigit() and not any(is_usable(c) for c in candidates):
         try:
             d, reasons = pmc.get(pid, tidy(metadata.get("pmcid")))
@@ -1229,9 +1164,15 @@ def choose_body(pid, files, metadata, pmc=None):
 
     # 优先完整、通过检查的正文，而不是固定选择Trafilatura。
     # JATS/BioC结构清晰时优先；HTML预览页/纯参考文献永远不能击败可读PDF。
-    order = {"JATS": 0, "BioC": 1, "PMC_JATS": 2, "PMC_BIOC": 3,
-             "HTML_TRAFILATURA": 4, "HTML": 5, "HTML_DOCLING": 6,
-             "PDF": 7, "PDF_DOCLING": 8}
+    order = {
+        'JATS': 0,
+        'BioC': 1,
+        'PMC_JATS': 2,
+        'PMC_BIOC': 3,
+        'HTML_TRAFILATURA': 4,
+        'HTML': 5,
+        'PDF': 7,
+    }
     good = [c for c in candidates if c["status"] != "blocked"]
     if good:
         # 质量合格优先。长度作为覆盖性补充，不让短HTML的固定顺序压过完整PDF。
@@ -1258,14 +1199,52 @@ def choose_body(pid, files, metadata, pmc=None):
     return (winner["body"], winner["source"], status, list(dict.fromkeys(warnings)),
             winner["actions"], attempts)
 
+def corpus_complete(folder: Path) -> bool:
+    """检验本阶段保存的 CSV/JSONL/正文文件是否一致，而不只检查目录存在。"""
+    try:
+        required = ('papers.jsonl', 'extraction_report.csv', 'needs_review.csv', 'config.json')
+        if not META.is_file() or not folder.is_dir() or not all((folder / p).is_file() for p in required):
+            return False
+        config = json.loads((folder / 'config.json').read_text(encoding='utf-8'))
+        if config.get('version') != VERSION:
+            return False
+        with META.open(encoding='utf-8-sig', newline='') as f:
+            metas = list(csv.DictReader(f))
+        with (folder / 'extraction_report.csv').open(encoding='utf-8-sig', newline='') as f:
+            reports = list(csv.DictReader(f))
+        with (folder / 'needs_review.csv').open(encoding='utf-8-sig', newline='') as f:
+            reviews = list(csv.DictReader(f))
+        records = [json.loads(s) for s in (folder / 'papers.jsonl').read_text(encoding='utf-8').splitlines() if s.strip()]
+        ids = [str(r['paper_id']) for r in records]
+        if (not ids or len(ids) != config.get('paper_count') or len(ids) != len(set(ids)) or
+                len(metas) != len(ids) or len(reports) != len(ids) or
+                set(ids) != {str(m['paper_id']) for m in metas} or
+                set(ids) != {str(r['paper_id']) for r in reports} or
+                [r.get('row_index') for r in records] != list(range(len(ids)))):
+            return False
+        if {r['paper_id'] for r in reviews} != {r['paper_id'] for r in reports if r['status'] != 'ok'}:
+            return False
+        if {p.stem for p in (folder / 'body').glob('*.txt')} != set(ids):
+            return False
+        for row in records:
+            body = str(row['body_text'])
+            if (folder / 'body' / (str(row['paper_id']) + '.txt')).read_text(encoding='utf-8') != body + ('\n' if body else ''):
+                return False
+        return True
+    except (OSError, ValueError, KeyError, TypeError, json.JSONDecodeError):
+        return False
+
+
 def main():
     cli = argparse.ArgumentParser(description="论文文本提取：首次运行生成一份元数据CSV和独立正文")
     cli.add_argument("--force", action="store_true", help="重建正文和报告，但绝不覆盖人工修订的元数据CSV")
     args = cli.parse_args()
+    # 自动复用完整结果；只有不完整或显式 --force 时才重建。
+    if CORPUS.exists() and not args.force and corpus_complete(CORPUS):
+        print('1.1：已有完整正文与元数据，跳过。')
+        return
     groups = discover()
     OUT.mkdir(parents=True, exist_ok=True)
-    if CORPUS.exists() and not args.force:
-        raise SystemExit("extracted/corpus/ 已存在；重新生成正文请执行 python prepare_corpus.py --force")
     current, columns = load_metadata()
     missing = [pid for pid in groups if pid not in current]
     # 如果输入CSV来自此前10列版本，补齐旧版的实质性元数据能力。
@@ -1315,6 +1294,8 @@ def main():
             "status_counts": dict(Counter(row["status"] for row in reports)),
             "note": "本程序只提取文本；质量标签是自动筛查，不等于人工验证。"
         }, ensure_ascii=False, indent=2), encoding="utf-8")
+        if not corpus_complete(tmp):
+            raise RuntimeError('新生成的 extracted/corpus/ 未通过完整性检查，保留原结果')
         if CORPUS.exists():
             backup = OUT / ".corpus_backup"
             if backup.exists():

@@ -24,7 +24,7 @@ from sklearn.manifold import trustworthiness
 from sklearn.metrics.pairwise import cosine_distances, euclidean_distances
 
 # ======================== 固定路径和正式实验参数 ========================
-ROOT = Path('/home/zxx/bigdata/exp1')
+ROOT = Path(__file__).resolve().parent
 FEATURE_PATH = ROOT / 'features_final' / 'specter2_proximity.npy'
 INDEX_PATH = ROOT / 'features_final' / 'papers_index.csv'
 OUTPUT_DIR = ROOT / 'd_reduce'
