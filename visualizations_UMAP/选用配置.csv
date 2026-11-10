@@ -1,4 +1,4 @@
-﻿method,row_id,spec_id,dim,n_clusters,n_noise
-PCA,PCA_20d__Leiden_00plot_mutual_k10_g1p5,PCA_20d,20,11,0
-UMAP,UMAP_10d_n20_md0p00__Leiden_00plot_union_k5_g1p5,UMAP_10d_n20_md0p00,10,14,0
-LocalMAP,LocalMAP_10d_n10__Leiden_00plot_union_k10_g1p0,LocalMAP_10d_n10,10,10,0
+﻿method,row_id,spec_id,dim,n_clusters
+PCA,PCA_20d__Leiden_00plot_mutual_k10_g1p5,PCA_20d,20,11
+UMAP,UMAP_10d_n20_md0p00__Leiden_00plot_union_k5_g1p5,UMAP_10d_n20_md0p00,10,14
+LocalMAP,LocalMAP_10d_n10__Leiden_00plot_union_k10_g1p0,LocalMAP_10d_n10,10,10
