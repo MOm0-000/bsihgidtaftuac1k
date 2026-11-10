@@ -358,7 +358,10 @@ TOPIC_RULES = [
 # 用于附在主题图旁的中文关键词，均需先在所属文献出现才会显示。
 KEYWORD_RULES = [
     ('哮喘', r'\basthma\b'), ('儿童', r'\bchild|\bpediatric|\binfant'),
-    ('治疗', r'therap|treat|management|control'), ('过敏原', r'allergen|allerg'),
+    # control 多见于 pest/vector control，不能翻成临床‘治疗’。改成区分语义的两个术语。
+    ('治疗', r'therap|treat|clinical management|asthma management|disease management'),
+    ('防控', r'\b(?:vector|mosquito|pest|insect|insecticide) control\b|\bcontrol of (?:vectors|mosquitoes|pests|insects)\b|\bbiocontrol\b'),
+    ('过敏原', r'allergen|allerg'),
     ('致敏', r'sensitiz|hypersensit'), ('免疫', r'immun|inflamm'),
     ('住房', r'hous|residen'), ('环境', r'\benvironment|\bindoor|\bair pollution'),
     ('杀虫剂', r'insecticid|pyrethroid'), ('抗性', r'resistan|knockdown'),
@@ -801,13 +804,13 @@ def plot_scatter(feature: str, runs: dict, topics: list[dict], folder: Path, top
     n_methods = len(runs)
     # 图1划出三个互不重叠的垂直区域：主图、UMAP专属图例、两行解释文字。
     # 先固定主图坐标轴，保证后续按显示像素计算的聚类包络不会因调布局而位移。
-    fig, axs = plt.subplots(1, n_methods, figsize=(max(7, 5.5*n_methods), 7.2),
+    fig, axs = plt.subplots(1, n_methods, figsize=(max(8, 6*n_methods), 8.2),
                             squeeze=False, gridspec_kw={'wspace': .17})
     axes = axs[0]
-    fig.subplots_adjust(top=.855, bottom=.36, left=.07, right=.985)
+    fig.subplots_adjust(top=.875, bottom=.345, left=.07, right=.985)
     # 图例轴和说明文字刻意位于主图横轴标题的下方，不再用整张图的 figure.legend
     # 覆盖上方主图，也不在绘制包络后再次修改主图坐标轴位置。
-    legend_ax = fig.add_axes([.06, .105, .88, .165])
+    legend_ax = fig.add_axes([.06, .105, .88, .18])
     legend_ax.set_axis_off()
     main_color = {row['cluster_id']: row['color'] for row in topics}
     name = DISPLAY_NAMES.get(feature, feature.replace('_',' '))
@@ -908,7 +911,7 @@ def plot_topics(feature: str, topics: list[dict], folder: Path, topic_method: st
     """完整簇分布：左侧为计数，右侧为词频和带有来源限制的人工候选名称。"""
     name = DISPLAY_NAMES.get(feature, feature)
     ordered = topics[::-1]
-    height = max(7.2, 2.7 + len(topics) * .53)
+    height = max(9.0, 2.7 + len(topics) * .61)
     fig, (ax, notes_ax) = plt.subplots(
         1, 2, figsize=(17.5, height), sharey=True,
         gridspec_kw={'width_ratios': [1.05, 1.65], 'wspace': .05})
@@ -934,18 +937,18 @@ def plot_topics(feature: str, topics: list[dict], folder: Path, topic_method: st
     for i, p in enumerate(ordered):
         candidate = p['manual_topic_candidate'] or '待人工复核主题（标签文件版本未通过校验）'
         if p['review_status'].startswith('混合'):
-            candidate = '⚠ ' + candidate
-        notes_ax.text(.01, i+.14, candidate, va='center', color=INK, fontsize=9.4, weight='medium')
+            candidate = '〔混合〕' + candidate
+        notes_ax.text(.01, i+.14, candidate, va='center', color=INK, fontsize=10.4, weight='medium')
         notes_ax.text(.01, i-.19, f'匹配词：{p["keywords"]}  |  近年{p["recent_n"]}篇',
-                      va='center', color=MUTED, fontsize=8.2)
-    ax.set_title('全部Leiden社区的文献数量', loc='left', fontsize=13, weight='bold', pad=14)
+                      va='center', color=MUTED, fontsize=9.2)
+    ax.set_title('全部Leiden社区的文献数量', loc='left', fontsize=14, weight='bold', pad=14)
     notes_ax.set_title('人工题名归纳的候选主题 / 程序统计的术语',
-                       loc='left', fontsize=13, weight='bold', pad=14)
+                       loc='left', fontsize=14, weight='bold', pad=14)
     fig.suptitle(f'{name}｜{topic_method}全部{len(topics)}簇的主题线索',
                  fontsize=17, weight='bold', y=.985)
     fig.text(.5, .026,
              f'覆盖{sum(vals)}篇；词频基于标题/关键词正则匹配，人工候选名称不等于算法真值。'
-             '标“⚠”者为人工复核发现的混合簇；小簇也保留。',
+             '标“〔混合〕”者为人工复核发现的混合簇；小簇也保留。',
              ha='center', color=MUTED, fontsize=9)
     fig.subplots_adjust(top=.88, bottom=.095, left=.09, right=.985)
     save(fig, folder / '02_主题术语图.png')
@@ -1139,6 +1142,179 @@ def plot_institutions(meta: pd.DataFrame):
     return counts, matched_papers, with_info
 
 
+
+def plot_scatter_details(feature: str, runs: dict, folder: Path):
+    """每种方案的独立高清聚类图。独立图例不把不同方法的簇号混为同一主题。"""
+    for method, (row, y, z) in runs.items():
+        xy = z if z.shape[1] == 2 else UMAP(n_components=2, n_neighbors=15,
+                 min_dist=0.1, metric='euclidean', random_state=42).fit_transform(z)
+        rank = get_major_clusters(y)
+        cmap_local = {cid: TOP_COLORS[i % len(TOP_COLORS)] for i, (cid, _) in enumerate(rank)}
+        fig, ax = plt.subplots(figsize=(12.8, 9.1))
+        fig.subplots_adjust(top=.89, bottom=.13, left=.075, right=.72)
+        xspan, yspan = np.ptp(xy, axis=0)
+        ax.set_xlim(float(xy[:, 0].min() - .07 * xspan), float(xy[:, 0].max() + .07 * xspan))
+        ax.set_ylim(float(xy[:, 1].min() - .07 * yspan), float(xy[:, 1].max() + .07 * yspan))
+        ax.set_autoscale_on(False)
+        fig.canvas.draw()
+        shown_xy = ax.transData.transform(xy)
+        shown_to_data = ax.transData.inverted()
+        patches = []
+        for cid, n in rank:
+            mask = y == cid
+            col = cmap_local[cid]
+            shapes, _ = _cluster_regions(shown_xy[mask], shown_xy, y, int(cid))
+            for outline_screen in shapes:
+                outline = shown_to_data.transform(outline_screen)
+                ax.add_patch(Polygon(outline, facecolor=col, edgecolor='none',
+                                     alpha=HULL_FILL_ALPHA, zorder=1.5))
+                ax.plot(*np.vstack([outline, outline[0]]).T,
+                        color=col, lw=1.0, alpha=HULL_LINE_ALPHA, zorder=1.7)
+            ax.scatter(xy[mask, 0], xy[mask, 1], s=61, c=col,
+                       edgecolors='white', linewidths=.5, alpha=.94, zorder=3)
+            patches.append(Patch(facecolor=col, edgecolor='none', label=f'簇{cid}  （{n}篇）'))
+        _place_cluster_labels(fig, ax, xy, y, rank)
+        ax.grid(alpha=.08)
+        ax.set_facecolor('#FAFCFD')
+        ax.set_xlabel('二维展示坐标一', fontsize=12)
+        ax.set_ylabel('二维展示坐标二', fontsize=12)
+        ax.tick_params(labelsize=10)
+        ax.set_title(f'{method}：{int(row["dim"])}维空间的Leiden聚类 / 二维投影',
+                     fontsize=16, weight='bold', pad=15)
+        fig.legend(handles=patches, loc='upper left', bbox_to_anchor=(.75, .84),
+                   ncol=1, frameon=False, fontsize=11, title='当前方法的社区', title_fontsize=12)
+        fig.text(.075, .035,
+                 '散点为文献，颜色表示当前方法的社区；半透明包络仅作视觉引导。'
+                 '投影不参与聚类，且不同方法的簇编号不能直接对应。',
+                 ha='left', fontsize=10, color=MUTED)
+        save(fig, folder / f'01a_{method}_高清聚类详图.png')
+
+
+def plot_institution_topic_matrix(meta: pd.DataFrame, y: np.ndarray,
+                                  topics: list[dict], folder: Path):
+    """论文所属机构 × Leiden簇的真实交叉计数，允许一篇论文对应多个机构。"""
+    pattern_map = {org: [re.compile(p, re.I) for p in pats]
+                   for org, pats in INSTITUTION_PATTERNS.items()}
+    org_clusters = Counter()
+    org_totals = Counter()
+    records = []
+    for paper, cluster in zip(meta.itertuples(index=False), y):
+        raw = str(getattr(paper, 'institutions', '') or '')
+        orgs = sorted({org for org, patterns in pattern_map.items()
+                       if raw.strip() and any(pt.search(raw) for pt in patterns)})
+        for org in orgs:
+            org_clusters[(org, int(cluster))] += 1
+            org_totals[org] += 1
+            records.append({'pmid': str(getattr(paper, 'pmid', '')),
+                            '年份': getattr(paper, 'year', np.nan),
+                            '机构': org, 'UMAP簇': int(cluster)})
+    if not org_totals:
+        raise RuntimeError('机构—主题关联没有任何明示匹配机构，无法制作图表')
+    pd.DataFrame(records).to_csv(folder / '机构主题关联_逐篇记录.csv',
+                                index=False, encoding='utf-8-sig')
+    order_org = sorted(org_totals, key=lambda org: (-org_totals[org], org))
+    order_cluster = [int(t['cluster_id']) for t in topics]
+    long_records = []
+    for org in order_org:
+        for c in order_cluster:
+            n = org_clusters.get((org, c), 0)
+            long_records.append({'机构': org, 'UMAP簇': c,
+                  '簇候选主题': next((t['manual_topic_candidate'] for t in topics
+                                if t['cluster_id'] == c), ''),
+                  '涉及论文数': n, '该机构出现篇数': org_totals[org],
+                  '机构内部主题占比': n / org_totals[org]})
+    pd.DataFrame(long_records).to_csv(folder / '机构主题关联_全部交叉统计.csv',
+                                      index=False, encoding='utf-8-sig')
+    show_orgs = [org for org in order_org
+                 if org_totals[org] >= MIN_INSTITUTION_PAPERS_TO_PLOT]
+    if not show_orgs:
+        show_orgs = order_org[:min(10, len(order_org))]
+    matrix = np.array([[org_clusters.get((org, c), 0) for c in order_cluster]
+                       for org in show_orgs], dtype=int)
+    # 横向与图2保持一致的簇规模次序；一个机构跨多个社区并不等于存在合作关系。
+    fig, ax = plt.subplots(figsize=(17.0, max(5.6, 2.8 + .52 * len(show_orgs))))
+    cmap = LinearSegmentedColormap.from_list('org_topics',
+                                             ['#F6F9FB', '#D9E9EC', '#79B6C1', '#2A738A'])
+    im = ax.imshow(matrix, cmap=cmap, vmin=0,
+                   vmax=max(1, int(matrix.max())), aspect='auto')
+    ax.set_xticks(np.arange(len(order_cluster)), [f'簇{c}' for c in order_cluster], fontsize=10)
+    ax.set_yticks(np.arange(len(show_orgs)),
+                  [f'{org}（{org_totals[org]}篇）' for org in show_orgs], fontsize=10.5)
+    ax.tick_params(length=0)
+    for i in range(matrix.shape[0]):
+        for j in range(matrix.shape[1]):
+            v = matrix[i, j]
+            if v:
+                ax.text(j, i, str(v), ha='center', va='center',
+                        color='white' if v > .60 * max(1, matrix.max()) else INK,
+                        fontsize=10, weight='bold')
+    bar = fig.colorbar(im, ax=ax, fraction=.027, pad=.018)
+    bar.set_label('机构与社区共同出现的论文数（篇）')
+    bar.locator = MaxNLocator(integer=True)
+    bar.update_ticks()
+    ax.set_title('机构—研究主题关联：高频机构在UMAP各社区中的出现次数',
+                 loc='left', fontsize=16, weight='bold', pad=19)
+    ax.set_xlabel('UMAP社区（按论文数降序；主题解释参见图2）', fontsize=11)
+    fig.text(.5, .022,
+             '仅统计元数据明确出现的机构；同篇多机构分别计数，同篇同机构只计一次。'
+             '数字衡量本样本内参与位置，不是合作网络或机构影响力排名。',
+             ha='center', color=MUTED, fontsize=9.5)
+    fig.subplots_adjust(left=.245, right=.94, top=.85, bottom=.16)
+    save(fig, folder / '06_机构主题关联图.png')
+    print(f'  机构—主题交叉表：{len(order_org)}个机构，绘图展示{len(show_orgs)}个机构。')
+
+
+def plot_historical_period_comparison(meta: pd.DataFrame, y: np.ndarray,
+                                      topics: list[dict], folder: Path):
+    """每个阶段内部的主题构成（列归一化），与现有簇内年代占比（行归一化）互补。"""
+    valid = meta['year'].notna().to_numpy()
+    years = meta['year'].to_numpy(dtype=float)
+    period_labels = ['2010年以前', '2010—2019年', '2020—2026年']
+    masks = [valid & (years < 2010), valid & (years >= 2010) & (years < 2020),
+             valid & (years >= 2020) & (years <= LAST_YEAR)]
+    denom = np.array([int(m.sum()) for m in masks], dtype=int)
+    cids = [int(t['cluster_id']) for t in topics]
+    mat = np.array([[int(np.sum(m & (y == c))) for m in masks]
+                    for c in cids], dtype=int)
+    if not (denom > 0).any():
+        raise RuntimeError('缺少有效年份，无法绘制分阶段对照')
+    proportions = np.divide(mat, denom[None, :],
+                            out=np.zeros_like(mat, dtype=float), where=denom[None, :] > 0)*100
+    rows = []
+    for i, c in enumerate(cids):
+        for j, period in enumerate(period_labels):
+            rows.append({'UMAP簇': c, '候选主题': topics[i]['manual_topic_candidate'],
+                         '时期': period, '该簇该期论文数': int(mat[i, j]),
+                         '该时期全部论文数': int(denom[j]),
+                         '占该时期论文比例': float(proportions[i, j]/100)})
+    pd.DataFrame(rows).to_csv(folder / '历史阶段_各时期主题构成.csv',
+                              index=False, encoding='utf-8-sig')
+    fig, ax = plt.subplots(figsize=(11.4, max(7.6, 2.5 + .48 * len(topics))))
+    cmap = LinearSegmentedColormap.from_list('stage_topics',
+                                             ['#F6F9FB', '#CDE3E7', '#77B3BE', '#286F85'])
+    im = ax.imshow(proportions, aspect='auto', cmap=cmap, vmin=0,
+                   vmax=max(20, float(proportions.max())))
+    ax.set_xticks(np.arange(3), [f'{p}\n（{n}篇）' for p, n in zip(period_labels, denom)], fontsize=11)
+    ax.set_yticks(np.arange(len(cids)), [f'簇{c}（{topics[i]["cluster_n"]}篇）'
+                                          for i,c in enumerate(cids)], fontsize=10.5)
+    ax.tick_params(length=0)
+    for i in range(len(cids)):
+        for j in range(3):
+            if mat[i, j]:
+                ax.text(j, i, f'{mat[i,j]}篇 / {proportions[i,j]:.0f}%',
+                        ha='center', va='center', fontsize=9.3,
+                        color='white' if proportions[i,j] > .65 * max(20, proportions.max()) else INK)
+    bar = fig.colorbar(im, ax=ax, fraction=.033, pad=.03)
+    bar.set_label('占该时期样本文献比例（%）')
+    ax.set_title('不同历史阶段的研究主题构成（每列按该期总量归一）',
+                 fontsize=15, loc='left', pad=18, weight='bold')
+    fig.text(.5, .022,
+             '与既有“簇内年代构成”（图5）分母不同；2020—2026年不足十年，教师清单非代表性抽样，'
+             '不能据此推断整个领域的兴衰。',
+             ha='center', color=MUTED, fontsize=9.3)
+    fig.subplots_adjust(left=.17, right=.91, top=.91, bottom=.13)
+    save(fig, folder / '07_历史阶段主题构成图.png')
+
 def main():
     set_chinese_style()
     meta = load_common()
@@ -1154,10 +1330,12 @@ def main():
     print('人工主题候选名称：' + ('标签版本吻合，启用' if manual_labels_ok else '标签版本不同，禁用以避免错标'))
     topics = infer_topics(meta, y, manual_labels_ok)
     plot_scatter(FEATURE_NAME, runs, topics, OUTPUT_ROOT, topic_method)
+    plot_scatter_details(FEATURE_NAME, runs, OUTPUT_ROOT)
     if topics:
         plot_topics(FEATURE_NAME, topics, OUTPUT_ROOT, topic_method)
         plot_time(FEATURE_NAME, meta, y, topics, OUTPUT_ROOT)
         plot_recent(FEATURE_NAME, meta, topics, OUTPUT_ROOT, topic_method)
+        plot_historical_period_comparison(meta, y, topics, OUTPUT_ROOT)
         pd.DataFrame([{k: val for k, val in t.items() if k != 'color'} for t in topics]).to_csv(
             OUTPUT_ROOT / '簇关键词统计.csv', index=False, encoding='utf-8-sig')
     else:
@@ -1169,6 +1347,7 @@ def main():
     print('可视化采用：' + selected)
     try:
         _, matched, recorded = plot_institutions(meta)
+        plot_institution_topic_matrix(meta, y, topics, OUTPUT_ROOT)
         institution_note = f'机构信息：{recorded}篇有记录，明确匹配{matched}篇。'
     except (RuntimeError, ValueError) as exc:
         print('机构图未生成：' + str(exc))
@@ -1188,6 +1367,10 @@ def main():
         '跨方法的簇编号不表示相同主题；不同面板的二维坐标均为独立UMAP投影。',
         '时间图来自非代表性样本，2020—2026段未完整，不能推论整个学科的绝对热度。',
         '机构依据原始字段明示名称与多语种别名匹配；同篇多机构分别计数，不明母机构不猜测；未匹配见机构匹配核查.csv；不代表学术影响力。',
+        '新增图06及交叉统计CSV：机构×UMAP社区的出现次数，用于观察样本中的机构主题参与，不能推断机构主导某方向。',
+        '新增图07及阶段构成CSV：每个时期内部各社区比例（列归一化）；与原图03b的簇内年代比例（行归一化）互补。',
+        '新增01a_各方法_高清聚类详图，每幅仅有该方法自己的图例，便于替换报告中字号偏小的缩略图。',
+        '已将关键词control从“治疗”规则移除；仅在明确昆虫/媒介防控语境输出“防控”词，重新运行后须同步替换旧图2和报告主题统计表。',
         f'近期主题图：{RECENT_START}—{LAST_YEAR}年论文按簇统计（数量和簇内比例），不宣称自动判断前沿性。',
         '本轮可视化选用：' + selected,
         institution_note,
